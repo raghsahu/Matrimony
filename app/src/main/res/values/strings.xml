@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">Matrimony</string>
+
+    <string-array name="stepLabels">
+        <item>Profile For</item>
+        <item>Personal</item>
+        <item>Career</item>
+        <item>Social</item>
+        <item>Login</item>
+    </string-array>
+    <string name="internet_concation">Please enable your internet connection.</string>
+    <string name="error_connecting">Error Connecting</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="reg_hint_district">District *</string>
+    <string name="reg_hint_dob">Date of birth *</string>
+    <string name="reg_hint_height">Height *</string>
+    <string name="reg_indicates_personel">*All fields mandatory </string>
+    <string name="reg_hint_state">State *</string>
+    <string name="city">City *</string>
+    <string name="higest_education">Higest Education *</string>
+    <string name="reg_hint_pin">Pin Code *</string>
+    <string name="education">Education</string>
+    <string name="work_area">Work Place *</string>
+    <string name="work_experiecnce">Work Experiecnce</string>
+    <string name="other">Other</string>
+    <string name="income">Annual Income *</string>
+    <string name="blood">Blood Group *</string>
+    <string name="adhar">Aadhaar Number. *</string>
+    <string name="marital">Marital Status *</string>
+    <string name="gotra">Gotra Family*</string>
+    <string name="gotra_nanihal">Gotra Nanihal*</string>
+    <string name="manglik">Manglik *</string>
+    <string name="birth_time">Birth Time *</string>
+    <string name="birth_place">Birth Place *</string>
+    <string name="martial_details">Martial Details</string>
+    <string name="birth_details">Birth Details</string>
+    <string name="full_name">Full Name *</string>
+    <string name="email">Email ID *</string>
+    <string name="password">Password *</string>
+    <string name="phone">Mobile no. *</string>
+    <string name="let_s_start">Let\'s Start</string>
+
+    <!--text app intro screen -->
+    <string name="first_intro">Perfect Match</string>
+    <string name="second_intro">No Fake Profiles</string>
+    <string name="third_intro">Ready to meet your</string>
+
+    <string name="first_intro_msg">Meet your perfect partner right here</string>
+    <string name="second_intro_msg">All profiles are verified by RKSP team</string>
+    <string name="third_intro_msg">Dream Partner?</string>
+    <!--text app intro screen -->
+
+    <!--dialog close-->
+    <string name="title_dialog">Matrimony</string>
+    <string name="msg_dialog">Are you sure want to close Matrimony?</string>
+    <string name="yes_dialog">Yes!</string>
+    <string name="no_dialog">No</string>
+    <!--dialog close-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_shortlisted">Shortlisted</string>
+    <string name="nav_visitor">Profile Visitors</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+
+    <!-- Navigation Drawer -->
+
+    <string name="val_pass_c">Please enter password between 6-13 Digit.</string>
+    <string name="val_new_pas">Please Enter New Password</string>
+    <string name="val_c_pas">Please Enter Confirm Password</string>
+    <string name="val_n_c_pas">password  does not match!</string>
+    <string name="internet_connection">Please enable your internet connection.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remind_me_later">Remind Me Later</string>
+
+
+    <!--image upload-->
+    <string name="folder_all">All Images</string>
+    <string name="preview">Preview</string>
+    <string name="msg_no_camera">No system camera found</string>
+    <string name="msg_amount_limit">You can add only 5 images</string>
+    <string name="action_done">Done</string>
+    <string name="action_button_string">%1$s(%2$d/%3$d)</string>
+    <string name="photos_unit">Photos : %d</string>
+    <string name="photo_unit">Photo : %d</string>
+    <string name="no_photo_unit">No photo</string>
+    <string name="tip_take_photo">Take photo</string>
+    <string name="error_image_not_exist">Image error</string>
+    <string name="error_no_permission">Has no permission</string>
+    <string name="permission_dialog_title">Permission Deny</string>
+    <string name="permission_dialog_ok">OK</string>
+    <string name="permission_dialog_cancel">CANCEL</string>
+    <string name="permission_rationale">Storage read permission is needed to pick files.</string>
+    <string name="permission_rationale_write_storage">Storage write permission is needed to save the image.</string>
+    <string name="profile_for">Please select profile for.</string>
+    <string name="val_gender">Please select gender.</string>
+    <string name="val_dob">Please select dob.</string>
+    <string name="val_height">Please select height.</string>
+    <string name="val_state">Please select state.</string>
+    <string name="val_district">Please select district.</string>
+    <string name="val_city">Please enter city.</string>
+    <string name="val_pin">Please enter pincode.</string>
+    <string name="val_education">Please enter education.</string>
+    <string name="val_work_area">Please enter work area.</string>
+    <string name="val_occupations">Please select occupations.</string>
+    <string name="val_organization">Please enter organization name.</string>
+    <string name="val_income">Please select annual income.</string>
+    <string name="val_blood">Please select blood group.</string>
+    <string name="val_aadhar">Please enter correct aadhaar number.</string>
+    <string name="val_maritial_status">Please select marital status.</string>
+    <string name="val_gotra">Please enter gotra.</string>
+    <string name="val_manglik">Please select Manglik.</string>
+    <string name="select_manglik">Select Manglik.</string>
+    <string name="val_birth_time">Please select birth time.</string>
+    <string name="val_birth_place">Please enter birth place.</string>
+    <string name="val_gotra_nanihal">Please enter gotra nanihal.</string>
+    <string name="val_full_name">Please enter your full name</string>
+    <string name="val_email">Please enter correct email ID</string>
+    <string name="val_password">Please enter minimum 6 digit password.</string>
+    <string name="val_mobile">Please enter correct mobile number.</string>
+    <string name="val_mobile_whats">Please enter correct whatsapp number.</string>
+    <string name="head_res_one">Profile For</string>
+    <string name="head_res_two">Personal Details</string>
+    <string name="head_res_three">Career Details</string>
+    <string name="head_res_four">Social Details</string>
+    <string name="head_res_five">Login Details</string>
+    <string name="exit_res">Exit?</string>
+    <string name="yes">Yes</string>
+    <string name="msg_res_exit">Do it later!</string>
+    <string name="select_occupation">Select Occupation</string>
+    <string name="mother_occupation">Select Mother Occupation</string>
+    <string name="father_occupation">Select Father Occupation</string>
+    <string name="select_income">Select Income</string>
+    <string name="select_family_status">Select Family Status</string>
+    <string name="select_family_type">Select Family Type</string>
+    <string name="select_family_value">Select Family Value</string>
+    <string name="brothers">Brother(s)</string>
+    <string name="sisters">Sister(s)</string>
+    <string name="select_state">Select State</string>
+    <string name="close">Close</string>
+    <string name="select_district">Select District</string>
+    <string name="val_grandf">Please enter grandfather name</string>
+    <string name="val_mgrandf">Please enter maternal grandfather name</string>
+    <string name="val_father_name">Please enter father name</string>
+    <string name="val_mother_name">Please enter mother name</string>
+    <string name="val_address">Please enter address</string>
+    <string name="val_about_fam">Please enter about family</string>
+    <string name="val_father_occupation">Please select father occupation</string>
+    <string name="val_mother_occupation">Please select mother occupation</string>
+    <string name="select_brother">Please select brother</string>
+    <string name="select_sister">Please select sister</string>
+    <string name="val_select_family_income">Please select family Income</string>
+    <string name="val_family_status">Please select family status</string>
+    <string name="val_family_type">Please select family type</string>
+    <string name="val_family_value">Please select family value</string>
+    <string name="val_challanged">Please select challanged</string>
+    <string name="val_complexion">Please select complexion</string>
+    <string name="val_body_type">Please select body type</string>
+    <string name="val_weight">Please enter weight</string>
+    <string name="val_about_me">Please enter about me</string>
+    <string name="select_challenged">Select Challenged</string>
+    <string name="select_bodytype">Select BodyType</string>
+    <string name="select_blood">Select BloodGroup</string>
+    <string name="select_complexion">Select Complexion</string>
+    <string name="select_height">Select Height</string>
+    <string name="select_dob">Select Date of Birth.</string>
+    <string name="select_maritial_status">Select Marital Status</string>
+    <string name="select_dietary">Select Dietary</string>
+    <string name="select_drink">Select Drink</string>
+    <string name="select_smoking">Select Smoking</string>
+    <string name="select_hobbies">Select Hobbies</string>
+    <string name="select_intersts">Select Interests</string>
+    <string name="select_language">Select Language</string>
+    <string name="val_dietary">Please select dietary habits</string>
+    <string name="val_drink">Please select drink habits</string>
+    <string name="val_smoking">Please select smoking habits</string>
+    <string name="val_language">Please select language</string>
+    <string name="val_hobbies">Please select hobbies</string>
+    <string name="val_interest">Please select interest</string>
+    <string name="self">Self</string>
+    <string name="reletive">Reletive</string>
+    <string name="son">Son</string>
+    <string name="daughter">Daughter</string>
+    <string name="brother">Brother</string>
+    <string name="sister">Sister</string>
+    <string name="about_family">About Family</string>
+    <string name="grandfather_name">Grandfather Name</string>
+    <string name="maternal_grandfather_name">Maternal Grandfather Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="address">Address</string>
+    <string name="whatsapp_number">Whatsapp Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="about_my_family">About My Family</string>
+    <string name="father_s_occpation">Father\'s Occpation</string>
+    <string name="mother_s_occpation">Mother\'s Occpation</string>
+    <string name="brother_s">Brother(s)</string>
+    <string name="sister_s">Sister(s)</string>
+    <string name="family_income">Family Income</string>
+    <string name="family_status">Family Status</string>
+    <string name="family_type">Family Type</string>
+    <string name="family_value">Family Value</string>
+    <string name="family_based_out_of">Family based out of</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="city_enter">City</string>
+    <string name="about_me">About Me</string>
+    <string name="about">About</string>
+    <string name="weight_kg">Weight(Kg)</string>
+    <string name="body_type">Body Type</string>
+    <string name="complexion">Complexion</string>
+    <string name="challenged">Challenged</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="save">Save</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height</string>
+    <string name="gotra_txt">Gotra</string>
+    <string name="gotra_nanihal_txt">Gotra Nanihal</string>
+    <string name="pincode">Pincode</string>
+    <string name="annual_income">Annual Income</string>
+    <string name="his_managed_self">His profile is managed by Self</string>
+    <string name="her_managed_self">Her profile is managed by Self</string>
+    <string name="his_managed_parent">His profile is managed by Parent</string>
+    <string name="her_managed_parent">Her profile is managed by Parent</string>
+    <string name="didn_t_recieve_otp_yet">Didn\'t recieve OTP yet?</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="you_haven_t_any_profile_visitor">You haven\'t any profile visitor.</string>
+    <string name="you_haven_t_shortlisted_any_profile_yet">You haven\'t shortlisted any profile yet.</string>
+    <string name="change_pic">Change profile picture</string>
+    <string name="add_img">Add image</string>
+    <string name="select_profile_photo">Select Profile Photo</string>
+    <string name="profile_photo_select_mssg">Click on \'NEXT\' to make this your profile picture</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="select_image_first">Please select image first..</string>
+    <string name="change_profile">Change Profile Picture</string>
+    <string name="msg_change_img">Click ok for change your profile picture</string>
+    <string name="no_image">No images available</string>
+    <string name="occupation">Occupation *</string>
+    <string name="organization_name">Organization Name *</string>
+</resources>

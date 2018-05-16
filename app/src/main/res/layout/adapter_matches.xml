@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:id="@+id/rlClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivProfileImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_error" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="#80969696">
+
+                <com.samyotech.matrimony.view.CustomTextView
+                    android:id="@+id/tvjoinedstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="She was joined 30 april 2018"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/LLbottom"
+                android:background="@drawable/gradiant_black">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.samyotech.matrimony.view.CustomTextViewBold
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Divya Sharma"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <com.samyotech.matrimony.view.CustomTextView
+                        android:id="@+id/tvProfession"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvName"
+                        android:layout_marginTop="15dp"
+                        android:text="Software professional"
+                        android:textColor="@color/off_white" />
+
+                    <LinearLayout
+                        android:id="@+id/LL1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvProfession"
+                        android:orientation="horizontal">
+
+                        <com.samyotech.matrimony.view.CustomTextView
+                            android:id="@+id/tvYearandheight"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="26 Year 5'6"
+                            android:textColor="@color/off_white" />
+
+                        <com.samyotech.matrimony.view.CustomTextView
+                            android:id="@+id/tvEducation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="MCA/B.Tech"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:textColor="@color/off_white" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LL2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/LL1"
+                        android:orientation="horizontal">
+
+                        <com.samyotech.matrimony.view.CustomTextView
+                            android:id="@+id/tvGotra"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="Gurikh"
+                            android:textColor="@color/off_white" />
+
+                        <com.samyotech.matrimony.view.CustomTextView
+                            android:id="@+id/tvIncome"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="RS. 10- 15lac"
+                            android:textColor="@color/off_white" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/LL3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/LL2"
+                        android:orientation="horizontal">
+
+                        <com.samyotech.matrimony.view.CustomTextView
+                            android:id="@+id/tvCity"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="Indore"
+                            android:textColor="@color/off_white" />
+
+                        <com.samyotech.matrimony.view.CustomTextView
+                            android:id="@+id/tvmarrigestatus"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="Never Married"
+                            android:textColor="@color/off_white" />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LLbottom"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_alignParentBottom="true"
+                android:background="@color/red_800"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/llShortList"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivShortList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_shortlist" />
+
+                    <com.samyotech.matrimony.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ShortList"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llWhatsApp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_whatsapp" />
+
+                    <com.samyotech.matrimony.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WhatsApp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llContact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".33"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_call"
+                        android:textSize="12sp" />
+
+                    <com.samyotech.matrimony.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

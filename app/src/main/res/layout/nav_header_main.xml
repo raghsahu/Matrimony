@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <RelativeLayout
+            android:id="@+id/rlImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+
+            <com.github.lzyzsd.circleprogress.DonutProgress xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/donut_progress"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_centerInParent="true"
+                android:backgroundTint="@color/black"
+                android:rotation="270"
+                app:donut_progress="50"
+                app:donut_show_text="false"
+                custom:donut_finished_color="@color/red_500"
+                custom:donut_finished_stroke_width="10dp"
+                custom:donut_unfinished_stroke_width="10dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/drawe_logo" />
+
+            <com.samyotech.matrimony.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_profile"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/img_profile"
+                android:text="50 %"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+
+        <com.samyotech.matrimony.view.CustomTextViewBold
+            android:id="@+id/ctvbName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

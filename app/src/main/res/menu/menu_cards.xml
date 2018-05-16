@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <item
+        android:id="@+id/camera_cards"
+        android:icon="@drawable/card_camera"
+        android:orderInCategory="100"
+        android:title="Camera"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gallery_cards"
+        android:icon="@drawable/gallery_card"
+        android:orderInCategory="100"
+        android:title="Gallery"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cancel_cards"
+        android:icon="@drawable/cards_cancel"
+        android:orderInCategory="100"
+        android:title="Cancel"
+        app:showAsAction="never" />
+</menu>

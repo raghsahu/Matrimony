@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samyotech.matrimony.activity.editprofile.AboutFamilyActivity">
+
+    <RelativeLayout
+        android:id="@+id/action_bar_menus"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/llBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_left_arrow"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <com.samyotech.matrimony.view.CustomTextViewBold
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Lifestyle"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar_menus">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etDietary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Dietary Habits"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etDrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Drinking Habits"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etSmoking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Smoking Habits"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Language/Speak"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etHobbies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Hobbies"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etInterests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Interests"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+
+            <com.samyotech.matrimony.view.CustomButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="@dimen/login_margin_txt_top_15"
+                android:background="@drawable/button_selector_red"
+                android:gravity="center"
+                android:text="Save"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/RRsncbar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"></RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intro1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B3000000"></LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/login_margin_txt_top_15"
+            android:scaleType="fitCenter"
+            android:src="@drawable/intro_icon_1" />
+
+        <com.samyotech.matrimony.view.CustomTextViewBold
+            android:id="@+id/ctvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/login_margin_txt_top_15"
+            android:layout_marginRight="@dimen/login_margin_txt_top_15"
+            android:layout_marginTop="@dimen/login_margin_txt_top_25"
+            android:gravity="center"
+            android:text="Tutorial Screen"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <com.samyotech.matrimony.view.CustomTextView
+            android:id="@+id/ctvText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/login_margin_txt_top_25"
+            android:layout_marginRight="@dimen/login_margin_txt_top_25"
+            android:layout_marginTop="@dimen/login_margin_txt_top_5"
+            android:gravity="center"
+            android:text="Meet Your Perfect Partner Right Here"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

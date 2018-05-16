@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forgot_pass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/action_bar_menus"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_left_arrow"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <com.samyotech.matrimony.view.CustomTextView
+            android:id="@+id/tv_heading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Verification"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/viewSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/action_bar_menus"
+        android:background="@color/colorPrimaryDark"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <com.samyotech.matrimony.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Verification code will be sent to"
+            android:textColor="@color/gray" />
+
+        <com.samyotech.matrimony.view.CustomTextView
+            android:id="@+id/tvMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="9898989898"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorPrimaryDark"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.samyotech.matrimony.view.CustomEditText
+                android:id="@+id/etOne"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_back_round"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"></View>
+
+            <com.samyotech.matrimony.view.CustomEditText
+                android:id="@+id/etTwo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_back_round"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"></View>
+
+            <com.samyotech.matrimony.view.CustomEditText
+                android:id="@+id/etThree"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_back_round"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"></View>
+
+            <com.samyotech.matrimony.view.CustomEditText
+                android:id="@+id/etFour"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_back_round"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_margin_txt_top_25"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.samyotech.matrimony.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/didn_t_recieve_otp_yet"
+                android:textSize="14sp" />
+
+            <com.samyotech.matrimony.view.CustomTextViewBold
+                android:id="@+id/tvResend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/resend_otp"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+        <com.samyotech.matrimony.view.CustomButton
+            android:id="@+id/btnVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_margin_txt_top_25"
+            android:background="@drawable/button_selector_app"
+            android:gravity="center"
+            android:text="Verify"
+            android:textSize="16sp"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

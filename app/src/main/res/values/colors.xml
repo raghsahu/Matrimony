@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00608C</color>
+    <color name="colorPrimaryDark">#004666</color>
+    <color name="colorAccent">#00608C</color>
+    <color name="red_100">#ffcdd2</color>
+    <color name="red_200">#ef9a9a</color>
+    <color name="red_300">#e57373</color>
+    <color name="red_400">#ef5350</color>
+    <color name="red_50">#ffebee</color>
+    <color name="red_500">#f44336</color>
+    <color name="red_600">#e53935</color>
+    <color name="red_700">#d32f2f</color>
+    <color name="red_800">#c62828</color>
+    <color name="red_900">#b71c1c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#F2F2F2</color>
+    <color name="black">#000000</color>
+    <color name="off_black">#717171</color>
+    <color name="white_alpha">#acffffff</color>
+    <color name="gray">#969696</color>
+    <color name="color_button_disabled">#c5c3c4</color>
+    <color name="color_button_enabled">#d9475c</color>
+
+</resources>

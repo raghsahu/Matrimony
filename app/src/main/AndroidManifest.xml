@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samyotech.matrimony">
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Permission to use camera - required -->
+
+
+    <!-- Camera features - recommended -->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <!-- Supports Screens -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- Supports Screens -->
+    <application
+        android:name=".SysApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.samyotech.matrimony.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppIntro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.loginsignup.Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.loginsignup.Registration"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".activity.loginsignup.Otp" />
+        <activity android:name=".activity.dashboard.Dashboard" />
+        <activity android:name=".activity.profile_other.ProfileOther" />
+        <activity android:name=".activity.myprofile.Profile" />
+        <activity android:name=".activity.editprofile.BasicDetailsActivity" />
+        <activity android:name=".activity.editprofile.AboutFamilyActivity" />
+        <activity android:name=".activity.editprofile.AboutMeActivity" />
+        <activity android:name=".activity.editprofile.ImportantDetailsActivity" />
+        <activity android:name=".activity.editprofile.LifeStyleActivity" />
+        <activity android:name=".activity.imageselection.ImageshowActivity" />
+        <activity android:name=".activity.imageselection.MainActivity" />
+        <activity android:name=".multipleimagepicker.MultiImageSelectorActivity" />
+        <activity android:name=".activity.dashboard.RateUs" />
+        <activity android:name=".activity.ContactUs" />
+        <activity android:name=".activity.ChangePass" />
+        <activity android:name=".activity.editprofile.CriticalFields" />
+
+        <receiver android:name=".utils.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.myprofile.ProfilePicSelection" />
+        <activity android:name=".activity.profile_other.ImageSlider"></activity>
+    </application>
+
+</manifest>

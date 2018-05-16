@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_margin_txt_top_15">20dp</dimen>
+    <dimen name="login_margin_txt_top_25">30dp</dimen>
+    <dimen name="login_margin_txt_top_10">15dp</dimen>
+    <dimen name="login_margin_txt_top_5">10dp</dimen>
+    <dimen name="iv_add_img">125dp</dimen>
+</resources>

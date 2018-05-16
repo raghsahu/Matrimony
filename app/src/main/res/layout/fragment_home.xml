@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/airtime_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/threeTab"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/header"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/tab_match"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:orientation="vertical">
+
+                <com.samyotech.matrimony.view.CustomTextViewBold
+                    android:id="@+id/tvMatch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="11dp"
+                    android:text="Matches"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/match_selectedTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/red_400"
+                    android:gravity="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/tab_join"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:orientation="vertical">
+
+                <com.samyotech.matrimony.view.CustomTextViewBold
+                    android:id="@+id/joinTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="11dp"
+                    android:text="Just Join"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/join_selectedTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/red_400"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/airtime_tabs"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+</RelativeLayout>

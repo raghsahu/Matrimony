@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samyotech.matrimony.activity.editprofile.AboutMeActivity">
+
+    <RelativeLayout
+        android:id="@+id/action_bar_menus"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/llBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_left_arrow"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <com.samyotech.matrimony.view.CustomTextViewBold
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/about_me"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar_menus">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.samyotech.matrimony.view.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etAboutme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|start"
+                    android:hint="@string/about" />
+            </com.samyotech.matrimony.view.InputOpenFieldView>
+
+
+            <com.samyotech.matrimony.view.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/weight_kg"
+                    android:inputType="number" />
+            </com.samyotech.matrimony.view.InputOpenFieldView>
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etBodyType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/body_type" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etComplexion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/complexion" />
+            </com.samyotech.matrimony.view.InputFieldView>
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etChallenged"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/challenged" />
+
+            </com.samyotech.matrimony.view.InputFieldView>
+
+
+            <com.samyotech.matrimony.view.InputFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.samyotech.matrimony.view.CustomEditText
+                    android:id="@+id/etBloodgroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/blood_group" />
+
+            </com.samyotech.matrimony.view.InputFieldView>
+
+
+
+            <com.samyotech.matrimony.view.CustomButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector_red"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/RRsncbar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"></RelativeLayout>
+
+</RelativeLayout>
