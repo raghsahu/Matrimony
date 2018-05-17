@@ -30,7 +30,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.inspire.rkspmatrimony.view.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,45 +48,45 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.inspire.rkspmatrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OLD PASSWORD" />
 
-        <com.samyotech.matrimony.view.CustomEditText
+        <com.inspire.rkspmatrimony.view.CustomEditText
             android:id="@+id/etOldPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:inputType="textPassword" />
 
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.inspire.rkspmatrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="NEW PASSWORD" />
 
-        <com.samyotech.matrimony.view.CustomEditText
+        <com.inspire.rkspmatrimony.view.CustomEditText
             android:id="@+id/etNewPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:inputType="textPassword" />
 
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.inspire.rkspmatrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="CONFIRM PASSWORD" />
 
-        <com.samyotech.matrimony.view.CustomEditText
+        <com.inspire.rkspmatrimony.view.CustomEditText
             android:id="@+id/etConfirmNewPassword"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:inputType="textPassword" />
 
 
-        <com.samyotech.matrimony.view.CustomButton
+        <com.inspire.rkspmatrimony.view.CustomButton
             android:id="@+id/UpdateBtn"
             android:layout_width="match_parent"
             android:layout_height="50dp"

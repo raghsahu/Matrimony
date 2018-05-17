@@ -19,7 +19,7 @@
             app:contentScrim="@color/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <com.samyotech.matrimony.view.ProfilePageProfilePhotoImageView
+            <com.inspire.rkspmatrimony.view.ProfilePageProfilePhotoImageView
                 android:id="@+id/ivProfileImage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                     android:background="@drawable/circle_red"
                     android:gravity="center">
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvImageCount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -147,7 +147,7 @@
                             android:layout_centerVertical="true"
                             android:src="@drawable/ic_about" />
 
-                        <com.samyotech.matrimony.view.CustomTextViewBold
+                        <com.inspire.rkspmatrimony.view.CustomTextViewBold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
@@ -164,7 +164,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <com.samyotech.matrimony.view.CustomTextViewBold
+                        <com.inspire.rkspmatrimony.view.CustomTextViewBold
                             android:id="@+id/tvName"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                             android:textColor="@color/black"
                             android:textSize="16sp" />
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <com.inspire.rkspmatrimony.view.CustomTextView
                             android:id="@+id/tvOccupation"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -190,7 +190,7 @@
                             android:layout_below="@+id/tvOccupation"
                             android:orientation="horizontal">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.inspire.rkspmatrimony.view.CustomTextView
                                 android:id="@+id/tvYearandheight"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
                                 android:textColor="@color/off_black"
                                 android:textSize="14sp" />
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.inspire.rkspmatrimony.view.CustomTextView
                                 android:id="@+id/tvEducation"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -220,7 +220,7 @@
                             android:layout_below="@+id/LL1"
                             android:orientation="horizontal">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.inspire.rkspmatrimony.view.CustomTextView
                                 android:id="@+id/tvGotra"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -229,7 +229,7 @@
                                 android:textColor="@color/off_black"
                                 android:textSize="14sp" />
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.inspire.rkspmatrimony.view.CustomTextView
                                 android:id="@+id/tvIncome"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -249,7 +249,7 @@
                             android:layout_below="@+id/LL2"
                             android:orientation="horizontal">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.inspire.rkspmatrimony.view.CustomTextView
                                 android:id="@+id/tvCity"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -258,7 +258,7 @@
                                 android:textColor="@color/off_black"
                                 android:textSize="14sp" />
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.inspire.rkspmatrimony.view.CustomTextView
                                 android:id="@+id/tvMaritalStatus"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -279,7 +279,7 @@
                         android:layout_marginTop="15dp"
                         android:background="@color/gray" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvAbout"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -288,7 +288,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -297,7 +297,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvBodyType"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -319,7 +319,7 @@
                             android:layout_centerVertical="true"
                             android:src="@drawable/ic_pin" />
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <com.inspire.rkspmatrimony.view.CustomTextView
                             android:id="@+id/tvManage"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -345,7 +345,7 @@
                             android:layout_centerVertical="true"
                             android:src="@drawable/ic_kundli" />
 
-                        <com.samyotech.matrimony.view.CustomTextViewBold
+                        <com.inspire.rkspmatrimony.view.CustomTextViewBold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
@@ -358,7 +358,7 @@
 
                     </RelativeLayout>
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
@@ -366,7 +366,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvDob"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -374,7 +374,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvBirthTime"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -382,7 +382,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvBirthCity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -403,7 +403,7 @@
                             android:layout_centerVertical="true"
                             android:src="@drawable/ic_life_style" />
 
-                        <com.samyotech.matrimony.view.CustomTextViewBold
+                        <com.inspire.rkspmatrimony.view.CustomTextViewBold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
@@ -415,7 +415,7 @@
 
                     </RelativeLayout>
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvLife"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -423,7 +423,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvLanguage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -431,7 +431,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -440,7 +440,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvInterests"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -449,7 +449,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -458,7 +458,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvHobbies"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -480,7 +480,7 @@
                             android:layout_centerVertical="true"
                             android:src="@drawable/ic_family" />
 
-                        <com.samyotech.matrimony.view.CustomTextViewBold
+                        <com.inspire.rkspmatrimony.view.CustomTextViewBold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
@@ -492,7 +492,7 @@
 
                     </RelativeLayout>
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvFamilyAbout"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -500,7 +500,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -509,7 +509,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvFamilyBackground"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -518,7 +518,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -527,7 +527,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvFamilyIncome"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -536,7 +536,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -545,7 +545,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvFatherOccupation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -554,7 +554,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -563,7 +563,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvMotherOccupation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -572,7 +572,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -581,7 +581,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvBro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -590,7 +590,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvSis"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -599,7 +599,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -608,7 +608,7 @@
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvFamilyBased"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

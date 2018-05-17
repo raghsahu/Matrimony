@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".activity.myprofile.ProfilePicSelection">
+    tools:context="com.inspire.rkspmatrimony.activity.myprofile.ProfilePicSelection">
 
     <RelativeLayout
         android:id="@+id/action_bar_menus"
@@ -33,7 +33,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.inspire.rkspmatrimony.view.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:textColor="@color/white"
             android:textSize="22dp" />
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.inspire.rkspmatrimony.view.CustomTextViewBold
             android:id="@+id/tvNext"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -58,7 +58,7 @@
 
     </RelativeLayout>
 
-    <com.samyotech.matrimony.view.CustomTextView
+    <com.inspire.rkspmatrimony.view.CustomTextView
         android:id="@+id/tv_profile_photo_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

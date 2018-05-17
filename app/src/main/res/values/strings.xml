@@ -250,8 +250,14 @@
     <string name="profile_picture">Profile Picture</string>
     <string name="select_image_first">Please select image first..</string>
     <string name="change_profile">Change Profile Picture</string>
+    <string name="delete_pic">Delete Picture</string>
     <string name="msg_change_img">Click ok for change your profile picture</string>
+    <string name="msg_delete_img">Click ok for delete this picture</string>
     <string name="no_image">No images available</string>
     <string name="occupation">Occupation *</string>
     <string name="organization_name">Organization Name *</string>
+    <string name="not_delete_msg">You cannot delete the profile picture. Please select anthore photo as profile picture to delete this picture.</string>
+    <string name="logout_msg">Are you sure want to logout?</string>
+    <string name="terms_header">RKSP : Terms and Conditions</string>
+    <string name="privacy_header">RKSP : Privacy Policy</string>
 </resources>

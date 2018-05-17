@@ -22,7 +22,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.inspire.rkspmatrimony.view.CustomTextView
             android:id="@+id/tvMsg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
             android:layout_marginTop="20dp"
             android:src="@drawable/ic_rate_hand" />
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.inspire.rkspmatrimony.view.CustomTextViewBold
             android:id="@+id/buttonYes"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:textStyle="bold" />
 
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.inspire.rkspmatrimony.view.CustomTextView
             android:id="@+id/tvRemindMeLater"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
