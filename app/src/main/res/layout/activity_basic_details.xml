@@ -39,7 +39,7 @@
             android:layout_centerVertical="true"
             android:text="@string/basic_details"
             android:textColor="@color/white"
-            android:textSize="22dp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 

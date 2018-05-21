@@ -90,10 +90,11 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        mContext = Dashboard.this;
+
         prefrence = SharedPrefrence.getInstance(mContext);
         inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         mHandler = new Handler();
-        mContext = Dashboard.this;
 
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

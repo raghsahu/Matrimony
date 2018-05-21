@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lllanguagelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/language_roundview"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.inspire.rkspmatrimony.view.CustomTextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="English"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

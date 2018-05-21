@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
     <RelativeLayout
@@ -21,8 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-
-            android:text="Add Image"
+            android:text="@string/add_image"
+            android:layout_marginLeft="10dp"
             android:textColor="#ffffff"
             android:textSize="18dp" />
 
@@ -34,7 +33,7 @@
             android:layout_centerInParent="true"
             android:layout_marginRight="16dp"
             android:padding="7dp"
-            android:text="Upload"
+            android:text="@string/upload"
             android:textColor="#ffffff"
             android:textSize="15dp" />
 

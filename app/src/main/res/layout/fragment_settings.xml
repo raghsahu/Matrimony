@@ -69,7 +69,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Invite a Friend"
+                                android:text="@string/invite_a_friend"
                                 android:textSize="14dp" />
 
 
@@ -134,7 +134,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Contact US"
+                                android:text="@string/contact_us1"
                                 android:textSize="14dp" />
 
 
@@ -198,7 +198,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Rate the App"
+                                android:text="@string/rate_the_app"
                                 android:textSize="14dp" />
 
 
@@ -263,7 +263,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Change Password"
+                                android:text="@string/change_password"
                                 android:textSize="14dp" />
 
 
@@ -326,7 +326,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Terms and Conditions"
+                                android:text="@string/terms_and_conditions"
                                 android:textSize="14dp" />
 
 
@@ -390,7 +390,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Privacy Policy"
+                                android:text="@string/privacy_policy"
                                 android:textSize="14dp" />
 
 
@@ -454,7 +454,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="8dp"
                                 android:gravity="center_vertical"
-                                android:text="Logout"
+                                android:text="@string/logout"
                                 android:textSize="14dp" />
 
 

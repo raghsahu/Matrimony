@@ -37,9 +37,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Registration"
+            android:text="@string/registration"
             android:textColor="@color/white"
-            android:textSize="22dp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -82,7 +82,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="12dip"
             android:background="@null"
-            android:text="Next" />
+            android:text="@string/next" />
 
         <Button
             android:id="@+id/btn_skip"
@@ -92,7 +92,7 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="12dip"
             android:background="@null"
-            android:text="Previous" />
+            android:text="@string/previous" />
 
 
     </RelativeLayout>

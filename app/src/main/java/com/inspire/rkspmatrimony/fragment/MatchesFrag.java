@@ -22,6 +22,7 @@ import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.network.NetworkManager;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
+import com.inspire.rkspmatrimony.utils.EndlessRecyclerOnScrollListener;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 
 import org.json.JSONObject;
@@ -37,15 +38,14 @@ public class MatchesFrag extends Fragment {
     LinearLayoutManager mLayoutManager;
     private AdapterMatches adapterMatches;
     private ArrayList<UserDTO> userDTOList;
+    private ArrayList<UserDTO> tempList;
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
     private MatchesDTO matchesDTO;
 
-    private int current = 1;
-    private int previousTotal = 0;
-    private boolean loading = true;
-    private int visibleThreshold = 5;
-    int firstVisibleItem, visibleItemCount, totalItemCount;
+    private int currentVisibleItemCount = 0;
+    int page = 1;
+    boolean request = false;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -58,64 +58,44 @@ public class MatchesFrag extends Fragment {
     }
 
     public void setUiAction(View view) {
+        tempList = new ArrayList<>();
         rvMatch = view.findViewById(R.id.rvMatch);
-
-
         mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         rvMatch.setLayoutManager(mLayoutManager);
 
-        rvMatch.addOnScrollListener(new OnScrollListener() {
-
+        rvMatch.setOnScrollListener(new EndlessRecyclerOnScrollListener(mLayoutManager) {
             @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
+            public void onLoadMore(int current_page, int totalItemCount) {
+                currentVisibleItemCount = totalItemCount;
+                if (request) {
+                    page = page + 1;
+                    getUsers();
 
-                visibleItemCount = rvMatch.getChildCount();
-                totalItemCount = mLayoutManager.getItemCount();
-                firstVisibleItem = mLayoutManager.findFirstVisibleItemPosition();
+                }else {
+                    page = 1;
 
-                if (loading) {
-                    if (totalItemCount > previousTotal) {
-                        loading = false;
-                        previousTotal = totalItemCount;
-                    }
                 }
-                if (!loading && (totalItemCount - visibleItemCount)
-                        <= (firstVisibleItem + visibleThreshold)) {
-                    // End has been reached
 
-                    if (matchesDTO.isHas_more_pages()) {
-
-                    } else {
-                        Log.e("Yaeye!", "end called");
-                    }
-                    loading = true;
-                }
             }
         });
-
-
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
         if (NetworkManager.isConnectToInternet(getActivity())) {
             getUsers();
 
         } else {
             ProjectUtils.showToast(getActivity(), getResources().getString(R.string.internet_concation));
         }
+
     }
+
 
     public void getUsers() {
         ProjectUtils.showProgressDialog(getActivity(), true, getResources().getString(R.string.please_wait));
-        new HttpsRequest(Consts.ALL_PROFILES_API, getparm(), getActivity()).stringPost(TAG, new Helper() {
+        new HttpsRequest(Consts.ALL_PROFILES_API + "?page=" + page, getparm(), getActivity()).stringPost(TAG, new Helper() {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {
                     matchesDTO = new Gson().fromJson(response.toString(), MatchesDTO.class);
-
+                    request = matchesDTO.isHas_more_pages();
                     showData();
                 } else {
                     ProjectUtils.showToast(getActivity(), msg);
@@ -141,6 +121,8 @@ public class MatchesFrag extends Fragment {
     public void showData() {
         userDTOList = new ArrayList<>();
         userDTOList = matchesDTO.getData();
+        tempList.addAll(userDTOList);
+        userDTOList = tempList;
         adapterMatches = new AdapterMatches(userDTOList, MatchesFrag.this);
         rvMatch.setAdapter(adapterMatches);
     }

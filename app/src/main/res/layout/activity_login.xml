@@ -39,7 +39,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/login_margin_txt_top_15"
                 android:visibility="gone"
-                android:text="Meet Your Dream Partner?"
+                android:text="@string/meet_your_dream_partner"
                 android:textColor="@color/white"
                 android:textSize="@dimen/abc_text_size_medium_material" />
 
@@ -50,7 +50,7 @@
                 android:layout_marginTop="@dimen/login_margin_txt_top_25"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Enter your number and password below to get access"
+                android:text="@string/enter_your_number_and_password_below_to_get_access"
                 android:textColor="@color/white_alpha"
                 android:textSize="@dimen/abc_text_size_small_material" />
 
@@ -105,7 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:hint="password"
+                    android:hint="@string/password1"
                     android:imeOptions="actionGo|actionSearch|actionDone|actionPrevious"
                     android:inputType="textPassword"
                     android:padding="8dp"
@@ -122,7 +122,7 @@
                 android:layout_marginTop="@dimen/login_margin_txt_top_15"
                 android:background="@drawable/button_selector_red"
                 android:gravity="center"
-                android:text="Login"
+                android:text="@string/login"
                 android:textColor="@color/white" />
 
             <com.inspire.rkspmatrimony.view.CustomTextView
@@ -132,7 +132,7 @@
                 android:layout_gravity="right"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:padding="10dp"
-                android:text="Forgot Password ?"
+                android:text="@string/forgot_password"
                 android:textColor="@color/white_alpha"
                 android:textSize="@dimen/abc_text_size_menu_material" />
 
@@ -144,7 +144,7 @@
                 android:layout_marginBottom="@dimen/login_margin_txt_top_15"
                 android:layout_marginTop="@dimen/login_margin_txt_top_15"
                 android:padding="10dp"
-                android:text="CREATE A NEW ACCOUNT"
+                android:text="@string/create_a_new_account"
                 android:textColor="@color/white_alpha"
                 android:textSize="@dimen/abc_text_size_menu_material" />
 

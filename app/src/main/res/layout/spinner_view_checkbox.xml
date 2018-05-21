@@ -11,8 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/checkBox1"
         android:padding="12dp"
-        android:text="TextView"
+        android:text=""
         android:textSize="18sp" />
 
     <CheckBox
@@ -20,7 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:padding="12dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center" />
 
 
 </RelativeLayout>

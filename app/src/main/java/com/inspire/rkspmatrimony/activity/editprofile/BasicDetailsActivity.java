@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -18,7 +17,6 @@ import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.Models.UserDTO;
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.SysApplication;
-import com.inspire.rkspmatrimony.activity.loginsignup.Registration;
 import com.inspire.rkspmatrimony.database.TestAdapter;
 import com.inspire.rkspmatrimony.https.HttpsRequest;
 import com.inspire.rkspmatrimony.interfaces.Consts;
@@ -66,7 +64,7 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
         mDbHelper = new TestAdapter(mContext);
         mDbHelper.createDatabase();
         mDbHelper.open();
-        sysApplication = SysApplication.getInstance();
+        sysApplication = SysApplication.getInstance(mContext);
         setUIAction();
     }
 

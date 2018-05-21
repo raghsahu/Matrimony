@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="How do you rate RKSP android experience?"
+            android:text="@string/how_do_you_rate_rksp_android_experience"
             android:textColor="@color/white" />
 
         <ImageView
@@ -45,7 +45,7 @@
             android:background="@drawable/back_white_line"
             android:gravity="center"
             android:padding="15dp"
-            android:text="I LOVE IT"
+            android:text="@string/i_love_it"
             android:textColor="@color/white"
             android:textStyle="bold" />
 

@@ -38,9 +38,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Verification"
+            android:text="@string/verification"
             android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:text="Verification code will be sent to"
+            android:text="@string/verification_code_will_be_sent_to"
             android:textColor="@color/gray" />
 
         <com.inspire.rkspmatrimony.view.CustomTextView
@@ -75,7 +75,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="9898989898"
+            android:text=""
             android:textColor="@color/gray"
             android:textSize="16sp" />
 
@@ -203,7 +203,7 @@
             android:layout_marginTop="@dimen/login_margin_txt_top_25"
             android:background="@drawable/button_selector_app"
             android:gravity="center"
-            android:text="Verify"
+            android:text="@string/verify"
             android:textSize="16sp"
             android:textColor="@color/white" />
 

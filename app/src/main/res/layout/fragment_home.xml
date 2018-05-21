@@ -35,7 +35,7 @@
                     android:background="@color/colorPrimary"
                     android:gravity="center"
                     android:padding="11dp"
-                    android:text="Matches"
+                    android:text="@string/matches"
                     android:textColor="@color/white"
                     android:textSize="16dp" />
 
@@ -68,7 +68,7 @@
                     android:background="@color/colorPrimary"
                     android:gravity="center"
                     android:padding="11dp"
-                    android:text="Just Join"
+                    android:text="@string/just_join"
                     android:textColor="@color/white"
                     android:textSize="16dp" />
 

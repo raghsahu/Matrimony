@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:fitsSystemWindows="true"
-    tools:context="com.inspire.rkspmatrimony.activity.AppIntroActivity">
+    tools:context="com.inspire.rkspmatrimony.AppIntro">
 
     <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/viewpager"
@@ -41,7 +41,7 @@
             android:gravity="center"
             android:text="@string/get_started"
             android:textColor="@color/white"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:visibility="visible" />
     </LinearLayout>
 

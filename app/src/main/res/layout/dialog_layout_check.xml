@@ -18,7 +18,7 @@
             android:id="@+id/spinerTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select or Search Items"
+            android:text="@string/select_or_search_items"
             android:textSize="17sp"
             android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
             android:layout_toLeftOf="@+id/Ok"
             android:clickable="true"
             android:padding="10dp"
-            android:text="Close"
+            android:text="@string/close"
             android:textSize="16sp" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginLeft="10dp"
             android:padding="10dp"
-            android:text="Ok"
+            android:text="@string/ok"
             android:textColor="@color/colorPrimary"
             android:textSize="16sp" />
     </RelativeLayout>

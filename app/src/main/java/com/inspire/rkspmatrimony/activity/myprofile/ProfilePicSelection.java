@@ -73,6 +73,7 @@ public class ProfilePicSelection extends AppCompatActivity implements View.OnCli
         for (int j = 0; j < imageDatalist.size(); j++) {
             if (imageDatalist.get(j).getThumb_url().equalsIgnoreCase(userDTO.getAvatar_thumb())) {
                 tv_profile_photo_message.setVisibility(View.GONE);
+                tvNext.setVisibility(View.GONE);
                 imageDatalist.get(j).setSelected(true);
             }
         }
@@ -130,8 +131,10 @@ public class ProfilePicSelection extends AppCompatActivity implements View.OnCli
             if (i == pos) {
                 if (imageDatalist.get(i).getThumb_url().equalsIgnoreCase(userDTO.getAvatar_thumb())) {
                     tv_profile_photo_message.setVisibility(View.GONE);
+                    tvNext.setVisibility(View.GONE);
                 } else {
                     tv_profile_photo_message.setVisibility(View.VISIBLE);
+                    tvNext.setVisibility(View.VISIBLE);
                 }
                 imageDatalist.get(i).setSelected(true);
                 imageDTO = imageDatalist.get(i);

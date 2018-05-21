@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -71,7 +70,7 @@ public class CriticalFields extends AppCompatActivity implements View.OnClickLis
         parms.put(Consts.USER_ID, loginDTO.getUser_id());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
         parms.put(Consts.CRITICAL, "1");
-        sysApplication = SysApplication.getInstance();
+        sysApplication = SysApplication.getInstance(mContext);
         setUiAction();
     }
 

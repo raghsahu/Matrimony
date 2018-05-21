@@ -1,6 +1,5 @@
 package com.inspire.rkspmatrimony.fragment.registration;
 
-import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.content.Context;
 import android.os.Bundle;
@@ -11,37 +10,23 @@ import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.inspire.rkspmatrimony.Models.CommanDTO;
 import com.inspire.rkspmatrimony.R;
-import com.inspire.rkspmatrimony.SysApplication;
 import com.inspire.rkspmatrimony.activity.loginsignup.Registration;
 import com.inspire.rkspmatrimony.database.TestAdapter;
-import com.inspire.rkspmatrimony.https.HttpsRequest;
-import com.inspire.rkspmatrimony.interfaces.Consts;
-import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.interfaces.OnSpinerItemClick;
-import com.inspire.rkspmatrimony.network.NetworkManager;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 import com.inspire.rkspmatrimony.utils.SpinnerDialog;
 import com.inspire.rkspmatrimony.view.CustomEditText;
 import com.inspire.rkspmatrimony.view.InputFieldView;
 import com.inspire.rkspmatrimony.view.InputOpenFieldView;
 
-import java.lang.reflect.Type;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Locale;
 
 public class PersonalDetails extends Fragment implements View.OnClickListener {

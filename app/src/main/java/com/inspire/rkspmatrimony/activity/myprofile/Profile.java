@@ -63,7 +63,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     private CircleImageView ivImage, ivCamera;
     private CustomTextView tvAddImage, tvImageCount;
     private RelativeLayout rlRed;
-    private ArrayList<ImageDTO> imageDatalist;
+    private ArrayList<ImageDTO> imageDatalist = new ArrayList<>();
     private LinearLayout imageLyout;
     private SharedPrefrence prefrence;
     private UserDTO userDTO;
@@ -269,6 +269,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
                         R.anim.anim_slide_out_right);
                 break;
             case R.id.imageLyout:
+
                 if (imageDatalist.size() > 0) {
                     Intent intent = new Intent(mContext, ImageshowActivity.class);
                    // intent.putExtra("imageList", imageDatalist);

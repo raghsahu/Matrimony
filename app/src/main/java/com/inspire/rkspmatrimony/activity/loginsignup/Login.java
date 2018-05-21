@@ -101,8 +101,17 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {
+
+
+
                     ProjectUtils.showToast(mContext, msg);
+
                     loginDTO = new Gson().fromJson(response.toString(), LoginDTO.class);
+
+
+
+
+
                     prefrence.setLoginResponse(loginDTO, Consts.LOGIN_DTO);
                     prefrence.setBooleanValue(Consts.IS_REGISTERED,true);
                     ProjectUtils.showToast(mContext, msg);
@@ -114,6 +123,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 } else {
                     ProjectUtils.showToast(mContext, msg);
                 }
+
+
+
+
+
             }
         });
     }

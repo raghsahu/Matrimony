@@ -43,7 +43,6 @@
 
     <!-- Supports Screens -->
     <application
-        android:name=".SysApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -148,6 +147,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LanguageSelection"
             android:screenOrientation="portrait"></activity>
 
 

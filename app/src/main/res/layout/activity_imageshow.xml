@@ -35,7 +35,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:padding="10dp"
-        android:text="We are uploading only 5 images"
+        android:text="@string/we_are_uploading_only_5_images"
         android:textColor="@color/red_800"
         android:textSize="18sp" />
 

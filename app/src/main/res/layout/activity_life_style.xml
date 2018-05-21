@@ -37,9 +37,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Lifestyle"
+            android:text="@string/lifestyle"
             android:textColor="@color/white"
-            android:textSize="22dp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -65,7 +65,7 @@
                     android:id="@+id/etDietary"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Dietary Habits"
+                    android:hint="@string/dietary_habits"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
@@ -80,7 +80,7 @@
                     android:id="@+id/etDrink"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Drinking Habits"
+                    android:hint="@string/drinking_habits"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
@@ -95,7 +95,7 @@
                     android:id="@+id/etSmoking"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Smoking Habits"
+                    android:hint="@string/smoking_habits"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
@@ -110,7 +110,7 @@
                     android:id="@+id/etLanguage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Language/Speak"
+                    android:hint="@string/language_speak"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
@@ -125,7 +125,7 @@
                     android:id="@+id/etHobbies"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Hobbies"
+                    android:hint="@string/hobbies"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
@@ -141,7 +141,7 @@
                     android:id="@+id/etInterests"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Interests"
+                    android:hint="@string/interests"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
@@ -155,7 +155,7 @@
                 android:layout_marginTop="@dimen/login_margin_txt_top_15"
                 android:background="@drawable/button_selector_red"
                 android:gravity="center"
-                android:text="Save"
+                android:text="@string/save"
                 android:textColor="@color/white" />
 
 

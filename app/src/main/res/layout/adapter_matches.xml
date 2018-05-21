@@ -36,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10dp"
-                    android:text="She was joined 30 april 2018"
+                    android:text=""
                     android:textColor="@color/white" />
 
 
@@ -60,7 +60,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Divya Sharma"
+                        android:text=""
                         android:textColor="@color/white"
                         android:textSize="18sp" />
 
@@ -70,7 +70,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/tvName"
                         android:layout_marginTop="15dp"
-                        android:text="Software professional"
+                        android:text=""
                         android:textColor="@color/off_white" />
 
                     <LinearLayout
@@ -85,7 +85,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="26 Year 5'6"
+                            android:text=""
                             android:textColor="@color/off_white" />
 
                         <com.inspire.rkspmatrimony.view.CustomTextView
@@ -93,7 +93,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="MCA/B.Tech"
+                            android:text=""
                             android:singleLine="true"
                             android:ellipsize="marquee"
                             android:textColor="@color/off_white" />
@@ -113,7 +113,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Gurikh"
+                            android:text=""
                             android:textColor="@color/off_white" />
 
                         <com.inspire.rkspmatrimony.view.CustomTextView
@@ -121,7 +121,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="RS. 10- 15lac"
+                            android:text=""
                             android:textColor="@color/off_white" />
 
 
@@ -140,7 +140,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Indore"
+                            android:text=""
                             android:textColor="@color/off_white" />
 
                         <com.inspire.rkspmatrimony.view.CustomTextView
@@ -148,7 +148,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Never Married"
+                            android:text=""
                             android:textColor="@color/off_white" />
 
 
@@ -186,7 +186,7 @@
                     <com.inspire.rkspmatrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ShortList"
+                        android:text="@string/shortlist"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -207,7 +207,7 @@
                     <com.inspire.rkspmatrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="WhatsApp"
+                        android:text="@string/whatsapp"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -229,7 +229,7 @@
                     <com.inspire.rkspmatrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Contact"
+                        android:text="@string/contact"
                         android:textColor="@color/white" />
                 </LinearLayout>
 

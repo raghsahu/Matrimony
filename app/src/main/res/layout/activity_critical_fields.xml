@@ -37,9 +37,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Lifestyle"
+            android:text="@string/lifestyle"
             android:textColor="@color/white"
-            android:textSize="22dp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -65,7 +65,7 @@
                     android:id="@+id/etDOB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Date of birth" />
+                    android:hint="@string/date_of_birth" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
 
             <com.inspire.rkspmatrimony.view.InputFieldView
@@ -78,7 +78,7 @@
                     android:id="@+id/etMarital"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Marital" />
+                    android:hint="@string/marital1" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
             <com.inspire.rkspmatrimony.view.InputOpenFieldView
                 android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                     android:id="@+id/etAadhar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Aadhaar No."
+                    android:hint="@string/aadhaar_no"
                     android:imeOptions="actionDone"
                     android:inputType="number"
                     android:singleLine="true" />
@@ -106,7 +106,7 @@
                     android:id="@+id/etGotra"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Gotra"
+                    android:hint="@string/gotra1"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputOpenFieldView>
@@ -121,7 +121,7 @@
                     android:id="@+id/etGotraNanihal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Gotra Nanihal"
+                    android:hint="@string/gotra_nanihal1"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputOpenFieldView>
@@ -136,7 +136,7 @@
                     android:id="@+id/etManglik"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Manglik" />
+                    android:hint="@string/manglik1" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
 
             <com.inspire.rkspmatrimony.view.InputFieldView
@@ -149,7 +149,7 @@
                     android:id="@+id/etBirthTime"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Birth Time" />
+                    android:hint="@string/birth_time1" />
             </com.inspire.rkspmatrimony.view.InputFieldView>
 
             <com.inspire.rkspmatrimony.view.InputOpenFieldView
@@ -162,7 +162,7 @@
                     android:id="@+id/etBirthPlace"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Birth Place"
+                    android:hint="@string/birth_place1"
                     android:imeOptions="actionDone"
                     android:inputType="text"
                     android:singleLine="true" />
@@ -177,7 +177,7 @@
                 android:layout_marginTop="@dimen/login_margin_txt_top_15"
                 android:background="@drawable/button_selector_red"
                 android:gravity="center"
-                android:text="Save"
+                android:text="@string/save"
                 android:textColor="@color/white" />
 
 

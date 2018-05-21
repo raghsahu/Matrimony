@@ -15,7 +15,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -25,7 +24,6 @@ import com.google.gson.Gson;
 import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.SysApplication;
-import com.inspire.rkspmatrimony.activity.dashboard.Dashboard;
 import com.inspire.rkspmatrimony.fragment.registration.ImportantDetails;
 import com.inspire.rkspmatrimony.fragment.registration.LoginDetails;
 import com.inspire.rkspmatrimony.fragment.registration.PersonalDetails;
@@ -77,7 +75,7 @@ public class Registration extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
         mContext = Registration.this;
         prefrence = SharedPrefrence.getInstance(mContext);
-        sysApplication = SysApplication.getInstance();
+        sysApplication = SysApplication.getInstance(mContext);
 
         tvHeader = findViewById(R.id.tvHeader);
         stepper_indicator = findViewById(R.id.stepper_indicator);

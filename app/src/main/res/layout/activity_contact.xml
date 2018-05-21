@@ -36,9 +36,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Contact Us"
+            android:text="@string/contact_us"
             android:textColor="@color/white"
-            android:textSize="22dp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 

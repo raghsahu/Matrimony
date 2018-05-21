@@ -44,6 +44,8 @@ public interface Consts {
     String STORAGE_ACCEPTED = "storage_accepted";
     String IMAGE_LIST = "image_list";
     String WEB_VIEW_FLAG = "web_view_flag";
+    String LANGUAGE_SELECTION = "language_selection";
+    String SELECTED_LANGUAGE = "selected_language";
 
 
     /*registration params*/

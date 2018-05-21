@@ -2,22 +2,18 @@ package com.inspire.rkspmatrimony.activity.editprofile;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.inspire.rkspmatrimony.Models.CommanDTO;
 import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.Models.UserDTO;
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.SysApplication;
-import com.inspire.rkspmatrimony.activity.dashboard.Dashboard;
 import com.inspire.rkspmatrimony.https.HttpsRequest;
 import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.Helper;
@@ -31,7 +27,6 @@ import com.inspire.rkspmatrimony.view.CustomEditText;
 
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -59,7 +54,7 @@ public class LifeStyleActivity extends AppCompatActivity implements View.OnClick
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
         parms.put(Consts.USER_ID, loginDTO.getUser_id());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        sysApplication = SysApplication.getInstance();
+        sysApplication = SysApplication.getInstance(mContext);
         setUiAction();
     }
 

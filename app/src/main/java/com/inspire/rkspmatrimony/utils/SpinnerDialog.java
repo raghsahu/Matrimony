@@ -10,8 +10,6 @@ import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.graphics.Typeface;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -20,7 +18,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -29,7 +26,6 @@ import android.widget.Filterable;
 import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
 
 import com.inspire.rkspmatrimony.Models.CommanDTO;
 import com.inspire.rkspmatrimony.R;
@@ -54,6 +50,7 @@ public class SpinnerDialog {
     ListView listView;
     MyAdapterRadio myAdapterRadio;
     MyAdapterCheck myAdapterCheck;
+    int pos;
 
     public SpinnerDialog(Activity activity, ArrayList<CommanDTO> items, String dialogTitle) {
         this.items = items;
@@ -90,9 +87,8 @@ public class SpinnerDialog {
 
     public void showSpinerDialog() {
         Builder adb = new Builder(this.context);
-        View v = this.context.getLayoutInflater().inflate(R.layout.dialog_layout, (ViewGroup) null);
+        View v = this.context.getLayoutInflater().inflate(R.layout.dialog_layout_radio, (ViewGroup) null);
         TextView rippleViewClose = (TextView) v.findViewById(R.id.close);
-        TextView Ok = (TextView) v.findViewById(R.id.Ok);
         TextView title = (TextView) v.findViewById(R.id.spinerTitle);
         rippleViewClose.setText(this.closeTitle);
         title.setText(this.dTitle);
@@ -123,8 +119,28 @@ public class SpinnerDialog {
                 SpinnerDialog.this.alertDialog.dismiss();
             }
         });
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                TextView t = (TextView) view.findViewById(R.id.text1);
+                String selectedID = "";
+                for (int j = 0; j < items.size(); j++) {
+                    if (t.getText().toString().equalsIgnoreCase(items.get(j).toString())) {
+                        pos = j;
+                        selectedID = items.get(j).getId();
+                    }
+                    if (j == i) {
+                        items.get(j).setSelected(true);
+                    } else {
+                        items.get(j).setSelected(false);
+                    }
+                }
+                onSpinerItemClick.onClick(t.getText().toString(),selectedID, pos);
+                alertDialog.dismiss();
+            }
+        });
 
-
+/*
         Ok.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
 
@@ -145,11 +161,13 @@ public class SpinnerDialog {
                 SpinnerDialog.this.alertDialog.dismiss();
             }
         });
+*/
 
         this.alertDialog.show();
     }
 
 
+/*
     public void updateList(int pos) {
         for (int i = 0; i < this.items.size(); i++) {
             if (i == pos) {
@@ -160,10 +178,11 @@ public class SpinnerDialog {
         }
         myAdapterRadio.notifyDataSetChanged();
     }
+*/
 
     public void showSpinerDialogMultiple() {
         Builder adb = new Builder(this.context);
-        View v = this.context.getLayoutInflater().inflate(R.layout.dialog_layout, (ViewGroup) null);
+        View v = this.context.getLayoutInflater().inflate(R.layout.dialog_layout_check, (ViewGroup) null);
         TextView rippleViewClose = (TextView) v.findViewById(R.id.close);
         TextView Ok = (TextView) v.findViewById(R.id.Ok);
         TextView title = (TextView) v.findViewById(R.id.spinerTitle);
@@ -399,9 +418,9 @@ public class SpinnerDialog {
             return position;
         }
 
-        private class ViewHolder {
-            CustomTextView text1;
-            RadioButton radioBtn;
+        public class ViewHolder {
+           public CustomTextView text1;
+          public   RadioButton radioBtn;
         }
 
         @Override
@@ -419,7 +438,6 @@ public class SpinnerDialog {
                 holder = (ViewHolder) convertView.getTag();
             }
 
-
             holder.text1.setText(arrayList.get(position).getName());
             holder.text1.setTypeface(null, Typeface.NORMAL);
 
@@ -430,20 +448,21 @@ public class SpinnerDialog {
             }
 
 
-            holder.radioBtn.setOnClickListener(new View.OnClickListener() {
+       /*     holder.radioBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    updateList(position);
-
+                    //updateList(position);
+                    holder.radioBtn.setChecked(true);
                 }
             });
             convertView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    updateList(position);
+               //     updateList(position);
+                    holder.radioBtn.setChecked(true);
 
                 }
-            });
+            });*/
             return convertView;
         }
 

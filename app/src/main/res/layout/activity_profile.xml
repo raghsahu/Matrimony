@@ -49,7 +49,7 @@
                     android:layout_below="@+id/imageLyout"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="5dp"
-                    android:text="We are uploading only 5 images"
+                    android:text="@string/we_are_uploading_only_5_images"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
 
@@ -66,7 +66,7 @@
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:paddingTop="5dp"
-                    android:text="Add Images"
+                    android:text="@string/add_images"
                     android:visibility="visible" />
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -176,7 +176,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toRightOf="@+id/ivUser"
-                            android:text="Divya Sharma"
+                            android:text=""
                             android:textColor="@color/colorPrimary"
                             android:textSize="18sp" />
 
@@ -203,7 +203,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="5'6"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -212,7 +212,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Rs. 3-4 Lakh"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -230,7 +230,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Gurikh"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -239,7 +239,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Sanawad"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -259,7 +259,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Khargone"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -268,7 +268,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Madhya Pradesh"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -311,7 +311,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toRightOf="@+id/ivCritical"
-                            android:text="Critical Fields"
+                            android:text="@string/critical_fields"
                             android:textColor="@color/colorPrimary"
                             android:textSize="18sp" />
 
@@ -337,7 +337,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="11-sep-1990"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -346,7 +346,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight=".5"
-                            android:text="Never Married"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -356,7 +356,7 @@
                         android:id="@+id/tvAadhaar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Aadhaar No.: 123456789123"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -371,14 +371,14 @@
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
                             android:layout_toRightOf="@+id/ivAstro"
-                            android:text="Kundli &amp; Astro"
+                            android:text="@string/kundli_amp_astro"
                             android:textColor="@color/off_black"
                             android:textSize="16sp" />
 
                         <com.inspire.rkspmatrimony.view.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Time of Birth"
+                            android:text="@string/time_of_birth"
                             android:textColor="@color/off_black"
                             android:layout_marginTop="5dp"
                             android:textSize="14sp" />
@@ -388,13 +388,13 @@
                             android:id="@+id/tvBirthTime"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="10:20 AM"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
                         <com.inspire.rkspmatrimony.view.CustomTextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Birth Place"
+                            android:text="@string/birth_place1"
                             android:textColor="@color/off_black"
                             android:layout_marginTop="5dp"
                             android:textSize="14sp" />
@@ -403,7 +403,7 @@
                             android:id="@+id/tvBirthCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Indore"
+                            android:text=""
                             android:textColor="@color/off_black"
                             android:textSize="14sp" />
 
@@ -413,7 +413,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="These fields can be edited only once."
+                        android:text="@string/these_fields_can_be_edited_only_once"
                         android:textColor="@color/red_900"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -452,7 +452,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toRightOf="@+id/ivAbout"
-                            android:text="About Me"
+                            android:text="@string/about_me"
                             android:textColor="@color/colorPrimary"
                             android:textSize="18sp" />
 
@@ -471,7 +471,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -480,7 +480,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Appearance"
+                        android:text="@string/appearance"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -489,7 +489,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Average (Weight 52 Kg), Fair"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -498,7 +498,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Blood Group"
+                        android:text="@string/blood_group"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -507,7 +507,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="A+"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -516,7 +516,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Special Cases"
+                        android:text="@string/special_cases"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -525,7 +525,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="None"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -566,7 +566,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toRightOf="@+id/ivImportant"
-                            android:text="Important Details"
+                            android:text="@string/important_details"
                             android:textColor="@color/colorPrimary"
                             android:textSize="18sp" />
 
@@ -595,7 +595,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="MCA"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -604,7 +604,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Employed as"
+                        android:text="@string/employed_as"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -613,7 +613,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Software Engineer"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -622,7 +622,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Samyotech Labs, Indore"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -664,7 +664,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toRightOf="@+id/ivLife"
-                            android:text="Lifestyle"
+                            android:text="@string/lifestyle"
                             android:textColor="@color/colorPrimary"
                             android:textSize="18sp" />
 
@@ -683,7 +683,7 @@
                         android:id="@+id/tvLife"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Vegitarian,Non Drinker,Non Smoker"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -691,7 +691,7 @@
                         android:id="@+id/tvLanguage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Speaks English, Hindi"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -700,7 +700,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Interests"
+                        android:text="@string/interests"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -709,7 +709,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Movies, Tv,Travling"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -718,7 +718,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Hobbies"
+                        android:text="@string/hobbies"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -727,7 +727,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Playing Cricket"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -767,7 +767,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toRightOf="@+id/ivFamily"
-                            android:text="Family"
+                            android:text="@string/family"
                             android:textColor="@color/colorPrimary"
                             android:textSize="18sp" />
 
@@ -785,7 +785,7 @@
                         android:id="@+id/tvFamilyAbout"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -794,7 +794,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Family Background"
+                        android:text="@string/family_background"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -803,7 +803,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Liberal,Joint Family,Middle Class"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -812,7 +812,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Family Income"
+                        android:text="@string/family_income"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -821,7 +821,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Rs. 5-7.5 Lakh per Annum"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -830,7 +830,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Father Occupation"
+                        android:text="@string/father_occupation1"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -839,7 +839,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Retired"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -848,7 +848,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Mother Occupation"
+                        android:text="@string/mother_occupation1"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -857,7 +857,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Housewife"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -866,7 +866,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Brother/Sister"
+                        android:text="@string/brother_sister1"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -875,7 +875,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="1 brother"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -884,7 +884,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="1 sister"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 
@@ -893,7 +893,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="15dp"
-                        android:text="Family based out of"
+                        android:text="@string/family_based_out_of"
                         android:textColor="@color/off_black"
                         android:textSize="16sp" />
 
@@ -902,7 +902,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="Indore, MP"
+                        android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />
 

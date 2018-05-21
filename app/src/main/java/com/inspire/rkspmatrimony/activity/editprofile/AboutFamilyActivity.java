@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -33,9 +32,7 @@ import com.inspire.rkspmatrimony.view.CustomEditText;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 public class AboutFamilyActivity extends AppCompatActivity implements View.OnClickListener {
     private String TAG = AboutFamilyActivity.class.getSimpleName();
@@ -76,7 +73,7 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
         mDbHelper = new TestAdapter(mContext);
         mDbHelper.createDatabase();
         mDbHelper.open();
-        sysApplication = SysApplication.getInstance();
+        sysApplication = SysApplication.getInstance(mContext);
         init();
     }
 
@@ -338,13 +335,25 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
         etAboutfamily.setText(userDTO.getFamily_about());
         etFatheroccupation.setText(userDTO.getFather_occupation());
         etMotheroccupation.setText(userDTO.getMother_occupation());
-        etBrothers.setText(userDTO.getBrother() + " brothers");
-        etSisters.setText(userDTO.getSister() + " sisters");
+        if (userDTO.getBrother().equalsIgnoreCase("")){
+            etBrothers.setText("");
+
+        }else {
+            etBrothers.setText(userDTO.getBrother() + " brothers");
+
+        }
+        if (userDTO.getSister().equalsIgnoreCase("")){
+            etSisters.setText("");
+
+        }else {
+            etSisters.setText(userDTO.getSister() + " sisters");
+
+        }
         etFamilyIncome.setText(userDTO.getFamily_income());
         etFamilystatus.setText(userDTO.getFamily_status());
         etFamilytype.setText(userDTO.getFamily_type());
         etFamilyvalue.setText(userDTO.getFamily_value());
-        etState.setText(userDTO.getState());
+        etState.setText(userDTO.getFamily_state());
         etDistrict.setText(userDTO.getFamily_district());
         etCity.setText(userDTO.getFamily_city());
 

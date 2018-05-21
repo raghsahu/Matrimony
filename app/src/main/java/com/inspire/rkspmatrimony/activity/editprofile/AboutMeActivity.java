@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -56,7 +55,7 @@ public class AboutMeActivity extends AppCompatActivity implements View.OnClickLi
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
         parms.put(Consts.USER_ID, loginDTO.getUser_id());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        sysApplication = SysApplication.getInstance();
+        sysApplication = SysApplication.getInstance(mContext);
         setUIAction();
     }
 
