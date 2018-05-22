@@ -14,32 +14,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6135f73-1e08-400f-88d4-8fa5b5cc44eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/NewsDTO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterNews.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_news.xml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/editprofile/ImportantDetailsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/editprofile/ImportantDetailsActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/EventsFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/EventsFrag.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/registration/ImportantDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/registration/ImportantDetails.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_important_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_important_details.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_important_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_important_details.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-    </list>
+    <list default="true" id="a6135f73-1e08-400f-88d4-8fa5b5cc44eb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -2233,7 +2208,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="1299" />
@@ -2545,7 +2520,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2556,7 +2531,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.872549" sideWeight="0.5027933" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76960784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.874183" sideWeight="0.49720672" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
