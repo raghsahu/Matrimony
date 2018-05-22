@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -143,15 +144,9 @@ public class Registration extends AppCompatActivity {
                     } else if (current == 3) {
                         if (!ProjectUtils.isEditTextFilled(importantDetails.etEducation)) {
                             showSickbar(getString(R.string.val_education));
-                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etWorkArea)) {
-                            showSickbar(getString(R.string.val_work_area));
-                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etoccupations)) {
-                            showSickbar(getString(R.string.val_occupations));
-                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etorganization)) {
-                            showSickbar(getString(R.string.val_organization));
-                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etIncome)) {
-                            showSickbar(getString(R.string.val_income));
-                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
+                        } else if (!validate()) {
+
+                        }else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
                             showSickbar(getString(R.string.val_blood));
                         } else if (!ProjectUtils.isAddharValidate(importantDetails.etAadhar.getText().toString().trim())) {
                             showSickbar(getString(R.string.val_aadhar));
@@ -229,15 +224,8 @@ public class Registration extends AppCompatActivity {
             showSickbar(getString(R.string.val_pin));
         } else if (!ProjectUtils.isEditTextFilled(importantDetails.etEducation)) {
             showSickbar(getString(R.string.val_education));
-        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etWorkArea)) {
-            showSickbar(getString(R.string.val_work_area));
-        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etoccupations)) {
-            showSickbar(getString(R.string.val_occupations));
-        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etorganization)) {
-            showSickbar(getString(R.string.val_organization));
-        }
-        else if (!ProjectUtils.isEditTextFilled(importantDetails.etIncome)) {
-            showSickbar(getString(R.string.val_income));
+        } else if (!validate()) {
+
         } else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
             showSickbar(getString(R.string.val_blood));
         } else if (!ProjectUtils.isAddharValidate(importantDetails.etAadhar.getText().toString().trim())) {
@@ -281,6 +269,24 @@ public class Registration extends AppCompatActivity {
 
     }
 
+    public boolean validate() {
+        if (importantDetails.work.equalsIgnoreCase("1")) {
+            if (!ProjectUtils.isEditTextFilled(importantDetails.etWorkArea)) {
+                showSickbar(getString(R.string.val_work_area));
+            } else if (!ProjectUtils.isEditTextFilled(importantDetails.etoccupations)) {
+                showSickbar(getString(R.string.val_occupations));
+            } else if (!ProjectUtils.isEditTextFilled(importantDetails.etorganization)) {
+                showSickbar(getString(R.string.val_organization));
+            } else if (!ProjectUtils.isEditTextFilled(importantDetails.etIncome)) {
+                showSickbar(getString(R.string.val_income));
+            } else {
+                return true;
+            }
+        } else {
+            return true;
+        }
+        return false;
+    }
 
     private int getItem(int i) {
         return viewPager.getCurrentItem() + i;
@@ -416,10 +422,14 @@ public class Registration extends AppCompatActivity {
         parms.put(Consts.CITY, ProjectUtils.getEditTextValue(personalDetails.etCity));
         parms.put(Consts.PIN, ProjectUtils.getEditTextValue(personalDetails.etPincode));
         parms.put(Consts.QUALIFICATION, ProjectUtils.getEditTextValue(importantDetails.etEducation));
-        parms.put(Consts.WORK_PLACE, ProjectUtils.getEditTextValue(importantDetails.etWorkArea));
-        parms.put(Consts.OCCUPATION, importantDetails.occupation);
-        parms.put(Consts.ORGANIZATION, ProjectUtils.getEditTextValue(importantDetails.etorganization));
-        parms.put(Consts.INCOME, importantDetails.income);
+        parms.put(Consts.WORKING, importantDetails.work);
+
+        if (importantDetails.work.equalsIgnoreCase("1")) {
+            parms.put(Consts.WORK_PLACE, ProjectUtils.getEditTextValue(importantDetails.etWorkArea));
+            parms.put(Consts.OCCUPATION, importantDetails.occupation);
+            parms.put(Consts.ORGANIZATION, ProjectUtils.getEditTextValue(importantDetails.etorganization));
+            parms.put(Consts.INCOME, importantDetails.income);
+        }
         parms.put(Consts.BLOOD_GROUP, importantDetails.blood);
         parms.put(Consts.AADHAAR, ProjectUtils.getEditTextValue(importantDetails.etAadhar));
         parms.put(Consts.MARITAL_STATUS, socialDetails.marital);

@@ -45,65 +45,107 @@
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
 
-        <com.inspire.rkspmatrimony.view.InputOpenFieldView
+        <com.inspire.rkspmatrimony.view.CustomTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_margin_txt_top_10"
+            android:text="@string/do_you_have_any_work_experience"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/workRG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/login_margin_txt_top_10"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/yesRadioBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/noRadioBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:checked="true"
+                android:text="@string/no"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/llWork"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/login_margin_txt_top_5"
-            android:visibility="visible">
+            android:orientation="vertical"
+            android:visibility="gone">
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
-                android:id="@+id/etWorkArea"
+            <com.inspire.rkspmatrimony.view.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionNext"
-                android:singleLine="true"
-                android:hint="@string/work_area" />
-        </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
 
-        <com.inspire.rkspmatrimony.view.InputFieldView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/login_margin_txt_top_5"
-            android:visibility="visible">
+                <com.inspire.rkspmatrimony.view.CustomEditText
+                    android:id="@+id/etWorkArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/work_area"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.inspire.rkspmatrimony.view.InputOpenFieldView>
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
-                android:id="@+id/etoccupations"
+            <com.inspire.rkspmatrimony.view.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/occupation"
-                android:imeOptions="actionNext"
-                android:singleLine="true" />
-        </com.inspire.rkspmatrimony.view.InputFieldView>
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
 
-        <com.inspire.rkspmatrimony.view.InputOpenFieldView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/login_margin_txt_top_5"
-            android:visibility="visible">
+                <com.inspire.rkspmatrimony.view.CustomEditText
+                    android:id="@+id/etoccupations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/occupation"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.inspire.rkspmatrimony.view.InputFieldView>
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
-                android:id="@+id/etorganization"
+            <com.inspire.rkspmatrimony.view.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/organization_name"
-                android:imeOptions="actionNext"
-                android:singleLine="true" />
-        </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
 
-        <com.inspire.rkspmatrimony.view.InputFieldView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/login_margin_txt_top_5"
-            android:visibility="visible">
+                <com.inspire.rkspmatrimony.view.CustomEditText
+                    android:id="@+id/etorganization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/organization_name"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.inspire.rkspmatrimony.view.InputOpenFieldView>
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
-                android:id="@+id/etIncome"
+            <com.inspire.rkspmatrimony.view.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionNext"
-                android:singleLine="true"
-                android:hint="@string/income" />
-        </com.inspire.rkspmatrimony.view.InputFieldView>
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:visibility="visible">
+
+                <com.inspire.rkspmatrimony.view.CustomEditText
+                    android:id="@+id/etIncome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/income"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.inspire.rkspmatrimony.view.InputFieldView>
+        </LinearLayout>
+
 
         <com.inspire.rkspmatrimony.view.CustomTextViewBold
             android:layout_width="wrap_content"
@@ -123,9 +165,9 @@
                 android:id="@+id/etBlood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:hint="@string/blood"
                 android:imeOptions="actionNext"
-                android:singleLine="true"
-                android:hint="@string/blood" />
+                android:singleLine="true" />
         </com.inspire.rkspmatrimony.view.InputFieldView>
 
         <com.inspire.rkspmatrimony.view.InputOpenFieldView

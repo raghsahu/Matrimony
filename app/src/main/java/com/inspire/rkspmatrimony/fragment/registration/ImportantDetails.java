@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.activity.loginsignup.Registration;
@@ -13,12 +16,16 @@ import com.inspire.rkspmatrimony.interfaces.OnSpinerItemClick;
 import com.inspire.rkspmatrimony.utils.SpinnerDialog;
 import com.inspire.rkspmatrimony.view.CustomEditText;
 
-public class ImportantDetails extends Fragment implements View.OnClickListener {
+public class ImportantDetails extends Fragment implements View.OnClickListener , RadioGroup.OnCheckedChangeListener{
     private View view;
     public CustomEditText etEducation, etWorkArea, etIncome, etBlood, etAadhar, etoccupations, etorganization;
     SpinnerDialog spinnerIncome, spinnerBlood, spinneroccupation;
     private Registration registration;
-    public String income="", blood="", occupation="";
+    public String income = "", blood = "", occupation = "";
+    private LinearLayout llWork;
+    private RadioGroup workRG;
+    private RadioButton yesRB, noRB;
+    public String work = "0";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -30,6 +37,11 @@ public class ImportantDetails extends Fragment implements View.OnClickListener {
     }
 
     public void setUiAction(View v) {
+        workRG = (RadioGroup) v.findViewById(R.id.workRG);
+        workRG.setOnCheckedChangeListener(this);
+        yesRB = (RadioButton) v.findViewById(R.id.yesRadioBTN);
+        noRB = (RadioButton) v.findViewById(R.id.noRadioBTN);
+        llWork = v.findViewById(R.id.llWork);
         etEducation = v.findViewById(R.id.etEducation);
         etWorkArea = v.findViewById(R.id.etWorkArea);
         etIncome = v.findViewById(R.id.etIncome);
@@ -95,6 +107,21 @@ public class ImportantDetails extends Fragment implements View.OnClickListener {
     public void onAttach(Context context) {
         super.onAttach(context);
         registration = (Registration) context;
+
+    }
+
+    @Override
+    public void onCheckedChanged(RadioGroup group, int checkedId) {
+        switch (group.getCheckedRadioButtonId()) {
+            case R.id.yesRadioBTN:
+                work = "1";
+                llWork.setVisibility(View.VISIBLE);
+                break;
+            case R.id.noRadioBTN:
+                work = "0";
+                llWork.setVisibility(View.GONE);
+                break;
+        }
 
     }
 }

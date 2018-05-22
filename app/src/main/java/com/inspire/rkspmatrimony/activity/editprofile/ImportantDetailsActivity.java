@@ -10,6 +10,8 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 
 import com.inspire.rkspmatrimony.Models.LoginDTO;
@@ -31,7 +33,7 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
-public class ImportantDetailsActivity extends AppCompatActivity implements View.OnClickListener {
+public class ImportantDetailsActivity extends AppCompatActivity implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
     private String TAG = ImportantDetailsActivity.class.getSimpleName();
     private Context mContext;
     private CustomEditText etEducation, etWorkArea, etoccupations, etorganization;
@@ -44,6 +46,11 @@ public class ImportantDetailsActivity extends AppCompatActivity implements View.
     private SharedPrefrence prefrence;
     private UserDTO userDTO;
     private LoginDTO loginDTO;
+    private LinearLayout llWork;
+    private RadioGroup workRG;
+    private RadioButton yesRB, noRB;
+    public String work = "0";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,17 +74,21 @@ public class ImportantDetailsActivity extends AppCompatActivity implements View.
         llBack = findViewById(R.id.llBack);
         btnSave = findViewById(R.id.btnSave);
 
+        workRG = (RadioGroup) findViewById(R.id.workRG);
+        workRG.setOnCheckedChangeListener(this);
+        yesRB = (RadioButton) findViewById(R.id.yesRadioBTN);
+        noRB = (RadioButton) findViewById(R.id.noRadioBTN);
+        llWork = findViewById(R.id.llWork);
+
         llBack.setOnClickListener(this);
         btnSave.setOnClickListener(this);
         etoccupations.setOnClickListener(this);
 
 
-
-
         etEducation.addTextChangedListener(new MyTextWatcher(etEducation, Consts.QUALIFICATION));
         etorganization.addTextChangedListener(new MyTextWatcher(etorganization, Consts.ORGANIZATION));
         etWorkArea.addTextChangedListener(new MyTextWatcher(etWorkArea, Consts.WORK_PLACE));
-showData();
+        showData();
     }
 
     @Override
@@ -130,6 +141,23 @@ showData();
         overridePendingTransition(R.anim.stay, R.anim.slide_down);
     }
 
+    @Override
+    public void onCheckedChanged(RadioGroup group, int checkedId) {
+        switch (group.getCheckedRadioButtonId()) {
+            case R.id.yesRadioBTN:
+                work = "1";
+                llWork.setVisibility(View.VISIBLE);
+                parms.put(Consts.WORKING, work);
+                break;
+            case R.id.noRadioBTN:
+                work = "0";
+                llWork.setVisibility(View.GONE);
+                parms.put(Consts.WORKING, work);
+                break;
+        }
+
+    }
+
     public class MyTextWatcher implements TextWatcher {
 
         private EditText mEditText;
@@ -155,6 +183,7 @@ showData();
             parms.put(key, ProjectUtils.getEditTextValue(mEditText));
         }
     }
+
     public void request() {
         ProjectUtils.showProgressDialog(mContext, true, getResources().getString(R.string.please_wait));
         new HttpsRequest(Consts.UPDATE_PROFILE_API, parms, mContext).stringPost(TAG, new Helper() {
@@ -169,12 +198,22 @@ showData();
             }
         });
     }
-    public void showData(){
+
+    public void showData() {
         etEducation.setText(userDTO.getQualification());
         etWorkArea.setText(userDTO.getWork_place());
         etoccupations.setText(userDTO.getOccupation());
         etorganization.setText(userDTO.getOrganisation_name());
 
+        if (userDTO.getWorking()==0){
+            noRB.setChecked(true);
+            yesRB.setChecked(false);
+            work = "0";
+        }else {
+            yesRB.setChecked(true);
+            noRB.setChecked(false);
+            work = "1";
+        }
 
 
         for (int j = 0; j < sysApplication.getOccupationList().size(); j++) {
@@ -191,8 +230,6 @@ showData();
             }
         });
     }
-
-
 
 
 }

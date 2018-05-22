@@ -239,6 +239,7 @@
     <string name="didn_t_recieve_otp_yet">अभी तक OTP प्राप्त नहीं हुआ?</string>
     <string name="resend_otp">RESEND OTP</string>
     <string name="you_haven_t_any_profile_visitor">अभी तक आपकी प्रोफ़ाइल का दौरा नहीं किया गया है</string>
+    <string name="no_news">कोई समाचार उपलब्ध नहीं है।</string>
     <string name="you_haven_t_shortlisted_any_profile_yet">आपने अभी तक किसी भी प्रोफाइल को सूचीबद्ध नहीं किया है</string>
     <string name="change_pic">प्रोफ़ाइल तस्वीर बदलें</string>
     <string name="add_img">तस्वीर जोड़ें</string>
@@ -498,4 +499,6 @@
 
     <string name="skip">छोड़ें</string>
     <string name="language">भाषा</string>
+
+    <string name="do_you_have_any_work_experience">क्या आपके पास काम करने का कुछ अनुभव है ?</string>
 </resources>

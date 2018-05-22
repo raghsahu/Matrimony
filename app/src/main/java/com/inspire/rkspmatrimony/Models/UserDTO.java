@@ -7,6 +7,7 @@ public class UserDTO implements Serializable {
     String id = "";
     String name = "";
     String email = "";
+    String mobile = "";
     String gender = "";
     String profile_for = "";
     String avatar_medium = "";
@@ -19,22 +20,14 @@ public class UserDTO implements Serializable {
     String weight = "";
     String about_me = "";
     String height = "";
-    String paternal_tribe = "";
-    String maternal_tribe = "";
     String qualification = "";
     String occupation = "";
     String income = "";
     String work_place = "";
-    String tehsil = "";
     String organisation_name = "";
     String city = "";
     String state = "";
     String district = "";
-    String siblings = "";
-    String bro_and_sister_in_law = "";
-    String sis_and_brother_in_law = "";
-    String father_email = "";
-    String mobile = "";
     String current_address = "";
     String pin = "";
     String whatsapp_no = "";
@@ -72,8 +65,9 @@ public class UserDTO implements Serializable {
     String smoking = "";
     String language = "";
     String interests = "";
+    int working = 0;
     int shortlisted = 0;
-    String is_active = "";
+    int is_active = 0;
     String critical = "";
     String created_at = "";
     String updated_at = "";
@@ -100,6 +94,14 @@ public class UserDTO implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 
     public String getGender() {
@@ -198,22 +200,6 @@ public class UserDTO implements Serializable {
         this.height = height;
     }
 
-    public String getPaternal_tribe() {
-        return paternal_tribe;
-    }
-
-    public void setPaternal_tribe(String paternal_tribe) {
-        this.paternal_tribe = paternal_tribe;
-    }
-
-    public String getMaternal_tribe() {
-        return maternal_tribe;
-    }
-
-    public void setMaternal_tribe(String maternal_tribe) {
-        this.maternal_tribe = maternal_tribe;
-    }
-
     public String getQualification() {
         return qualification;
     }
@@ -246,14 +232,6 @@ public class UserDTO implements Serializable {
         this.work_place = work_place;
     }
 
-    public String getTehsil() {
-        return tehsil;
-    }
-
-    public void setTehsil(String tehsil) {
-        this.tehsil = tehsil;
-    }
-
     public String getOrganisation_name() {
         return organisation_name;
     }
@@ -284,46 +262,6 @@ public class UserDTO implements Serializable {
 
     public void setDistrict(String district) {
         this.district = district;
-    }
-
-    public String getSiblings() {
-        return siblings;
-    }
-
-    public void setSiblings(String siblings) {
-        this.siblings = siblings;
-    }
-
-    public String getBro_and_sister_in_law() {
-        return bro_and_sister_in_law;
-    }
-
-    public void setBro_and_sister_in_law(String bro_and_sister_in_law) {
-        this.bro_and_sister_in_law = bro_and_sister_in_law;
-    }
-
-    public String getSis_and_brother_in_law() {
-        return sis_and_brother_in_law;
-    }
-
-    public void setSis_and_brother_in_law(String sis_and_brother_in_law) {
-        this.sis_and_brother_in_law = sis_and_brother_in_law;
-    }
-
-    public String getFather_email() {
-        return father_email;
-    }
-
-    public void setFather_email(String father_email) {
-        this.father_email = father_email;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
     }
 
     public String getCurrent_address() {
@@ -622,6 +560,14 @@ public class UserDTO implements Serializable {
         this.interests = interests;
     }
 
+    public int getWorking() {
+        return working;
+    }
+
+    public void setWorking(int working) {
+        this.working = working;
+    }
+
     public int getShortlisted() {
         return shortlisted;
     }
@@ -630,11 +576,11 @@ public class UserDTO implements Serializable {
         this.shortlisted = shortlisted;
     }
 
-    public String getIs_active() {
+    public int getIs_active() {
         return is_active;
     }
 
-    public void setIs_active(String is_active) {
+    public void setIs_active(int is_active) {
         this.is_active = is_active;
     }
 
@@ -661,5 +607,4 @@ public class UserDTO implements Serializable {
     public void setUpdated_at(String updated_at) {
         this.updated_at = updated_at;
     }
-
 }

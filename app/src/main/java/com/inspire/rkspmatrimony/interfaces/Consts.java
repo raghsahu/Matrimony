@@ -24,6 +24,7 @@ public interface Consts {
     String SET_VISITOR_API = "set-visitor";
     String SET_AVATAR_API = "set-avatar";
     String DELETE_IMAGE_API = "delete-image";
+    String GET_EVENTS_API = "get-events";
 
 
     /*DTOs*/
@@ -75,6 +76,7 @@ public interface Consts {
     String GOTRA_NANIHAL = "gotra_nanihal";
     String ORGANIZATION = "organisation_name";
     String OTP = "otp";
+    String WORKING = "working";
 
 
     /*Life Style*/

@@ -240,6 +240,7 @@
     <string name="didn_t_recieve_otp_yet">Didn\'t recieve OTP yet?</string>
     <string name="resend_otp">RESEND OTP</string>
     <string name="you_haven_t_any_profile_visitor">No one as yet visited your profile.</string>
+    <string name="no_news">No news available.</string>
     <string name="you_haven_t_shortlisted_any_profile_yet">You haven\'t shortlisted any profile yet.</string>
     <string name="change_pic">Change profile picture</string>
     <string name="add_img">Add image</string>
@@ -498,4 +499,5 @@
     <string name="english">English</string>
     <string name="skip">Skip</string>
     <string name="language">Language</string>
+    <string name="do_you_have_any_work_experience">Do you have any work experience ?</string>
 </resources>

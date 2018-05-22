@@ -6,5 +6,33 @@
     android:background="@color/white"
     tools:context="com.inspire.rkspmatrimony.fragment.EventsFrag">
 
+    <ListView
+        android:id="@+id/rvWall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"></ListView>
+
+    <LinearLayout
+        android:id="@+id/rlView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_error" />
+
+        <com.inspire.rkspmatrimony.view.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/no_news" />
+    </LinearLayout>
+
 
 </FrameLayout>
