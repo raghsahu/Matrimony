@@ -45,6 +45,7 @@ import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
 import com.inspire.rkspmatrimony.utils.CustomTypeFaceSpan;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
+import com.inspire.rkspmatrimony.view.CustomTextView;
 import com.inspire.rkspmatrimony.view.CustomTextViewBold;
 import com.inspire.rkspmatrimony.view.FontCache;
 
@@ -85,6 +86,7 @@ public class Dashboard extends AppCompatActivity {
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
     private String TAG = Dashboard.class.getSimpleName();
+    private CustomTextView tvPercent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,6 +106,7 @@ public class Dashboard extends AppCompatActivity {
 
         rlheader = (RelativeLayout) findViewById(R.id.rlheader);
         headerNameTV = (CustomTextViewBold) findViewById(R.id.headerNameTV);
+        tvPercent = (CustomTextView) findViewById(R.id.tvPercent);
         headerNameTV.setText(getResources().getString(R.string.app_name));
         searchiv = (ImageView) findViewById(R.id.searchiv);
         searchiv.setVisibility(View.GONE);
@@ -361,9 +364,9 @@ public class Dashboard extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
-        ctvbName.setText(loginDTO.getUser_name());
+        ctvbName.setText(loginDTO.getData().getName());
         Glide.with(mContext).
-                load(Consts.IMAGE_URL + loginDTO.getAvatar_medium())
+                load(Consts.IMAGE_URL + loginDTO.getData().getAvatar_medium())
                 .placeholder(R.drawable.default_error)
                 .dontAnimate()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)

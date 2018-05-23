@@ -47,6 +47,7 @@ public interface Consts {
     String WEB_VIEW_FLAG = "web_view_flag";
     String LANGUAGE_SELECTION = "language_selection";
     String SELECTED_LANGUAGE = "selected_language";
+    String TAG_PROFILE = "tag_profile";
 
 
     /*registration params*/

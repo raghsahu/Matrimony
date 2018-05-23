@@ -53,7 +53,7 @@ public class AboutMeActivity extends AppCompatActivity implements View.OnClickLi
         prefrence = SharedPrefrence.getInstance(mContext);
         userDTO = prefrence.getUserResponse(Consts.USER_DTO);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
         sysApplication = SysApplication.getInstance(mContext);
         setUIAction();

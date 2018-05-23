@@ -8,13 +8,7 @@ public class LoginDTO implements Serializable {
     String access_token = "";
     String token_type = "";
     String expires_in = "";
-    String user_id = "";
-    String user_name = "";
-    String gender = "";
-    int is_active = 0;
-    String avatar_big = "";
-    String avatar_medium = "";
-    String avatar_thumb = "";
+    UserDTO data;
 
     public boolean isSuccess() {
         return success;
@@ -56,59 +50,11 @@ public class LoginDTO implements Serializable {
         this.expires_in = expires_in;
     }
 
-    public String getUser_id() {
-        return user_id;
+    public UserDTO getData() {
+        return data;
     }
 
-    public void setUser_id(String user_id) {
-        this.user_id = user_id;
-    }
-
-    public String getUser_name() {
-        return user_name;
-    }
-
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public int getIs_active() {
-        return is_active;
-    }
-
-    public void setIs_active(int is_active) {
-        this.is_active = is_active;
-    }
-
-    public String getAvatar_big() {
-        return avatar_big;
-    }
-
-    public void setAvatar_big(String avatar_big) {
-        this.avatar_big = avatar_big;
-    }
-
-    public String getAvatar_medium() {
-        return avatar_medium;
-    }
-
-    public void setAvatar_medium(String avatar_medium) {
-        this.avatar_medium = avatar_medium;
-    }
-
-    public String getAvatar_thumb() {
-        return avatar_thumb;
-    }
-
-    public void setAvatar_thumb(String avatar_thumb) {
-        this.avatar_thumb = avatar_thumb;
+    public void setData(UserDTO data) {
+        this.data = data;
     }
 }

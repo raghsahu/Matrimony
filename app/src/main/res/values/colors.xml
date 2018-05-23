@@ -21,5 +21,6 @@
     <color name="gray">#969696</color>
     <color name="color_button_disabled">#c5c3c4</color>
     <color name="color_button_enabled">#d9475c</color>
+    <color name="text_bio">#F0D300</color>
 
 </resources>

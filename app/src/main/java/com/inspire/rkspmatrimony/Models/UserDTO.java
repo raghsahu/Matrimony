@@ -607,4 +607,6 @@ public class UserDTO implements Serializable {
     public void setUpdated_at(String updated_at) {
         this.updated_at = updated_at;
     }
+
+
 }

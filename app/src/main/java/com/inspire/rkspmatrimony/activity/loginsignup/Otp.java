@@ -60,7 +60,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         prefrence = SharedPrefrence.getInstance(mContext);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
         parms.put(Consts.IS_ACTIVE, "1");
 

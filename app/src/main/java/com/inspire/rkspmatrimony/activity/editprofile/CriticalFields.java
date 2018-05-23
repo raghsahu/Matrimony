@@ -67,7 +67,7 @@ public class CriticalFields extends AppCompatActivity implements View.OnClickLis
         prefrence = SharedPrefrence.getInstance(mContext);
         userDTO = prefrence.getUserResponse(Consts.USER_DTO);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
         parms.put(Consts.CRITICAL, "1");
         sysApplication = SysApplication.getInstance(mContext);

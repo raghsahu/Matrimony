@@ -87,20 +87,43 @@
                 android:layout_height="?actionBarSize"
                 app:layout_collapseMode="pin">
 
-                <LinearLayout
-                    android:id="@+id/back"
-                    android:layout_width="wrap_content"
-                    android:layout_height="?actionBarSize"
-                    android:gravity="center"
-                    android:padding="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                    <ImageView
+                    <LinearLayout
+                        android:id="@+id/back"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_left_arrow"
-                        android:textColor="@color/white" />
+                        android:layout_height="?actionBarSize"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center"
+                        android:padding="10dp">
 
-                </LinearLayout>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_left_arrow"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llbiodata"
+                        android:layout_width="wrap_content"
+                        android:layout_height="?actionBarSize"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_biodata_seen" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
             </android.support.v7.widget.Toolbar>
 
 

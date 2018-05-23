@@ -51,7 +51,7 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
         prefrence = SharedPrefrence.getInstance(context);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
 
 

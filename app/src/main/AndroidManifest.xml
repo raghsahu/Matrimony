@@ -43,7 +43,7 @@
 
     <!-- Supports Screens -->
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -135,7 +135,6 @@
             android:name=".activity.editprofile.CriticalFields"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
-
         <activity
             android:name=".activity.myprofile.ProfilePicSelection"
             android:screenOrientation="portrait" />
@@ -150,8 +149,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.LanguageSelection"
-            android:screenOrientation="portrait"></activity>
-
+            android:screenOrientation="portrait" />
 
         <receiver android:name=".utils.SmsReceiver">
             <intent-filter>
@@ -159,10 +157,13 @@
             </intent-filter>
         </receiver>
 
-
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="3db7741514824365d36d79a39c9867a3bd2a28bd" />
+
+        <activity
+            android:name=".activity.myprofile.BioData"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

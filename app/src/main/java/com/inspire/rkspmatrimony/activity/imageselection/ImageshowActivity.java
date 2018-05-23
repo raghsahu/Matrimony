@@ -174,7 +174,7 @@ public class ImageshowActivity extends AppCompatActivity {
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
 
         getImages();
     }

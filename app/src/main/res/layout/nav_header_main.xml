@@ -46,6 +46,7 @@
                 android:src="@drawable/drawe_logo" />
 
             <com.inspire.rkspmatrimony.view.CustomTextView
+                android:id="@+id/tvPercent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/img_profile"

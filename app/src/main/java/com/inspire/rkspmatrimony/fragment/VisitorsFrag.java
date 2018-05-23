@@ -122,10 +122,10 @@ public class VisitorsFrag extends Fragment {
 
     public HashMap<String, String> getparm() {
         HashMap<String, String> parms = new HashMap<>();
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
 
-        if (loginDTO.getGender().equalsIgnoreCase("M")) {
+        if (loginDTO.getData().getGender().equalsIgnoreCase("M")) {
             parms.put(Consts.GENDER, "M");
         } else {
             parms.put(Consts.GENDER, "F");

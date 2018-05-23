@@ -59,7 +59,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     private CustomTextView tvFamilyIncome, tvFatherOccupation, tvMotherOccupation, tvBro, tvSis, tvFamilyBased;
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsing_toolbar;
-    private LinearLayout back;
+    private LinearLayout back, llbiodata;
     private CircleImageView ivImage, ivCamera;
     private CustomTextView tvAddImage, tvImageCount;
     private RelativeLayout rlRed;
@@ -79,7 +79,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        parms.put(Consts.USER_ID, loginDTO.getUser_id());
+        parms.put(Consts.USER_ID, loginDTO.getData().getId());
         setUiaction();
     }
 
@@ -91,6 +91,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         collapsing_toolbar.setExpandedTitleColor(Color.TRANSPARENT);
         collapsing_toolbar.setCollapsedTitleTextColor(Color.WHITE);
         collapsing_toolbar.setTitle("Profile");
+        llbiodata = (LinearLayout) findViewById(R.id.llbiodata);
+        llbiodata.setOnClickListener(this);
         back = (LinearLayout) findViewById(R.id.back);
         back.setOnClickListener(this);
         tvName = findViewById(R.id.tvName);
@@ -148,8 +150,6 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvBro = findViewById(R.id.tvBro);
         tvSis = findViewById(R.id.tvSis);
         tvFamilyBased = findViewById(R.id.tvFamilyBased);
-
-
 
 
     }
@@ -214,11 +214,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
                 .into(ivImage);
 
 
-        loginDTO.setAvatar_big(userDTO.getAvatar_big());
-        loginDTO.setAvatar_medium(userDTO.getAvatar_medium());
-        loginDTO.setAvatar_thumb(userDTO.getAvatar_thumb());
-        loginDTO.setUser_name(userDTO.getName());
-        prefrence.setLoginResponse(loginDTO,Consts.LOGIN_DTO);
+        loginDTO.setData(userDTO);
+        prefrence.setLoginResponse(loginDTO, Consts.LOGIN_DTO);
 
     }
 
@@ -249,6 +246,13 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
                 startActivity(new Intent(mContext, AboutFamilyActivity.class));
                 overridePendingTransition(R.anim.slide_up, R.anim.stay);
                 break;
+            case R.id.llbiodata:
+                Intent intentbio = new Intent(mContext, BioData.class);
+                intentbio.putExtra(Consts.USER_DTO,userDTO);
+                intentbio.putExtra(Consts.TAG_PROFILE,1);
+                startActivity(intentbio);
+                overridePendingTransition(R.anim.slide_up, R.anim.stay);
+                break;
             case R.id.tvAddImage:
                 if (imageDatalist.size() > 0) {
                     Intent propic = new Intent(mContext, ProfilePicSelection.class);
@@ -272,7 +276,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
 
                 if (imageDatalist.size() > 0) {
                     Intent intent = new Intent(mContext, ImageshowActivity.class);
-                   // intent.putExtra("imageList", imageDatalist);
+                    // intent.putExtra("imageList", imageDatalist);
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_up, R.anim.stay);
                 } else {

@@ -20,6 +20,7 @@ import com.inspire.rkspmatrimony.Models.ImageDTO;
 import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.Models.UserDTO;
 import com.inspire.rkspmatrimony.R;
+import com.inspire.rkspmatrimony.activity.myprofile.BioData;
 import com.inspire.rkspmatrimony.https.HttpsRequest;
 import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.Helper;
@@ -49,7 +50,7 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
     private CustomTextView tvBro, tvSis, tvFamilyBased;
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsing_toolbar;
-    private LinearLayout back;
+    private LinearLayout back,llbiodata;
     private UserDTO userDTO;
     String dob = "";
     String[] arrOfStr;
@@ -71,7 +72,7 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
         parmsVisitor.put(Consts.TOKEN, loginDTO.getAccess_token());
-        parmsVisitor.put(Consts.USER_ID, loginDTO.getUser_id());
+        parmsVisitor.put(Consts.USER_ID, loginDTO.getData().getId());
 
         if (getIntent().hasExtra(Consts.USER_DTO)) {
             userDTO = (UserDTO) getIntent().getSerializableExtra(Consts.USER_DTO);
@@ -97,6 +98,8 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         collapsing_toolbar.setTitle("Profile");
         back = (LinearLayout) findViewById(R.id.back);
         back.setOnClickListener(this);
+        llbiodata = (LinearLayout) findViewById(R.id.llbiodata);
+        llbiodata.setOnClickListener(this);
         ivProfileImage = findViewById(R.id.ivProfileImage);
         rlImageGallery = findViewById(R.id.rlImageGallery);
         tvName = findViewById(R.id.tvName);
@@ -216,6 +219,13 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
                     ProjectUtils.showToast(mContext,getResources().getString(R.string.no_image));
                 }
 
+                break;
+            case R.id.llbiodata:
+                Intent intent = new Intent(mContext, BioData.class);
+                intent.putExtra(Consts.USER_DTO,userDTO);
+                intent.putExtra(Consts.TAG_PROFILE,2);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_up, R.anim.stay);
                 break;
         }
     }
