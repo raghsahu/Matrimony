@@ -18,6 +18,7 @@ public class CommanDTO implements Serializable{
         this.state_id = state_id;
     }
 
+
     public CommanDTO(String id, String name, boolean isSelected) {
         this.id = id;
         this.name = name;

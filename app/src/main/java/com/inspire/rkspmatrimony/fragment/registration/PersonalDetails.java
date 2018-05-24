@@ -15,6 +15,7 @@ import com.inspire.rkspmatrimony.Models.CommanDTO;
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.activity.loginsignup.Registration;
 import com.inspire.rkspmatrimony.database.TestAdapter;
+import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.OnSpinerItemClick;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 import com.inspire.rkspmatrimony.utils.SpinnerDialog;
@@ -56,6 +57,7 @@ public class PersonalDetails extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_personal_details, container, false);
         mDbHelper = new TestAdapter(getActivity());
+
         mDbHelper.createDatabase();
         mDbHelper.open();
         setUiAction(view);
@@ -97,7 +99,7 @@ public class PersonalDetails extends Fragment implements View.OnClickListener {
             }
         });
         stateList = new ArrayList<>();
-        stateList = mDbHelper.getAllState();
+        stateList = mDbHelper.getAllState(registration.lang);
         spinnerState = new SpinnerDialog(getActivity(), stateList, getResources().getString(R.string.select_state), R.style.DialogAnimations_SmileWindow, getResources().getString(R.string.close));// With 	Animation
         spinnerState.bindOnSpinerListener(new OnSpinerItemClick() {
             @Override
@@ -108,7 +110,7 @@ public class PersonalDetails extends Fragment implements View.OnClickListener {
                 inf_district.setVisibility(View.VISIBLE);
 
                 districtList = new ArrayList<>();
-                districtList = mDbHelper.getAllDistrict(id);
+                districtList = mDbHelper.getAllDistrict(id,registration.lang);
                 showDistrict();
             }
         });

@@ -2,6 +2,7 @@ package com.inspire.rkspmatrimony.activity.editprofile;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.Models.UserDTO;
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.SysApplication;
+import com.inspire.rkspmatrimony.activity.loginsignup.Registration;
 import com.inspire.rkspmatrimony.database.TestAdapter;
 import com.inspire.rkspmatrimony.https.HttpsRequest;
 import com.inspire.rkspmatrimony.interfaces.Consts;
@@ -51,12 +53,16 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
     private UserDTO userDTO;
     private LoginDTO loginDTO;
     String state_id = "";
+    public SharedPreferences languageDetails;
+    private String lang = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basic_details);
         mContext = BasicDetailsActivity.this;
         prefrence = SharedPrefrence.getInstance(mContext);
+        languageDetails = getSharedPreferences(Consts.LANGUAGE_PREF, MODE_PRIVATE);
+        lang =  languageDetails.getString(Consts.SELECTED_LANGUAGE,"");
         userDTO = prefrence.getUserResponse(Consts.USER_DTO);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
         parms.put(Consts.USER_ID, loginDTO.getData().getId());
@@ -92,6 +98,7 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
 
 
         etName.addTextChangedListener(new MyTextWatcher(etName, Consts.NAME));
+        etCity.addTextChangedListener(new MyTextWatcher(etCity, Consts.CITY));
         showData();
 
     }
@@ -235,7 +242,7 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
         }
         etHeight.setText(userDTO.getHeight());
         etGotra.setText(userDTO.getGotra());
-        etGotraNanihal.setText(userDTO.getAbout_me());
+        etGotraNanihal.setText(userDTO.getGotra_nanihal());
         etState.setText(userDTO.getState());
         etDistrict.setText(userDTO.getDistrict());
         etCity.setText(userDTO.getCity());
@@ -261,7 +268,7 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
 
 
         stateList = new ArrayList<>();
-        stateList = mDbHelper.getAllState();
+        stateList = mDbHelper.getAllState(lang);
 
         for (int j = 0; j < stateList.size(); j++) {
             if (stateList.get(j).getName().equalsIgnoreCase(userDTO.getFamily_state())) {
@@ -279,13 +286,13 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
 
                 parms.put(Consts.STATE, id);
                 districtList = new ArrayList<>();
-                districtList = mDbHelper.getAllDistrict(id);
+                districtList = mDbHelper.getAllDistrict(id,lang);
                 showDistrict();
             }
         });
 
         districtList = new ArrayList<>();
-        districtList = mDbHelper.getAllDistrict(state_id);
+        districtList = mDbHelper.getAllDistrict(state_id,lang);
         showDistrict();
 
 

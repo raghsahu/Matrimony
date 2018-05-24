@@ -2,6 +2,7 @@ package com.inspire.rkspmatrimony.activity.editprofile;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -57,14 +58,16 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
     private UserDTO userDTO;
     private LoginDTO loginDTO;
     String state_id = "";
-
+    public SharedPreferences languageDetails;
+    private String lang = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_family);
         mContext = AboutFamilyActivity.this;
         prefrence = SharedPrefrence.getInstance(mContext);
-
+        languageDetails = getSharedPreferences(Consts.LANGUAGE_PREF, MODE_PRIVATE);
+        lang =  languageDetails.getString(Consts.SELECTED_LANGUAGE,"");
         userDTO = prefrence.getUserResponse(Consts.USER_DTO);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
@@ -480,7 +483,7 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
 
 
         stateList = new ArrayList<>();
-        stateList = mDbHelper.getAllState();
+        stateList = mDbHelper.getAllState(lang);
 
         for (int j = 0; j < stateList.size(); j++) {
             if (stateList.get(j).getName().equalsIgnoreCase(userDTO.getFamily_state())) {
@@ -498,13 +501,13 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
 
                 parms.put(Consts.FAMILY_STATE, item);
                 districtList = new ArrayList<>();
-                districtList = mDbHelper.getAllDistrict(id);
+                districtList = mDbHelper.getAllDistrict(id,lang);
                 showDistrict();
             }
         });
 
         districtList = new ArrayList<>();
-        districtList = mDbHelper.getAllDistrict(state_id);
+        districtList = mDbHelper.getAllDistrict(state_id,lang);
         showDistrict();
 
     }

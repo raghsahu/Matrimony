@@ -48,6 +48,7 @@ public interface Consts {
     String LANGUAGE_SELECTION = "language_selection";
     String SELECTED_LANGUAGE = "selected_language";
     String TAG_PROFILE = "tag_profile";
+    String LANGUAGE_PREF = "language_pref";
 
 
     /*registration params*/
@@ -134,6 +135,7 @@ public interface Consts {
     /*My Profile get*/
     //String MOBILE = "mobile";
     String TOKEN = "token";
+    String LANG = "lang";
 
     /*Get All Profile*/
     String USER_ID = "user_id";

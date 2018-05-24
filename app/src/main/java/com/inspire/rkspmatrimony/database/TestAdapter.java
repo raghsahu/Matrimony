@@ -53,7 +53,7 @@ public class TestAdapter {
     }
 
 
-    public ArrayList<CommanDTO> getAllState() {
+    public ArrayList<CommanDTO> getAllState(String language) {
         ArrayList<CommanDTO> stateList = new ArrayList<CommanDTO>();
 
         Cursor res = mDb.rawQuery("select * from states", null);
@@ -61,34 +61,40 @@ public class TestAdapter {
 
         if (res.moveToFirst()) {
             do {
+                if (language.equalsIgnoreCase("hi")) {
+                    stateList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name_hi"))));
+                } else {
+                    stateList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name"))));
+                }
 
-                stateList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name"))));
 
             } while (res.moveToNext());
         }
         return stateList;
     }
 
-    public ArrayList<CommanDTO> getAllDistrict(String stateID) {
+    public ArrayList<CommanDTO> getAllDistrict(String stateID, String language) {
         ArrayList<CommanDTO> districtList = new ArrayList<CommanDTO>();
-        String sql = "SELECT * FROM  districts  WHERE state_id= '" +  stateID + "'";
+        String sql = "SELECT * FROM  districts  WHERE state_id= '" + stateID + "'";
         Log.e(TAG, sql);
 
         Cursor res = mDb.rawQuery(sql, null);
 
 
-
         if (res.moveToFirst()) {
             do {
+                if (language.equalsIgnoreCase("hi")) {
+                    districtList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name_hi")), res.getString(res.getColumnIndex("state_id"))));
+                } else {
+                    districtList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name")), res.getString(res.getColumnIndex("state_id"))));
+                }
 
-                districtList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name")), res.getString(res.getColumnIndex("state_id"))));
+
 
             } while (res.moveToNext());
         }
         return districtList;
     }
-
-
 
 
 }

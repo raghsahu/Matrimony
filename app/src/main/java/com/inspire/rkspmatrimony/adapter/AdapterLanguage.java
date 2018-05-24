@@ -1,6 +1,8 @@
 package com.inspire.rkspmatrimony.adapter;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
@@ -35,13 +37,15 @@ public class AdapterLanguage extends RecyclerView.Adapter<AdapterLanguage.Langua
     private SharedPrefrence prefrence;
     private String half, second_half;
     LoginDTO loginDTO;
+    SharedPreferences sharedpreferences;
+    SharedPreferences.Editor editor;
 
     public AdapterLanguage(ArrayList<LanguageDTO> datas, LanguageSelection mContext) {
         this.datas = datas;
         this.mContext = mContext;
         prefrence = SharedPrefrence.getInstance(mContext);
-
-
+        sharedpreferences = mContext.getSharedPreferences(Consts.LANGUAGE_PREF, Context.MODE_PRIVATE);
+        editor = sharedpreferences.edit();
     }
 
     @Override
@@ -82,19 +86,21 @@ public class AdapterLanguage extends RecyclerView.Adapter<AdapterLanguage.Langua
 
 
                 } else {
-                    ProjectUtils.InternetAlertDialog( mContext,  mContext.getResources().getString(R.string.error_connecting), mContext.getResources().getString(R.string.internet_concation));
+                    ProjectUtils.InternetAlertDialog(mContext, mContext.getResources().getString(R.string.error_connecting), mContext.getResources().getString(R.string.internet_concation));
 
                 }
+
 
                 if (language.equals("English")) {
                     language("en");
-                    prefrence.setValue(Consts.SELECTED_LANGUAGE, "en");
+                    editor.putString(Consts.SELECTED_LANGUAGE, "en");
 
                 } else if (language.equals("हिन्दी")) {
                     language("hi");
-                    prefrence.setValue(Consts.SELECTED_LANGUAGE, "hi");
-
+                    editor.putString(Consts.SELECTED_LANGUAGE, "hi");
                 }
+                editor.commit();
+
             }
 
         });
@@ -125,12 +131,11 @@ public class AdapterLanguage extends RecyclerView.Adapter<AdapterLanguage.Langua
 
         Configuration config = new Configuration();
         config.locale = locale;
-        prefrence.setBooleanValue(Consts.LANGUAGE_SELECTION, true);
+        editor.putBoolean(Consts.LANGUAGE_SELECTION, true);
         mContext.getResources().updateConfiguration(config,
                 mContext.getResources().getDisplayMetrics());
 
     }
-
 
 
 }

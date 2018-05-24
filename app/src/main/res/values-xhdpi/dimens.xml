@@ -5,4 +5,7 @@
     <dimen name="login_margin_txt_top_10">15dp</dimen>
     <dimen name="login_margin_txt_top_5">10dp</dimen>
     <dimen name="iv_add_img">125dp</dimen>
+    <dimen name="bio_margin_top">1dp</dimen>
+    <dimen name="bio_text_size">12.5dp</dimen>
+    <dimen name="text_header_bio">16sp</dimen>
 </resources>

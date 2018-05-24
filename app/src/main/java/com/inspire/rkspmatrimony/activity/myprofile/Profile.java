@@ -1,7 +1,9 @@
 package com.inspire.rkspmatrimony.activity.myprofile;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -69,7 +71,6 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     private UserDTO userDTO;
     private LoginDTO loginDTO;
     private HashMap<String, String> parms = new HashMap<>();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -165,6 +166,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     public void showData() {
         tvName.setText(userDTO.getName());
 
@@ -175,11 +177,11 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvCity.setText(userDTO.getCity());
         tvMaritalStatus.setText(userDTO.getMarital_status());
         tvAbout.setText(userDTO.getAbout_me());
-        tvBodyType.setText(userDTO.getBody_type() + "," + userDTO.getWeight() + "KG ," + userDTO.getComplexion());
+        tvBodyType.setText(userDTO.getBody_type() + ", " + userDTO.getWeight() + getResources().getString(R.string.kg) + ", " + userDTO.getComplexion());
         tvDob.setText(ProjectUtils.changeDateFormateDOB(userDTO.getDob()));
         tvBirthTime.setText(userDTO.getBirth_time());
         tvBirthCity.setText(userDTO.getBirth_place());
-        tvLife.setText("Dietary Habits -" + userDTO.getDietary() + "Drinking Habits -" + userDTO.getDrinking() + "Smoking Habits -" + userDTO.getSmoking());
+        tvLife.setText(getResources().getString(R.string.txt_dietary_hb) + userDTO.getDietary()+ ", " + getResources().getString(R.string.txt_drink_hb) + userDTO.getDrinking()+ ", " + getResources().getString(R.string.txt_smok_hb) + userDTO.getSmoking());
         tvLanguage.setText(userDTO.getLanguage());
         tvInterests.setText(userDTO.getInterests());
         tvHobbies.setText(userDTO.getHobbies());
@@ -188,8 +190,8 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvFamilyIncome.setText(userDTO.getFamily_income());
         tvFatherOccupation.setText(userDTO.getFather_occupation());
         tvMotherOccupation.setText(userDTO.getMother_occupation());
-        tvBro.setText(userDTO.getBrother() + " brothers");
-        tvSis.setText(userDTO.getSister() + " sisters");
+        tvBro.setText(userDTO.getBrother() + getResources().getString(R.string.bros));
+        tvSis.setText(userDTO.getSister() + getString(R.string.siss));
         tvFamilyBased.setText(userDTO.getFamily_city() + "," + userDTO.getFamily_district() + "," + userDTO.getFamily_state());
 
         tvDistrict.setText(userDTO.getDistrict());

@@ -34,7 +34,6 @@ public class LanguageSelection extends AppCompatActivity implements View.OnClick
     private AdapterLanguage adapterLanguage;
     private ArrayList<LanguageDTO> languageDTOList;
     private RecyclerView rvLanguage;
-    public int flag = 0;
 
 
     @Override
@@ -45,9 +44,7 @@ public class LanguageSelection extends AppCompatActivity implements View.OnClick
         mContext = LanguageSelection.this;
         sharedPrefrence = SharedPrefrence.getInstance(mContext);
         init();
-        if (getIntent().hasExtra(Consts.LANGUAGE)) {
-            flag = getIntent().getIntExtra(Consts.LANGUAGE, 0);
-        }
+
 
     }
 

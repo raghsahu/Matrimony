@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -24,6 +25,7 @@ import com.badoualy.stepperindicator.StepperIndicator;
 import com.google.gson.Gson;
 import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.R;
+import com.inspire.rkspmatrimony.Splash;
 import com.inspire.rkspmatrimony.SysApplication;
 import com.inspire.rkspmatrimony.fragment.registration.ImportantDetails;
 import com.inspire.rkspmatrimony.fragment.registration.LoginDetails;
@@ -69,6 +71,8 @@ public class Registration extends AppCompatActivity {
     String otp = "";
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
+    public SharedPreferences languageDetails;
+    public String lang = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +81,8 @@ public class Registration extends AppCompatActivity {
         mContext = Registration.this;
         prefrence = SharedPrefrence.getInstance(mContext);
         sysApplication = SysApplication.getInstance(mContext);
+        languageDetails = Registration.this.getSharedPreferences(Consts.LANGUAGE_PREF, MODE_PRIVATE);
+        lang =  languageDetails.getString(Consts.SELECTED_LANGUAGE,"");
 
         tvHeader = findViewById(R.id.tvHeader);
         stepper_indicator = findViewById(R.id.stepper_indicator);
@@ -443,6 +449,7 @@ public class Registration extends AppCompatActivity {
         parms.put(Consts.PASSWORD, ProjectUtils.getEditTextValue(loginDetails.etPassword));
         parms.put(Consts.MOBILE, ProjectUtils.getEditTextValue(loginDetails.etphone));
         parms.put(Consts.OTP, otp);
+        parms.put(Consts.LANG, lang);
 
         Log.e("parms", parms.toString());
         return parms;

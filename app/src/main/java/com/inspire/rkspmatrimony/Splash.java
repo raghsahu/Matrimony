@@ -3,6 +3,7 @@ package com.inspire.rkspmatrimony;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.os.Build;
@@ -35,7 +36,7 @@ public class Splash extends AppCompatActivity {
             Manifest.permission.CALL_PRIVILEGED, Manifest.permission.CALL_PHONE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS};
     private boolean cameraAccepted, storageAccepted, accessNetState, call_privilage, callPhone, fineLoc, corasLoc, readSMS, receiveSMS;
     public SharedPrefrence prefference;
-
+    SharedPreferences languageDetails;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +47,7 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         mContext = Splash.this;
         prefference = SharedPrefrence.getInstance(mContext);
-
+        languageDetails = Splash.this.getSharedPreferences(Consts.LANGUAGE_PREF, MODE_PRIVATE);
         if (!hasPermissions(Splash.this, permissions)) {
             ActivityCompat.requestPermissions(this, permissions, REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS);
 
@@ -59,8 +60,8 @@ public class Splash extends AppCompatActivity {
     Runnable mTask = new Runnable() {
         @Override
         public void run() {
-            if (prefference.getBooleanValue(Consts.LANGUAGE_SELECTION)) {
-                language(prefference.getValue(Consts.SELECTED_LANGUAGE));
+            if (languageDetails.getBoolean(Consts.LANGUAGE_SELECTION,false)) {
+                language(languageDetails.getString(Consts.SELECTED_LANGUAGE,""));
                 if (NetworkManager.isConnectToInternet(mContext)) {
 
                     if (prefference.getBooleanValue(Consts.IS_REGISTERED)) {

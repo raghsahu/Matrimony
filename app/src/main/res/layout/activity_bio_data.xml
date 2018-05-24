@@ -5,358 +5,367 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
+            android:id="@+id/header"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary">
 
-            <RelativeLayout
-                android:id="@+id/header"
-                android:layout_width="match_parent"
-                android:layout_height="?actionBarSize"
-                android:background="@color/colorPrimary">
+            <LinearLayout
+                android:id="@+id/llBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:padding="10dp">
 
-                <LinearLayout
-                    android:id="@+id/llBack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_left_arrow"
-                        android:textColor="@color/white" />
-
-                </LinearLayout>
-
-                <com.inspire.rkspmatrimony.view.CustomTextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="@string/bio_data"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
+                    android:src="@drawable/ic_left_arrow"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <com.inspire.rkspmatrimony.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/bio_data"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/llShare"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_share_white" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:background="@drawable/bio_back"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:visibility="visible">
+
+                <com.inspire.rkspmatrimony.view.CustomTextViewBold
+                    android:id="@+id/tvHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/bio_header"
+                    android:textColor="@color/text_bio"
+                    android:textSize="@dimen/text_header_bio" />
+
 
                 <LinearLayout
-                    android:id="@+id/llShare"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="5dp"
-                    android:gravity="center"
-                    android:padding="10dp">
+                    android:layout_below="@+id/tvHeader"
+                    android:layout_marginTop="10dp">
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/ic_share_white" />
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="4dp">
 
+                        <ImageView
+                            android:id="@+id/ivProfilePic"
+                            android:layout_width="160dp"
+                            android:layout_height="220dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_error" />
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvHeader"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bio_name_girl"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvMaritalStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_maritial_status"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvBloodGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_blood_group"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvBirthDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_birth_date"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvBirthTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_birth_time"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvBirthPlace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_birth_place"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvManglik"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_manglik"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvGotra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_gotra"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvGotraNanihal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_gotra_ninihal"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_color"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvHeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_height"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvEducation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_education"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvOccupation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_occu_girl"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvIncome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_income"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvWorkPlace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_work_place"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvDadaJi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_dada_ji"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFatherName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_father_name"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvMotherName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_mother_name"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvBroSis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_bro_sis"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvNanaJi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_nana_ji"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFatherOccupation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_father_occu"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_address"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvPincode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_pincode"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_email"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvWhatsupNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_whatsup_no"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFatherNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:text="@string/bio_father_no"
+                        android:textColor="@color/text_bio"
+                        android:textSize="@dimen/bio_text_size" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bio_margin_top"
+                        android:gravity="center"
+                        android:text="@string/note"
+                        android:textColor="@color/text_bio"
+                        android:textSize="10sp" />
                 </LinearLayout>
 
 
             </RelativeLayout>
-
-
-            <RelativeLayout
-                android:id="@+id/rlView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/header"
-                android:background="@drawable/bio_back"
-                android:visibility="visible">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="65dp"
-                    android:layout_marginBottom="10dp"
-                    android:visibility="visible">
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true">
-
-                        <android.support.v7.widget.CardView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="4dp">
-
-                            <ImageView
-                                android:id="@+id/ivProfilePic"
-                                android:layout_width="160dp"
-                                android:layout_height="220dp"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/default_error" />
-
-                        </android.support.v7.widget.CardView>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvName"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/bio_name_girl"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvMaritalStatus"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_maritial_status"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvBloodGroup"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_blood_group"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvBirthDate"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_birth_date"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvBirthTime"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_birth_time"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvBirthPlace"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_birth_place"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvManglik"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_manglik"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvGotra"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_gotra"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvGotraNanihal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_gotra_ninihal"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvColor"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_color"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvHeight"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_height"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvEducation"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_education"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvOccupation"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_occu_girl"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvIncome"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_income"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvWorkPlace"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_work_place"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvDadaJi"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_dada_ji"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvFatherName"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_father_name"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvMotherName"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_mother_name"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvBroSis"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_bro_sis"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvNanaJi"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_nana_ji"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvFatherOccupation"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_father_occu"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvAddress"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_address"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvPincode"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_pincode"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvEmail"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_email"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvWhatsupNo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_whatsup_no"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:id="@+id/tvFatherNumber"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:text="@string/bio_father_no"
-                            android:textColor="@color/text_bio"
-                            android:textSize="14sp" />
-
-                        <com.inspire.rkspmatrimony.view.CustomTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="2dp"
-                            android:gravity="center"
-                            android:text="@string/note"
-                            android:textColor="@color/text_bio"
-                            android:textSize="10sp" />
-                    </LinearLayout>
-
-
-                </RelativeLayout>
-            </RelativeLayout>
         </RelativeLayout>
-    </ScrollView>
+    </RelativeLayout>
+
 </RelativeLayout>
