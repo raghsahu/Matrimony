@@ -75,6 +75,10 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         R.anim.anim_slide_out_left);
                 break;
             case R.id.tvForgotPass:
+                Intent in = new Intent(mContext, ForgotPass.class);
+                startActivity(in);
+                overridePendingTransition(R.anim.anim_slide_in_left,
+                        R.anim.anim_slide_out_left);
                 break;
         }
     }

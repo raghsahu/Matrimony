@@ -150,6 +150,13 @@
         <activity
             android:name=".activity.LanguageSelection"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.myprofile.BioData"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.loginsignup.ForgotPass"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
 
         <receiver android:name=".utils.SmsReceiver">
             <intent-filter>
@@ -161,9 +168,7 @@
             android:name="io.fabric.ApiKey"
             android:value="3db7741514824365d36d79a39c9867a3bd2a28bd" />
 
-        <activity
-            android:name=".activity.myprofile.BioData"
-            android:screenOrientation="portrait"></activity>
+
     </application>
 
 </manifest>

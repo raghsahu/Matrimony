@@ -66,6 +66,7 @@ public class Dashboard extends AppCompatActivity {
     public static CustomTextViewBold headerNameTV;
     public static ImageView searchiv;
     public CustomTextViewBold ctvbName;
+    public CustomTextView tvPercent;
     public static int navItemIndex = 0;
     public static final String TAG_MAIN = "main";
     public static final String TAG_SEARCH = "Search";
@@ -86,7 +87,7 @@ public class Dashboard extends AppCompatActivity {
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
     private String TAG = Dashboard.class.getSimpleName();
-    private CustomTextView tvPercent;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,13 +107,14 @@ public class Dashboard extends AppCompatActivity {
 
         rlheader = (RelativeLayout) findViewById(R.id.rlheader);
         headerNameTV = (CustomTextViewBold) findViewById(R.id.headerNameTV);
-        tvPercent = (CustomTextView) findViewById(R.id.tvPercent);
         headerNameTV.setText(getResources().getString(R.string.app_name));
         searchiv = (ImageView) findViewById(R.id.searchiv);
         searchiv.setVisibility(View.GONE);
 
         navHeader = navigationView.getHeaderView(0);
         ctvbName = (CustomTextViewBold) navHeader.findViewById(R.id.ctvbName);
+        tvPercent = (CustomTextView) navHeader.findViewById(R.id.tvPercent);
+
         imgProfile = (CircleImageView) navHeader.findViewById(R.id.img_profile);
 
         imgProfile.setOnClickListener(new View.OnClickListener() {
@@ -365,6 +367,7 @@ public class Dashboard extends AppCompatActivity {
         super.onResume();
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
         ctvbName.setText(loginDTO.getData().getName());
+        tvPercent.setText(loginDTO.getData().getProfile_completion() + " %");
         Glide.with(mContext).
                 load(Consts.IMAGE_URL + loginDTO.getData().getAvatar_medium())
                 .placeholder(R.drawable.default_error)

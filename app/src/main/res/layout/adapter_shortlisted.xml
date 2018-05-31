@@ -192,7 +192,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/llWhatsApp"
+                    android:id="@+id/llInterest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".33"
@@ -200,14 +200,16 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/ivInterest"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_whatsapp" />
+                        android:src="@drawable/ic_send_interest" />
 
                     <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvInterest"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/whatsapp"
+                        android:text="@string/send_interest"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </LinearLayout>

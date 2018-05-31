@@ -52,7 +52,7 @@
                 android:layout_below="@+id/img_profile"
                 android:layout_gravity="center"
                 android:layout_toRightOf="@+id/img_profile"
-                android:text="50 %"
+                android:text="100 %"
                 android:textColor="@color/white" />
 
 

@@ -316,7 +316,10 @@
     <string name="registration">Registration</string>
     <string name="previous">Previous</string>
     <string name="shortlist">ShortList</string>
-    <string name="whatsapp">WhatsApp</string>
+    <string name="send_interest">Send Interest</string>
+    <string name="interest_sent">Interest Sent</string>
+    <string name="interest_accept">Accept Interest</string>
+    <string name="interest_accepted">Accepted</string>
     <string name="contact">Contact</string>
     <string name="upload">Upload</string>
     <string name="add_image">Add Image</string>
@@ -538,4 +541,8 @@
     <string name="kg">KG ,</string>
     <string name="bros">brothers</string>
     <string name="siss">sisters</string>
+    <string name="interset_sent_msg">Interest already sent.</string>
+    <string name="forgot_password_head">Forgot Password</string>
+    <string name="submit">Submit</string>
+
 </resources>

@@ -25,6 +25,10 @@ public interface Consts {
     String SET_AVATAR_API = "set-avatar";
     String DELETE_IMAGE_API = "delete-image";
     String GET_EVENTS_API = "get-events";
+    String CHANGE_PASSWORD_API = "password-reset";
+    String SEND_INTEREST_API = "send-interest";
+    String FORGET_PASSWORD_API = "forget-password";
+    String UPDATE_INTEREST_API = "update-interest";
 
 
     /*DTOs*/
@@ -157,4 +161,12 @@ public interface Consts {
 
     /*verified user*/
     String IS_ACTIVE = "is_active";
+
+    /*send interest*/
+    String REQUESTED_ID = "requested_id";
+
+    /*change password*/
+    String OLD_PASSWORD = "old_password";
+    String NEW_PASSWORD = "new_password";
+
 }

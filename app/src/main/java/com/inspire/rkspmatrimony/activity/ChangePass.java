@@ -1,16 +1,28 @@
 package com.inspire.rkspmatrimony.activity;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.inspire.rkspmatrimony.Models.LoginDTO;
 import com.inspire.rkspmatrimony.R;
+import com.inspire.rkspmatrimony.activity.loginsignup.Login;
+import com.inspire.rkspmatrimony.https.HttpsRequest;
+import com.inspire.rkspmatrimony.interfaces.Consts;
+import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.network.NetworkManager;
+import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 import com.inspire.rkspmatrimony.view.CustomButton;
 import com.inspire.rkspmatrimony.view.CustomEditText;
+
+import org.json.JSONObject;
+
+import java.util.HashMap;
 
 public class ChangePass extends AppCompatActivity implements View.OnClickListener {
     private static String TAG = ChangePass.class.getSimpleName();
@@ -18,12 +30,16 @@ public class ChangePass extends AppCompatActivity implements View.OnClickListene
     private CustomButton UpdateBtn;
     private Context mContext;
     private LinearLayout llBack;
-
+    private HashMap<String, String> parms = new HashMap<>();
+    private SharedPrefrence prefrence;
+    private LoginDTO loginDTO;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_pass);
         mContext = ChangePass.this;
+        prefrence = SharedPrefrence.getInstance(mContext);
+        loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
         setUiAction();
     }
 
@@ -63,7 +79,7 @@ public class ChangePass extends AppCompatActivity implements View.OnClickListene
             return;
         } else {
             if (NetworkManager.isConnectToInternet(mContext)) {
-                // updatePassword();
+                 updatePassword();
             } else {
                 ProjectUtils.showToast(mContext, getResources().getString(R.string.internet_connection));
             }
@@ -97,6 +113,29 @@ public class ChangePass extends AppCompatActivity implements View.OnClickListene
             return false;
         }
         return true;
+    }
+
+    public void updatePassword(){
+        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
+        parms.put(Consts.OLD_PASSWORD, ProjectUtils.getEditTextValue(etNewPassword));
+        parms.put(Consts.NEW_PASSWORD, ProjectUtils.getEditTextValue(etOldPassword));
+        ProjectUtils.showProgressDialog(mContext, true, getResources().getString(R.string.please_wait));
+        new HttpsRequest(Consts.CHANGE_PASSWORD_API, parms, mContext).stringPost(TAG, new Helper() {
+            @Override
+            public void backResponse(boolean flag, String msg, JSONObject response) {
+                if (flag) {
+                    ProjectUtils.showToast(mContext, msg);
+                    prefrence.clearAllPreference();
+                    Intent intent = new Intent(mContext, Login.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                    finish();
+                    overridePendingTransition(R.anim.stay, R.anim.slide_down);
+                } else {
+                    ProjectUtils.showToast(mContext, msg);
+                }
+            }
+        });
     }
 
 }

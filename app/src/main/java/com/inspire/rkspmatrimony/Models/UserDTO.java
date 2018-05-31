@@ -71,6 +71,10 @@ public class UserDTO implements Serializable {
     String critical = "";
     String created_at = "";
     String updated_at = "";
+    String profile_completion = "";
+    int request = 0;
+    int status = 0;
+
 
     public String getId() {
         return id;
@@ -608,5 +612,27 @@ public class UserDTO implements Serializable {
         this.updated_at = updated_at;
     }
 
+    public String getProfile_completion() {
+        return profile_completion;
+    }
 
+    public void setProfile_completion(String profile_completion) {
+        this.profile_completion = profile_completion;
+    }
+
+    public int getRequest() {
+        return request;
+    }
+
+    public void setRequest(int request) {
+        this.request = request;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
 }

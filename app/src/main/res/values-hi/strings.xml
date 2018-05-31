@@ -288,7 +288,7 @@
     <string name="enter_your_number_and_password_below_to_get_access">अपनी प्रोफ़ाइल तक पहुंचने के लिए नीचे अपना नंबर और पासवर्ड दर्ज करें</string>
     <string name="password1">पासवर्ड</string>
     <string name="login">लॉग इन</string>
-    <string name="forgot_password">पासवर्ड भूल गए ?</string>
+    <string name="forgot_password">फॉरगॉट पासवर्ड ?</string>
     <string name="create_a_new_account">एक नया खाता बनाएं</string>
     <string name="verification">सत्यापन</string>
     <string name="verification_code_will_be_sent_to">सत्यापन कोड भेजा जाएगा</string>
@@ -315,7 +315,10 @@
     <string name="registration">पंजीकरण</string>
     <string name="previous">प्रीवियस</string>
     <string name="shortlist">शॉर्टलिस्ट</string>
-    <string name="whatsapp">व्हाट्सएप</string>
+    <string name="send_interest">सेंड इंटरेस्ट</string>
+    <string name="interest_sent">इंटरेस्ट सेंट</string>
+    <string name="interest_accept">एक्सेप्ट इंटरेस्ट</string>
+    <string name="interest_accepted">एक्सेप्टेड</string>
     <string name="contact">संपर्क</string>
     <string name="upload">अपलोड</string>
     <string name="add_image">तस्वीर जोड़ें</string>
@@ -540,6 +543,7 @@
     <string name="kg">कि.ग्रा.</string>
     <string name="bros">भाई</string>
     <string name="siss">बहन</string>
-
-
+    <string name="interset_sent_msg">इंटरेस्ट आलरेडी सेंट !</string>
+    <string name="forgot_password_head">फॉरगॉट पासवर्ड</string>
+    <string name="submit">सबमिट</string>
 </resources>

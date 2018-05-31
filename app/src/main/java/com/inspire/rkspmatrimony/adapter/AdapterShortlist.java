@@ -43,6 +43,7 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
     private String TAG = AdapterShortlist.class.getSimpleName();
+    private HashMap<String, String> parmsSendInterest = new HashMap<>();
 
     public AdapterShortlist(ArrayList<UserDTO> joinDTOList, ShortlistedFrag shortlistedFrag) {
         this.joinDTOList = joinDTOList;
@@ -98,7 +99,6 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
             dob = joinDTOList.get(position).getDob();
             arrOfStr = dob.split("-", 3);
 
-            Log.e("date of birth", arrOfStr[0] + " " + arrOfStr[1] + " " + arrOfStr[2]);
             holder.tvYearandheight.setText(ProjectUtils.getAge(Integer.parseInt(arrOfStr[0]), Integer.parseInt(arrOfStr[1]), Integer.parseInt(arrOfStr[2])) + " years " + joinDTOList.get(position).getHeight());
 
 
@@ -129,6 +129,32 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
 
             }
         });
+        if (joinDTOList.get(position).getRequest() == 2) {
+            holder.ivInterest.setImageDrawable(shortlistedFrag.getResources().getDrawable(R.drawable.ic_already_sent));
+            holder.tvInterest.setText(shortlistedFrag.getResources().getString(R.string.interest_sent));
+        } else if (joinDTOList.get(position).getRequest() == 1) {
+            holder.ivInterest.setImageDrawable(shortlistedFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+            holder.tvInterest.setText(shortlistedFrag.getResources().getString(R.string.interest_accept));
+        } else {
+            holder.ivInterest.setImageDrawable(shortlistedFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+            holder.tvInterest.setText(shortlistedFrag.getResources().getString(R.string.send_interest));
+        }
+
+
+        holder.llInterest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (joinDTOList.get(position).getRequest() == 0) {
+                    sendInterest(holder, position);
+
+                } else if (joinDTOList.get(position).getRequest() == 2) {
+                    ProjectUtils.showToast(context, shortlistedFrag.getResources().getString(R.string.interset_sent_msg));
+                } else if (joinDTOList.get(position).getRequest() == 1) {
+                    updateInterest(holder, position);
+                }
+
+            }
+        });
     }
 
     @Override
@@ -139,15 +165,17 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
 
     public class MatchesHolder extends RecyclerView.ViewHolder {
         public RelativeLayout rlClick;
-        public ImageView ivProfileImage,ivShortList;
-        public CustomTextView tvjoinedstatus, tvProfession, tvYearandheight, tvEducation, tvGotra, tvIncome, tvCity, tvmarrigestatus;
+        public ImageView ivProfileImage,ivShortList,ivInterest;
+        public CustomTextView tvjoinedstatus, tvProfession, tvYearandheight, tvEducation, tvGotra, tvIncome,
+                tvCity, tvmarrigestatus, tvInterest;
         public CustomTextViewBold tvName;
-        public LinearLayout llShortList, llWhatsApp, llContact;
+        public LinearLayout llShortList, llInterest, llContact;
 
         public MatchesHolder(View itemView) {
             super(itemView);
             rlClick = (RelativeLayout) itemView.findViewById(R.id.rlClick);
             ivProfileImage = (ImageView) itemView.findViewById(R.id.ivProfileImage);
+            ivInterest = (ImageView) itemView.findViewById(R.id.ivInterest);
             tvjoinedstatus = (CustomTextView) itemView.findViewById(R.id.tvjoinedstatus);
             tvProfession = (CustomTextView) itemView.findViewById(R.id.tvProfession);
             tvYearandheight = (CustomTextView) itemView.findViewById(R.id.tvYearandheight);
@@ -155,10 +183,11 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
             tvGotra = (CustomTextView) itemView.findViewById(R.id.tvGotra);
             tvIncome = (CustomTextView) itemView.findViewById(R.id.tvIncome);
             tvCity = (CustomTextView) itemView.findViewById(R.id.tvCity);
+            tvInterest = (CustomTextView) itemView.findViewById(R.id.tvInterest);
             tvmarrigestatus = (CustomTextView) itemView.findViewById(R.id.tvmarrigestatus);
             tvName = (CustomTextViewBold) itemView.findViewById(R.id.tvName);
             llShortList = (LinearLayout) itemView.findViewById(R.id.llShortList);
-            llWhatsApp = (LinearLayout) itemView.findViewById(R.id.llWhatsApp);
+            llInterest = (LinearLayout) itemView.findViewById(R.id.llInterest);
             llContact = (LinearLayout) itemView.findViewById(R.id.llContact);
             ivShortList = (ImageView) itemView.findViewById(R.id.ivShortList);
         }
@@ -192,4 +221,38 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
             }
         });
     }
+
+    public void sendInterest(final MatchesHolder holder, int pos) {
+        parmsSendInterest.put(Consts.USER_ID, joinDTOList.get(pos).getId());
+        parmsSendInterest.put(Consts.REQUESTED_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.TOKEN, loginDTO.getAccess_token());
+        new HttpsRequest(Consts.SEND_INTEREST_API, parmsSendInterest, context).stringPost(TAG, new Helper() {
+            @Override
+            public void backResponse(boolean flag, String msg, JSONObject response) {
+                if (flag) {
+                    holder.ivInterest.setImageDrawable(shortlistedFrag.getResources().getDrawable(R.drawable.ic_already_sent));
+                    holder.tvInterest.setText(shortlistedFrag.getResources().getString(R.string.interest_sent));
+                } else {
+                    ProjectUtils.showToast(context, msg);
+                }
+            }
+        });
+    }
+    public void updateInterest(final MatchesHolder holder, int pos) {
+        parmsSendInterest.put(Consts.USER_ID, joinDTOList.get(pos).getId());
+        parmsSendInterest.put(Consts.REQUESTED_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.TOKEN, loginDTO.getAccess_token());
+        new HttpsRequest(Consts.UPDATE_INTEREST_API, parmsSendInterest, context).stringPost(TAG, new Helper() {
+            @Override
+            public void backResponse(boolean flag, String msg, JSONObject response) {
+                if (flag) {
+                    holder.ivInterest.setImageDrawable(shortlistedFrag.getResources().getDrawable(R.drawable.ic_already_sent));
+                    holder.tvInterest.setText(shortlistedFrag.getResources().getString(R.string.interest_accepted));
+                } else {
+                    ProjectUtils.showToast(context, msg);
+                }
+            }
+        });
+    }
+
 }
