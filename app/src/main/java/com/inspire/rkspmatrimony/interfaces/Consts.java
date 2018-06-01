@@ -29,6 +29,7 @@ public interface Consts {
     String SEND_INTEREST_API = "send-interest";
     String FORGET_PASSWORD_API = "forget-password";
     String UPDATE_INTEREST_API = "update-interest";
+    String GET_INTEREST_API = "get-interest";
 
 
     /*DTOs*/
@@ -169,4 +170,8 @@ public interface Consts {
     String OLD_PASSWORD = "old_password";
     String NEW_PASSWORD = "new_password";
 
+    /*get interest*/
+    String TYPE = "type";
+    String SENT = "sent";
+    String RECIEVED = "recieved";
 }

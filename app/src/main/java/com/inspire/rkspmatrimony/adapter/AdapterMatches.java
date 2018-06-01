@@ -131,31 +131,42 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
 
             }
         });
+        if (userDTOList.get(position).getStatus() == 0) {
+            if (userDTOList.get(position).getRequest() == 1) {
+                holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_already_sent));
+                holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_sent));
+            } else if (userDTOList.get(position).getRequest() == 2) {
+                holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+                holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_accept));
+            } else {
+                holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+                holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.send_interest));
+            }
 
 
-        if (userDTOList.get(position).getRequest() == 1) {
-            holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_already_sent));
-            holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_sent));
-        } else if (userDTOList.get(position).getRequest() == 2) {
-            holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_send_interest));
-            holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_accept));
         } else {
             holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_send_interest));
-            holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.send_interest));
+            holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_accepted));
         }
+
 
 
         holder.llInterest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (userDTOList.get(position).getRequest() == 0) {
-                    sendInterest(holder, position);
+                if (userDTOList.get(position).getStatus() == 0) {
+                    if (userDTOList.get(position).getRequest() == 0) {
+                        sendInterest(holder, position);
 
-                } else if (userDTOList.get(position).getRequest() == 1) {
-                    ProjectUtils.showToast(context, matchesFrag.getResources().getString(R.string.interset_sent_msg));
-                } else if (userDTOList.get(position).getRequest() == 2) {
-                    updateInterest(holder, position);
+                    } else if (userDTOList.get(position).getRequest() == 1) {
+                        ProjectUtils.showToast(context, matchesFrag.getResources().getString(R.string.interset_sent_msg));
+                    } else if (userDTOList.get(position).getRequest() == 2) {
+                        updateInterest(holder, position);
+                    }
+                }else {
+                    ProjectUtils.showToast(context, matchesFrag.getResources().getString(R.string.interset_accept_msg));
                 }
+
 
             }
         });

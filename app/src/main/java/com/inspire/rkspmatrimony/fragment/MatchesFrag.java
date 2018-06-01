@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import com.google.gson.Gson;
 import com.inspire.rkspmatrimony.Models.LoginDTO;
@@ -46,6 +47,7 @@ public class MatchesFrag extends Fragment {
     private int currentVisibleItemCount = 0;
     int page = 1;
     boolean request = false;
+    private ProgressBar pb;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -60,6 +62,7 @@ public class MatchesFrag extends Fragment {
     public void setUiAction(View view) {
         tempList = new ArrayList<>();
         rvMatch = view.findViewById(R.id.rvMatch);
+        pb = view.findViewById(R.id.pb);
         mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         rvMatch.setLayoutManager(mLayoutManager);
 
@@ -69,6 +72,7 @@ public class MatchesFrag extends Fragment {
                 currentVisibleItemCount = totalItemCount;
                 if (request) {
                     page = page + 1;
+                    pb.setVisibility(View.VISIBLE);
                     getUsers();
 
                 }else {
@@ -89,13 +93,14 @@ public class MatchesFrag extends Fragment {
 
 
     public void getUsers() {
-        ProjectUtils.showProgressDialog(getActivity(), true, getResources().getString(R.string.please_wait));
+        //ProjectUtils.showProgressDialog(getActivity(), true, getResources().getString(R.string.please_wait));
         new HttpsRequest(Consts.ALL_PROFILES_API + "?page=" + page, getparm(), getActivity()).stringPost(TAG, new Helper() {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {
                     matchesDTO = new Gson().fromJson(response.toString(), MatchesDTO.class);
                     request = matchesDTO.isHas_more_pages();
+                    pb.setVisibility(View.GONE);
                     showData();
                 } else {
                     ProjectUtils.showToast(getActivity(), msg);
@@ -125,6 +130,9 @@ public class MatchesFrag extends Fragment {
         userDTOList = tempList;
         adapterMatches = new AdapterMatches(userDTOList, MatchesFrag.this);
         rvMatch.setAdapter(adapterMatches);
+        rvMatch.smoothScrollToPosition(currentVisibleItemCount);
+        rvMatch.scrollToPosition(currentVisibleItemCount - 1);
+
     }
 
 }

@@ -17,6 +17,9 @@
             android:id="@+id/nav_visitor"
             android:title="@string/nav_visitor" />
         <item
+            android:id="@+id/nav_interest"
+            android:title="@string/nav_interest" />
+        <item
             android:id="@+id/nav_events"
             android:title="@string/nav_events" />
         <item

@@ -34,6 +34,7 @@ import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.activity.myprofile.Profile;
 import com.inspire.rkspmatrimony.fragment.EventsFrag;
 import com.inspire.rkspmatrimony.fragment.HomeFrag;
+import com.inspire.rkspmatrimony.fragment.InterestFrag;
 import com.inspire.rkspmatrimony.fragment.SearchFrag;
 import com.inspire.rkspmatrimony.fragment.AboutFrag;
 import com.inspire.rkspmatrimony.fragment.SettingsFrag;
@@ -72,6 +73,7 @@ public class Dashboard extends AppCompatActivity {
     public static final String TAG_SEARCH = "Search";
     public static final String TAG_SHORTLISTED = "Shortlisted";
     public static final String TAG_VISITORS = "Visitors";
+    public static final String TAG_INTEREST = "interest";
     public static final String TAG_EVENTS = "events";
     public static final String TAG_ABOUT_US = "about_us";
     public static final String TAG_SETTINGS = "settings";
@@ -244,12 +246,15 @@ public class Dashboard extends AppCompatActivity {
                 VisitorsFrag visitorsFrag = new VisitorsFrag();
                 return visitorsFrag;
             case 4:
+                InterestFrag interestFrag = new InterestFrag();
+                return interestFrag;
+            case 5:
                 EventsFrag eventsFrag = new EventsFrag();
                 return eventsFrag;
-            case 5:
+            case 6:
                 AboutFrag aboutFrag = new AboutFrag();
                 return aboutFrag;
-            case 6:
+            case 7:
                 SettingsFrag settingsFrag = new SettingsFrag();
                 return settingsFrag;
             default:
@@ -284,16 +289,20 @@ public class Dashboard extends AppCompatActivity {
                         navItemIndex = 3;
                         CURRENT_TAG = TAG_VISITORS;
                         break;
-                    case R.id.nav_events:
+                    case R.id.nav_interest:
                         navItemIndex = 4;
+                        CURRENT_TAG = TAG_INTEREST;
+                        break;
+                    case R.id.nav_events:
+                        navItemIndex = 5;
                         CURRENT_TAG = TAG_EVENTS;
                         break;
                     case R.id.nav_about_us:
-                        navItemIndex = 5;
+                        navItemIndex = 6;
                         CURRENT_TAG = TAG_ABOUT_US;
                         break;
                     case R.id.nav_settings:
-                        navItemIndex = 6;
+                        navItemIndex = 7;
                         CURRENT_TAG = TAG_SETTINGS;
                         break;
                     default:

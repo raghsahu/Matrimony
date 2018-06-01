@@ -130,7 +130,7 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
 
             }
         });
-
+        if (joinDTOList.get(position).getStatus() == 0) {
         if (joinDTOList.get(position).getRequest() == 1) {
             holder.ivInterest.setImageDrawable(justJoinFrag.getResources().getDrawable(R.drawable.ic_already_sent));
             holder.tvInterest.setText(justJoinFrag.getResources().getString(R.string.interest_sent));
@@ -141,11 +141,15 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
             holder.ivInterest.setImageDrawable(justJoinFrag.getResources().getDrawable(R.drawable.ic_send_interest));
             holder.tvInterest.setText(justJoinFrag.getResources().getString(R.string.send_interest));
         }
-
+        } else {
+            holder.ivInterest.setImageDrawable(justJoinFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+            holder.tvInterest.setText(justJoinFrag.getResources().getString(R.string.interest_accepted));
+        }
 
         holder.llInterest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (joinDTOList.get(position).getStatus() == 0) {
                 if (joinDTOList.get(position).getRequest() == 0) {
                     sendInterest(holder, position);
 
@@ -154,7 +158,9 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
                 } else if (joinDTOList.get(position).getRequest() == 2) {
                     updateInterest(holder, position);
                 }
-
+                }else {
+                    ProjectUtils.showToast(context, justJoinFrag.getResources().getString(R.string.interset_accept_msg));
+                }
             }
         });
         holder.llContact.setOnClickListener(new View.OnClickListener() {
