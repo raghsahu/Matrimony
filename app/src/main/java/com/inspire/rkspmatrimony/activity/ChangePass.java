@@ -117,8 +117,8 @@ public class ChangePass extends AppCompatActivity implements View.OnClickListene
 
     public void updatePassword(){
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        parms.put(Consts.OLD_PASSWORD, ProjectUtils.getEditTextValue(etNewPassword));
-        parms.put(Consts.NEW_PASSWORD, ProjectUtils.getEditTextValue(etOldPassword));
+        parms.put(Consts.OLD_PASSWORD, ProjectUtils.getEditTextValue(etOldPassword));
+        parms.put(Consts.NEW_PASSWORD, ProjectUtils.getEditTextValue(etNewPassword));
         ProjectUtils.showProgressDialog(mContext, true, getResources().getString(R.string.please_wait));
         new HttpsRequest(Consts.CHANGE_PASSWORD_API, parms, mContext).stringPost(TAG, new Helper() {
             @Override

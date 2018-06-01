@@ -24,6 +24,7 @@ import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
+import com.inspire.rkspmatrimony.utils.SpinnerDialog;
 import com.inspire.rkspmatrimony.view.CustomTextView;
 import com.inspire.rkspmatrimony.view.CustomTextViewBold;
 
@@ -44,7 +45,7 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
     private LoginDTO loginDTO;
     private String TAG = AdapterJustJoin.class.getSimpleName();
     private HashMap<String, String> parmsSendInterest = new HashMap<>();
-
+    private SpinnerDialog spinnerDialog;
     public AdapterJustJoin(ArrayList<UserDTO> joinDTOList, JustJoinFrag justJoinFrag) {
         this.joinDTOList = joinDTOList;
         this.justJoinFrag = justJoinFrag;
@@ -130,10 +131,10 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
             }
         });
 
-        if (joinDTOList.get(position).getRequest() == 2) {
+        if (joinDTOList.get(position).getRequest() == 1) {
             holder.ivInterest.setImageDrawable(justJoinFrag.getResources().getDrawable(R.drawable.ic_already_sent));
             holder.tvInterest.setText(justJoinFrag.getResources().getString(R.string.interest_sent));
-        } else if (joinDTOList.get(position).getRequest() == 1) {
+        } else if (joinDTOList.get(position).getRequest() == 2) {
             holder.ivInterest.setImageDrawable(justJoinFrag.getResources().getDrawable(R.drawable.ic_send_interest));
             holder.tvInterest.setText(justJoinFrag.getResources().getString(R.string.interest_accept));
         } else {
@@ -148,13 +149,21 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
                 if (joinDTOList.get(position).getRequest() == 0) {
                     sendInterest(holder, position);
 
-                } else if (joinDTOList.get(position).getRequest() == 2) {
-                    ProjectUtils.showToast(context, justJoinFrag.getResources().getString(R.string.interset_sent_msg));
                 } else if (joinDTOList.get(position).getRequest() == 1) {
+                    ProjectUtils.showToast(context, justJoinFrag.getResources().getString(R.string.interset_sent_msg));
+                } else if (joinDTOList.get(position).getRequest() == 2) {
                     updateInterest(holder, position);
                 }
 
             }
+        });
+        holder.llContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spinnerDialog = new SpinnerDialog(justJoinFrag.getActivity(), joinDTOList.get(position).getName(), joinDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                spinnerDialog.showConatactDialog();
+            }
+
         });
     }
 
@@ -224,8 +233,8 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
     }
 
     public void sendInterest(final MatchesHolder holder, int pos) {
-        parmsSendInterest.put(Consts.USER_ID, joinDTOList.get(pos).getId());
-        parmsSendInterest.put(Consts.REQUESTED_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.USER_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.REQUESTED_ID, joinDTOList.get(pos).getId());
         parmsSendInterest.put(Consts.TOKEN, loginDTO.getAccess_token());
         new HttpsRequest(Consts.SEND_INTEREST_API, parmsSendInterest, context).stringPost(TAG, new Helper() {
             @Override
@@ -240,8 +249,8 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
         });
     }
     public void updateInterest(final MatchesHolder holder, int pos) {
-        parmsSendInterest.put(Consts.USER_ID, joinDTOList.get(pos).getId());
-        parmsSendInterest.put(Consts.REQUESTED_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.USER_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.REQUESTED_ID, joinDTOList.get(pos).getId());
         parmsSendInterest.put(Consts.TOKEN, loginDTO.getAccess_token());
         new HttpsRequest(Consts.UPDATE_INTEREST_API, parmsSendInterest, context).stringPost(TAG, new Helper() {
             @Override

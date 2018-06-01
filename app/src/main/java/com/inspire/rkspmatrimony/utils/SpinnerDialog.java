@@ -27,10 +27,17 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.inspire.rkspmatrimony.Models.CommanDTO;
 import com.inspire.rkspmatrimony.R;
+import com.inspire.rkspmatrimony.fragment.MatchesFrag;
+import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.OnSpinerItemClick;
 import com.inspire.rkspmatrimony.view.CustomTextView;
+import com.inspire.rkspmatrimony.view.CustomTextViewBold;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class SpinnerDialog {
     ArrayList<CommanDTO> items;
@@ -51,6 +58,8 @@ public class SpinnerDialog {
     MyAdapterRadio myAdapterRadio;
     MyAdapterCheck myAdapterCheck;
     int pos;
+
+    String name = "", image = "";
 
     public SpinnerDialog(Activity activity, ArrayList<CommanDTO> items, String dialogTitle) {
         this.items = items;
@@ -80,9 +89,50 @@ public class SpinnerDialog {
         this.closeTitle = closeTitle;
     }
 
+    public SpinnerDialog(Activity activity, String name, String image, int style) {
+        this.context = activity;
+        this.name = name;
+        this.image = image;
+        this.style = style;
+    }
+
 
     public void bindOnSpinerListener(OnSpinerItemClick onSpinerItemClick1) {
         this.onSpinerItemClick = onSpinerItemClick1;
+    }
+
+    public void showConatactDialog() {
+        Builder adb = new Builder(this.context);
+        View v = this.context.getLayoutInflater().inflate(R.layout.dialog_layout_contact, (ViewGroup) null);
+        CircleImageView ivImage = (CircleImageView) v.findViewById(R.id.ivImage);
+        CustomTextViewBold tvName = (CustomTextViewBold) v.findViewById(R.id.tvName);
+        CustomTextViewBold tvClose = (CustomTextViewBold) v.findViewById(R.id.tvClose);
+        CustomTextViewBold tvOk = (CustomTextViewBold) v.findViewById(R.id.tvOk);
+
+        adb.setView(v);
+        tvName.setText(name);
+        Glide.with(context).
+                load(Consts.IMAGE_URL + image)
+                .placeholder(R.drawable.default_error)
+                .dontAnimate()
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(ivImage);
+
+        this.alertDialog = adb.create();
+        this.alertDialog.getWindow().getAttributes().windowAnimations = this.style;
+        this.alertDialog.setCancelable(false);
+
+        tvOk.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                SpinnerDialog.this.alertDialog.dismiss();
+            }
+        });
+        tvClose.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                SpinnerDialog.this.alertDialog.dismiss();
+            }
+        });
+        this.alertDialog.show();
     }
 
     public void showSpinerDialog() {
@@ -135,7 +185,7 @@ public class SpinnerDialog {
                         items.get(j).setSelected(false);
                     }
                 }
-                onSpinerItemClick.onClick(t.getText().toString(),selectedID, pos);
+                onSpinerItemClick.onClick(t.getText().toString(), selectedID, pos);
                 alertDialog.dismiss();
             }
         });
@@ -419,8 +469,8 @@ public class SpinnerDialog {
         }
 
         public class ViewHolder {
-           public CustomTextView text1;
-          public   RadioButton radioBtn;
+            public CustomTextView text1;
+            public RadioButton radioBtn;
         }
 
         @Override

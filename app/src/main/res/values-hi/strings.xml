@@ -546,4 +546,5 @@
     <string name="interset_sent_msg">इंटरेस्ट आलरेडी सेंट !</string>
     <string name="forgot_password_head">फॉरगॉट पासवर्ड</string>
     <string name="submit">सबमिट</string>
+    <string name="conatact_msg">यदि आप अन्य उपयोगकर्ताओं के संपर्क विवरण देखना चाहते हैं, तो कृपया रिक्वेस्ट भेजें। अगर वे आपका रिक्वेस्ट स्वीकार करते हैं, तो आप उनके संपर्क विवरण देख सकते हैं।</string>
 </resources>

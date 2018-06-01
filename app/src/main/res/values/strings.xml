@@ -544,5 +544,6 @@
     <string name="interset_sent_msg">Interest already sent.</string>
     <string name="forgot_password_head">Forgot Password</string>
     <string name="submit">Submit</string>
+    <string name="conatact_msg">If you want to see the contact details of other users, please send the request. If they accept your request, you can see their contact details.</string>
 
 </resources>

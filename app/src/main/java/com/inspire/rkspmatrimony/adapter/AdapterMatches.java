@@ -27,6 +27,7 @@ import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
+import com.inspire.rkspmatrimony.utils.SpinnerDialog;
 import com.inspire.rkspmatrimony.view.CustomTextView;
 import com.inspire.rkspmatrimony.view.CustomTextViewBold;
 
@@ -46,6 +47,7 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
     private HashMap<String, String> parmsSendInterest = new HashMap<>();
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
+    private SpinnerDialog spinnerDialog;
 
     public AdapterMatches(ArrayList<UserDTO> userDTOList, MatchesFrag matchesFrag) {
         this.userDTOList = userDTOList;
@@ -56,7 +58,6 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
 
         parms.put(Consts.USER_ID, loginDTO.getData().getId());
         parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-
     }
 
     @NonNull
@@ -132,10 +133,10 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         });
 
 
-        if (userDTOList.get(position).getRequest() == 2) {
+        if (userDTOList.get(position).getRequest() == 1) {
             holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_already_sent));
             holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_sent));
-        } else if (userDTOList.get(position).getRequest() == 1) {
+        } else if (userDTOList.get(position).getRequest() == 2) {
             holder.ivInterest.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_send_interest));
             holder.tvInterest.setText(matchesFrag.getResources().getString(R.string.interest_accept));
         } else {
@@ -150,13 +151,21 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
                 if (userDTOList.get(position).getRequest() == 0) {
                     sendInterest(holder, position);
 
-                } else if (userDTOList.get(position).getRequest() == 2) {
-                    ProjectUtils.showToast(context, matchesFrag.getResources().getString(R.string.interset_sent_msg));
                 } else if (userDTOList.get(position).getRequest() == 1) {
+                    ProjectUtils.showToast(context, matchesFrag.getResources().getString(R.string.interset_sent_msg));
+                } else if (userDTOList.get(position).getRequest() == 2) {
                     updateInterest(holder, position);
                 }
 
             }
+        });
+        holder.llContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                spinnerDialog.showConatactDialog();
+            }
+
         });
     }
 
@@ -228,8 +237,8 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
     }
 
     public void sendInterest(final MatchesHolder holder, int pos) {
-        parmsSendInterest.put(Consts.USER_ID, userDTOList.get(pos).getId());
-        parmsSendInterest.put(Consts.REQUESTED_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.USER_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.REQUESTED_ID, userDTOList.get(pos).getId());
         parmsSendInterest.put(Consts.TOKEN, loginDTO.getAccess_token());
         new HttpsRequest(Consts.SEND_INTEREST_API, parmsSendInterest, context).stringPost(TAG, new Helper() {
             @Override
@@ -246,8 +255,8 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
 
 
     public void updateInterest(final MatchesHolder holder, int pos) {
-        parmsSendInterest.put(Consts.USER_ID, userDTOList.get(pos).getId());
-        parmsSendInterest.put(Consts.REQUESTED_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.USER_ID, loginDTO.getData().getId());
+        parmsSendInterest.put(Consts.REQUESTED_ID, userDTOList.get(pos).getId());
         parmsSendInterest.put(Consts.TOKEN, loginDTO.getAccess_token());
         new HttpsRequest(Consts.UPDATE_INTEREST_API, parmsSendInterest, context).stringPost(TAG, new Helper() {
             @Override
@@ -261,5 +270,6 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
             }
         });
     }
+
 
 }
