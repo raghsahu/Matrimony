@@ -162,20 +162,6 @@
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputOpenFieldView>
 
-            <com.inspire.rkspmatrimony.view.InputOpenFieldView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:visibility="visible">
-
-                <com.inspire.rkspmatrimony.view.CustomEditText
-                    android:id="@+id/etAboutfamily"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/about_my_family"
-                    android:imeOptions="actionNext"
-                    android:singleLine="true" />
-            </com.inspire.rkspmatrimony.view.InputOpenFieldView>
 
             <com.inspire.rkspmatrimony.view.InputFieldView
                 android:layout_width="match_parent"
@@ -349,6 +335,22 @@
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+
+            <com.inspire.rkspmatrimony.view.InputOpenFieldView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="visible">
+
+                <com.inspire.rkspmatrimony.view.CustomEditText
+                    android:id="@+id/etPinfamily"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pincode"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+
 
 
             <com.inspire.rkspmatrimony.view.CustomButton

@@ -173,7 +173,7 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         tvLanguage.setText(userDTO.getLanguage());
         tvInterests.setText(userDTO.getInterests());
         tvHobbies.setText(userDTO.getHobbies());
-        tvFamilyAbout.setText(userDTO.getFamily_about());
+        tvFamilyAbout.setText(userDTO.getFamily_pin());
         tvFamilyBackground.setText(userDTO.getFamily_status() + "," + userDTO.getFamily_type() + "," + userDTO.getFamily_value());
         tvFamilyIncome.setText(userDTO.getFamily_income());
         tvFatherOccupation.setText(userDTO.getFather_occupation());

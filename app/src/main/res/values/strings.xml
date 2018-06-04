@@ -21,6 +21,7 @@
     <string name="city">City *</string>
     <string name="higest_education">Higest Education *</string>
     <string name="reg_hint_pin">Pin Code *</string>
+
     <string name="education">Education</string>
     <string name="work_area">Work Place *</string>
     <string name="work_experiecnce">Work Experience</string>

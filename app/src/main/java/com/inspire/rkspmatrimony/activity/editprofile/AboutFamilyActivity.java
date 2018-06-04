@@ -38,7 +38,7 @@ import java.util.HashMap;
 public class AboutFamilyActivity extends AppCompatActivity implements View.OnClickListener {
     private String TAG = AboutFamilyActivity.class.getSimpleName();
     private Context mContext;
-    private CustomEditText etAboutfamily, etFatheroccupation, etMotheroccupation;
+    private CustomEditText etPinfamily, etFatheroccupation, etMotheroccupation;
     private CustomEditText etBrothers, etSisters, etFamilyIncome, etFamilystatus;
     private CustomEditText etFamilytype, etFamilyvalue, etState, etDistrict, etCity;
     private CustomEditText etGrandFather, etMaternalGrandFather, etFatherName, etMotherName;
@@ -90,7 +90,7 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
         etMotherName = findViewById(R.id.etMotherName);
         etAddress = findViewById(R.id.etAddress);
         etWhatsup = findViewById(R.id.etWhatsup);
-        etAboutfamily = findViewById(R.id.etAboutfamily);
+        etPinfamily = findViewById(R.id.etPinfamily);
         etFatheroccupation = findViewById(R.id.etFatheroccupation);
         etMotheroccupation = findViewById(R.id.etMotheroccupation);
         etBrothers = findViewById(R.id.etBrothers);
@@ -123,7 +123,7 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
 
 
 
-        etAboutfamily.addTextChangedListener(new MyTextWatcher(etAboutfamily, Consts.FAMILY_ABOUT));
+        etPinfamily.addTextChangedListener(new MyTextWatcher(etPinfamily, Consts.FAMILY_PIN));
         etCity.addTextChangedListener(new MyTextWatcher(etCity, Consts.FAMILY_CITY));
         etGrandFather.addTextChangedListener(new MyTextWatcher(etGrandFather, Consts.GRAND_FATHER_NAME));
         etMaternalGrandFather.addTextChangedListener(new MyTextWatcher(etMaternalGrandFather, Consts.MATERNAL_GRAND_FATHER_NAME_ADDRESS));
@@ -182,7 +182,7 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
                 } else if (!ProjectUtils.isPhoneNumberValid(etMobile.getText().toString().trim())) {
                     showSickbar(getString(R.string.val_mobile));
                     return;
-                } else if (!validation(etAboutfamily, getResources().getString(R.string.val_about_fam))) {
+                } else if (!validation(etPinfamily, getResources().getString(R.string.val_about_fam))) {
                     return;
                 } else if (!validation(etFatheroccupation, getResources().getString(R.string.val_father_occupation))) {
                     return;
@@ -335,7 +335,7 @@ public class AboutFamilyActivity extends AppCompatActivity implements View.OnCli
         etMotherName.setText(userDTO.getMother_name());
         etAddress.setText(userDTO.getPermanent_address());
         etWhatsup.setText(userDTO.getWhatsapp_no());
-        etAboutfamily.setText(userDTO.getFamily_about());
+        etPinfamily.setText(userDTO.getFamily_pin());
         etFatheroccupation.setText(userDTO.getFather_occupation());
         etMotheroccupation.setText(userDTO.getMother_occupation());
         if (userDTO.getBrother().equalsIgnoreCase("")){
