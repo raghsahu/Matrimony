@@ -473,7 +473,7 @@ public class SysApplication {
         if (sisterList.size() > 0) {
             return sisterList;
         } else {
-            brotherList.add(new CommanDTO("1", mContext.getString(R.string.none)));
+            sisterList.add(new CommanDTO("1", mContext.getString(R.string.none)));
             sisterList.add(new CommanDTO("2", "1"));
             sisterList.add(new CommanDTO("3", "2"));
             sisterList.add(new CommanDTO("4", "3"));

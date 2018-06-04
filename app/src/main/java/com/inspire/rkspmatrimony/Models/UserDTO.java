@@ -49,7 +49,7 @@ public class UserDTO implements Serializable {
     String mother_name = "";
     String grand_father_name = "";
     String family_state = "";
-    String family_about = "";
+    String family_pin = "";
     String mother_occupation = "";
     String family_type = "";
     String family_income = "";
@@ -436,12 +436,12 @@ public class UserDTO implements Serializable {
         this.family_state = family_state;
     }
 
-    public String getFamily_about() {
-        return family_about;
+    public String getFamily_pin() {
+        return family_pin;
     }
 
-    public void setFamily_about(String family_about) {
-        this.family_about = family_about;
+    public void setFamily_pin(String family_pin) {
+        this.family_pin = family_pin;
     }
 
     public String getMother_occupation() {

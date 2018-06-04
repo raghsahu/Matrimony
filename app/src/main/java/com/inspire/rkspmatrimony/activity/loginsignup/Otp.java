@@ -46,11 +46,11 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
     private String otp, mobile;
     private CustomTextViewBold tvResend;
     String resendotp;
-    private HashMap<String, String> params = new HashMap<>();
+    private HashMap<String, String> parms_resend = new HashMap<>();
     public static final String OTP_REGEX = "[0-9]{1,6}";
     private LoginDTO loginDTO;
     private SharedPrefrence prefrence;
-    private HashMap<String, String> parms = new HashMap<>();
+    private HashMap<String, String> parms_active = new HashMap<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,9 +60,9 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         prefrence = SharedPrefrence.getInstance(mContext);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
-        parms.put(Consts.USER_ID, loginDTO.getData().getId());
-        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        parms.put(Consts.IS_ACTIVE, "1");
+        parms_active.put(Consts.USER_ID, loginDTO.getData().getId());
+        parms_active.put(Consts.TOKEN, loginDTO.getAccess_token());
+        parms_active.put(Consts.IS_ACTIVE, "1");
 
         if (getIntent().hasExtra(Consts.OTP)) {
             otp = getIntent().getStringExtra(Consts.OTP);
@@ -210,7 +210,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
 
     public void request() {
         ProjectUtils.showProgressDialog(mContext, true, getResources().getString(R.string.please_wait));
-        new HttpsRequest(Consts.UPDATE_PROFILE_API, parms, mContext).stringPost(TAG, new Helper() {
+        new HttpsRequest(Consts.UPDATE_PROFILE_API, parms_active, mContext).stringPost(TAG, new Helper() {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {
@@ -243,11 +243,11 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
     }
 
     public void resendOTP() {
-        params.put(Consts.TOKEN, loginDTO.getAccess_token());
-        params.put(Consts.MOBILE, mobile);
-        params.put(Consts.OTP, otp);
+        parms_resend.put(Consts.TOKEN, loginDTO.getAccess_token());
+        parms_resend.put(Consts.MOBILE, mobile);
+        parms_resend.put(Consts.OTP, otp);
 
-        new HttpsRequest(Consts.RESEND_OTP_API, params, mContext).stringPost(TAG, new Helper() {
+        new HttpsRequest(Consts.RESEND_OTP_API, parms_resend, mContext).stringPost(TAG, new Helper() {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {

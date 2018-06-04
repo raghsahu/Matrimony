@@ -8,10 +8,12 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.inspire.rkspmatrimony.Models.LoginDTO;
+import com.inspire.rkspmatrimony.Models.MatchesDTO;
 import com.inspire.rkspmatrimony.Models.UserDTO;
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.adapter.AdapterSentInterest;
@@ -20,6 +22,7 @@ import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.network.NetworkManager;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
+import com.inspire.rkspmatrimony.utils.EndlessRecyclerOnScrollListener;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 
 import org.json.JSONException;
@@ -38,13 +41,15 @@ public class SendInterest extends Fragment {
     LinearLayoutManager mLayoutManager;
     private AdapterSentInterest adapterSentInterest;
     private ArrayList<UserDTO> sentInterestList;
-   // private ArrayList<UserDTO> tempList;
+    private ArrayList<UserDTO> tempList;
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
 
     private int currentVisibleItemCount = 0;
     int page = 1;
     boolean request = false;
+    private MatchesDTO matchesDTO;
+    private ProgressBar pb;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -57,17 +62,19 @@ public class SendInterest extends Fragment {
     }
 
     public void setUiAction(View view) {
+        tempList = new ArrayList<>();
         rvMatch = view.findViewById(R.id.rvMatch);
+        pb = view.findViewById(R.id.pb);
         mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         rvMatch.setLayoutManager(mLayoutManager);
 
-/*
         rvMatch.setOnScrollListener(new EndlessRecyclerOnScrollListener(mLayoutManager) {
             @Override
             public void onLoadMore(int current_page, int totalItemCount) {
                 currentVisibleItemCount = totalItemCount;
                 if (request) {
                     page = page + 1;
+                    pb.setVisibility(View.VISIBLE);
                     getUsers();
 
                 }else {
@@ -77,7 +84,6 @@ public class SendInterest extends Fragment {
 
             }
         });
-*/
         if (NetworkManager.isConnectToInternet(getActivity())) {
             getUsers();
 
@@ -88,24 +94,17 @@ public class SendInterest extends Fragment {
     }
 
 
+
     public void getUsers() {
         ProjectUtils.showProgressDialog(getActivity(), true, getResources().getString(R.string.please_wait));
-        new HttpsRequest(Consts.GET_INTEREST_API, getparm(), getActivity()).stringPost(TAG, new Helper() {
+        new HttpsRequest(Consts.GET_INTEREST_API + "?page=" + page, getparm(), getActivity()).stringPost(TAG, new Helper() {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {
-                    try {
-                        sentInterestList = new ArrayList<>();
-                        Type getpetDTO = new TypeToken<List<UserDTO>>() {
-                        }.getType();
-                        sentInterestList = (ArrayList<UserDTO>) new Gson().fromJson(response.getJSONArray("data").toString(), getpetDTO);
-                        showData();
-
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-
-
+                    matchesDTO = new Gson().fromJson(response.toString(), MatchesDTO.class);
+                    request = matchesDTO.isHas_more_pages();
+                    pb.setVisibility(View.GONE);
+                    showData();
                 } else {
                     ProjectUtils.showToast(getActivity(), msg);
                 }
@@ -129,10 +128,16 @@ public class SendInterest extends Fragment {
     }
 
     public void showData() {
-//        tempList.addAll(sentInterestList);
-//        sentInterestList = tempList;
+        sentInterestList = new ArrayList<>();
+        sentInterestList = matchesDTO.getData();
+        tempList.addAll(sentInterestList);
+        sentInterestList = tempList;
         adapterSentInterest = new AdapterSentInterest(sentInterestList, SendInterest.this);
         rvMatch.setAdapter(adapterSentInterest);
+        rvMatch.smoothScrollToPosition(currentVisibleItemCount);
+        rvMatch.scrollToPosition(currentVisibleItemCount - 1);
     }
+
+
 
 }

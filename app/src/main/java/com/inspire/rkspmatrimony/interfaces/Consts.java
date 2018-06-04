@@ -104,7 +104,7 @@ public interface Consts {
     String FAMILY_STATE = "family_state";
     String FAMILY_DISTRICT = "family_district";
     String FAMILY_CITY = "family_city";
-    String FAMILY_ABOUT = "family_about";
+    String FAMILY_PIN = "family_pin";
     String BROTHER = "brother";
     String SISTER = "sister";
     String GRAND_FATHER_NAME = "grand_father_name";

@@ -93,7 +93,7 @@ public class MatchesFrag extends Fragment {
 
 
     public void getUsers() {
-        //ProjectUtils.showProgressDialog(getActivity(), true, getResources().getString(R.string.please_wait));
+        ProjectUtils.showProgressDialog(getActivity(), true, getResources().getString(R.string.please_wait));
         new HttpsRequest(Consts.ALL_PROFILES_API + "?page=" + page, getparm(), getActivity()).stringPost(TAG, new Helper() {
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
