@@ -550,8 +550,6 @@
     <string name="send_interest_tag">Send Interest</string>
     <string name="received_interest_tag">Received Interest</string>
     <string name="conatact_msg">If you want to see the contact details of other users, please send the request. If they accept your request, you can see their contact details.</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_msg">Oops seems ! your profile not full fill, please fill your profile.</string>
 
 </resources>

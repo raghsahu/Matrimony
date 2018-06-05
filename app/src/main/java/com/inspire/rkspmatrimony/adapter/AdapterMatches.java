@@ -1,13 +1,21 @@
 package com.inspire.rkspmatrimony.adapter;
 
+import android.Manifest;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -28,6 +36,7 @@ import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 import com.inspire.rkspmatrimony.utils.SpinnerDialog;
+import com.inspire.rkspmatrimony.view.CustomButton;
 import com.inspire.rkspmatrimony.view.CustomTextView;
 import com.inspire.rkspmatrimony.view.CustomTextViewBold;
 
@@ -48,6 +57,7 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
     private SpinnerDialog spinnerDialog;
+    int CALL_PERMISSION = 101;
 
     public AdapterMatches(ArrayList<UserDTO> userDTOList, MatchesFrag matchesFrag) {
         this.userDTOList = userDTOList;
@@ -173,8 +183,17 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         holder.llContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
-                spinnerDialog.showConatactDialog();
+                if (userDTOList.get(position).getMobile2().equalsIgnoreCase("")){
+                    ProjectUtils.showToast(context,"Mobile number not available");
+                }else {
+                    if (userDTOList.get(position).getStatus() == 0) {
+                        spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                        spinnerDialog.showConatactDialog();
+                    } else {
+                        dialogshow(position);
+                    }
+                }
+
             }
 
         });
@@ -282,5 +301,44 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         });
     }
 
+    public void dialogshow(final int pos) {
+        final Dialog dialog = new Dialog(context/*, android.R.style.Theme_Dialog*/);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.dailog_call);
+
+        CustomButton cbOk = (CustomButton) dialog.findViewById(R.id.cbOk);
+        CustomButton cbCancel = (CustomButton) dialog.findViewById(R.id.cbCancel);
+
+
+        dialog.show();
+        dialog.setCancelable(false);
+        cbCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        cbOk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (ProjectUtils.hasPermissionInManifest(context, CALL_PERMISSION, Manifest.permission.CALL_PHONE)) {
+                    try {
+
+                        Intent callIntent = new Intent(Intent.ACTION_CALL);
+                        callIntent.setData(Uri.parse("tel:" + userDTOList.get(pos).getMobile2()));
+                        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                            return;
+                        }
+                        matchesFrag.startActivity(callIntent);
+                        dialog.dismiss();
+                    } catch (Exception e) {
+                        Log.e("Exception", "" + e);
+                    }
+                }
+            }
+        });
+
+    }
 
 }

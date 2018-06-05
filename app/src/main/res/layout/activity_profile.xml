@@ -802,13 +802,6 @@
 
                     </RelativeLayout>
 
-                    <com.inspire.rkspmatrimony.view.CustomTextView
-                        android:id="@+id/tvFamilyAbout"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=""
-                        android:textColor="@color/off_black"
-                        android:textSize="14sp" />
 
                     <com.inspire.rkspmatrimony.view.CustomTextViewBold
                         android:layout_width="wrap_content"
@@ -919,10 +912,49 @@
                         android:textSize="16sp" />
 
                     <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFamilyAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/off_black"
+                        android:textSize="14sp" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
                         android:id="@+id/tvFamilyBased"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
+                        android:text=""
+                        android:textColor="@color/off_black"
+                        android:textSize="14sp" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFamilyPin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/off_black"
+                        android:textSize="14sp" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFamilyEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/off_black"
+                        android:textSize="14sp" />
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFamilyContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/off_black"
+                        android:textSize="14sp" />
+
+                    <com.inspire.rkspmatrimony.view.CustomTextView
+                        android:id="@+id/tvFamilyWhatsup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:text=""
                         android:textColor="@color/off_black"
                         android:textSize="14sp" />

@@ -10,6 +10,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.inspire.rkspmatrimony.Models.NewsDTO;
 import com.inspire.rkspmatrimony.R;
+import com.inspire.rkspmatrimony.interfaces.Consts;
 import com.inspire.rkspmatrimony.view.CustomTextView;
 import com.inspire.rkspmatrimony.view.SquareImageView;
 
@@ -67,7 +68,7 @@ public class AdapterNews extends BaseAdapter {
             holder.post_image.setVisibility(View.VISIBLE);
             Glide
                     .with(mContext)
-                    .load(newsDTOSList.get(position).getImage())
+                    .load(Consts.IMAGE_URL+newsDTOSList.get(position).getImage())
                     .placeholder(R.drawable.default_error)
                     .fitCenter()
                     .dontAnimate()

@@ -57,8 +57,9 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     private ImageView ivEditSelf, ivEditAbout, ivEditImportant, ivEditCritical, ivEditLifestyle, ivEditFamily;
     private CustomTextView tvHeight, tvIncome, tvGotra, tvCity, tvDistrict, tvState, tvDob, tvMaritalStatus, tvAadhaar;
     private CustomTextView tvAbout, tvBodyType, tvBlood, tvCase, tvEducation, tvOccupation, tvWorkArea, tvBirthTime;
-    private CustomTextView tvBirthCity, tvLife, tvLanguage, tvInterests, tvHobbies, tvFamilyAbout, tvFamilyBackground;
-    private CustomTextView tvFamilyIncome, tvFatherOccupation, tvMotherOccupation, tvBro, tvSis, tvFamilyBased;
+    private CustomTextView tvBirthCity, tvLife, tvLanguage, tvInterests, tvHobbies, tvFamilyPin, tvFamilyBackground;
+    private CustomTextView tvFamilyIncome, tvFatherOccupation, tvMotherOccupation, tvBro, tvSis;
+    private CustomTextView tvFamilyAddress, tvFamilyBased, tvFamilyContact, tvFamilyWhatsup,tvFamilyEmail;
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsing_toolbar;
     private LinearLayout back, llbiodata;
@@ -143,7 +144,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvLanguage = findViewById(R.id.tvLanguage);
         tvInterests = findViewById(R.id.tvInterests);
         tvHobbies = findViewById(R.id.tvHobbies);
-        tvFamilyAbout = findViewById(R.id.tvFamilyAbout);
+        tvFamilyPin = findViewById(R.id.tvFamilyPin);
         tvFamilyBackground = findViewById(R.id.tvFamilyBackground);
         tvFamilyIncome = findViewById(R.id.tvFamilyIncome);
         tvFatherOccupation = findViewById(R.id.tvFatherOccupation);
@@ -151,6 +152,10 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvBro = findViewById(R.id.tvBro);
         tvSis = findViewById(R.id.tvSis);
         tvFamilyBased = findViewById(R.id.tvFamilyBased);
+        tvFamilyWhatsup = findViewById(R.id.tvFamilyWhatsup);
+        tvFamilyContact = findViewById(R.id.tvFamilyContact);
+        tvFamilyAddress = findViewById(R.id.tvFamilyAddress);
+        tvFamilyEmail = findViewById(R.id.tvFamilyEmail);
 
 
     }
@@ -185,7 +190,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvLanguage.setText(userDTO.getLanguage());
         tvInterests.setText(userDTO.getInterests());
         tvHobbies.setText(userDTO.getHobbies());
-        tvFamilyAbout.setText(userDTO.getFamily_pin());
+        tvFamilyPin.setText(userDTO.getFamily_pin());
         tvFamilyBackground.setText(userDTO.getFamily_status() + "," + userDTO.getFamily_type() + "," + userDTO.getFamily_value());
         tvFamilyIncome.setText(userDTO.getFamily_income());
         tvFatherOccupation.setText(userDTO.getFather_occupation());
@@ -201,6 +206,11 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         tvBlood.setText(userDTO.getBlood_group());
         tvCase.setText(userDTO.getChallenged());
         tvWorkArea.setText(userDTO.getWork_place());
+
+        tvFamilyAddress.setText(userDTO.getPermanent_address());
+        tvFamilyEmail.setText(getResources().getString(R.string.bio_email)+" " + userDTO.getEmail());
+        tvFamilyWhatsup.setText(getResources().getString(R.string.bio_whatsup_no)+" " + userDTO.getWhatsapp_no());
+        tvFamilyContact.setText(getResources().getString(R.string.bio_father_no)+" " + userDTO.getMobile2());
 
         if (userDTO.getCritical().equalsIgnoreCase("0")) {
             ivEditCritical.setVisibility(View.VISIBLE);

@@ -8,4 +8,5 @@
     <dimen name="bio_margin_top">1.2dp</dimen>
     <dimen name="bio_text_size">12dp</dimen>
     <dimen name="text_header_bio">16sp</dimen>
+    <dimen name="dialog_back">300dp</dimen>
 </resources>

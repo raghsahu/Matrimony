@@ -18,6 +18,7 @@ import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.media.ExifInterface;
 import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
@@ -44,6 +45,7 @@ import android.widget.Toast;
 
 
 import com.inspire.rkspmatrimony.R;
+import com.inspire.rkspmatrimony.view.FontCache;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -63,6 +65,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 /**
  * Created by varun on 27/2/17.
@@ -880,12 +883,12 @@ public class ProjectUtils {
         return years + " years " + months + " months " + days + " days";
     }
 
-    public static boolean hasPermissionInManifest(Activity activity, int requestCode, String permissionName) {
-        if (ContextCompat.checkSelfPermission(activity,
+    public static boolean hasPermissionInManifest(Context context, int requestCode, String permissionName) {
+        if (ContextCompat.checkSelfPermission(context,
                 permissionName)
                 != PackageManager.PERMISSION_GRANTED) {
             // No explanation needed, we can request the permission.
-            ActivityCompat.requestPermissions(activity,
+            ActivityCompat.requestPermissions((Activity) context,
                     new String[]{permissionName},
                     requestCode);
         } else {
@@ -1416,7 +1419,9 @@ public class ProjectUtils {
             e.printStackTrace();
         }
         return str;
-    }  public static String changeDateFormateDOB(String time) {//2018-05-08 05:57:07
+    }
+
+    public static String changeDateFormateDOB(String time) {//2018-05-08 05:57:07
         String inputPattern = "yyyy-MM-dd";
         String outputPattern = "dd MMM yyyy";
         SimpleDateFormat inputFormat = new SimpleDateFormat(inputPattern);
@@ -1433,5 +1438,7 @@ public class ProjectUtils {
         }
         return str;
     }
+
+
 
 }

@@ -14,7 +14,6 @@
     <color name="red_800">#c62828</color>
     <color name="red_900">#b71c1c</color>
     <color name="white">#FFFFFF</color>
-    <color name="off_white">#F2F2F2</color>
     <color name="black">#000000</color>
     <color name="off_black">#717171</color>
     <color name="white_alpha">#acffffff</color>
@@ -22,5 +21,5 @@
     <color name="color_button_disabled">#c5c3c4</color>
     <color name="color_button_enabled">#d9475c</color>
     <color name="text_bio">#F0D300</color>
-
+    <color name="off_white">#F1ECE4</color>
 </resources>

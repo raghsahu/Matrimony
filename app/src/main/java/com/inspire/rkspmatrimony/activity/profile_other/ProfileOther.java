@@ -46,11 +46,11 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
     private CustomTextViewBold tvName;
     private CustomTextView tvImageCount, tvOccupation, tvYearandheight, tvEducation, tvGotra, tvIncome, tvCity, tvMaritalStatus;
     private CustomTextView tvAbout, tvBodyType, tvManage, tvDob, tvBirthTime, tvBirthCity, tvLife, tvLanguage, tvInterests;
-    private CustomTextView tvHobbies, tvFamilyAbout, tvFamilyBackground, tvFamilyIncome, tvFatherOccupation, tvMotherOccupation;
-    private CustomTextView tvBro, tvSis, tvFamilyBased;
+    private CustomTextView tvHobbies, tvFamilyPin, tvFamilyBackground, tvFamilyIncome, tvFatherOccupation, tvMotherOccupation;
+    private CustomTextView tvBro, tvSis, tvFamilyAddress, tvFamilyBased, tvFamilyContact, tvFamilyWhatsup, tvFamilyEmail;
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsing_toolbar;
-    private LinearLayout back,llbiodata;
+    private LinearLayout back, llbiodata;
     private UserDTO userDTO;
     String dob = "";
     String[] arrOfStr;
@@ -62,6 +62,7 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
     private RelativeLayout rlGallaryClick;
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
+    private LinearLayout llContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,7 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
     }
 
     public void setUiaction() {
+        llContact = findViewById(R.id.llContact);
         rlGallaryClick = findViewById(R.id.rlGallaryClick);
         rlGallaryClick.setOnClickListener(this);
 
@@ -122,7 +124,7 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         tvLanguage = findViewById(R.id.tvLanguage);
         tvInterests = findViewById(R.id.tvInterests);
         tvHobbies = findViewById(R.id.tvHobbies);
-        tvFamilyAbout = findViewById(R.id.tvFamilyAbout);
+        tvFamilyPin = findViewById(R.id.tvFamilyPin);
         tvFamilyBackground = findViewById(R.id.tvFamilyBackground);
         tvFamilyIncome = findViewById(R.id.tvFamilyIncome);
         tvFatherOccupation = findViewById(R.id.tvFatherOccupation);
@@ -130,6 +132,10 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         tvBro = findViewById(R.id.tvBro);
         tvSis = findViewById(R.id.tvSis);
         tvFamilyBased = findViewById(R.id.tvFamilyBased);
+        tvFamilyWhatsup = findViewById(R.id.tvFamilyWhatsup);
+        tvFamilyContact = findViewById(R.id.tvFamilyContact);
+        tvFamilyAddress = findViewById(R.id.tvFamilyAddress);
+        tvFamilyEmail = findViewById(R.id.tvFamilyEmail);
 
         showData();
     }
@@ -169,11 +175,11 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         tvDob.setText(ProjectUtils.changeDateFormateDOB(userDTO.getDob()));
         tvBirthTime.setText(userDTO.getBirth_time());
         tvBirthCity.setText(userDTO.getBirth_place());
-        tvLife.setText("Dietary Habits -" + userDTO.getDietary() + "Drinking Habits -" + userDTO.getDrinking() + "Smoking Habits -" + userDTO.getSmoking());
+        tvLife.setText("Dietary Habits -" + userDTO.getDietary() + ", Drinking Habits -" + userDTO.getDrinking() + ", Smoking Habits -" + userDTO.getSmoking());
         tvLanguage.setText(userDTO.getLanguage());
         tvInterests.setText(userDTO.getInterests());
         tvHobbies.setText(userDTO.getHobbies());
-        tvFamilyAbout.setText(userDTO.getFamily_pin());
+        tvFamilyPin.setText(userDTO.getFamily_pin());
         tvFamilyBackground.setText(userDTO.getFamily_status() + "," + userDTO.getFamily_type() + "," + userDTO.getFamily_value());
         tvFamilyIncome.setText(userDTO.getFamily_income());
         tvFatherOccupation.setText(userDTO.getFather_occupation());
@@ -181,6 +187,11 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         tvBro.setText(userDTO.getBrother() + " brothers");
         tvSis.setText(userDTO.getSister() + " sisters");
         tvFamilyBased.setText(userDTO.getFamily_city() + "," + userDTO.getFamily_district() + "," + userDTO.getFamily_state());
+
+        tvFamilyAddress.setText(userDTO.getPermanent_address());
+        tvFamilyEmail.setText(getResources().getString(R.string.bio_email) + " " + userDTO.getEmail());
+        tvFamilyWhatsup.setText(getResources().getString(R.string.bio_whatsup_no) + " " + userDTO.getWhatsapp_no());
+        tvFamilyContact.setText(getResources().getString(R.string.bio_father_no) + " " + userDTO.getMobile2());
 
         Glide.with(mContext).
                 load(Consts.IMAGE_URL + userDTO.getAvatar_medium())
@@ -199,6 +210,14 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        if (userDTO.getStatus() == 0) {
+            llContact.setVisibility(View.GONE);
+            llbiodata.setVisibility(View.GONE);
+        } else {
+            llContact.setVisibility(View.VISIBLE);
+            llbiodata.setVisibility(View.VISIBLE);
+        }
     }
 
 
@@ -209,21 +228,21 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
                 finish();
                 break;
             case R.id.rlGallaryClick:
-                if (imageDatalist.size()>0){
+                if (imageDatalist.size() > 0) {
                     Intent intent = new Intent(mContext, ImageSlider.class);
                     Bundle args = new Bundle();
                     args.putSerializable("ARRAYLIST", (Serializable) imageDatalist);
                     intent.putExtra(Consts.IMAGE_LIST, args);
                     startActivity(intent);
-                }else {
-                    ProjectUtils.showToast(mContext,getResources().getString(R.string.no_image));
+                } else {
+                    ProjectUtils.showToast(mContext, getResources().getString(R.string.no_image));
                 }
 
                 break;
             case R.id.llbiodata:
                 Intent intent = new Intent(mContext, BioData.class);
-                intent.putExtra(Consts.USER_DTO,userDTO);
-                intent.putExtra(Consts.TAG_PROFILE,2);
+                intent.putExtra(Consts.USER_DTO, userDTO);
+                intent.putExtra(Consts.TAG_PROFILE, 2);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_up, R.anim.stay);
                 break;

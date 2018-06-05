@@ -142,7 +142,7 @@ public class BioData extends AppCompatActivity implements View.OnClickListener {
         tvNanaJi.setText(getResources().getString(R.string.bio_nana_ji)+" " + userDTO.getMaternal_grand_father_name_address());
         tvFatherOccupation.setText(getResources().getString(R.string.bio_father_occu)+" " + userDTO.getFather_occupation());
         tvAddress.setText(getResources().getString(R.string.bio_address)+" " + userDTO.getPermanent_address());
-        tvPincode.setText(getResources().getString(R.string.bio_pincode)+" " + userDTO.getPin());
+        tvPincode.setText(getResources().getString(R.string.bio_pincode)+" " + userDTO.getFamily_pin());
         tvEmail.setText(getResources().getString(R.string.bio_email)+" " + userDTO.getEmail());
         tvWhatsupNo.setText(getResources().getString(R.string.bio_whatsup_no)+" " + userDTO.getWhatsapp_no());
         tvFatherNumber.setText(getResources().getString(R.string.bio_father_no)+" " + userDTO.getMobile2());

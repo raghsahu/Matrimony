@@ -384,5 +384,31 @@ public class Dashboard extends AppCompatActivity {
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(imgProfile);
 
+    /*    if (loginDTO.getData().getProfile_completion()>80) {
+
+        }else {
+            showDialog();
+        }*/
+
     }
+
+
+/*
+    public void showDialog(){
+
+        ProjectUtils.showSweetDialog(mContext, "Profile Full Fill", getResources().getString(R.string.profile_msg), "Ok", "Cancel", new SweetAlertDialog.OnSweetClickListener() {
+            @Override
+            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                Intent intent = new Intent(mContext, Profile.class);
+                startActivity(intent);
+            }
+        }, new SweetAlertDialog.OnSweetClickListener() {
+            @Override
+            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                sweetAlertDialog.dismissWithAnimation();
+            }
+        });
+
+    }
+*/
 }

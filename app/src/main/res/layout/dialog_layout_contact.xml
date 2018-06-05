@@ -37,6 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:gravity="center"
                 android:text="Varun Verma"
                 android:textSize="28sp" />
 

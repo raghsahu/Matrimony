@@ -1,13 +1,21 @@
 package com.inspire.rkspmatrimony.adapter;
 
+import android.Manifest;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -25,6 +33,7 @@ import com.inspire.rkspmatrimony.interfaces.Helper;
 import com.inspire.rkspmatrimony.sharedprefrence.SharedPrefrence;
 import com.inspire.rkspmatrimony.utils.ProjectUtils;
 import com.inspire.rkspmatrimony.utils.SpinnerDialog;
+import com.inspire.rkspmatrimony.view.CustomButton;
 import com.inspire.rkspmatrimony.view.CustomTextView;
 import com.inspire.rkspmatrimony.view.CustomTextViewBold;
 
@@ -46,6 +55,8 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
     private String TAG = AdapterVisitor.class.getSimpleName();
     private HashMap<String, String> parmsSendInterest = new HashMap<>();
     private SpinnerDialog spinnerDialog;
+    int CALL_PERMISSION = 101;
+
     public AdapterVisitor(ArrayList<UserDTO> joinDTOList, VisitorsFrag visitorsFrag) {
         this.joinDTOList = joinDTOList;
         this.visitorsFrag = visitorsFrag;
@@ -89,7 +100,7 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
         holder.tvProfession.setText(joinDTOList.get(position).getOccupation());
 
         Glide.with(context).
-                load(Consts.IMAGE_URL+joinDTOList.get(position).getAvatar_medium())
+                load(Consts.IMAGE_URL + joinDTOList.get(position).getAvatar_medium())
                 .placeholder(R.drawable.default_error)
                 .dontAnimate()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
@@ -132,16 +143,16 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
         });
 
         if (joinDTOList.get(position).getStatus() == 0) {
-        if (joinDTOList.get(position).getRequest() == 1) {
-            holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_already_sent));
-            holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.interest_sent));
-        } else if (joinDTOList.get(position).getRequest() == 2) {
-            holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_send_interest));
-            holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.interest_accept));
-        } else {
-            holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_send_interest));
-            holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.send_interest));
-        }
+            if (joinDTOList.get(position).getRequest() == 1) {
+                holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_already_sent));
+                holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.interest_sent));
+            } else if (joinDTOList.get(position).getRequest() == 2) {
+                holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+                holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.interest_accept));
+            } else {
+                holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_send_interest));
+                holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.send_interest));
+            }
         } else {
             holder.ivInterest.setImageDrawable(visitorsFrag.getResources().getDrawable(R.drawable.ic_send_interest));
             holder.tvInterest.setText(visitorsFrag.getResources().getString(R.string.interest_accepted));
@@ -151,15 +162,15 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
             @Override
             public void onClick(View view) {
                 if (joinDTOList.get(position).getStatus() == 0) {
-                if (joinDTOList.get(position).getRequest() == 0) {
-                    sendInterest(holder, position);
+                    if (joinDTOList.get(position).getRequest() == 0) {
+                        sendInterest(holder, position);
 
-                } else if (joinDTOList.get(position).getRequest() == 1) {
-                    ProjectUtils.showToast(context, visitorsFrag.getResources().getString(R.string.interset_sent_msg));
-                } else if (joinDTOList.get(position).getRequest() == 2) {
-                    updateInterest(holder, position);
-                }
-                }else {
+                    } else if (joinDTOList.get(position).getRequest() == 1) {
+                        ProjectUtils.showToast(context, visitorsFrag.getResources().getString(R.string.interset_sent_msg));
+                    } else if (joinDTOList.get(position).getRequest() == 2) {
+                        updateInterest(holder, position);
+                    }
+                } else {
                     ProjectUtils.showToast(context, visitorsFrag.getResources().getString(R.string.interset_accept_msg));
                 }
             }
@@ -167,11 +178,60 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
         holder.llContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                spinnerDialog = new SpinnerDialog(visitorsFrag.getActivity(), joinDTOList.get(position).getName(), joinDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
-                spinnerDialog.showConatactDialog();
+                if (joinDTOList.get(position).getMobile2().equalsIgnoreCase("")) {
+                    ProjectUtils.showToast(context, "Mobile number not available");
+                } else {
+                    if (joinDTOList.get(position).getStatus() == 0) {
+                        spinnerDialog = new SpinnerDialog(visitorsFrag.getActivity(), joinDTOList.get(position).getName(), joinDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                        spinnerDialog.showConatactDialog();
+                    } else {
+                        dialogshow(position);
+                    }
+                }
+
             }
 
         });
+    }
+
+    public void dialogshow(final int pos) {
+        final Dialog dialog = new Dialog(context/*, android.R.style.Theme_Dialog*/);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.dailog_call);
+
+        CustomButton cbOk = (CustomButton) dialog.findViewById(R.id.cbOk);
+        CustomButton cbCancel = (CustomButton) dialog.findViewById(R.id.cbCancel);
+
+
+        dialog.show();
+        dialog.setCancelable(false);
+        cbCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        cbOk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (ProjectUtils.hasPermissionInManifest(context, CALL_PERMISSION, Manifest.permission.CALL_PHONE)) {
+                    try {
+
+                        Intent callIntent = new Intent(Intent.ACTION_CALL);
+                        callIntent.setData(Uri.parse("tel:" + joinDTOList.get(pos).getMobile2()));
+                        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                            return;
+                        }
+                        visitorsFrag.startActivity(callIntent);
+                        dialog.dismiss();
+                    } catch (Exception e) {
+                        Log.e("Exception", "" + e);
+                    }
+                }
+            }
+        });
+
     }
 
     @Override
@@ -182,7 +242,7 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
 
     public class MatchesHolder extends RecyclerView.ViewHolder {
         public RelativeLayout rlClick;
-        public ImageView ivProfileImage,ivShortList, ivInterest;
+        public ImageView ivProfileImage, ivShortList, ivInterest;
         public CustomTextView tvjoinedstatus, tvProfession, tvYearandheight, tvEducation, tvGotra, tvIncome,
                 tvCity, tvmarrigestatus, tvInterest;
         public CustomTextViewBold tvName;
@@ -225,6 +285,7 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
             }
         });
     }
+
     public void removeShortListed(final MatchesHolder holder, int pos) {
         parms.put(Consts.SHORT_LISTED_ID, joinDTOList.get(pos).getId());
         new HttpsRequest(Consts.REMOVE_SHORTLISTED_API, parms, context).stringPost(TAG, new Helper() {
@@ -255,6 +316,7 @@ public class AdapterVisitor extends RecyclerView.Adapter<AdapterVisitor.MatchesH
             }
         });
     }
+
     public void updateInterest(final MatchesHolder holder, int pos) {
         parmsSendInterest.put(Consts.USER_ID, loginDTO.getData().getId());
         parmsSendInterest.put(Consts.REQUESTED_ID, joinDTOList.get(pos).getId());
