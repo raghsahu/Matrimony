@@ -98,13 +98,23 @@ public class AdapterShortlist extends RecyclerView.Adapter<AdapterShortlist.Matc
         }
         holder.tvProfession.setText(joinDTOList.get(position).getOccupation());
 
-        Glide.with(context).
-                load(Consts.IMAGE_URL+joinDTOList.get(position).getAvatar_medium())
-                .placeholder(R.drawable.default_error)
-                .dontAnimate()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(holder.ivProfileImage);
+        if (joinDTOList.get(position).getGender().equalsIgnoreCase("M")) {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + joinDTOList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_m)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
 
+        } else {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + joinDTOList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_f)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
+
+        }
 
         try {
             dob = joinDTOList.get(position).getDob();

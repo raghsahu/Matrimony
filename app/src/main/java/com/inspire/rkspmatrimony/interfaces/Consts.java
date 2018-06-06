@@ -84,6 +84,7 @@ public interface Consts {
     String ORGANIZATION = "organisation_name";
     String OTP = "otp";
     String WORKING = "working";
+    String FIREBASE_TOKEN = "firebase_token";
 
 
     /*Life Style*/

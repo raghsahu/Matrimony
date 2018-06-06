@@ -2,6 +2,7 @@ package com.inspire.rkspmatrimony.activity.loginsignup;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,13 +40,15 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     private RelativeLayout RRsncbar;
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
-
+    private SharedPreferences firebase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mContext = Login.this;
         prefrence = SharedPrefrence.getInstance(mContext);
+        firebase = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        Log.e("tokensss", firebase.getString(Consts.FIREBASE_TOKEN, ""));
         setUIAction();
     }
 
@@ -140,6 +143,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         HashMap<String, String> parms = new HashMap<>();
         parms.put(Consts.MOBILE, ProjectUtils.getEditTextValue(etNumber));
         parms.put(Consts.PASSWORD, ProjectUtils.getEditTextValue(etPassword));
+        parms.put(Consts.FIREBASE_TOKEN, firebase.getString(Consts.FIREBASE_TOKEN, ""));
         Log.e(TAG + " Login", parms.toString());
         return parms;
     }

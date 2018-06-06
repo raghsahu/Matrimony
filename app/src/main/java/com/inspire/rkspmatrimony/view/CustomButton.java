@@ -31,7 +31,7 @@ public class CustomButton extends Button {
     }
 
     private void applyCustomFont(Context context) {
-        Typeface customFont = FontCache.getTypeface("NunitoSans-Light.ttf", context);
+        Typeface customFont = FontCache.getTypeface("Ubuntu-Medium.ttf", context);
         setTypeface(customFont);
     }
 }

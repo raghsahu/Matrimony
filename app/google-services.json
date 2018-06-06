@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "805793097333",
+    "firebase_url": "https://rksp-60e87.firebaseio.com",
+    "project_id": "rksp-60e87",
+    "storage_bucket": "rksp-60e87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805793097333:android:f95ebe25bac12654",
+        "android_client_info": {
+          "package_name": "com.inspire.rkspmatrimony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805793097333-c6ifks29v7msu0puuk8ssahg8r8snd8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inspire.rkspmatrimony",
+            "certificate_hash": "52e0eb35bb196526f63b3d56aab4afe33842faec"
+          }
+        },
+        {
+          "client_id": "805793097333-n2a4q6srf3ju0c40mrvououqdc6eeh0e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "805793097333-n2a4q6srf3ju0c40mrvououqdc6eeh0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATrQ-GWJ7lR62NuOufZH3nd5D9THdz6lA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805793097333-n2a4q6srf3ju0c40mrvououqdc6eeh0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

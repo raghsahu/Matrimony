@@ -116,12 +116,24 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         holder.tvmarrigestatus.setText(userDTOList.get(position).getMarital_status());
         holder.tvName.setText(userDTOList.get(position).getName());
 
-        Glide.with(context).
-                load(Consts.IMAGE_URL + userDTOList.get(position).getAvatar_medium())
-                .placeholder(R.drawable.default_error)
-                .dontAnimate()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(holder.ivProfileImage);
+        if (userDTOList.get(position).getGender().equalsIgnoreCase("M")) {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + userDTOList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_m)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
+
+        } else {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + userDTOList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_f)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
+
+        }
+
 
         if (userDTOList.get(position).getShortlisted() == 0) {
             holder.ivShortList.setImageDrawable(matchesFrag.getResources().getDrawable(R.drawable.ic_shortlist));
@@ -160,7 +172,6 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         }
 
 
-
         holder.llInterest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -173,7 +184,7 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
                     } else if (userDTOList.get(position).getRequest() == 2) {
                         updateInterest(holder, position);
                     }
-                }else {
+                } else {
                     ProjectUtils.showToast(context, matchesFrag.getResources().getString(R.string.interset_accept_msg));
                 }
 
@@ -183,9 +194,9 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         holder.llContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (userDTOList.get(position).getMobile2().equalsIgnoreCase("")){
-                    ProjectUtils.showToast(context,"Mobile number not available");
-                }else {
+                if (userDTOList.get(position).getMobile2().equalsIgnoreCase("")) {
+                    ProjectUtils.showToast(context, "Mobile number not available");
+                } else {
                     if (userDTOList.get(position).getStatus() == 0) {
                         spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
                         spinnerDialog.showConatactDialog();

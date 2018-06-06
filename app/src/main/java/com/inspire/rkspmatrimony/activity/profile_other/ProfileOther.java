@@ -145,6 +145,13 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
         tvName.setText(userDTO.getName());
 
         if (userDTO.getGender().equalsIgnoreCase("M")) {
+            Glide.with(mContext).
+                    load(Consts.IMAGE_URL +  userDTO.getAvatar_medium())
+                    .placeholder(R.drawable.dummy_m)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(ivProfileImage);
+
             if (userDTO.getProfile_for().equalsIgnoreCase("Self")) {
                 tvManage.setText(getResources().getString(R.string.his_managed_self));
 
@@ -154,6 +161,12 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
             }
 
         } else {
+            Glide.with(mContext).
+                    load(Consts.IMAGE_URL +  userDTO.getAvatar_medium())
+                    .placeholder(R.drawable.dummy_f)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(ivProfileImage);
             if (userDTO.getProfile_for().equalsIgnoreCase("Self")) {
                 tvManage.setText(getResources().getString(R.string.her_managed_self));
 
@@ -199,6 +212,8 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
                 .dontAnimate()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(ivProfileImage);
+
+
         try {
             dob = userDTO.getDob();
             arrOfStr = dob.split("-", 3);

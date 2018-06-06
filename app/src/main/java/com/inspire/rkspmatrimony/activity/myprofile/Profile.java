@@ -218,12 +218,25 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
             ivEditCritical.setVisibility(View.GONE);
         }
 
-        Glide.with(mContext).
-                load(Consts.IMAGE_URL + userDTO.getAvatar_medium())
-                .placeholder(R.drawable.default_error)
-                .dontAnimate()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(ivImage);
+
+
+        if (userDTO.getGender().equalsIgnoreCase("M")) {
+            Glide.with(mContext).
+                    load(Consts.IMAGE_URL +  userDTO.getAvatar_medium())
+                    .placeholder(R.drawable.dummy_m)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(ivImage);
+
+        } else {
+            Glide.with(mContext).
+                    load(Consts.IMAGE_URL +  userDTO.getAvatar_medium())
+                    .placeholder(R.drawable.dummy_f)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(ivImage);
+
+        }
 
 
         loginDTO.setData(userDTO);

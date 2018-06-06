@@ -24,13 +24,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6135f73-1e08-400f-88d4-8fa5b5cc44eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/call.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/call.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/dummy_f.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/dummy_m.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/call.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/call.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dailog_call.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_license_11_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/google-services.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/MyFirebaseInstanceIDService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/MyFirebaseMessagingService.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -42,36 +53,46 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/about_us/aboutus.html" afterPath="$PROJECT_DIR$/app/src/main/assets/contact_us/contactus.html" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Splash.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Splash.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/ContactUs.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/ContactUs.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/dashboard/Dashboard.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/dashboard/Dashboard.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/BioData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/BioData.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Login.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/Profile.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/Profile.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/profile_other/ProfileOther.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/profile_other/ProfileOther.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterJustJoin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterJustJoin.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterMatches.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterMatches.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterNews.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterNews.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterReceiveInterest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterReceiveInterest.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterSentInterest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterSentInterest.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterShortlist.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterShortlist.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterVisitor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterVisitor.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/ProjectUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/ProjectUtils.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dialog_back.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dialog_back.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_other.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_other.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_contact.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_contact.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-420dpi/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-420dpi/dimens.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xxxhdpi/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-xxxhdpi/dimens.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/AboutFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/AboutFrag.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ReceviedInterest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ReceviedInterest.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SendInterest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SendInterest.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SettingsFrag.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SettingsFrag.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/CustomButton.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/CustomButton.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/about_us_back.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/about_us_back.jpg" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/dummy_f.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/dummy_f.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/dummy_m.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/dummy_m.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro1.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro1.jpg" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro2.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro2.jpg" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro3.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro3.jpg" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/splash.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/splash.jpg" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,12 +109,33 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Matrimony" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Matrimony" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Matrimony" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Matrimony" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -115,7 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>etMarital</find>
       <find>etManglik</find>
       <find>LANGUAGE</find>
       <find>language</find>
@@ -145,6 +186,7 @@
       <find>llbiodata</find>
       <find>com.behindbars.utils.</find>
       <find>justJoinFrag</find>
+      <find>token</find>
     </findStrings>
     <replaceStrings>
       <replace>004666</replace>
@@ -175,6 +217,11 @@
       <replace>shortlistedFrag</replace>
       <replace>visitorsFrag</replace>
     </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/app/rksp.jks" />
+    <option name="KEY_ALIAS" value="RKSP" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -343,6 +390,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -982,6 +1033,10 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseGoogleServices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'Matrimony'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -1111,6 +1166,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processDebugGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1746,6 +1805,10 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="processReleaseGoogleServices" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="properties" />
@@ -1769,6 +1832,8 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.1/c5eb71e93f4a397d60c3a5de3547bab4b1631c3b/google-services-3.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.1/aca432c928821bad3626ddd1b9164cd85a73641/google-services-3.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -1921,6 +1986,8 @@
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/79231e42158f711cbe81eb766d7c3578e38557a4/gradle-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.1.2/1608fa49add4d13366db7844998c6e59711f7e2a/gradle-3.1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.1/c5eb71e93f4a397d60c3a5de3547bab4b1631c3b/google-services-3.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.1.1/aca432c928821bad3626ddd1b9164cd85a73641/google-services-3.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/36e59348ddd26cbed10061dd4760e8ee030b88e4/gradle-core-3.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/3.1.2/ccab33656c1baa6514d88f4d9356db19d0e9823b/gradle-core-3.1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/bundletool/0.1.0-alpha01/f7c303e37818223bd98566fcbea29aa0964c4d06/bundletool-0.1.0-alpha01.jar" />
@@ -2388,35 +2455,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/editprofile/CriticalFields.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_pass.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/ForgotPass.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Login.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/ForgotPass.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/ChangePass.java" />
-        <option value="$PROJECT_DIR$/library/build.gradle" />
-        <option value="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_view.xml" />
-        <option value="$PROJECT_DIR$/library/src/main/res/layout/dialog_layout.xml" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/SpinnerDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_interest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/InterestFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/EndlessRecyclerOnScrollListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_matches.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SendInterest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ReceviedInterest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/MatchesFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/BioData.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/Profile.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterNews.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_other.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/profile_other/ProfileOther.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_contact.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" />
@@ -2426,23 +2472,44 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/dialog_back.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-420dpi/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dailog_call.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterJustJoin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/ProjectUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/MyFirebaseMessagingService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/MyFirebaseInstanceIDService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/ContactUs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/about_us/aboutus.html" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Splash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/dashboard/Dashboard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SendInterest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ReceviedInterest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SettingsFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/AboutFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/contact_us/contactus.html" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterMatches.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterJustJoin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterVisitor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterShortlist.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterReceiveInterest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterSentInterest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterShortlist.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterVisitor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/Profile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/profile_other/ProfileOther.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/CustomButton.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/ProjectUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/dashboard/Dashboard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="1299" />
@@ -2514,54 +2581,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rkspmatrimony" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Matrimony" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rkspmatrimony" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Matrimony" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rkspmatrimony" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-              <item name="myprofile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Matrimony" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rkspmatrimony" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/EndlessRecyclerView-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/AndroidSample/AndroidSample/SIPSample_AndroidStudio" />
     <property name="device.picker.selection" value="00d099ee0fd530d1" />
     <property name="android.profiler.active" value="true" />
     <property name="DEBUGGABLE_DEVICE" value="lge-nexus_5x-00d099ee0fd530d1" />
@@ -2571,6 +2606,11 @@
     <property name="SearchEverywhereHistoryKey" value="date of birth:&#9;null&#9;null&#10;action_button_string&#9;PSI&#9;JAVA://com.inspire.rkspmatrimony.R.string#action_button_string" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2586,11 +2626,11 @@
       <recent name="com.inspire.rkspmatrimony.view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2605,7 +2645,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2688,6 +2728,24 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="Matrimony:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" />
@@ -2767,6 +2825,15 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android App.app" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.Matrimony:app [signingReport]" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.Matrimony:app [signingReport]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -2794,40 +2861,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="27" width="1299" height="743" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.87223166" sideWeight="0.5027933" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8739353" sideWeight="0.49720672" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7120954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="167" y="125" width="1099" height="543" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.87223166" sideWeight="0.5027933" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3639266" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76960784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76831347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32367972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32367972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8739353" sideWeight="0.49720672" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29608938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29608938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7120954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="167" y="125" width="1099" height="543" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2862,19 +2930,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java</url>
-          <line>185</line>
+          <line>188</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java</url>
-          <line>182</line>
+          <line>185</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java</url>
-          <line>278</line>
+          <line>281</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -2934,226 +3002,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/JustJoinFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/InterestFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="61" column="91" lean-forward="false" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/InputFieldView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/InputOpenFieldView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/MatchesDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1605" column="16" lean-forward="false" selection-start-line="1605" selection-start-column="16" selection-end-line="1605" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/EndlessRecyclerOnScrollListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/editprofile/AboutFamilyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SettingsFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_matches.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/https/HttpsRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/MatchesFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-          <folding>
-            <element signature="e#3381#3427#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SendInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="98" column="8" lean-forward="false" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ReceviedInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="97" column="8" lean-forward="false" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/BioData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="147" column="108" lean-forward="true" selection-start-line="143" selection-start-column="7" selection-end-line="147" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="804" column="0" lean-forward="true" selection-start-line="804" selection-start-column="0" selection-end-line="804" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/EventsFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="70" column="42" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_profile_other.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="111" column="50" lean-forward="false" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="50" />
-          <folding>
-            <element signature="e#30331#30360#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/profile_other/ProfileOther.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="219" column="9" lean-forward="false" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_contact.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/dialog_back.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3161,7 +3013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3169,7 +3020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3177,7 +3027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3185,7 +3034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3196,96 +3044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="59" column="47" lean-forward="false" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-          <folding>
-            <element signature="e#333#353#0" expanded="false" />
-            <element signature="e#1690#1722#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterMatches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="185" column="31" lean-forward="false" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
-          <folding>
-            <element signature="e#8057#8816#0" expanded="false" />
-            <element signature="e#8815#8816#0" expanded="false" />
-            <element signature="e#8870#8871#0" expanded="false" />
-            <element signature="e#8911#8912#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterJustJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="180" column="23" lean-forward="true" selection-start-line="178" selection-start-column="13" selection-end-line="180" selection-end-column="23" />
-          <folding>
-            <element signature="e#7815#8575#0" expanded="false" />
-            <element signature="e#8574#8575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterSentInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="180" column="36" lean-forward="false" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="36" />
-          <folding>
-            <element signature="e#7972#8752#0" expanded="false" />
-            <element signature="e#8751#8752#0" expanded="false" />
-            <element signature="e#10478#10479#0" expanded="false" />
-            <element signature="e#10524#10525#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterShortlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="189" column="17" lean-forward="false" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
-          <folding>
-            <element signature="e#7883#8646#0" expanded="false" />
-            <element signature="e#8645#8646#0" expanded="false" />
-            <element signature="e#10370#10371#0" expanded="false" />
-            <element signature="e#10411#10412#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="188" column="21" lean-forward="true" selection-start-line="188" selection-start-column="21" selection-end-line="188" selection-end-column="21" />
-          <folding>
-            <element signature="e#7886#8649#0" expanded="false" />
-            <element signature="e#8648#8649#0" expanded="false" />
-            <element signature="e#10372#10373#0" expanded="false" />
-            <element signature="e#10413#10414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterReceiveInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="181" column="39" lean-forward="false" selection-start-line="181" selection-start-column="39" selection-end-line="181" selection-end-column="39" />
-          <folding>
-            <element signature="e#8149#8945#0" expanded="false" />
-            <element signature="e#8944#8945#0" expanded="false" />
-            <element signature="e#9728#10624#0" expanded="false" />
-            <element signature="e#10623#10624#0" expanded="false" />
-            <element signature="e#10679#10680#0" expanded="false" />
-            <element signature="e#10728#10729#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3293,15 +3051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="553" column="109" lean-forward="true" selection-start-line="553" selection-start-column="3" selection-end-line="553" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="554" column="12" lean-forward="true" selection-start-line="554" selection-start-column="12" selection-end-line="554" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3309,7 +3058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3317,7 +3065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3325,7 +3072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3337,20 +3083,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/Profile.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-795">
-          <caret line="174" column="16" lean-forward="false" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
-          <folding>
-            <element signature="e#10298#10346#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="614" column="40" lean-forward="false" selection-start-line="614" selection-start-column="40" selection-end-line="614" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/ProjectUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/interfaces/Consts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/MyFirebaseMessagingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="58" column="50" lean-forward="false" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/MyFirebaseInstanceIDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="145" column="88" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/loginsignup/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="455" column="88" lean-forward="false" selection-start-line="455" selection-start-column="88" selection-end-line="455" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -3360,55 +3145,288 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Models/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="614" column="40" lean-forward="false" selection-start-line="614" selection-start-column="40" selection-end-line="614" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="144" column="51" lean-forward="true" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
           <folding>
-            <element signature="e#13292#13293#0" expanded="false" />
+            <element signature="e#2043#2061#0" expanded="false" />
+            <element signature="e#2702#2741#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/utils/ProjectUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1116">
+          <caret line="74" column="33" lean-forward="false" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/dashboard/Dashboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="496">
+          <caret line="309" column="0" lean-forward="true" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ShortlistedFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_visitors.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/VisitorsFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="125" column="26" lean-forward="false" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SendInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="141" column="48" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="141" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/ReceviedInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="141" column="48" lean-forward="false" selection-start-line="141" selection-start-column="48" selection-end-line="141" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/dashboard/RateUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="65" column="108" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/SettingsFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="108" column="263" lean-forward="false" selection-start-line="108" selection-start-column="263" selection-end-line="108" selection-end-column="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="554" column="108" lean-forward="false" selection-start-line="554" selection-start-column="108" selection-end-line="554" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/about_us/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/contact_us/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/ContactUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterJustJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="116" column="9" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="116" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterMatches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="118" selection-start-column="6" selection-end-line="134" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="118" column="9" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="118" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterShortlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="116" column="9" lean-forward="false" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterSentInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="110" column="60" lean-forward="false" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/adapter/AdapterReceiveInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="116" column="9" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="116" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/myprofile/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="222" selection-start-column="7" selection-end-line="239" selection-end-column="0" />
           <folding>
-            <element signature="e#4477#4520#0" expanded="false" />
-            <element signature="e#4957#5305#0" expanded="false" />
-            <element signature="e#5304#5305#0" expanded="false" />
-            <element signature="e#5532#5678#0" expanded="false" />
-            <element signature="e#5677#5678#0" expanded="false" />
-            <element signature="e#8488#9016#0" expanded="false" />
-            <element signature="e#9015#9016#0" expanded="false" />
-            <element signature="e#10487#12435#0" expanded="false" />
-            <element signature="e#12434#12435#0" expanded="false" />
-            <element signature="e#13026#13058#0" expanded="false" />
-            <element signature="e#13088#13118#0" expanded="false" />
-            <element signature="e#13155#13185#0" expanded="false" />
-            <element signature="e#13187#13725#0" expanded="false" />
-            <element signature="e#13724#13725#0" expanded="false" />
-            <element signature="e#13762#13791#0" expanded="false" />
-            <element signature="e#13793#14021#0" expanded="false" />
-            <element signature="e#14020#14021#0" expanded="false" />
+            <element signature="e#7686#7739#0" expanded="false" />
+            <element signature="e#8303#8340#0" expanded="false" />
+            <element signature="e#8584#8633#0" expanded="false" />
+            <element signature="e#8665#8712#0" expanded="false" />
+            <element signature="e#8745#8791#0" expanded="false" />
+            <element signature="e#9396#9435#0" expanded="false" />
+            <element signature="e#9482#9506#0" expanded="false" />
+            <element signature="e#10079#10123#0" expanded="false" />
+            <element signature="e#10183#10232#0" expanded="false" />
+            <element signature="e#10298#10346#0" expanded="false" />
+            <element signature="e#14733#16641#0" expanded="false" />
+            <element signature="e#15479#15524#0" expanded="false" />
+            <element signature="e#15873#15915#0" expanded="false" />
+            <element signature="e#16258#16300#0" expanded="false" />
+            <element signature="e#16555#16597#0" expanded="false" />
+            <element signature="e#16640#16641#0" expanded="false" />
+            <element signature="e#16956#17002#0" expanded="false" />
+            <element signature="e#17097#17742#0" expanded="false" />
+            <element signature="e#17741#17742#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/activity/profile_other/ProfileOther.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/CustomEditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="36" column="70" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/view/CustomButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/inspire/rkspmatrimony/fragment/AboutFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="85" column="58" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

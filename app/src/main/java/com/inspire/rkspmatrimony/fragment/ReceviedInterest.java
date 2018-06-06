@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.google.gson.Gson;
@@ -49,6 +50,7 @@ public class ReceviedInterest extends Fragment {
     boolean request = false;
     private MatchesDTO matchesDTO;
     private ProgressBar pb;
+    private LinearLayout rlView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -63,6 +65,7 @@ public class ReceviedInterest extends Fragment {
 
     public void setUiAction(View view) {
         tempList = new ArrayList<>();
+        rlView = view.findViewById(R.id.rlView);
         rvMatch = view.findViewById(R.id.rvMatch);
         pb = view.findViewById(R.id.pb);
         mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
@@ -106,6 +109,8 @@ public class ReceviedInterest extends Fragment {
                     showData();
                 } else {
                     ProjectUtils.showToast(getActivity(), msg);
+                    rlView.setVisibility(View.VISIBLE);
+                    rvMatch.setVisibility(View.GONE);
                 }
             }
         });
@@ -132,10 +137,18 @@ public class ReceviedInterest extends Fragment {
         receiveInterestList = matchesDTO.getData();
         tempList.addAll(receiveInterestList);
         receiveInterestList = tempList;
-        adapterReceiveInterest = new AdapterReceiveInterest(receiveInterestList, ReceviedInterest.this);
-        rvMatch.setAdapter(adapterReceiveInterest);
-        rvMatch.smoothScrollToPosition(currentVisibleItemCount);
-        rvMatch.scrollToPosition(currentVisibleItemCount - 1);
+        if (receiveInterestList.size()>0){
+            rlView.setVisibility(View.GONE);
+            rvMatch.setVisibility(View.VISIBLE);
+            adapterReceiveInterest = new AdapterReceiveInterest(receiveInterestList, ReceviedInterest.this);
+            rvMatch.setAdapter(adapterReceiveInterest);
+            rvMatch.smoothScrollToPosition(currentVisibleItemCount);
+            rvMatch.scrollToPosition(currentVisibleItemCount - 1);
+        }else {
+            rlView.setVisibility(View.VISIBLE);
+            rvMatch.setVisibility(View.GONE);
+        }
+
     }
 
 }

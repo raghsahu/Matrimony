@@ -33,7 +33,7 @@ public class ContactUs extends AppCompatActivity {
         about_us.getSettings().setLoadsImagesAutomatically(true);
         about_us.getSettings().setJavaScriptEnabled(true);
         about_us.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        about_us.loadUrl("file:///android_asset/about_us/aboutus.html");
+        about_us.loadUrl("file:///android_asset/contact_us/contactus.html");
 
         llBack.setOnClickListener(new View.OnClickListener() {
             @Override

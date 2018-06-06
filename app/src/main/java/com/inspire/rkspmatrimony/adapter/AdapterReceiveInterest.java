@@ -98,12 +98,23 @@ public class AdapterReceiveInterest extends RecyclerView.Adapter<AdapterReceiveI
         }
         holder.tvProfession.setText(receiveInterestList.get(position).getOccupation());
 
-        Glide.with(context).
-                load(Consts.IMAGE_URL+receiveInterestList.get(position).getAvatar_medium())
-                .placeholder(R.drawable.default_error)
-                .dontAnimate()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(holder.ivProfileImage);
+        if (receiveInterestList.get(position).getGender().equalsIgnoreCase("M")) {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + receiveInterestList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_m)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
+
+        } else {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + receiveInterestList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_f)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
+
+        }
 
 
         try {

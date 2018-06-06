@@ -98,13 +98,23 @@ public class AdapterSentInterest extends RecyclerView.Adapter<AdapterSentInteres
         }
         holder.tvProfession.setText(sentInterestList.get(position).getOccupation());
 
-        Glide.with(context).
-                load(Consts.IMAGE_URL+sentInterestList.get(position).getAvatar_medium())
-                .placeholder(R.drawable.default_error)
-                .dontAnimate()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(holder.ivProfileImage);
+        if (sentInterestList.get(position).getGender().equalsIgnoreCase("M")) {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + sentInterestList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_m)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
 
+        } else {
+            Glide.with(context).
+                    load(Consts.IMAGE_URL + sentInterestList.get(position).getAvatar_medium())
+                    .placeholder(R.drawable.dummy_f)
+                    .dontAnimate()
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .into(holder.ivProfileImage);
+
+        }
 
         try {
             dob = sentInterestList.get(position).getDob();

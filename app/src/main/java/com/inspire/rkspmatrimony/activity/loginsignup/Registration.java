@@ -73,13 +73,16 @@ public class Registration extends AppCompatActivity {
     private LoginDTO loginDTO;
     public SharedPreferences languageDetails;
     public String lang = "";
-
+    private SharedPreferences firebase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
         mContext = Registration.this;
         prefrence = SharedPrefrence.getInstance(mContext);
+        firebase = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        Log.e("tokensss", firebase.getString(Consts.FIREBASE_TOKEN, ""));
+
         sysApplication = SysApplication.getInstance(mContext);
         languageDetails = Registration.this.getSharedPreferences(Consts.LANGUAGE_PREF, MODE_PRIVATE);
         lang =  languageDetails.getString(Consts.SELECTED_LANGUAGE,"");
@@ -450,6 +453,7 @@ public class Registration extends AppCompatActivity {
         parms.put(Consts.MOBILE, ProjectUtils.getEditTextValue(loginDetails.etphone));
         parms.put(Consts.OTP, otp);
         parms.put(Consts.LANG, lang);
+        parms.put(Consts.FIREBASE_TOKEN, firebase.getString(Consts.FIREBASE_TOKEN, ""));
 
         Log.e("parms", parms.toString());
         return parms;

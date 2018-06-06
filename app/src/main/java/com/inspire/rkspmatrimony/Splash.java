@@ -67,11 +67,12 @@ public class Splash extends AppCompatActivity {
                     if (prefference.getBooleanValue(Consts.IS_REGISTERED)) {
                         startActivity(new Intent(mContext, Dashboard.class));
                         overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+                        finish();
 
                     } else {
                         startActivity(new Intent(mContext, AppIntro.class));
                         overridePendingTransition(R.anim.fadein, R.anim.fadeout);
-
+                        finish();
 
                     }
 

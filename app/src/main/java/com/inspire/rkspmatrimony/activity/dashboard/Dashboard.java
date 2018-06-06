@@ -70,7 +70,7 @@ public class Dashboard extends AppCompatActivity {
     public CustomTextView tvPercent;
     public static int navItemIndex = 0;
     public static final String TAG_MAIN = "main";
-    public static final String TAG_SEARCH = "Search";
+    //public static final String TAG_SEARCH = "Search";
     public static final String TAG_SHORTLISTED = "Shortlisted";
     public static final String TAG_VISITORS = "Visitors";
     public static final String TAG_INTEREST = "interest";
@@ -236,25 +236,25 @@ public class Dashboard extends AppCompatActivity {
             case 0:
                 HomeFrag homeFrag = new HomeFrag();
                 return homeFrag;
-            case 1:
+           /* case 1:
                 SearchFrag searchFrag = new SearchFrag();
-                return searchFrag;
-            case 2:
+                return searchFrag;*/
+            case 1:
                 ShortlistedFrag shortlistedFrag = new ShortlistedFrag();
                 return shortlistedFrag;
-            case 3:
+            case 2:
                 VisitorsFrag visitorsFrag = new VisitorsFrag();
                 return visitorsFrag;
-            case 4:
+            case 3:
                 InterestFrag interestFrag = new InterestFrag();
                 return interestFrag;
-            case 5:
+            case 4:
                 EventsFrag eventsFrag = new EventsFrag();
                 return eventsFrag;
-            case 6:
+            case 5:
                 AboutFrag aboutFrag = new AboutFrag();
                 return aboutFrag;
-            case 7:
+            case 6:
                 SettingsFrag settingsFrag = new SettingsFrag();
                 return settingsFrag;
             default:
@@ -277,32 +277,32 @@ public class Dashboard extends AppCompatActivity {
                         navItemIndex = 0;
                         CURRENT_TAG = TAG_MAIN;
                         break;
-                    case R.id.nav_search:
+                   /* case R.id.nav_search:
                         navItemIndex = 1;
                         CURRENT_TAG = TAG_SEARCH;
-                        break;
+                        break;*/
                     case R.id.nav_shortlisted:
-                        navItemIndex = 2;
+                        navItemIndex = 1;
                         CURRENT_TAG = TAG_SHORTLISTED;
                         break;
                     case R.id.nav_visitor:
-                        navItemIndex = 3;
+                        navItemIndex = 2;
                         CURRENT_TAG = TAG_VISITORS;
                         break;
                     case R.id.nav_interest:
-                        navItemIndex = 4;
+                        navItemIndex = 3;
                         CURRENT_TAG = TAG_INTEREST;
                         break;
                     case R.id.nav_events:
-                        navItemIndex = 5;
+                        navItemIndex = 4;
                         CURRENT_TAG = TAG_EVENTS;
                         break;
                     case R.id.nav_about_us:
-                        navItemIndex = 6;
+                        navItemIndex = 5;
                         CURRENT_TAG = TAG_ABOUT_US;
                         break;
                     case R.id.nav_settings:
-                        navItemIndex = 7;
+                        navItemIndex = 6;
                         CURRENT_TAG = TAG_SETTINGS;
                         break;
                     default:

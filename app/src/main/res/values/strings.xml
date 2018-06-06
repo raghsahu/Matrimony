@@ -551,5 +551,8 @@
     <string name="received_interest_tag">Received Interest</string>
     <string name="conatact_msg">If you want to see the contact details of other users, please send the request. If they accept your request, you can see their contact details.</string>
     <string name="profile_msg">Oops seems ! your profile not full fill, please fill your profile.</string>
+    <string name="support_about">Support: <a href="http://rkspmatrimony.in/support">http://rkspmatrimony.in/support</a></string>
+    <string name="contact_us_about">Contact us: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">info@rkspmatrimony.in</a></string>
+
 
 </resources>
