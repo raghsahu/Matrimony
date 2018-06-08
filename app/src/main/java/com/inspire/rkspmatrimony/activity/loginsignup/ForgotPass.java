@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 
 import com.inspire.rkspmatrimony.R;
 import com.inspire.rkspmatrimony.https.HttpsRequest;
@@ -24,6 +25,7 @@ public class ForgotPass extends AppCompatActivity {
     private CustomButton btnSubmit;
     private HashMap<String, String> parms = new HashMap<>();
     private String TAG = ForgotPass.class.getSimpleName();
+    private LinearLayout llBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class ForgotPass extends AppCompatActivity {
     }
 
     public void setUiAction() {
+        llBack = findViewById(R.id.llBack);
         etMobile = findViewById(R.id.etMobile);
         btnSubmit = findViewById(R.id.btnSubmit);
 
@@ -41,6 +44,12 @@ public class ForgotPass extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 submitForm();
+            }
+        });
+        llBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
     }

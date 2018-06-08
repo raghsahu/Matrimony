@@ -4,7 +4,9 @@ public interface Consts {
     public static String APP_NMAE = "Matrimony";
 
     public static String BASE_URL = "http://rkspmatrimony.in/api/";
+    //public static String BASE_URL = "http://172.9.11.2/api/";
     public static String IMAGE_URL = "http://rkspmatrimony.in";
+    // public static String IMAGE_URL = "http://172.9.11.2";
 
     /*APIs*/
 
