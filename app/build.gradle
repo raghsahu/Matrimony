@@ -7,13 +7,14 @@ buildscript {
         classpath 'io.fabric.tools:gradle:1.+'
     }
 }
+
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.inspire.rkspmatrimony"
+        applicationId "com.samyotech.matrimony"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
@@ -26,15 +27,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    signingConfigs {
 
-        release {
-            storeFile file("../app/rksp.jks")
-            storePassword "android"
-            keyAlias "RKSP"
-            keyPassword "android"
-        }
-    }
     lintOptions {
         abortOnError false
     }

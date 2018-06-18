@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.inspire.rkspmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/contact"
@@ -31,7 +31,7 @@
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:src="@drawable/default_error" />
 
-            <com.inspire.rkspmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:id="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
                 android:text="Varun Verma"
                 android:textSize="28sp" />
 
-            <com.inspire.rkspmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -65,7 +65,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_margin="15dp">
 
-                <com.inspire.rkspmatrimony.view.CustomTextViewBold
+                <com.samyotech.matrimony.view.CustomTextViewBold
                     android:id="@+id/tvClose"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
                     android:text="@string/close"
                     android:textSize="16sp" />
 
-                <com.inspire.rkspmatrimony.view.CustomTextViewBold
+                <com.samyotech.matrimony.view.CustomTextViewBold
                     android:id="@+id/tvOk"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

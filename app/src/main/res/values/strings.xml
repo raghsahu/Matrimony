@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RKSP</string>
+    <string name="app_name">Matrimony</string>
 
     <string-array name="stepLabels">
         <item>Profile For</item>
@@ -49,13 +49,13 @@
     <string name="third_intro">Ready to meet your</string>
 
     <string name="first_intro_msg">Meet your perfect partner right here</string>
-    <string name="second_intro_msg">All profiles are verified by RKSP team</string>
+    <string name="second_intro_msg">All profiles are verified by Matrimony team</string>
     <string name="third_intro_msg">Dream Partner?</string>
     <!--text app intro screen -->
 
     <!--dialog close-->
-    <string name="title_dialog">RKSP</string>
-    <string name="msg_dialog">Are you sure want to close RKSP?</string>
+    <string name="title_dialog">Matrimony</string>
+    <string name="msg_dialog">Are you sure want to close Matrimony?</string>
     <string name="yes_dialog">Yes!</string>
     <string name="no_dialog">No</string>
     <!--dialog close-->
@@ -313,7 +313,7 @@
     <string name="date_amp_time_of_birth">Date &amp; Time of Birth</string>
     <string name="brother_sister">Brother/Sister</string>
     <string name="next">Next</string>
-    <string name="how_do_you_rate_rksp_android_experience">How do you rate RKSP android experience?</string>
+    <string name="how_do_you_rate_matrimony_android_experience">How do you rate Matrimony android experience?</string>
     <string name="i_love_it">I LOVE IT</string>
     <string name="registration">Registration</string>
     <string name="previous">Previous</string>
@@ -551,8 +551,8 @@
     <string name="received_interest_tag">Received Interest</string>
     <string name="conatact_msg">If you want to see the contact details of other users, please send the request. If they accept your request, you can see their contact details.</string>
     <string name="profile_msg">Oops seems ! your profile not full fill, please fill your profile.</string>
-    <string name="support_about">Support: <a href="http://rkspmatrimony.in/support">http://rkspmatrimony.in/support</a></string>
-    <string name="contact_us_about">Contact us: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">info@rkspmatrimony.in</a></string>
+    <string name="support_about">Support: <a href="http://Matrimonymatrimony.in/support">http://Matrimonymatrimony.in/support</a></string>
+    <string name="contact_us_about">Contact us: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">info@Matrimonymatrimony.in</a></string>
 
 
 </resources>

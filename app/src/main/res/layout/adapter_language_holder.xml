@@ -14,7 +14,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <com.inspire.rkspmatrimony.view.CustomTextView
+        <com.samyotech.matrimony.view.CustomTextView
             android:id="@+id/tvLanguage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

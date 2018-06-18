@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.inspire.rkspmatrimony.fragment.registration.LoginDetails">
+    tools:context="com.samyotech.matrimony.fragment.registration.LoginDetails">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,13 +15,13 @@
         android:paddingRight="@dimen/login_margin_txt_top_10">
 
 
-        <com.inspire.rkspmatrimony.view.InputOpenFieldView
+        <com.samyotech.matrimony.view.InputOpenFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
             android:visibility="visible">
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
+            <com.samyotech.matrimony.view.CustomEditText
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -29,16 +29,16 @@
                 android:imeOptions="actionNext"
                 android:inputType="text"
                 android:singleLine="true" />
-        </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+        </com.samyotech.matrimony.view.InputOpenFieldView>
 
 
-        <com.inspire.rkspmatrimony.view.InputOpenFieldView
+        <com.samyotech.matrimony.view.InputOpenFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
             android:visibility="visible">
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
+            <com.samyotech.matrimony.view.CustomEditText
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,15 +46,15 @@
                 android:imeOptions="actionNext"
                 android:inputType="textEmailAddress"
                 android:singleLine="true" />
-        </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+        </com.samyotech.matrimony.view.InputOpenFieldView>
 
-        <com.inspire.rkspmatrimony.view.InputOpenFieldView
+        <com.samyotech.matrimony.view.InputOpenFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
             android:visibility="visible">
 
-            <com.inspire.rkspmatrimony.view.CustomEditText
+            <com.samyotech.matrimony.view.CustomEditText
                 android:id="@+id/etPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,21 +62,21 @@
                 android:imeOptions="actionNext"
                 android:inputType="textPassword"
                 android:singleLine="true" />
-        </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+        </com.samyotech.matrimony.view.InputOpenFieldView>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10">
 
-            <com.inspire.rkspmatrimony.view.InputOpenFieldView
+            <com.samyotech.matrimony.view.InputOpenFieldView
                 android:id="@+id/til_phone_number_illusion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
                 android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
 
-                <com.inspire.rkspmatrimony.view.CustomEditText
+                <com.samyotech.matrimony.view.CustomEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@android:color/transparent"
@@ -86,15 +86,15 @@
                     android:paddingTop="10dp"
                     android:singleLine="true"
                     android:text=" " />
-            </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+            </com.samyotech.matrimony.view.InputOpenFieldView>
 
-            <com.inspire.rkspmatrimony.view.InputFieldView
+            <com.samyotech.matrimony.view.InputFieldView
                 android:id="@+id/til_isd_code"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
 
-                <com.inspire.rkspmatrimony.view.CustomEditText
+                <com.samyotech.matrimony.view.CustomEditText
                     android:id="@+id/et_isd_code"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -107,9 +107,9 @@
                     android:maxLength="3"
                     android:maxLines="1"
                     android:minEms="2" />
-            </com.inspire.rkspmatrimony.view.InputFieldView>
+            </com.samyotech.matrimony.view.InputFieldView>
 
-            <com.inspire.rkspmatrimony.view.InputOpenFieldView
+            <com.samyotech.matrimony.view.InputOpenFieldView
                 android:id="@+id/til_phone_number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                 android:layout_toRightOf="@+id/til_isd_code"
                 android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
 
-                <com.inspire.rkspmatrimony.view.CustomEditText
+                <com.samyotech.matrimony.view.CustomEditText
                     android:id="@+id/etphone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
                     android:maxLines="1"
                     android:maxLength="10"
                     android:singleLine="true" />
-            </com.inspire.rkspmatrimony.view.InputOpenFieldView>
+            </com.samyotech.matrimony.view.InputOpenFieldView>
         </RelativeLayout>
 
 

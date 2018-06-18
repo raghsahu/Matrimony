@@ -1,39 +1,39 @@
 {
   "project_info": {
-    "project_number": "805793097333",
-    "firebase_url": "https://rksp-60e87.firebaseio.com",
-    "project_id": "rksp-60e87",
-    "storage_bucket": "rksp-60e87.appspot.com"
+    "project_number": "524816687231",
+    "firebase_url": "https://matrimony-8303a.firebaseio.com",
+    "project_id": "matrimony-8303a",
+    "storage_bucket": "matrimony-8303a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:805793097333:android:f95ebe25bac12654",
+        "mobilesdk_app_id": "1:524816687231:android:5cfbd2dbdfba9d2b",
         "android_client_info": {
-          "package_name": "com.inspire.rkspmatrimony"
+          "package_name": "com.samyotech.matrimony"
         }
       },
       "oauth_client": [
         {
-          "client_id": "805793097333-c6ifks29v7msu0puuk8ssahg8r8snd8v.apps.googleusercontent.com",
+          "client_id": "524816687231-jscingilsk8s8tgmhbe0veo38ntj4vsk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.inspire.rkspmatrimony",
+            "package_name": "com.samyotech.matrimony",
             "certificate_hash": "52e0eb35bb196526f63b3d56aab4afe33842faec"
           }
         },
         {
-          "client_id": "805793097333-n2a4q6srf3ju0c40mrvououqdc6eeh0e.apps.googleusercontent.com",
+          "client_id": "524816687231-jrctg7036a87snfhat4i3pq0qe2kid64.apps.googleusercontent.com",
           "client_type": 3
         },
         {
-          "client_id": "805793097333-n2a4q6srf3ju0c40mrvououqdc6eeh0e.apps.googleusercontent.com",
+          "client_id": "524816687231-jrctg7036a87snfhat4i3pq0qe2kid64.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyATrQ-GWJ7lR62NuOufZH3nd5D9THdz6lA"
+          "current_key": "AIzaSyC6YwDKLRSdMv0DC2CXtNPasADXRMJqu9o"
         }
       ],
       "services": {
@@ -44,7 +44,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "805793097333-n2a4q6srf3ju0c40mrvououqdc6eeh0e.apps.googleusercontent.com",
+              "client_id": "524816687231-jrctg7036a87snfhat4i3pq0qe2kid64.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

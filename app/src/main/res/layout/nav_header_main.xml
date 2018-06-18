@@ -45,7 +45,7 @@
                 android:layout_centerInParent="true"
                 android:src="@drawable/drawe_logo" />
 
-            <com.inspire.rkspmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:id="@+id/tvPercent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
         </RelativeLayout>
 
 
-        <com.inspire.rkspmatrimony.view.CustomTextViewBold
+        <com.samyotech.matrimony.view.CustomTextViewBold
             android:id="@+id/ctvbName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
