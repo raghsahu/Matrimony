@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#A0004666"
+        android:background="#A02D0053"
         android:clickable="false"
         android:visibility="visible">
 

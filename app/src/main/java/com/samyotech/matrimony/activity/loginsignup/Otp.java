@@ -19,8 +19,8 @@ import com.samyotech.matrimony.interfaces.Helper;
 import com.samyotech.matrimony.network.NetworkManager;
 import com.samyotech.matrimony.sharedprefrence.SharedPrefrence;
 import com.samyotech.matrimony.utils.ProjectUtils;
-import com.samyotech.matrimony.interfaces.SmsListener;
-import com.samyotech.matrimony.utils.SmsReceiver;
+//import com.samyotech.matrimony.interfaces.SmsListener;
+//import com.samyotech.matrimony.utils.SmsReceiver;
 import com.samyotech.matrimony.view.CustomButton;
 import com.samyotech.matrimony.view.CustomEditText;
 import com.samyotech.matrimony.view.CustomTextView;
@@ -33,7 +33,7 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Otp extends AppCompatActivity implements View.OnClickListener, SmsListener {
+public class Otp extends AppCompatActivity implements View.OnClickListener {
     private String TAG = Otp.class.getSimpleName();
     private Context mContext;
     private LinearLayout back;
@@ -76,7 +76,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
     private void setUiAction() {
         tvResend = findViewById(R.id.tvResend);
         tvMobile = findViewById(R.id.tvMobile);
-        tvMobile.setText(getIntent().getStringExtra("number"));
+        tvMobile.setText(mobile);
         btnVerify = findViewById(R.id.btnVerify);
         btnVerify.setOnClickListener(this);
         etOne = findViewById(R.id.etOne);
@@ -88,88 +88,22 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         tvResend.setOnClickListener(this);
 
 
+
         etOne.addTextChangedListener(new GenericTextWatcher(etOne));
         etTwo.addTextChangedListener(new GenericTextWatcher(etTwo));
         etThree.addTextChangedListener(new GenericTextWatcher(etThree));
         etFour.addTextChangedListener(new GenericTextWatcher(etFour));
 
+        showOTP(otp);
 
-       /* etOne.addTextChangedListener(new TextWatcher() {
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (etOne.getText().toString().length() == 1) {
-                    etTwo.requestFocus();
-                }
-            }
 
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // TODO Auto-generated method stub
-            }
-
-            public void afterTextChanged(Editable s) {
-                // TODO Auto-generated method stub
-            }
-        });
-
-        etTwo.addTextChangedListener(new TextWatcher() {
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (etTwo.getText().toString().length() == 1) {
-                    etThree.requestFocus();
-                }
-            }
-
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // TODO Auto-generated method stub
-            }
-
-            public void afterTextChanged(Editable s) {
-                // TODO Auto-generated method stub
-                if (etTwo.getText().toString().length() == 0) {
-                    etOne.requestFocus();
-                }
-            }
-        });
-        etThree.addTextChangedListener(new TextWatcher() {
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (etThree.getText().toString().length() == 1) {
-                    etFour.requestFocus();
-                }
-            }
-
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // TODO Auto-generated method stub
-            }
-
-            public void afterTextChanged(Editable s) {
-                // TODO Auto-generated method stub
-                if (etThree.getText().toString().length() == 0) {
-                    etTwo.requestFocus();
-                }
-            }
-        });
-
-        etFour.addTextChangedListener(new TextWatcher() {
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // TODO Auto-generated method stub
-            }
-
-            public void afterTextChanged(Editable s) {
-                // TODO Auto-generated method stub
-                if (etFour.getText().toString().length() == 0) {
-                    etThree.requestFocus();
-                }
-            }
-        });*/
     }
 
-    @Override
+    /*@Override
     protected void onResume() {
         super.onResume();
-        SmsReceiver.bindListener(this, "RKSP Matrimony");
-    }
+        SmsReceiver.bindListener(this, "Matrimony");
+    }*/
 
     @Override
     public void onClick(View view) {
@@ -182,7 +116,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
                     resendotp = getOtp();
                     otp = resendotp;
                     Log.e("OTP", otp + "  " + resendotp);
-                    resendOTP();
+                    //  resendOTP();
                 } else {
                     ProjectUtils.showToast(mContext, getString(R.string.internet_concation));
                 }
@@ -197,7 +131,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         String otpVerify = otp;
         Log.e("OTP", otpVerify);
         if (otp.equals(otpVerify)) {
-            SmsReceiver.bindListener(null, "Varun");
+            // SmsReceiver.bindListener(null, "Varun");
             if (NetworkManager.isConnectToInternet(mContext)) {
                 request();
             } else {
@@ -214,7 +148,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
             @Override
             public void backResponse(boolean flag, String msg, JSONObject response) {
                 if (flag) {
-                    prefrence.setBooleanValue(Consts.IS_REGISTERED,true);
+                    prefrence.setBooleanValue(Consts.IS_REGISTERED, true);
                     Intent in = new Intent(mContext, Dashboard.class);
                     startActivity(in);
                     finish();
@@ -242,6 +176,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         return builder.toString();
     }
 
+/*
     public void resendOTP() {
         parms_resend.put(Consts.TOKEN, loginDTO.getAccess_token());
         parms_resend.put(Consts.MOBILE, mobile);
@@ -260,7 +195,36 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
             }
         });
     }
+*/
 
+    public void showOTP(String otp) {
+        try {
+
+
+            Log.d("Text", otp);
+            //ProjectUtils.showToast(mContext,messageText);
+            Pattern pattern = Pattern.compile(OTP_REGEX);
+            Matcher matcher = pattern.matcher(otp);
+            String otp_one = "";
+            while (matcher.find()) {
+                otp_one = matcher.group();
+                Log.e("While", otp_one);
+            }
+            Log.e("ONE", otp_one.charAt(0) + "");
+            etOne.setText("" + otp_one.charAt(0));
+            etTwo.setText("" + otp_one.charAt(1));
+            etThree.setText("" + otp_one.charAt(2));
+            etFour.setText("" + otp_one.charAt(3));
+            etFour.setSelection(etFour.getText().length());
+
+            // btnSubmit.performClick();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+/*
     @Override
     public void messageReceived(String messageText) {
         try {
@@ -288,6 +252,7 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         }
 
     }
+*/
 
     /**
      * automatic moving text on verification
@@ -340,10 +305,12 @@ public class Otp extends AppCompatActivity implements View.OnClickListener, SmsL
         }
     }
 
+/*
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
         SmsReceiver.bindListener(null, "Varun");
     }
+*/
 }

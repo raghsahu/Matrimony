@@ -13,6 +13,21 @@
                       <PersistentState>
                         <option name="children">
                           <map>
+                            <entry key="actionbar">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="$USER_HOME$/Documents/Project Img/matrimony/lock.png" />
+                                      <entry key="outputName" value="lock" />
+                                      <entry key="theme" value="CUSTOM" />
+                                      <entry key="themeColor" value="2d0053" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
                             <entry key="launcherLegacy">
                               <value>
                                 <PersistentState>
@@ -36,7 +51,6 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="cropped" value="true" />
-                                      <entry key="iconShape" value="CIRCLE" />
                                       <entry key="imageAsset" value="$USER_HOME$/Downloads/logo-preview-1e0c7e79-faf5-4170-8426-91c94ab55a68.jpg" />
                                       <entry key="outputName" value="ic_launcher_round" />
                                     </map>
@@ -48,7 +62,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>

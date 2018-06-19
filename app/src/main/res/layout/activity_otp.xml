@@ -170,6 +170,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_25"
             android:gravity="center"
+            android:visibility="gone"
             android:orientation="horizontal">
 
 

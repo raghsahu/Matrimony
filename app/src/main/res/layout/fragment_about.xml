@@ -42,14 +42,14 @@
             <com.samyotech.matrimony.view.CustomTextViewBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RKSP Matrimony"
+                android:text="Matrimony"
                 android:textSize="16sp" />
 
             <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:text="© 2018 Rksp Matrimony, INDORE, INDIA."
+                android:text="© 2018 Samyotech, INDORE, INDIA."
                 android:textSize="16sp" />
 
             <com.samyotech.matrimony.view.CustomTextView
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:text="Launched: 5th June 2018"
+                android:text="Launched: 19th June 2018"
                 android:textSize="16sp" />
 
             <com.samyotech.matrimony.view.CustomTextView

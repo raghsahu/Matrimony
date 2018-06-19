@@ -106,7 +106,7 @@ public class SettingsFrag extends Fragment implements View.OnClickListener {
 
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, "Hi! I have had a great experience with RKSP and highly recommend that you register to find your perfeact life partner.. " + "\n" + " Use App link: http://play.google.com/store/apps/details?id=" +getActivity().getPackageName());
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, "Hi! I have had a great experience with Matrimony and highly recommend that you register to find your perfeact life partner.. " + "\n" + " Use App link: http://play.google.com/store/apps/details?id=" +getActivity().getPackageName());
             startActivity(Intent.createChooser(sharingIntent, getResources().getString(R.string.app_name)));
         } catch (Exception e) {
             e.printStackTrace();

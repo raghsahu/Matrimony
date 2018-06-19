@@ -137,7 +137,7 @@
     <string name="head_res_three">महत्वपूर्ण विवरण</string>
     <string name="head_res_four">सामाजिक विवरण</string>
     <string name="head_res_five">लॉगइन विवरण</string>
-    <string name="exit_res">बाहर जाएं?</string>
+    <string name="exit_res">Opps लगता है कि आप अभी अपनी प्रोफ़ाइल बनाना नहीं चाहते हैं?</string>
     <string name="msg_res_exit">इसे बाद में करें!</string>
     <string name="select_occupation">व्यवसाय का चयन करें</string>
     <string name="mother_occupation">माता व्यवसाय का चयन करें</string>
@@ -537,7 +537,7 @@
 
 
     <string name="bio_data">बायोडाटा</string>
-    <string name="bio_header">श्री गणेशाय नमः जय राजराजेश्वर</string>
+    <string name="bio_header">श्री गणेशाय नमः</string>
     <string name="txt_dietary_hb">आहार -</string>
     <string name="txt_drink_hb">पीने की आदतें -</string>
     <string name="txt_smok_hb">धूम्रपान की आदतें -</string>

@@ -3,10 +3,8 @@ package com.samyotech.matrimony.interfaces;
 public interface Consts {
     public static String APP_NMAE = "Matrimony";
 
-    public static String BASE_URL = "http://rkspmatrimony.in/api/";
-    //public static String BASE_URL = "http://172.9.11.2/api/";
-    public static String IMAGE_URL = "http://rkspmatrimony.in";
-    // public static String IMAGE_URL = "http://172.9.11.2";
+    public static String BASE_URL = "http://phplaravel-132936-535459.cloudwaysapps.com/api/";
+    public static String IMAGE_URL = "http://phplaravel-132936-535459.cloudwaysapps.com";
 
     /*APIs*/
 

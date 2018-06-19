@@ -42,13 +42,13 @@ public class WebViewActivity extends AppCompatActivity implements View.OnClickLi
             webView.setWebViewClient(new MyBrowser());
             webView.getSettings().setLoadsImagesAutomatically(true);
             webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadUrl("http://rkspmatrimony.in/terms-conditions");
+            webView.loadUrl("http://samyotech.com/about-us/");
         } else if (flag == 2) {
             tvHeader.setText(getResources().getString(R.string.privacy_header));
             webView.setWebViewClient(new MyBrowser());
             webView.getSettings().setLoadsImagesAutomatically(true);
             webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadUrl("http://rkspmatrimony.in/privacy-policy");
+            webView.loadUrl("http://samyotech.com/about-us/");
 
         }
 
