@@ -31,6 +31,7 @@
     <string name="marital">वैवाहिक स्थिति *</string>
     <string name="gotra">गोत्र परिवार *</string>
     <string name="gotra_nanihal">गोत्र नानीहाल *</string>
+    <string name="caste">जाति *</string>
     <string name="manglik">मांगलिक *</string>
     <string name="birth_time">जन्म समय *</string>
     <string name="birth_place">जन्म स्थान *</string>
@@ -123,6 +124,7 @@
     <string name="val_maritial_status">वैवाहिक स्थिति का चयन करें</string>
     <string name="val_gotra">कृपया गोत्र दर्ज करें</string>
     <string name="val_manglik">मांगलिक स्थिति का चयन करें</string>
+    <string name="val_caste">जाति का चयन करें</string>
     <string name="select_manglik">मांगलिक स्थिति का चयन करें</string>
     <string name="val_birth_time">कृपया जन्म का समय चुनें</string>
     <string name="val_birth_place">कृपया जन्म स्थान दर्ज करें</string>
@@ -149,6 +151,7 @@
     <string name="brothers">भाई</string>
     <string name="sisters">बहन</string>
     <string name="select_state">राज्य चुनें</string>
+    <string name="select_caste">जाति चुनें</string>
     <string name="close">बंद करे</string>
     <string name="select_district">जिला चुनें</string>
     <string name="val_grandf">कृपया दादाजी का नाम दर्ज करें</string>

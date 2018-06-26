@@ -32,6 +32,7 @@
     <string name="marital">Marital Status *</string>
     <string name="gotra">Gotra Family*</string>
     <string name="gotra_nanihal">Gotra Nanihal*</string>
+    <string name="caste">Caste*</string>
     <string name="manglik">Manglik *</string>
     <string name="birth_time">Birth Time *</string>
     <string name="birth_place">Birth Place *</string>
@@ -125,6 +126,7 @@
     <string name="val_maritial_status">Please select marital status.</string>
     <string name="val_gotra">Please enter gotra.</string>
     <string name="val_manglik">Please select Manglik.</string>
+    <string name="val_caste">Please select Caste.</string>
     <string name="select_manglik">Select Manglik.</string>
     <string name="val_birth_time">Please select birth time.</string>
     <string name="val_birth_place">Please enter birth place.</string>
@@ -151,6 +153,7 @@
     <string name="brothers">Brother(s)</string>
     <string name="sisters">Sister(s)</string>
     <string name="select_state">Select State</string>
+    <string name="select_caste">Select Caste</string>
     <string name="close">Close</string>
     <string name="select_district">Select District</string>
     <string name="val_grandf">Please enter grandfather name</string>
@@ -269,7 +272,7 @@
     <string name="contact_us">Contact Us</string>
     <string name="lifestyle">Lifestyle</string>
     <string name="date_of_birth">Date of birth</string>
-    <string name="marital1">Marital</string>
+    <string name="marital1">Marital Status</string>
     <string name="aadhaar_no">Aadhaar No.</string>
     <string name="gotra1">Gotra</string>
     <string name="gotra_nanihal1">Gotra Nanihal</string>

@@ -30,12 +30,14 @@ public interface Consts {
     String FORGET_PASSWORD_API = "forget-password";
     String UPDATE_INTEREST_API = "update-interest";
     String GET_INTEREST_API = "get-interest";
+    String SEARCH_API = "search";
 
 
     /*DTOs*/
 
     String LOGIN_DTO = "login_dto";
     String USER_DTO = "user_dto";
+    String SEARCH_PARAM = "search_param";
 
     /*Project*/
     String IS_REGISTERED = "is_registered";
@@ -80,6 +82,7 @@ public interface Consts {
     String PIN = "pin";
     String CITY = "city";
     String GOTRA = "gotra";
+    String CASTE = "caste";
     String GOTRA_NANIHAL = "gotra_nanihal";
     String ORGANIZATION = "organisation_name";
     String OTP = "otp";

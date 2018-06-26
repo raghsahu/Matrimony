@@ -141,13 +141,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/login_margin_txt_top_15"
-                android:layout_marginTop="@dimen/login_margin_txt_top_15"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:padding="10dp"
                 android:text="@string/create_a_new_account"
                 android:textColor="@color/white_alpha"
                 android:textSize="@dimen/abc_text_size_menu_material" />
 
+            <com.samyotech.matrimony.view.CustomButton
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/login_margin_txt_top_5"
+                android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:background="@drawable/button_selector_red"
+                android:gravity="center"
+                android:text="@string/nav_search"
+                android:textColor="@color/white" />
 
         </LinearLayout>
     </ScrollView>

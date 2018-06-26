@@ -243,7 +243,9 @@ public class Registration extends AppCompatActivity {
             showSickbar(getString(R.string.val_maritial_status));
         } else if (!ProjectUtils.isEditTextFilled(socialDetails.etGotra)) {
             showSickbar(getString(R.string.val_gotra));
-        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etManglik)) {
+        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etCaste)) {
+            showSickbar(getString(R.string.val_caste));
+        }else if (!ProjectUtils.isEditTextFilled(socialDetails.etManglik)) {
             showSickbar(getString(R.string.val_manglik));
         } else if (!ProjectUtils.isEditTextFilled(socialDetails.etBirthTime)) {
             showSickbar(getString(R.string.val_birth_time));
@@ -443,6 +445,7 @@ public class Registration extends AppCompatActivity {
         parms.put(Consts.AADHAAR, ProjectUtils.getEditTextValue(importantDetails.etAadhar));
         parms.put(Consts.MARITAL_STATUS, socialDetails.marital);
         parms.put(Consts.GOTRA, ProjectUtils.getEditTextValue(socialDetails.etGotra));
+        parms.put(Consts.CASTE, socialDetails.caste);
         parms.put(Consts.MANGLIK, socialDetails.manglik);
         parms.put(Consts.BIRTH_TIME, ProjectUtils.getEditTextValue(socialDetails.etBirthTime));
         parms.put(Consts.BIRTH_PLACE, ProjectUtils.getEditTextValue(socialDetails.etBirthPlace));

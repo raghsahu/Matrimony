@@ -329,4 +329,9 @@ public class ProfileOther extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        finish();
+    }
 }

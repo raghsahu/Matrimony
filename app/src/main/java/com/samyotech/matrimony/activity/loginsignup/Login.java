@@ -8,11 +8,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
 import com.google.gson.Gson;
 import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.R;
+import com.samyotech.matrimony.activity.search.Search;
 import com.samyotech.matrimony.activity.dashboard.Dashboard;
 import com.samyotech.matrimony.https.HttpsRequest;
 import com.samyotech.matrimony.interfaces.Consts;
@@ -25,7 +28,6 @@ import com.samyotech.matrimony.view.CustomEditText;
 import com.samyotech.matrimony.view.CustomTextView;
 import com.samyotech.matrimony.view.ExtendedEditText;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
@@ -33,7 +35,7 @@ import java.util.HashMap;
 public class Login extends AppCompatActivity implements View.OnClickListener {
     private ExtendedEditText etNumber;
     private CustomEditText etPassword;
-    private CustomButton btnLogin;
+    private CustomButton btnLogin, btnSearch;
     private CustomTextView tvCreateNewAC, tvForgotPass;
     private Context mContext;
     private String TAG = Login.class.getSimpleName();
@@ -41,9 +43,12 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     private SharedPrefrence prefrence;
     private LoginDTO loginDTO;
     private SharedPreferences firebase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
         mContext = Login.this;
         prefrence = SharedPrefrence.getInstance(mContext);
@@ -58,7 +63,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         etNumber = findViewById(R.id.etNumber);
         etNumber.setPrefix("+91 ");
         btnLogin = findViewById(R.id.btnLogin);
+        btnSearch = findViewById(R.id.btnSearch);
         btnLogin.setOnClickListener(this);
+        btnSearch.setOnClickListener(this);
 
         tvCreateNewAC = findViewById(R.id.tvCreateNewAC);
         tvForgotPass = findViewById(R.id.tvForgotPass);
@@ -74,6 +81,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 break;
             case R.id.tvCreateNewAC:
                 startActivity(new Intent(mContext, Registration.class));
+                overridePendingTransition(R.anim.anim_slide_in_left,
+                        R.anim.anim_slide_out_left);
+                break;
+            case R.id.btnSearch:
+                startActivity(new Intent(mContext, Search.class));
                 overridePendingTransition(R.anim.anim_slide_in_left,
                         R.anim.anim_slide_out_left);
                 break;
@@ -110,17 +122,13 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 if (flag) {
 
 
-
                     ProjectUtils.showToast(mContext, msg);
 
                     loginDTO = new Gson().fromJson(response.toString(), LoginDTO.class);
 
 
-
-
-
                     prefrence.setLoginResponse(loginDTO, Consts.LOGIN_DTO);
-                    prefrence.setBooleanValue(Consts.IS_REGISTERED,true);
+                    prefrence.setBooleanValue(Consts.IS_REGISTERED, true);
                     ProjectUtils.showToast(mContext, msg);
                     Intent in = new Intent(mContext, Dashboard.class);
                     startActivity(in);
@@ -130,9 +138,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 } else {
                     ProjectUtils.showToast(mContext, msg);
                 }
-
-
-
 
 
             }
@@ -147,7 +152,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         Log.e(TAG + " Login", parms.toString());
         return parms;
     }
-
 
 
     public void showSickbar(String msg) {

@@ -49,7 +49,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:supportsRtl">
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.samyotech.matrimony.fileprovider"
@@ -59,13 +60,16 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/filepaths" />
         </provider>
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
 
         <activity
-            android:name="com.samyotech.matrimony.Splash"
+            android:name=".Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -74,124 +78,130 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.samyotech.matrimony.AppIntro"
+            android:name=".AppIntro"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.loginsignup.Login"
+            android:name=".activity.loginsignup.Login"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.loginsignup.Registration"
+            android:name=".activity.loginsignup.Registration"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.loginsignup.Otp"
+            android:name=".activity.loginsignup.Otp"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.dashboard.Dashboard"
+            android:name=".activity.dashboard.Dashboard"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.profile_other.ProfileOther"
+            android:name=".activity.profile_other.ProfileOther"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.myprofile.Profile"
+            android:name=".activity.myprofile.Profile"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.editprofile.BasicDetailsActivity"
+            android:name=".activity.editprofile.BasicDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.editprofile.AboutFamilyActivity"
+            android:name=".activity.editprofile.AboutFamilyActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.editprofile.AboutMeActivity"
+            android:name=".activity.editprofile.AboutMeActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.editprofile.ImportantDetailsActivity"
+            android:name=".activity.editprofile.ImportantDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.editprofile.LifeStyleActivity"
+            android:name=".activity.editprofile.LifeStyleActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.imageselection.ImageshowActivity"
+            android:name=".activity.imageselection.ImageshowActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.imageselection.MainActivity"
+            android:name=".activity.imageselection.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.multipleimagepicker.MultiImageSelectorActivity"
+            android:name=".multipleimagepicker.MultiImageSelectorActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.dashboard.RateUs"
+            android:name=".activity.dashboard.RateUs"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.ContactUs"
+            android:name=".activity.ContactUs"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.ChangePass"
+            android:name=".activity.ChangePass"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.editprofile.CriticalFields"
+            android:name=".activity.editprofile.CriticalFields"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.samyotech.matrimony.activity.myprofile.ProfilePicSelection"
+            android:name=".activity.myprofile.ProfilePicSelection"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.profile_other.ImageSlider"
+            android:name=".activity.profile_other.ImageSlider"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.myprofile.DeleteImage"
+            android:name=".activity.myprofile.DeleteImage"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.WebViewActivity"
+            android:name=".activity.WebViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.LanguageSelection"
+            android:name=".activity.LanguageSelection"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.myprofile.BioData"
+            android:name=".activity.myprofile.BioData"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.samyotech.matrimony.activity.loginsignup.ForgotPass"
+            android:name=".activity.loginsignup.ForgotPass"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.search.Search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
-<!--
+        <!--
         <receiver android:name="com.samyotech.matrimony.utils.SmsReceiver">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
--->
-
+        -->
 
 
         <!-- [START firebase_service] -->
-        <service android:name="com.samyotech.matrimony.MyFirebaseMessagingService">
+        <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <!-- [END firebase_service] -->
 
+
         <!-- [START firebase_iid_service] -->
-        <service android:name="com.samyotech.matrimony.MyFirebaseInstanceIDService">
+        <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service> <!-- [END firebase_iid_service] -->
 
-
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="6956ee260d8a46359094304995f81a6c154130cd" />
+
+        <activity android:name=".activity.search.SearchResult" />
+        <activity android:name=".activity.search.FullProfileSearch"></activity>
     </application>
 
 </manifest>

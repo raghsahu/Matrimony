@@ -72,6 +72,25 @@ public class TestAdapter {
         }
         return stateList;
     }
+    public ArrayList<CommanDTO> getAllCaste(String language) {
+        ArrayList<CommanDTO> casteList = new ArrayList<CommanDTO>();
+
+        Cursor res = mDb.rawQuery("select * from caste", null);
+
+
+        if (res.moveToFirst()) {
+            do {
+                if (language.equalsIgnoreCase("hi")) {
+                    casteList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name_hi"))));
+                } else {
+                    casteList.add(new CommanDTO(res.getString(res.getColumnIndex("id")), res.getString(res.getColumnIndex("name"))));
+                }
+
+
+            } while (res.moveToNext());
+        }
+        return casteList;
+    }
 
     public ArrayList<CommanDTO> getAllDistrict(String stateID, String language) {
         ArrayList<CommanDTO> districtList = new ArrayList<CommanDTO>();

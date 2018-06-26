@@ -118,6 +118,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-license-11.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-license-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-license-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.11.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-license-11.8.0" level="project" />
@@ -127,6 +128,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:design-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.crashlytics.sdk.android:beta-1.2.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-common-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-impl-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: io.fabric.sdk.android:fabric-1.4.2" level="project" />
@@ -142,6 +144,7 @@
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-license-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.crashlytics.sdk.android:crashlytics-2.9.2" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel-1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core-11.8.0" level="project" />
@@ -150,10 +153,14 @@
     <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.8.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-11.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-common-license-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.6.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-11.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-license-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core-1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.aryarohit07:glide-facedetection-transformation-0.3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-11.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.lzyzsd:circleprogress-1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.0@jar" level="project" />

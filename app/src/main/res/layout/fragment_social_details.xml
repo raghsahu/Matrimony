@@ -65,6 +65,20 @@
                 android:hint="@string/gotra_nanihal"
                 android:singleLine="true" />
         </com.samyotech.matrimony.view.InputOpenFieldView>
+        <com.samyotech.matrimony.view.InputFieldView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_margin_txt_top_5"
+            android:visibility="visible">
+
+            <com.samyotech.matrimony.view.CustomEditText
+                android:id="@+id/etCaste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:hint="@string/caste"
+                android:singleLine="true" />
+        </com.samyotech.matrimony.view.InputFieldView>
 
         <com.samyotech.matrimony.view.InputFieldView
             android:layout_width="match_parent"
