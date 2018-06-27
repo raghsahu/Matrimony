@@ -24,21 +24,6 @@
 
     </LinearLayout>
 
-<!--
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/colorPrimary"
-        android:fitsSystemWindows="true"
-        android:theme="@style/NavigationTheme"
-        app:headerLayout="@layout/nav_header_main"
-        app:itemBackground="@drawable/drawer_item_bg"
-        app:itemTextColor="@color/white"
-        app:menu="@menu/activity_main_drawer" />
--->
-
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_height="match_parent"

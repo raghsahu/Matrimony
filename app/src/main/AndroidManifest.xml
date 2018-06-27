@@ -170,6 +170,19 @@
             android:name=".activity.search.Search"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.search.SearchResult"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.search.SearchResultMain"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.search.FullProfileSearch"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
 
         <!--
         <receiver android:name="com.samyotech.matrimony.utils.SmsReceiver">
@@ -200,8 +213,7 @@
             android:name="io.fabric.ApiKey"
             android:value="6956ee260d8a46359094304995f81a6c154130cd" />
 
-        <activity android:name=".activity.search.SearchResult" />
-        <activity android:name=".activity.search.FullProfileSearch"></activity>
+
     </application>
 
 </manifest>
