@@ -32,7 +32,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.samyotech.smmatrimony.view.CustomTextView
             android:id="@+id/tv_heading_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
         android:layout_marginRight="40dp"
         android:orientation="vertical">
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.samyotech.smmatrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -68,7 +68,7 @@
             android:text="@string/verification_code_will_be_sent_to"
             android:textColor="@color/gray" />
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.samyotech.smmatrimony.view.CustomTextView
             android:id="@+id/tvMobile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etOne"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -112,7 +112,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/backgroundbg"></View>
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etTwo"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -131,7 +131,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/backgroundbg"></View>
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etThree"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -150,7 +150,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/backgroundbg"></View>
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etFour"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -174,7 +174,7 @@
             android:orientation="horizontal">
 
 
-            <com.samyotech.matrimony.view.CustomTextView
+            <com.samyotech.smmatrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -183,7 +183,7 @@
                 android:text="@string/didn_t_recieve_otp_yet"
                 android:textSize="14sp" />
 
-            <com.samyotech.matrimony.view.CustomTextViewBold
+            <com.samyotech.smmatrimony.view.CustomTextViewBold
                 android:id="@+id/tvResend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
         </LinearLayout>
 
 
-        <com.samyotech.matrimony.view.CustomButton
+        <com.samyotech.smmatrimony.view.CustomButton
             android:id="@+id/btnVerify"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

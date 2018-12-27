@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.samyotech.matrimony.fragment.registration.PersonalDetails">
+    tools:context="com.samyotech.smmatrimony.fragment.registration.PersonalDetails">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,77 +57,77 @@
             </RadioGroup>
         </LinearLayout>
 
-        <com.samyotech.matrimony.view.InputFieldView
+        <com.samyotech.smmatrimony.view.InputFieldView
             android:id="@+id/inf_date_of_birth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
             android:hint="">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etDOB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/reg_hint_dob" />
-        </com.samyotech.matrimony.view.InputFieldView>
+        </com.samyotech.smmatrimony.view.InputFieldView>
 
-        <com.samyotech.matrimony.view.InputFieldView
+        <com.samyotech.smmatrimony.view.InputFieldView
             android:id="@+id/inf_height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etHeight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/reg_hint_height" />
-        </com.samyotech.matrimony.view.InputFieldView>
+        </com.samyotech.smmatrimony.view.InputFieldView>
 
-        <com.samyotech.matrimony.view.InputFieldView
+        <com.samyotech.smmatrimony.view.InputFieldView
             android:id="@+id/inf_state"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etState"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/reg_hint_state" />
-        </com.samyotech.matrimony.view.InputFieldView>
+        </com.samyotech.smmatrimony.view.InputFieldView>
 
-        <com.samyotech.matrimony.view.InputFieldView
+        <com.samyotech.smmatrimony.view.InputFieldView
             android:id="@+id/inf_district"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
             android:visibility="gone">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etDistrict"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/reg_hint_district" />
-        </com.samyotech.matrimony.view.InputFieldView>
+        </com.samyotech.smmatrimony.view.InputFieldView>
 
-        <com.samyotech.matrimony.view.InputOpenFieldView
+        <com.samyotech.smmatrimony.view.InputOpenFieldView
             android:id="@+id/inf_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
             android:visibility="gone">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etCity"
                 android:singleLine="true"
                 android:layout_width="match_parent"
                 android:imeOptions="actionNext"
                 android:layout_height="wrap_content"
                 android:hint="@string/city" />
-        </com.samyotech.matrimony.view.InputOpenFieldView>
+        </com.samyotech.smmatrimony.view.InputOpenFieldView>
 
-        <com.samyotech.matrimony.view.InputOpenFieldView
+        <com.samyotech.smmatrimony.view.InputOpenFieldView
             android:id="@+id/til_pin_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
             android:focusableInTouchMode="true"
             android:visibility="gone">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <com.samyotech.smmatrimony.view.CustomEditText
                 android:id="@+id/etPincode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
                 android:imeOptions="actionDone"
                 android:inputType="number"
                 android:maxLength="6" />
-        </com.samyotech.matrimony.view.InputOpenFieldView>
+        </com.samyotech.smmatrimony.view.InputOpenFieldView>
 
         <TextView
             android:layout_width="wrap_content"

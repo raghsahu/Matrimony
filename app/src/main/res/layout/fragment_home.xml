@@ -28,7 +28,7 @@
                 android:layout_weight="0.45"
                 android:orientation="vertical">
 
-                <com.samyotech.matrimony.view.CustomTextViewBold
+                <com.samyotech.smmatrimony.view.CustomTextViewBold
                     android:id="@+id/tvMatch"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -61,7 +61,7 @@
                 android:layout_weight="0.45"
                 android:orientation="vertical">
 
-                <com.samyotech.matrimony.view.CustomTextViewBold
+                <com.samyotech.smmatrimony.view.CustomTextViewBold
                     android:id="@+id/joinTV"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

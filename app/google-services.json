@@ -1,39 +1,35 @@
 {
   "project_info": {
-    "project_number": "524816687231",
-    "firebase_url": "https://matrimony-8303a.firebaseio.com",
-    "project_id": "matrimony-8303a",
-    "storage_bucket": "matrimony-8303a.appspot.com"
+    "project_number": "895804579479",
+    "firebase_url": "https://sm-matrimony.firebaseio.com",
+    "project_id": "sm-matrimony",
+    "storage_bucket": "sm-matrimony.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:524816687231:android:5cfbd2dbdfba9d2b",
+        "mobilesdk_app_id": "1:895804579479:android:8c701752bf035245",
         "android_client_info": {
-          "package_name": "com.samyotech.matrimony"
+          "package_name": "com.samyotech.smmatrimony"
         }
       },
       "oauth_client": [
         {
-          "client_id": "524816687231-jscingilsk8s8tgmhbe0veo38ntj4vsk.apps.googleusercontent.com",
+          "client_id": "895804579479-gt6itu6linn3bfscphddcni7lkpafab5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.samyotech.matrimony",
+            "package_name": "com.samyotech.smmatrimony",
             "certificate_hash": "52e0eb35bb196526f63b3d56aab4afe33842faec"
           }
         },
         {
-          "client_id": "524816687231-jrctg7036a87snfhat4i3pq0qe2kid64.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "524816687231-jrctg7036a87snfhat4i3pq0qe2kid64.apps.googleusercontent.com",
+          "client_id": "895804579479-0956gda4d0ktbqiob39ofd9bqsavm7ve.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC6YwDKLRSdMv0DC2CXtNPasADXRMJqu9o"
+          "current_key": "AIzaSyDn1s3Q_BrRYbjiXQPd3mBQ-UtMEFCHOdM"
         }
       ],
       "services": {
@@ -44,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "524816687231-jrctg7036a87snfhat4i3pq0qe2kid64.apps.googleusercontent.com",
+              "client_id": "895804579479-0956gda4d0ktbqiob39ofd9bqsavm7ve.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

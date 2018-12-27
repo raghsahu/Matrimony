@@ -20,7 +20,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.samyotech.matrimony.view.CustomTextView
+            <com.samyotech.smmatrimony.view.CustomTextView
                 android:id="@+id/tvNameD"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <com.samyotech.matrimony.view.CustomTextView
+            <com.samyotech.smmatrimony.view.CustomTextView
                 android:id="@+id/tvCloseD"
                 android:layout_width="0dp"
                 android:layout_height="50dp"

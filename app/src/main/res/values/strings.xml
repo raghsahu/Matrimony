@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Matrimony</string>
+    <string name="app_name">SM Matrimony</string>
 
     <string-array name="stepLabels">
         <item>Profile For</item>
@@ -50,13 +50,13 @@
     <string name="third_intro">Ready to meet your</string>
 
     <string name="first_intro_msg">Meet your perfect partner right here</string>
-    <string name="second_intro_msg">All profiles are verified by Matrimony team</string>
+    <string name="second_intro_msg">All profiles are verified by SM Matrimony team</string>
     <string name="third_intro_msg">Dream Partner?</string>
     <!--text app intro screen -->
 
     <!--dialog close-->
-    <string name="title_dialog">Matrimony</string>
-    <string name="msg_dialog">Are you sure want to close Matrimony?</string>
+    <string name="title_dialog">SM Matrimony</string>
+    <string name="msg_dialog">Are you sure want to close SM Matrimony?</string>
     <string name="yes_dialog">Yes!</string>
     <string name="no_dialog">No</string>
     <!--dialog close-->
@@ -317,7 +317,7 @@
     <string name="date_amp_time_of_birth">Date &amp; Time of Birth</string>
     <string name="brother_sister">Brother/Sister</string>
     <string name="next">Next</string>
-    <string name="how_do_you_rate_matrimony_android_experience">How do you rate Matrimony android experience?</string>
+    <string name="how_do_you_rate_matrimony_android_experience">How do you rate SM Matrimony android experience?</string>
     <string name="i_love_it">I LOVE IT</string>
     <string name="registration">Registration</string>
     <string name="previous">Previous</string>

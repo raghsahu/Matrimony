@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.samyotech.matrimony.fragment.EventsFrag">
+    tools:context="com.samyotech.smmatrimony.fragment.EventsFrag">
 
     <ListView
         android:id="@+id/rvWall"
@@ -26,7 +26,7 @@
             android:layout_centerInParent="true"
             android:src="@drawable/ic_error" />
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <com.samyotech.smmatrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"

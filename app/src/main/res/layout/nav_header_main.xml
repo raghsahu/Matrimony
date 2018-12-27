@@ -46,7 +46,7 @@
 
         </RelativeLayout>
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.samyotech.smmatrimony.view.CustomTextViewBold
             android:id="@+id/ctvbName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             android:textSize="18sp" />
 
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.samyotech.smmatrimony.view.CustomTextViewBold
             android:id="@+id/tvSubscription"
             android:layout_width="wrap_content"
             android:layout_height="35dp"

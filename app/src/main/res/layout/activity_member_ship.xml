@@ -20,7 +20,7 @@
             android:src="@drawable/ic_left_arrow" />
 
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <com.samyotech.smmatrimony.view.CustomTextViewBold
             android:id="@+id/CTVheader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

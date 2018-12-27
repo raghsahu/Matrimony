@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Matrimony</string>
+    <string name="app_name">SM Matrimony</string>
 
     <string-array name="stepLabels">
         <item>प्रोफ़ाइल फार</item>
@@ -49,13 +49,13 @@
     <string name="third_intro">आपसे मिलने के लिए तैयार</string>
 
     <string name="first_intro_msg">यहां अपने उत्तम साथी से मिलें</string>
-    <string name="second_intro_msg">सभी प्रोफाइल Matrimony टीम द्वारा सत्यापित किए जाते हैं</string>
+    <string name="second_intro_msg">सभी प्रोफाइल SM Matrimony टीम द्वारा सत्यापित किए जाते हैं</string>
     <string name="third_intro_msg">ड्रीम पार्टनर?</string>
     <!--text app intro screen -->
 
     <!--dialog close-->
-    <string name="title_dialog">Matrimony</string>
-    <string name="msg_dialog">क्या आप निश्चित रूप से Matrimony को बंद करना चाहते हैं?</string>
+    <string name="title_dialog">SM Matrimony</string>
+    <string name="msg_dialog">क्या आप निश्चित रूप से SM Matrimony को बंद करना चाहते हैं?</string>
     <string name="yes_dialog">YES!</string>
     <string name="no_dialog">NO</string>
     <!--dialog close-->
@@ -315,7 +315,7 @@
     <string name="date_amp_time_of_birth">जन्म तिथि और समय</string>
     <string name="brother_sister">भाई बहन</string>
     <string name="next">नेक्स्ट</string>
-    <string name="how_do_you_rate_matrimony_android_experience">आप Matrimony एंड्रॉइड अनुभव को कैसे रेट करते हैं?</string>
+    <string name="how_do_you_rate_matrimony_android_experience">आप SM Matrimony एंड्रॉइड अनुभव को कैसे रेट करते हैं?</string>
     <string name="i_love_it">मुझे यह पसंद है</string>
     <string name="registration">पंजीकरण</string>
     <string name="previous">प्रीवियस</string>

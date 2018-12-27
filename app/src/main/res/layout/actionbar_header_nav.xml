@@ -35,7 +35,7 @@
                 android:layout_gravity="center"
                 android:gravity="center">
 
-                <com.samyotech.matrimony.view.CustomTextViewBold
+                <com.samyotech.smmatrimony.view.CustomTextViewBold
                     android:id="@+id/headerNameTV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

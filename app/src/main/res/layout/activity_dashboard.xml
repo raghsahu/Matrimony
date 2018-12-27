@@ -33,7 +33,7 @@
         android:background="@drawable/backgroundbg"
         app:itemBackground="@drawable/drawer_item_bg"
         android:theme="@style/NavigationTheme"
-        app:itemTextColor="@color/gray"
+        app:itemTextColor="@color/white"
 
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"/>

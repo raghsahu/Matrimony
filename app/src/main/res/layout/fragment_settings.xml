@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.samyotech.matrimony.fragment.SettingsFrag">
+    tools:context="com.samyotech.smmatrimony.fragment.SettingsFrag">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -128,7 +128,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -192,7 +192,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -255,7 +255,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -320,7 +320,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -383,7 +383,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -447,7 +447,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -511,7 +511,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.8">
 
-                            <com.samyotech.matrimony.view.CustomTextView
+                            <com.samyotech.smmatrimony.view.CustomTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
