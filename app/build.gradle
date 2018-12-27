@@ -38,13 +38,19 @@ repositories {
     jcenter()
 
 }
-
+ext {
+    permissionsDispatcherVersion = '2.2.0'
+}
 dependencies {
+    implementation "com.github.hotchemi:permissionsdispatcher:${permissionsDispatcherVersion}"
+
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:${permissionsDispatcherVersion}"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-
+    implementation 'com.cocosw:bottomsheet:1.+@aar'
+    implementation 'com.isseiaoki:simplecropview:1.1.4'
     /*third party*/
     implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
     implementation 'com.github.badoualy:stepper-indicator:1.0.7'
@@ -62,7 +68,12 @@ dependencies {
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.2@aar') {
         transitive = true;
     }
+    implementation project(':library')
     implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    implementation 'com.razorpay:checkout:1.4.9'
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/backgroundbg"
     tools:openDrawer="start">
 
     <LinearLayout
@@ -30,10 +30,11 @@
         android:layout_width="wrap_content"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/backgroundbg"
         app:itemBackground="@drawable/drawer_item_bg"
         android:theme="@style/NavigationTheme"
-        app:itemTextColor="@color/white"
+        app:itemTextColor="@color/gray"
+
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"/>
 

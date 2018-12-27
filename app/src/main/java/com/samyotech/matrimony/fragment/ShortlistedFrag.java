@@ -36,7 +36,7 @@ import java.util.List;
 public class ShortlistedFrag extends Fragment {
 
     private View view;
-    private Dashboard dashboard;
+    public Dashboard dashboard;
     private String TAG = JustJoinFrag.class.getSimpleName();
     private RecyclerView rvMatch;
     LinearLayoutManager mLayoutManager;

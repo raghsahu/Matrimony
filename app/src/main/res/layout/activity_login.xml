@@ -38,10 +38,10 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/login_margin_txt_top_15"
-                android:visibility="gone"
                 android:text="@string/meet_your_dream_partner"
                 android:textColor="@color/white"
-                android:textSize="@dimen/abc_text_size_medium_material" />
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:visibility="gone" />
 
             <com.samyotech.matrimony.view.CustomTextViewBold
                 android:id="@+id/label_number"
@@ -151,8 +151,8 @@
                 android:id="@+id/btnSearch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/login_margin_txt_top_5"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
+                android:layout_marginBottom="@dimen/login_margin_txt_top_5"
                 android:background="@drawable/button_selector_red"
                 android:gravity="center"
                 android:text="@string/nav_search"
@@ -160,10 +160,12 @@
 
         </LinearLayout>
     </ScrollView>
+
     <RelativeLayout
         android:id="@+id/RRsncbar"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
         android:layout_alignParentBottom="true"></RelativeLayout>
 
 </RelativeLayout>

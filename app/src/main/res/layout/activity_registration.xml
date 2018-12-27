@@ -10,7 +10,7 @@
         android:id="@+id/action_bar_menus"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/backgroundbg"
         android:orientation="horizontal"
         android:visibility="visible">
 

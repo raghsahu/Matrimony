@@ -24,6 +24,7 @@ import com.samyotech.matrimony.sharedprefrence.SharedPrefrence;
 import com.samyotech.matrimony.utils.ProjectUtils;
 
 import io.fabric.sdk.android.Fabric;
+
 import java.util.Locale;
 
 
@@ -31,13 +32,14 @@ public class Splash extends AppCompatActivity {
 
     private Handler handler = new Handler();
     private Context mContext;
-    private static int SPLASH_TIME_OUT = 2000;
+    private static int SPLASH_TIME_OUT = 3000;
     private static final int REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS = 1003;
     private String[] permissions = new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_NETWORK_STATE,
             Manifest.permission.CALL_PRIVILEGED, Manifest.permission.CALL_PHONE, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS};
     private boolean cameraAccepted, storageAccepted, accessNetState, call_privilage, callPhone, fineLoc, corasLoc, readSMS, receiveSMS;
     public SharedPrefrence prefference;
     SharedPreferences languageDetails;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,8 +64,8 @@ public class Splash extends AppCompatActivity {
     Runnable mTask = new Runnable() {
         @Override
         public void run() {
-            if (languageDetails.getBoolean(Consts.LANGUAGE_SELECTION,false)) {
-                language(languageDetails.getString(Consts.SELECTED_LANGUAGE,""));
+            if (languageDetails.getBoolean(Consts.LANGUAGE_SELECTION, false)) {
+                language(languageDetails.getString(Consts.SELECTED_LANGUAGE, ""));
                 if (NetworkManager.isConnectToInternet(mContext)) {
 
                     if (prefference.getBooleanValue(Consts.IS_REGISTERED)) {
@@ -128,7 +130,7 @@ public class Splash extends AppCompatActivity {
 
                     receiveSMS = grantResults[5] == PackageManager.PERMISSION_GRANTED;
                     prefference.setBooleanValue(Consts.RECEIVE_SMS, receiveSMS);
-                    handler.postDelayed(mTask, 100);
+                    handler.postDelayed(mTask, 3000);
 
                 } catch (Exception e) {
                     e.printStackTrace();

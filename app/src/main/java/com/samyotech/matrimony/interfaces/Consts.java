@@ -31,12 +31,19 @@ public interface Consts {
     String UPDATE_INTEREST_API = "update-interest";
     String GET_INTEREST_API = "get-interest";
     String SEARCH_API = "search";
-
+    String GET_ALL_PACKAGES_API = "getAllPackages";
+    String SUBSCRIPTION_API = "subscription";
+    String GET_MY_SUBSCRIPTION_HISTORY_API = "get_my_subscription_history";
+    String GET_CHAT_HISTORY_API = "getChatHistory";
+    public String GET_CHAT_API = "getChat";
+    public String SEND_CHAT_API = "sendmsg";
+    public String GET_MY_SUBSCRIPTION_API = "get_my_subscription";
 
     /*DTOs*/
 
     String LOGIN_DTO = "login_dto";
     String USER_DTO = "user_dto";
+    String SUBSCRIPTION_DTO = "subscription_dto";
     String SEARCH_PARAM = "search_param";
 
     /*Project*/
@@ -56,6 +63,7 @@ public interface Consts {
     String SELECTED_LANGUAGE = "selected_language";
     String TAG_PROFILE = "tag_profile";
     String LANGUAGE_PREF = "language_pref";
+    String IS_SUBSCRIBE = "is_subscribe";
 
 
     /*registration params*/
@@ -178,4 +186,23 @@ public interface Consts {
     String TYPE = "type";
     String SENT = "sent";
     String RECIEVED = "recieved";
+
+    /*Buy Package*/
+    String PACKAGE_ID = "package_id";
+    String TXN_ID = "txn_id";
+    String ORDER_ID = "order_id";
+
+
+    String RECEIVER_ID = "receiver_id";
+    String SENDER_ID = "sender_id";
+    String SENDER_NAME = "sender_name";
+    String MESSAGE = "message";
+    String CHAT_TYPE = "chat_type";
+    String CALLING_STATUS = "calling_status";
+    String ROOM_ID = "room_id";
+    String USER_NAME = "user_name";
+    String PIC_URL = "pic_url";
+    String BROADCAST = "broadcast";
+    String IMAGE_URI_CAMERA = "image_uri_camera";
+    String IMAGE = "image";
 }

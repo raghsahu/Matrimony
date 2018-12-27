@@ -1,5 +1,6 @@
 package com.samyotech.matrimony.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -17,6 +18,7 @@ import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.Models.MatchesDTO;
 import com.samyotech.matrimony.Models.UserDTO;
 import com.samyotech.matrimony.R;
+import com.samyotech.matrimony.activity.dashboard.Dashboard;
 import com.samyotech.matrimony.adapter.AdapterSentInterest;
 import com.samyotech.matrimony.https.HttpsRequest;
 import com.samyotech.matrimony.interfaces.Consts;
@@ -52,6 +54,7 @@ public class SendInterest extends Fragment {
     private MatchesDTO matchesDTO;
     private ProgressBar pb;
     private LinearLayout rlView;
+    public Dashboard dashboard;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -151,6 +154,10 @@ public class SendInterest extends Fragment {
 
     }
 
-
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        dashboard = (Dashboard) getActivity();
+    }
 
 }

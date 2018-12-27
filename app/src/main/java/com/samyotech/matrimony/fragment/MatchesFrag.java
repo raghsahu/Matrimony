@@ -1,5 +1,6 @@
 package com.samyotech.matrimony.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,6 +17,7 @@ import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.Models.MatchesDTO;
 import com.samyotech.matrimony.Models.UserDTO;
 import com.samyotech.matrimony.R;
+import com.samyotech.matrimony.activity.dashboard.Dashboard;
 import com.samyotech.matrimony.activity.loginsignup.Login;
 import com.samyotech.matrimony.adapter.AdapterMatches;
 import com.samyotech.matrimony.https.HttpsRequest;
@@ -48,6 +50,7 @@ public class MatchesFrag extends Fragment {
     int page = 1;
     boolean request = false;
     private ProgressBar pb;
+    public Dashboard dashboard;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -135,4 +138,9 @@ public class MatchesFrag extends Fragment {
 
     }
 
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        dashboard = (Dashboard) getActivity();
+    }
 }

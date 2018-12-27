@@ -16,6 +16,7 @@ import com.samyotech.matrimony.activity.ContactUs;
 import com.samyotech.matrimony.activity.WebViewActivity;
 import com.samyotech.matrimony.activity.dashboard.RateUs;
 import com.samyotech.matrimony.activity.loginsignup.Login;
+import com.samyotech.matrimony.activity.subscription.SubscriptionHistory;
 import com.samyotech.matrimony.interfaces.Consts;
 import com.samyotech.matrimony.sharedprefrence.SharedPrefrence;
 import com.samyotech.matrimony.utils.ProjectUtils;
@@ -23,7 +24,7 @@ import com.samyotech.matrimony.utils.ProjectUtils;
 
 public class SettingsFrag extends Fragment implements View.OnClickListener {
     private View view;
-    private LinearLayout llInvite, llContact, llRate, llChangePass, terms, privatePolicy, llLogout;
+    private LinearLayout llInvite, llContact, llRate, llChangePass, terms, privatePolicy, llLogout, llSubscription;
     private SharedPrefrence prefrence;
 
     @Override
@@ -44,6 +45,7 @@ public class SettingsFrag extends Fragment implements View.OnClickListener {
         terms = view.findViewById(R.id.terms);
         privatePolicy = view.findViewById(R.id.privatePolicy);
         llLogout = view.findViewById(R.id.llLogout);
+        llSubscription = view.findViewById(R.id.llSubscription);
 
         llInvite.setOnClickListener(this);
         llContact.setOnClickListener(this);
@@ -52,6 +54,7 @@ public class SettingsFrag extends Fragment implements View.OnClickListener {
         terms.setOnClickListener(this);
         privatePolicy.setOnClickListener(this);
         llLogout.setOnClickListener(this);
+        llSubscription.setOnClickListener(this);
     }
 
 
@@ -63,6 +66,9 @@ public class SettingsFrag extends Fragment implements View.OnClickListener {
                 break;
             case R.id.llContact:
                 startActivity(new Intent(getActivity(), ContactUs.class));
+                break;
+            case R.id.llSubscription:
+                startActivity(new Intent(getActivity(), SubscriptionHistory.class));
                 break;
             case R.id.llRate:
                 startActivity(new Intent(getActivity(), RateUs.class));
@@ -106,7 +112,7 @@ public class SettingsFrag extends Fragment implements View.OnClickListener {
 
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, "Hi! I have had a great experience with Matrimony and highly recommend that you register to find your perfeact life partner.. " + "\n" + " Use App link: http://play.google.com/store/apps/details?id=" +getActivity().getPackageName());
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, "Hi! I have had a great experience with Matrimony and highly recommend that you register to find your perfeact life partner.. " + "\n" + " Use App link: http://play.google.com/store/apps/details?id=" + getActivity().getPackageName());
             startActivity(Intent.createChooser(sharingIntent, getResources().getString(R.string.app_name)));
         } catch (Exception e) {
             e.printStackTrace();

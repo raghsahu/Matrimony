@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -20,10 +21,19 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.badoualy.stepperindicator.StepperIndicator;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.gson.Gson;
 import com.samyotech.matrimony.Models.LoginDTO;
+import com.samyotech.matrimony.Models.UserFire;
 import com.samyotech.matrimony.R;
 import com.samyotech.matrimony.Splash;
 import com.samyotech.matrimony.SysApplication;
@@ -38,6 +48,7 @@ import com.samyotech.matrimony.interfaces.Helper;
 import com.samyotech.matrimony.network.NetworkManager;
 import com.samyotech.matrimony.sharedprefrence.SharedPrefrence;
 import com.samyotech.matrimony.utils.ProjectUtils;
+import com.samyotech.matrimony.utils.StaticConfig;
 import com.samyotech.matrimony.view.CustomTextViewBold;
 
 import org.json.JSONObject;
@@ -74,6 +85,9 @@ public class Registration extends AppCompatActivity {
     public SharedPreferences languageDetails;
     public String lang = "";
     private SharedPreferences firebase;
+    private FirebaseAuth mAuth;
+    private FirebaseUser user;
+    private FirebaseAuth.AuthStateListener mAuthListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,10 +96,10 @@ public class Registration extends AppCompatActivity {
         prefrence = SharedPrefrence.getInstance(mContext);
         firebase = getSharedPreferences("MyPrefs", MODE_PRIVATE);
         Log.e("tokensss", firebase.getString(Consts.FIREBASE_TOKEN, ""));
-
+        initFirebase();
         sysApplication = SysApplication.getInstance(mContext);
         languageDetails = Registration.this.getSharedPreferences(Consts.LANGUAGE_PREF, MODE_PRIVATE);
-        lang =  languageDetails.getString(Consts.SELECTED_LANGUAGE,"");
+        lang = languageDetails.getString(Consts.SELECTED_LANGUAGE, "");
 
         tvHeader = findViewById(R.id.tvHeader);
         stepper_indicator = findViewById(R.id.stepper_indicator);
@@ -155,7 +169,7 @@ public class Registration extends AppCompatActivity {
                             showSickbar(getString(R.string.val_education));
                         } else if (!validate()) {
 
-                        }else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
+                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
                             showSickbar(getString(R.string.val_blood));
                         } else if (!ProjectUtils.isAddharValidate(importantDetails.etAadhar.getText().toString().trim())) {
                             showSickbar(getString(R.string.val_aadhar));
@@ -245,7 +259,7 @@ public class Registration extends AppCompatActivity {
             showSickbar(getString(R.string.val_gotra));
         } else if (!ProjectUtils.isEditTextFilled(socialDetails.etCaste)) {
             showSickbar(getString(R.string.val_caste));
-        }else if (!ProjectUtils.isEditTextFilled(socialDetails.etManglik)) {
+        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etManglik)) {
             showSickbar(getString(R.string.val_manglik));
         } else if (!ProjectUtils.isEditTextFilled(socialDetails.etBirthTime)) {
             showSickbar(getString(R.string.val_birth_time));
@@ -270,7 +284,7 @@ public class Registration extends AppCompatActivity {
                     builder.append(otp1.nextInt(10));
                 }
                 otp = builder.toString();
-                register();
+                createUser(ProjectUtils.getEditTextValue(loginDetails.etEmail),"sam@123");
 
             } else {
                 ProjectUtils.showToast(mContext, getResources().getString(R.string.internet_concation));
@@ -504,5 +518,57 @@ public class Registration extends AppCompatActivity {
         snackbar.show();
     }
 
+    public void createUser(String email, String password) {
 
+        mAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(Registration.this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
+                        if (task.isSuccessful()) {
+                            initNewUserInfo();
+                            register();
+                        } else {
+
+                        }
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+
+                    }
+                })
+        ;
+    }
+    private void initFirebase() {
+        //Khoi tao thanh phan de dang nhap, dang ky
+        mAuth = FirebaseAuth.getInstance();
+        mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+                    // User is signed in
+                    StaticConfig.UID = user.getUid();
+                    Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+                }
+            }
+        };
+
+
+    }
+
+    void initNewUserInfo() {
+        UserFire newUser = new UserFire();
+        newUser.email = user.getEmail();
+        newUser.name = ProjectUtils.getEditTextValue(loginDetails.etName);
+        newUser.avata = StaticConfig.STR_DEFAULT_BASE64;
+        FirebaseDatabase.getInstance().getReference().child("user/" + user.getUid()).setValue(newUser);
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mAuth.addAuthStateListener(mAuthListener);
+    }
 }

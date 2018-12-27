@@ -1,8 +1,8 @@
 package com.samyotech.matrimony.jsonparser;
 
 import android.content.Context;
+
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 

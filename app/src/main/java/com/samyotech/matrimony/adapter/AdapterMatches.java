@@ -23,13 +23,12 @@ import android.widget.RelativeLayout;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.samyotech.matrimony.Models.LoginDTO;
-import com.samyotech.matrimony.Models.MatchesDTO;
 import com.samyotech.matrimony.Models.UserDTO;
 import com.samyotech.matrimony.R;
-import com.samyotech.matrimony.activity.editprofile.AboutFamilyActivity;
+import com.samyotech.matrimony.activity.dashboard.Dashboard;
 import com.samyotech.matrimony.activity.profile_other.ProfileOther;
+import com.samyotech.matrimony.activity.subscription.MemberShipActivity;
 import com.samyotech.matrimony.fragment.MatchesFrag;
-import com.samyotech.matrimony.fragment.registration.ProfileFor;
 import com.samyotech.matrimony.https.HttpsRequest;
 import com.samyotech.matrimony.interfaces.Consts;
 import com.samyotech.matrimony.interfaces.Helper;
@@ -196,13 +195,24 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
             public void onClick(View v) {
                 if (userDTOList.get(position).getMobile2().equalsIgnoreCase("")) {
                     ProjectUtils.showToast(context, "Mobile number not available");
+                } else if (prefrence.getBooleanValue(Consts.IS_SUBSCRIBE)) {
+                    dialogshow(position);
                 } else {
-                    if (userDTOList.get(position).getStatus() == 0) {
-                        spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
-                        spinnerDialog.showConatactDialog();
-                    } else {
-                        dialogshow(position);
-                    }
+                    spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                    spinnerDialog.showConatactDialog();
+                }
+
+            }
+
+        });
+        holder.llChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (prefrence.getBooleanValue(Consts.IS_SUBSCRIBE)) {
+                    matchesFrag.dashboard.callLog(userDTOList.get(position).getEmail());
+                } else {
+                    spinnerDialog = new SpinnerDialog(matchesFrag.getActivity(), userDTOList.get(position).getName(), userDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                    spinnerDialog.showConatactDialog();
                 }
 
             }
@@ -222,7 +232,7 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
         public CustomTextView tvjoinedstatus, tvProfession, tvYearandheight, tvEducation, tvGotra, tvIncome,
                 tvCity, tvmarrigestatus, tvInterest;
         public CustomTextViewBold tvName;
-        public LinearLayout llShortList, llInterest, llContact;
+        public LinearLayout llShortList, llInterest, llContact, llChat;
 
         public MatchesHolder(View itemView) {
             super(itemView);
@@ -242,6 +252,7 @@ public class AdapterMatches extends RecyclerView.Adapter<AdapterMatches.MatchesH
             tvName = (CustomTextViewBold) itemView.findViewById(R.id.tvName);
             llShortList = (LinearLayout) itemView.findViewById(R.id.llShortList);
             llInterest = (LinearLayout) itemView.findViewById(R.id.llInterest);
+            llChat = (LinearLayout) itemView.findViewById(R.id.llChat);
             llContact = (LinearLayout) itemView.findViewById(R.id.llContact);
 
         }

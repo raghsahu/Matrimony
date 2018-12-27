@@ -4,7 +4,7 @@
     android:id="@+id/view_container"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/backgroundbg"
     android:gravity="bottom"
     android:orientation="vertical"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
@@ -14,21 +14,19 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/backgroundbg"
         android:padding="@dimen/activity_horizontal_margin">
 
 
         <RelativeLayout
             android:id="@+id/rlImg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true">
-
+            android:layout_width="80dp"
+            android:layout_height="80dp">
 
             <com.github.lzyzsd.circleprogress.DonutProgress xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/donut_progress"
-                android:layout_width="98dp"
-                android:layout_height="98dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_centerInParent="true"
                 android:backgroundTint="@color/black"
                 android:rotation="270"
@@ -40,35 +38,43 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img_profile"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/drawe_logo" />
 
-            <com.samyotech.matrimony.view.CustomTextView
-                android:id="@+id/tvPercent"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/img_profile"
-                android:layout_gravity="center"
-                android:layout_toRightOf="@+id/img_profile"
-                android:text="100 %"
-                android:textColor="@color/white" />
-
 
         </RelativeLayout>
-
 
         <com.samyotech.matrimony.view.CustomTextViewBold
             android:id="@+id/ctvbName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/rlImg"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
-            android:text=""
+            android:layout_toRightOf="@+id/rlImg"
+            android:text="Varun Verma"
             android:textColor="@color/white"
             android:textSize="18sp" />
+
+
+        <com.samyotech.matrimony.view.CustomTextViewBold
+            android:id="@+id/tvSubscription"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/ctvbName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/rlImg"
+            android:background="@drawable/back_rounded_color"
+            android:drawableLeft="@drawable/ic_crown"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/upgrade_now"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
 
     </RelativeLayout>
 

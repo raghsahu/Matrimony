@@ -12,7 +12,7 @@
         android:id="@+id/action_bar_menus"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/backgroundbg"
         android:orientation="horizontal"
         android:padding="10dp">
 
@@ -49,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_below="@+id/action_bar_menus"
-        android:background="@color/colorPrimaryDark"></View>
+        android:background="@drawable/backgroundbg"></View>
 
 
     <LinearLayout
@@ -84,7 +84,7 @@
             android:layout_height="1dp"
             android:layout_gravity="center"
             android:layout_marginTop="2dp"
-            android:background="@color/colorPrimaryDark"></View>
+            android:background="@drawable/backgroundbg"></View>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -110,7 +110,7 @@
                 android:layout_width="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="@color/colorPrimaryDark"></View>
+                android:background="@drawable/backgroundbg"></View>
 
             <com.samyotech.matrimony.view.CustomEditText
                 android:id="@+id/etTwo"
@@ -129,7 +129,7 @@
                 android:layout_width="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="@color/colorPrimaryDark"></View>
+                android:background="@drawable/backgroundbg"></View>
 
             <com.samyotech.matrimony.view.CustomEditText
                 android:id="@+id/etThree"
@@ -148,7 +148,7 @@
                 android:layout_width="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="@color/colorPrimaryDark"></View>
+                android:background="@drawable/backgroundbg"></View>
 
             <com.samyotech.matrimony.view.CustomEditText
                 android:id="@+id/etFour"

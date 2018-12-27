@@ -23,6 +23,9 @@
             android:id="@+id/nav_events"
             android:title="@string/nav_events" />
         <item
+            android:id="@+id/nav_chat"
+            android:title="@string/nav_chat" />
+        <item
             android:id="@+id/nav_about_us"
             android:title="@string/nav_about_us" />
         <item

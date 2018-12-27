@@ -26,6 +26,7 @@ import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.Models.UserDTO;
 import com.samyotech.matrimony.R;
 import com.samyotech.matrimony.activity.profile_other.ProfileOther;
+import com.samyotech.matrimony.activity.subscription.MemberShipActivity;
 import com.samyotech.matrimony.fragment.JustJoinFrag;
 import com.samyotech.matrimony.https.HttpsRequest;
 import com.samyotech.matrimony.interfaces.Consts;
@@ -187,17 +188,27 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
         holder.llContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (joinDTOList.get(position).getMobile2().equalsIgnoreCase("")){
-                    ProjectUtils.showToast(context,"Mobile number not available");
-                }else {
-                    if (joinDTOList.get(position).getStatus() == 0) {
-                        spinnerDialog = new SpinnerDialog(justJoinFrag.getActivity(), joinDTOList.get(position).getName(), joinDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
-                        spinnerDialog.showConatactDialog();
-                    }else {
-                        dialogshow(position);
-                    }
+                if (joinDTOList.get(position).getMobile2().equalsIgnoreCase("")) {
+                    ProjectUtils.showToast(context, "Mobile number not available");
+                } else if (prefrence.getBooleanValue(Consts.IS_SUBSCRIBE)) {
+                    dialogshow(position);
+                } else {
+                    spinnerDialog = new SpinnerDialog(justJoinFrag.getActivity(), joinDTOList.get(position).getName(), joinDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                    spinnerDialog.showConatactDialog();
                 }
 
+            }
+
+        });
+        holder.llChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (prefrence.getBooleanValue(Consts.IS_SUBSCRIBE)) {
+                    justJoinFrag.dashboard.callLog(joinDTOList.get(position).getEmail());
+                } else {
+                    spinnerDialog = new SpinnerDialog(justJoinFrag.getActivity(), joinDTOList.get(position).getName(), joinDTOList.get(position).getAvatar_medium(), R.style.DialogAnimations_SmileWindow);
+                    spinnerDialog.showConatactDialog();
+                }
 
             }
 
@@ -255,7 +266,7 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
         public CustomTextView tvjoinedstatus, tvProfession, tvYearandheight, tvEducation, tvGotra, tvIncome,
                 tvCity, tvmarrigestatus, tvInterest;
         public CustomTextViewBold tvName;
-        public LinearLayout llShortList, llInterest, llContact;
+        public LinearLayout llShortList, llInterest, llContact,llChat;
 
         public MatchesHolder(View itemView) {
             super(itemView);
@@ -275,6 +286,7 @@ public class AdapterJustJoin extends RecyclerView.Adapter<AdapterJustJoin.Matche
             llShortList = (LinearLayout) itemView.findViewById(R.id.llShortList);
             llInterest = (LinearLayout) itemView.findViewById(R.id.llInterest);
             llContact = (LinearLayout) itemView.findViewById(R.id.llContact);
+            llChat = (LinearLayout) itemView.findViewById(R.id.llChat);
             ivShortList = (ImageView) itemView.findViewById(R.id.ivShortList);
         }
 

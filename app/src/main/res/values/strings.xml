@@ -74,6 +74,7 @@
     <string name="nav_interest">Interest</string>
     <string name="nav_events">News</string>
     <string name="nav_about_us">About Us</string>
+    <string name="nav_chat">Chats</string>
     <string name="nav_settings">Settings</string>
 
     <!-- Toolbar titles when navigation menu item is selected -->
@@ -552,10 +553,39 @@
     <string name="submit">Submit</string>
     <string name="send_interest_tag">Send Interest</string>
     <string name="received_interest_tag">Received Interest</string>
-    <string name="conatact_msg">If you want to see the contact details of other users, please send the request. If they accept your request, you can see their contact details.</string>
+    <string name="conatact_msg">If you want contact or chat you have to take membership.</string>
     <string name="profile_msg">Oops seems ! your profile not full fill, please fill your profile.</string>
     <string name="support_about">Support: <a href="http://phplaravel-132936-535459.cloudwaysapps.com/support">http://phplaravel-132936-535459.cloudwaysapps.com/support</a></string>
     <string name="contact_us_about">Contact us: <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">info@samyotech.com</a></string>
+    <string name="membership">Membership</string>
+    <string name="choose_this">Choose This</string>
+    <string name="plan_select">Please select your plan.</string>
+    <string name="subscription_history">Subscription History</string>
+    <string name="search_by_tx_id">Search by TxnId</string>
+    <string name="no_history_found">NO HISTORY FOUND</string>
+    <string name="paid">Paid</string>
+    <string name="txn_id">Txn Id #</string>
+    <string name="to">to</string>
+    <string name="chat">Chat</string>
+    <string name="no_chat_history_found">NO CHAT HISTORY FOUND</string>
+    <string name="write_your_message">Write your message</string>
+    <string name="fit_image">FIT IMAGE</string>
+    <string name="square">SQUARE</string>
+    <string name="free">FREE</string>
+    <string name="circle">CIRCLE</string>
+    <string name="circle_square">CIRCLE SQUARE</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="select_image">Select Image From</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="val_comment">Please enter message</string>
+    <string name="already_subscribe_user">Already subscribe user</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="upgrade_now">Upgrade Now</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

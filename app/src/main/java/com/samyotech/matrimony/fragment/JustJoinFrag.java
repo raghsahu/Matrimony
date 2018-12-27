@@ -1,5 +1,6 @@
 package com.samyotech.matrimony.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -14,6 +15,7 @@ import com.google.gson.reflect.TypeToken;
 import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.Models.UserDTO;
 import com.samyotech.matrimony.R;
+import com.samyotech.matrimony.activity.dashboard.Dashboard;
 import com.samyotech.matrimony.adapter.AdapterJustJoin;
 import com.samyotech.matrimony.https.HttpsRequest;
 import com.samyotech.matrimony.interfaces.Consts;
@@ -45,6 +47,7 @@ public class JustJoinFrag extends Fragment {
     private boolean loading = true;
     private int visibleThreshold = 5;
     int firstVisibleItem, visibleItemCount, totalItemCount;
+    public Dashboard dashboard;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -62,7 +65,6 @@ public class JustJoinFrag extends Fragment {
 
         mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         rvMatch.setLayoutManager(mLayoutManager);
-
 
 
     }
@@ -122,4 +124,9 @@ public class JustJoinFrag extends Fragment {
         rvMatch.setAdapter(adapterJustJoin);
     }
 
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        dashboard = (Dashboard) getActivity();
+    }
 }

@@ -37,7 +37,7 @@ import java.util.List;
 public class VisitorsFrag extends Fragment {
 
     private View view;
-    private Dashboard dashboard;
+    public Dashboard dashboard;
     private String TAG = VisitorsFrag.class.getSimpleName();
     private RecyclerView rvMatch;
     LinearLayoutManager mLayoutManager;
@@ -52,6 +52,7 @@ public class VisitorsFrag extends Fragment {
     private int visibleThreshold = 5;
     int firstVisibleItem, visibleItemCount, totalItemCount;
     private LinearLayout rlView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -22,4 +22,11 @@
     <color name="color_button_enabled">#d9475c</color>
     <color name="text_bio">#F0D300</color>
     <color name="off_white">#F1ECE4</color>
+    <color name="lightgray">#f7f7f7</color>
+    <color name="dividergray">#d4d4d4</color>
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="divider">#333333</color>
+    <color name="chat_out">#c4ccf8</color>
+    <color name="chat_in">#e0e3e6</color>
 </resources>

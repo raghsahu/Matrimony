@@ -72,6 +72,7 @@
     <string name="nav_visitor">प्रोफ़ाइल विज़िटर्स</string>
     <string name="nav_interest">इंटरेस्ट</string>
     <string name="nav_events">समाचार</string>
+    <string name="nav_chat">Chats</string>
     <string name="nav_about_us">हमारे बारे में</string>
     <string name="nav_settings">सेटिंग्स</string>
 
@@ -553,6 +554,34 @@
     <string name="submit">सबमिट</string>
     <string name="send_interest_tag">सेंट इंटरेस्ट</string>
     <string name="received_interest_tag">रिसीवड इंटरेस्ट</string>
-    <string name="conatact_msg">यदि आप अन्य उपयोगकर्ताओं के संपर्क विवरण देखना चाहते हैं, तो कृपया रिक्वेस्ट भेजें। अगर वे आपका रिक्वेस्ट स्वीकार करते हैं, तो आप उनके संपर्क विवरण देख सकते हैं।</string>
+    <string name="conatact_msg">यदि आप संपर्क या चैट करना चाहते हैं तो आपको सदस्यता लेनी होगी ।</string>
     <string name="profile_msg">ओह लगता है! आपकी प्रोफ़ाइल पूरी भर नहीं है, कृपया अपनी प्रोफाइल भरें।</string>
+    <string name="membership">Membership</string>
+    <string name="choose_this">Choose This</string>
+    <string name="plan_select">Please select your plan.</string>
+    <string name="subscription_history">Subscription History</string>
+    <string name="search_by_tx_id">Search by TxnId</string>
+    <string name="no_history_found">NO HISTORY FOUND</string>
+    <string name="paid">Paid</string>
+    <string name="txn_id">Txn Id #</string>
+    <string name="to">to</string>
+    <string name="chat">Chat</string>
+    <string name="no_chat_history_found">NO CHAT HISTORY FOUND</string>
+    <string name="write_your_message">Write your message</string>
+    <string name="fit_image">FIT IMAGE</string>
+    <string name="square">SQUARE</string>
+    <string name="free">FREE</string>
+    <string name="circle">CIRCLE</string>
+    <string name="circle_square">CIRCLE SQUARE</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="select_image">Select Image From</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="val_comment">Please enter message</string>
+    <string name="already_subscribe_user">Already subscribe user</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="upgrade_now">Upgrade Now</string>
+
 </resources>

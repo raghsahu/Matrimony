@@ -173,7 +173,7 @@
                     android:id="@+id/llShortList"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight=".33"
+                    android:layout_weight=".25"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -195,7 +195,7 @@
                     android:id="@+id/llInterest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight=".33"
+                    android:layout_weight=".25"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -218,7 +218,7 @@
                     android:id="@+id/llContact"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight=".33"
+                    android:layout_weight=".25"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -232,6 +232,26 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/contact"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/llChat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".25"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_chat"
+                        android:textSize="12sp" />
+
+                    <com.samyotech.matrimony.view.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chat"
                         android:textColor="@color/white" />
                 </LinearLayout>
 

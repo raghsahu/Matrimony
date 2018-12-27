@@ -7,7 +7,10 @@ import android.preference.PreferenceManager;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.samyotech.matrimony.Models.LoginDTO;
+import com.samyotech.matrimony.Models.SubscriptionDto;
 import com.samyotech.matrimony.Models.UserDTO;
+import com.samyotech.matrimony.Models.UserFire;
+import com.samyotech.matrimony.utils.StaticConfig;
 
 import java.lang.reflect.Type;
 
@@ -15,6 +18,11 @@ public class SharedPrefrence {
     public static SharedPreferences myPrefs;
     public static SharedPreferences.Editor prefsEditor;
     public static SharedPrefrence myObj;
+
+    private static String SHARE_KEY_NAME = "name";
+    private static String SHARE_KEY_EMAIL = "email";
+    private static String SHARE_KEY_AVATA = "avata";
+    private static String SHARE_KEY_UID = "uid";
 
     private SharedPrefrence() {
     }
@@ -132,6 +140,53 @@ public class SharedPrefrence {
             return testHashMap;
         }
     }
+    public void setSubscription(SubscriptionDto subscriptionDto, String tag) {
 
+        Gson gson = new Gson();
+        String hashMapString = gson.toJson(subscriptionDto);
+
+        prefsEditor.putString(tag, hashMapString);
+        prefsEditor.apply();
+    }
+
+    public SubscriptionDto getSubscription(String tag) {
+        String obj = myPrefs.getString(tag, "defValue");
+        if (obj.equals("defValue")) {
+            return new SubscriptionDto();
+        } else {
+            Gson gson = new Gson();
+            String storedHashMapString = myPrefs.getString(tag, "");
+            Type type = new TypeToken<SubscriptionDto>() {
+            }.getType();
+            SubscriptionDto testHashMap = gson.fromJson(storedHashMapString, type);
+            return testHashMap;
+        }
+    }
+
+
+    public void saveUserInfo(UserFire user) {
+        prefsEditor.putString(SHARE_KEY_NAME, user.name);
+        prefsEditor.putString(SHARE_KEY_EMAIL, user.email);
+        prefsEditor.putString(SHARE_KEY_AVATA, user.avata);
+        prefsEditor.putString(SHARE_KEY_UID, StaticConfig.UID);
+        prefsEditor.apply();
+    }
+
+    public UserFire getUserInfo(){
+        String userName = myPrefs.getString(SHARE_KEY_NAME, "");
+        String email = myPrefs.getString(SHARE_KEY_EMAIL, "");
+        String avatar = myPrefs.getString(SHARE_KEY_AVATA, "default");
+
+        UserFire user = new UserFire();
+        user.name = userName;
+        user.email = email;
+        user.avata = avatar;
+
+        return user;
+    }
+
+    public String getUID(){
+        return myPrefs.getString(SHARE_KEY_UID, "");
+    }
 
 }

@@ -19,6 +19,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.media.ExifInterface;
 import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
@@ -107,7 +108,23 @@ public class ProjectUtils {
         }
     }
 
+    public static void Fullscreen(Activity activity) {
+        activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    }
 
+
+    public static void statusbarBackgroundTrans(Activity activity, int drawable) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = activity.getWindow();
+            Drawable background = activity.getResources().getDrawable(drawable);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(activity.getResources().getColor(android.R.color.transparent));
+            // window.setNavigationBarColor(activity.getResources().getColor(R.color.transparent));
+            window.setBackgroundDrawable(background);
+        }
+    }
     //For Progress Dialog
     public static ProgressDialog getProgressDialog(Context context) {
         ProgressDialog progressDialog = new ProgressDialog(context);
@@ -1439,6 +1456,57 @@ public class ProjectUtils {
         return str;
     }
 
+    public static String convertTimestampDateToTime(long timestamp) {
+        Timestamp tStamp = new Timestamp(timestamp);
+        SimpleDateFormat simpleDateFormat;
+        simpleDateFormat = new SimpleDateFormat("dd MMM, yyyy");
+        return simpleDateFormat.format(tStamp);
+    }
+    public static String getDisplayableDay(long delta) {
+        long difference = 0;
+        Long mDate = System.currentTimeMillis();
+
+        if (mDate > delta) {
+            difference = mDate - delta;
+            final long seconds = difference / 1000;
+            final long minutes = seconds / 60;
+            final long hours = minutes / 60;
+            final long days = hours / 24;
+            final long months = days / 31;
+            final long years = days / 365;
+
+            if (seconds < 0) {
+                return "not yet";
+            } else if (seconds < 60) {
+                return "TODAY";
+            } else if (seconds < 120) {
+                return "TODAY";
+            } else if (seconds < 2700) // 45 * 60
+            {
+                return "TODAY";
+            } else if (seconds < 5400) // 90 * 60
+            {
+                return "TODAY";
+            } else if (seconds < 86400) // 24  60  60
+            {
+                return "TODAY";
+            } else if (seconds < 172800) // 48  60  60
+            {
+                return "yesterday";
+            } else if (seconds < 2592000) // 30  24  60 * 60
+            {
+                return days + " days ago";
+            } else if (seconds < 31104000) // 12  30  24  60  60
+            {
+
+                return months <= 1 ? "one month ago" : days + " months ago";
+            } else {
+
+                return years <= 1 ? "one year ago" : years + " years ago";
+            }
+        }
+        return null;
+    }
 
 
 }
