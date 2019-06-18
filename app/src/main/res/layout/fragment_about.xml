@@ -39,41 +39,41 @@
             android:layout_margin="35dp"
             android:orientation="vertical">
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Matrimony"
                 android:textSize="16sp" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="© 2018 Samyotech, INDORE, INDIA."
                 android:textSize="16sp" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="All rights reserved."
                 android:textSize="16sp" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Version: 1.0.0"
                 android:textSize="16sp" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="Launched: 19th June 2018"
                 android:textSize="16sp" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -83,7 +83,7 @@
                 android:text="@string/contact_us_about"
                 android:textStyle="bold" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.samyotech.smmatrimony.multipleimagepicker.views.SquareFrameLayout
+<com.samyotech.matrimony.multipleimagepicker.views.SquareFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_margin="5dp"
     android:layout_height="match_parent">
 
-    <com.samyotech.smmatrimony.multipleimagepicker.views.SquaredImageView
+    <com.samyotech.matrimony.multipleimagepicker.views.SquaredImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,4 +28,4 @@
         android:layout_marginTop="5.5dp"
         android:src="@drawable/btn_unselected"/>
 
-</com.samyotech.smmatrimony.multipleimagepicker.views.SquareFrameLayout>
+</com.samyotech.matrimony.multipleimagepicker.views.SquareFrameLayout>

@@ -21,14 +21,14 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:id="@+id/tvTxId1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:text="@string/txn_id" />
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:id="@+id/tvTxId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
                 android:textColor="@color/colorPrimary" />
 
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:id="@+id/tvPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
                 android:layout_centerVertical="true"
                 android:src="@drawable/ic_calender" />
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:id="@+id/tvStartDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                     card_view:cardCornerRadius="5dp"
                     card_view:cardElevation="4dp">
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvStatus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                     android:layout_marginTop="10dp"
                     android:src="@drawable/ic_subscription" />
 
-                <com.samyotech.smmatrimony.view.CustomTextView
+                <com.samyotech.matrimony.view.CustomTextView
                     android:id="@+id/tvSubType"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

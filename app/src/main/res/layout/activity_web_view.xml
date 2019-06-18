@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.samyotech.smmatrimony.activity.WebViewActivity">
+    tools:context="com.samyotech.matrimony.activity.WebViewActivity">
 
     <RelativeLayout
         android:id="@+id/action_bar_menus"
@@ -32,7 +32,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.smmatrimony.view.CustomTextViewBold
+        <com.samyotech.matrimony.view.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -20,7 +20,7 @@
             android:layout_marginTop="30dp"
             android:clickable="true" />
 
-        <com.samyotech.smmatrimony.view.CustomTextViewBold
+        <com.samyotech.matrimony.view.CustomTextViewBold
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

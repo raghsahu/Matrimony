@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.samyotech.smmatrimony.activity.editprofile.ImportantDetailsActivity">
+    tools:context="com.samyotech.matrimony.activity.editprofile.ImportantDetailsActivity">
 
     <RelativeLayout
         android:id="@+id/action_bar_menus"
@@ -31,7 +31,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.smmatrimony.view.CustomTextViewBold
+        <com.samyotech.matrimony.view.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:paddingLeft="@dimen/login_margin_txt_top_10"
             android:paddingRight="@dimen/login_margin_txt_top_10">
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -65,22 +65,22 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
-            <com.samyotech.smmatrimony.view.InputOpenFieldView
+            <com.samyotech.matrimony.view.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:visibility="visible">
 
-                <com.samyotech.smmatrimony.view.CustomEditText
+                <com.samyotech.matrimony.view.CustomEditText
                     android:id="@+id/etEducation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/higest_education"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
-            </com.samyotech.smmatrimony.view.InputOpenFieldView>
+            </com.samyotech.matrimony.view.InputOpenFieldView>
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -88,7 +88,7 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
-            <com.samyotech.smmatrimony.view.CustomTextViewBold
+            <com.samyotech.matrimony.view.CustomTextViewBold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -128,55 +128,55 @@
                 android:orientation="vertical"
                 android:visibility="gone">
 
-                <com.samyotech.smmatrimony.view.InputOpenFieldView
+                <com.samyotech.matrimony.view.InputOpenFieldView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/login_margin_txt_top_5"
                     android:visibility="visible">
 
-                    <com.samyotech.smmatrimony.view.CustomEditText
+                    <com.samyotech.matrimony.view.CustomEditText
                         android:id="@+id/etWorkArea"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/work_area"
                         android:imeOptions="actionNext"
                         android:singleLine="true" />
-                </com.samyotech.smmatrimony.view.InputOpenFieldView>
+                </com.samyotech.matrimony.view.InputOpenFieldView>
 
-                <com.samyotech.smmatrimony.view.InputFieldView
+                <com.samyotech.matrimony.view.InputFieldView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/login_margin_txt_top_5"
                     android:visibility="visible">
 
-                    <com.samyotech.smmatrimony.view.CustomEditText
+                    <com.samyotech.matrimony.view.CustomEditText
                         android:id="@+id/etoccupations"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/occupation1"
                         android:imeOptions="actionNext"
                         android:singleLine="true" />
-                </com.samyotech.smmatrimony.view.InputFieldView>
+                </com.samyotech.matrimony.view.InputFieldView>
 
-                <com.samyotech.smmatrimony.view.InputOpenFieldView
+                <com.samyotech.matrimony.view.InputOpenFieldView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/login_margin_txt_top_5"
                     android:visibility="visible">
 
-                    <com.samyotech.smmatrimony.view.CustomEditText
+                    <com.samyotech.matrimony.view.CustomEditText
                         android:id="@+id/etorganization"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/organization_name1"
                         android:imeOptions="actionNext"
                         android:singleLine="true" />
-                </com.samyotech.smmatrimony.view.InputOpenFieldView>
+                </com.samyotech.matrimony.view.InputOpenFieldView>
 
             </LinearLayout>
 
 
-            <com.samyotech.smmatrimony.view.CustomButton
+            <com.samyotech.matrimony.view.CustomButton
                 android:id="@+id/btnSave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

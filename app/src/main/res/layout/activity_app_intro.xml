@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:fitsSystemWindows="true"
-    tools:context="com.inspire.rkspmatrimony.com.samyotech.smmatrimony.AppIntro">
+    >
 
     <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/viewpager"
@@ -33,7 +33,7 @@
         android:clickable="false"
         android:visibility="visible">
 
-        <com.samyotech.smmatrimony.view.CustomTextView
+        <com.samyotech.matrimony.view.CustomTextView
             android:id="@+id/tvSkip"
             android:layout_width="match_parent"
             android:layout_height="50dp"

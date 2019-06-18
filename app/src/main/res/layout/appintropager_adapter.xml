@@ -34,7 +34,7 @@
             android:scaleType="fitCenter"
             android:src="@drawable/intro_icon_1" />
 
-        <com.samyotech.smmatrimony.view.CustomTextViewBold
+        <com.samyotech.matrimony.view.CustomTextViewBold
             android:id="@+id/ctvText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:textColor="@color/white"
             android:textSize="22sp" />
 
-        <com.samyotech.smmatrimony.view.CustomTextView
+        <com.samyotech.matrimony.view.CustomTextView
             android:id="@+id/ctvText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

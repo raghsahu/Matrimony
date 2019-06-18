@@ -33,7 +33,7 @@
 
             </LinearLayout>
 
-            <com.samyotech.smmatrimony.view.CustomTextView
+            <com.samyotech.matrimony.view.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -78,7 +78,7 @@
                 android:layout_marginTop="3dp"
                 android:visibility="visible">
 
-                <com.samyotech.smmatrimony.view.CustomTextViewBold
+                <com.samyotech.matrimony.view.CustomTextViewBold
                     android:id="@+id/tvHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
                     android:orientation="vertical">
 
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvMaritalStatus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvBloodGroup"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -146,7 +146,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvBirthDate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvBirthTime"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvBirthPlace"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvManglik"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvGotra"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -191,7 +191,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvGotraNanihal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -200,7 +200,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvColor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -209,7 +209,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvHeight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -218,7 +218,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvEducation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -227,7 +227,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvOccupation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -236,7 +236,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvIncome"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -245,7 +245,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvWorkPlace"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -254,7 +254,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvDadaJi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -263,7 +263,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvFatherName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -272,7 +272,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvMotherName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -281,7 +281,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvBroSis"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -290,7 +290,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvNanaJi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -299,7 +299,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvFatherOccupation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -308,7 +308,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvAddress"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -317,7 +317,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvPincode"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -326,7 +326,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvEmail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -335,7 +335,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvWhatsupNo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -344,7 +344,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:id="@+id/tvFatherNumber"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -353,7 +353,7 @@
                         android:textColor="@color/text_bio"
                         android:textSize="@dimen/bio_text_size" />
 
-                    <com.samyotech.smmatrimony.view.CustomTextView
+                    <com.samyotech.matrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/bio_margin_top"
