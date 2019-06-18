@@ -174,7 +174,7 @@ public class Search extends AppCompatActivity implements View.OnClickListener {
                 break;
             case R.id.btnSearch:
                 Intent in = new Intent(mContext, SearchResult.class);
-                in.putExtra(Consts.SEARCH_PARAM, parms);
+               // in.putExtra(Consts.SEARCH_PARAM, parms);
                 startActivity(in);
                 overridePendingTransition(R.anim.anim_slide_in_left,
                         R.anim.anim_slide_out_left);

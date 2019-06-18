@@ -441,18 +441,26 @@ public class Dashboard extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
-        parmsSubs.put(Consts.USER_ID, loginDTO.getData().getId());
-        ctvbName.setText(loginDTO.getData().getName());
-        Glide.with(mContext).
-                load(Consts.IMAGE_URL + loginDTO.getData().getAvatar_medium())
-                .placeholder(R.drawable.default_error)
-                .dontAnimate()
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(imgProfile);
+        //*************************static********************************
+        //parmsSubs.put(Consts.USER_ID, loginDTO.getData().getId());
+        //ctvbName.setText(loginDTO.getData().getName());
+        parmsSubs.put(Consts.USER_ID, "12345");
+        ctvbName.setText("rrrr");
+        //***********************************imp ********************************************
 
-        uploadImg(Consts.IMAGE_URL + loginDTO.getData().getAvatar_medium());
+//        Glide.with(mContext).
+//                load(Consts.IMAGE_URL + loginDTO.getData().getAvatar_medium())
+//                .placeholder(R.drawable.default_error)
+//                .dontAnimate()
+//                .diskCacheStrategy(DiskCacheStrategy.ALL)
+//                .into(imgProfile);
+//
+//        uploadImg(Consts.IMAGE_URL + loginDTO.getData().getAvatar_medium());
+    //********************************************************************************************************
         if (NetworkManager.isConnectToInternet(mContext)) {
-            getMySubscription();
+           // getMySubscription();
+
+            //******************************************************************************
         } else {
             ProjectUtils.showToast(mContext, getResources().getString(R.string.internet_concation));
         }
@@ -503,7 +511,12 @@ public class Dashboard extends AppCompatActivity {
                     }
                 } else {
                     Log.d(TAG, "onAuthStateChanged:signed_out");
-                    signIn(loginDTO.getData().getEmail(), "sam@123");
+
+                    //*************************************************************
+//                    signIn(loginDTO.getData().getEmail(), "sam@123");
+                   signIn("rrr@gmail.com", "123456");
+
+                    //*******************************************************************************
                 }
                 firstTimeAccess = false;
             }

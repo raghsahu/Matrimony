@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:895804579479:android:8c701752bf035245",
         "android_client_info": {
-          "package_name": "com.samyotech.smmatrimony"
+          "package_name": "com.samyotech.matrimony"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "895804579479-gt6itu6linn3bfscphddcni7lkpafab5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.samyotech.smmatrimony",
+            "package_name": "com.samyotech.matrimony",
             "certificate_hash": "52e0eb35bb196526f63b3d56aab4afe33842faec"
           }
         },

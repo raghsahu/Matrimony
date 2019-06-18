@@ -77,7 +77,14 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnLogin:
-                clickForSubmit();
+               // clickForSubmit();
+
+                Intent in = new Intent(mContext, Dashboard.class);
+                startActivity(in);
+                finish();
+                overridePendingTransition(R.anim.anim_slide_in_left,
+                        R.anim.anim_slide_out_left);
+
                 break;
             case R.id.tvCreateNewAC:
                 startActivity(new Intent(mContext, Registration.class));
@@ -90,8 +97,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         R.anim.anim_slide_out_left);
                 break;
             case R.id.tvForgotPass:
-                Intent in = new Intent(mContext, ForgotPass.class);
-                startActivity(in);
+                Intent intent = new Intent(mContext, ForgotPass.class);
+                startActivity(intent);
                 overridePendingTransition(R.anim.anim_slide_in_left,
                         R.anim.anim_slide_out_left);
                 break;

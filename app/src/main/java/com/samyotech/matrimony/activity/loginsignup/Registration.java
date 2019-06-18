@@ -89,6 +89,7 @@ public class Registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+
         mContext = Registration.this;
         prefrence = SharedPrefrence.getInstance(mContext);
         firebase = getSharedPreferences("MyPrefs", MODE_PRIVATE);
@@ -138,66 +139,99 @@ public class Registration extends AppCompatActivity {
                 if (current < layouts.length) {
                     if (current == 1) {
 
-                        if (profileFor.profile.equalsIgnoreCase("")) {
-                            showSickbar(getString(R.string.profile_for));
-                        } else {
-                            viewPager.setCurrentItem(current);
-                        }
-                    } else if (current == 2) {
-                        if (personalDetails.rg_gender_options.getCheckedRadioButtonId() == -1) {
-                            showSickbar(getString(R.string.val_gender));
-                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etDOB)) {
-                            showSickbar(getString(R.string.val_dob));
-                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etHeight)) {
-                            showSickbar(getString(R.string.val_height));
-                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etState)) {
-                            showSickbar(getString(R.string.val_state));
-                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etDistrict)) {
-                            showSickbar(getString(R.string.val_district));
-                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etCity)) {
-                            showSickbar(getString(R.string.val_city));
-                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etPincode)) {
-                            showSickbar(getString(R.string.val_pin));
-                        } else {
-                            viewPager.setCurrentItem(current);
-                        }
-                    } else if (current == 3) {
-                        if (!ProjectUtils.isEditTextFilled(importantDetails.etEducation)) {
-                            showSickbar(getString(R.string.val_education));
-                        } else if (!validate()) {
+//                        if (profileFor.profile.equalsIgnoreCase("")) {
+//                            showSickbar(getString(R.string.profile_for));
+//                        } else {
+//                            viewPager.setCurrentItem(current);
+//                        }
+                        //***********************static not imp************
+                        viewPager.setCurrentItem(current);
+                        //****************************************************
 
-                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
-                            showSickbar(getString(R.string.val_blood));
-                        } else if (!ProjectUtils.isAddharValidate(importantDetails.etAadhar.getText().toString().trim())) {
-                            showSickbar(getString(R.string.val_aadhar));
-                        } else {
-                            viewPager.setCurrentItem(current);
-                        }
+                    } else if (current == 2) {
+//                        if (personalDetails.rg_gender_options.getCheckedRadioButtonId() == -1) {
+//                            showSickbar(getString(R.string.val_gender));
+//                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etDOB)) {
+//                            showSickbar(getString(R.string.val_dob));
+//                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etHeight)) {
+//                            showSickbar(getString(R.string.val_height));
+//                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etState)) {
+//                            showSickbar(getString(R.string.val_state));
+//                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etDistrict)) {
+//                            showSickbar(getString(R.string.val_district));
+//                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etCity)) {
+//                            showSickbar(getString(R.string.val_city));
+//                        } else if (!ProjectUtils.isEditTextFilled(personalDetails.etPincode)) {
+//                            showSickbar(getString(R.string.val_pin));
+//                        } else {
+//                            viewPager.setCurrentItem(current);
+//                        }
+                        //***********************static not imp************
+                        viewPager.setCurrentItem(current);
+                        //****************************************************
+                    } else if (current == 3) {
+//                        if (!ProjectUtils.isEditTextFilled(importantDetails.etEducation)) {
+//                            showSickbar(getString(R.string.val_education));
+//                        } else if (!validate()) {
+//
+//                        } else if (!ProjectUtils.isEditTextFilled(importantDetails.etBlood)) {
+//                            showSickbar(getString(R.string.val_blood));
+//                        } else if (!ProjectUtils.isAddharValidate(importantDetails.etAadhar.getText().toString().trim())) {
+//                            showSickbar(getString(R.string.val_aadhar));
+//                        } else {
+//                            viewPager.setCurrentItem(current);
+//                        }
+                        //***********************static not imp************
+                        viewPager.setCurrentItem(current);
+                        //****************************************************
                     } else if (current == 4) {
-                        if (!ProjectUtils.isEditTextFilled(socialDetails.etMaritial)) {
-                            showSickbar(getString(R.string.val_maritial_status));
-                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etGotra)) {
-                            showSickbar(getString(R.string.val_gotra));
-                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etManglik)) {
-                            showSickbar(getString(R.string.val_manglik));
-                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etBirthTime)) {
-                            showSickbar(getString(R.string.val_birth_time));
-                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etBirthPlace)) {
-                            showSickbar(getString(R.string.val_birth_place));
-                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etGotraNanihal)) {
-                            showSickbar(getString(R.string.val_gotra_nanihal));
-                        } else {
-                            viewPager.setCurrentItem(current);
-                        }
+//                        if (!ProjectUtils.isEditTextFilled(socialDetails.etMaritial)) {
+//                            showSickbar(getString(R.string.val_maritial_status));
+//                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etGotra)) {
+//                            showSickbar(getString(R.string.val_gotra));
+//                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etManglik)) {
+//                            showSickbar(getString(R.string.val_manglik));
+//                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etBirthTime)) {
+//                            showSickbar(getString(R.string.val_birth_time));
+//                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etBirthPlace)) {
+//                            showSickbar(getString(R.string.val_birth_place));
+//                        } else if (!ProjectUtils.isEditTextFilled(socialDetails.etGotraNanihal)) {
+//                            showSickbar(getString(R.string.val_gotra_nanihal));
+//                        } else {
+//                            viewPager.setCurrentItem(current);
+//                        }
+                        //***********************static not imp************
+                        viewPager.setCurrentItem(current);
+                        //****************************************************
                     } else {
                         viewPager.setCurrentItem(current);
 
                     }
                 } else {
-                    clickForSubmit();
+                   // clickForSubmit();
+
+                    //*********************************static not imp pls remove*************************
+                    Intent in = new Intent(mContext, Otp.class);
+                    in.putExtra(Consts.OTP, 1234);
+                    in.putExtra(Consts.MOBILE, 1234567890);
+                    startActivity(in);
+                    finish();
+                    overridePendingTransition(R.anim.anim_slide_in_left,
+                            R.anim.anim_slide_out_left);
+                    //************************************************************************************
                 }
                 if (btnNext.getText().toString().equals("SUBMIT")) {
-                    clickForSubmit();
+                   // clickForSubmit();
+
+                    //*********************************static not imp pls remove*************************
+                    Intent in = new Intent(mContext, Otp.class);
+                    in.putExtra(Consts.OTP, 1234);
+                    in.putExtra(Consts.MOBILE, 1234567890);
+                    startActivity(in);
+                    finish();
+                    overridePendingTransition(R.anim.anim_slide_in_left,
+                            R.anim.anim_slide_out_left);
+                    //************************************************************************************
                 }
             }
         });
@@ -272,7 +306,8 @@ public class Registration extends AppCompatActivity {
             showSickbar(getString(R.string.val_password));
         } else if (!ProjectUtils.isPhoneNumberValid(loginDetails.etphone.getText().toString().trim())) {
             showSickbar(getString(R.string.val_mobile));
-        } else {
+        }
+        else {
             if (NetworkManager.isConnectToInternet(mContext)) {
 
                 Random otp1 = new Random();
@@ -414,8 +449,12 @@ public class Registration extends AppCompatActivity {
                     ProjectUtils.showToast(mContext, msg);
 
                     Intent in = new Intent(mContext, Otp.class);
-                    in.putExtra(Consts.OTP, otp);
-                    in.putExtra(Consts.MOBILE, ProjectUtils.getEditTextValue(loginDetails.etphone));
+//                    in.putExtra(Consts.OTP, otp);
+//                    in.putExtra(Consts.MOBILE, ProjectUtils.getEditTextValue(loginDetails.etphone));
+
+                    in.putExtra(Consts.OTP, 1234);
+                    in.putExtra(Consts.MOBILE, 1234567890);
+
                     startActivity(in);
                     finish();
                     overridePendingTransition(R.anim.anim_slide_in_left,
@@ -524,7 +563,17 @@ public class Registration extends AppCompatActivity {
                         Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
                         if (task.isSuccessful()) {
                             initNewUserInfo();
-                            register();
+                           // register();
+//**********************************************************************************************
+                            Intent in = new Intent(mContext, Otp.class);
+                            in.putExtra(Consts.OTP, 1234);
+                            in.putExtra(Consts.MOBILE, 1234567890);
+                            startActivity(in);
+                            finish();
+                            overridePendingTransition(R.anim.anim_slide_in_left,
+                                    R.anim.anim_slide_out_left);
+               //***********************************************************************************************
+
                         } else {
 
                         }

@@ -79,8 +79,13 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         prefrence = SharedPrefrence.getInstance(mContext);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
-        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
-        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
+//        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+
+        //************************************************************static******************
+        parms.put(Consts.USER_ID, "1234");
+        parms.put(Consts.TOKEN, "111111111111");
+        //*******************************************************************
         setUiaction();
     }
 
@@ -163,7 +168,9 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
     protected void onResume() {
         super.onResume();
         if (NetworkManager.isConnectToInternet(mContext)) {
-            getImages();
+
+
+           // getImages();
 
         } else {
             ProjectUtils.showToast(mContext, getResources().getString(R.string.internet_concation));

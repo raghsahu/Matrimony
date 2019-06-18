@@ -60,8 +60,13 @@ public class Otp extends AppCompatActivity implements View.OnClickListener {
         prefrence = SharedPrefrence.getInstance(mContext);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
-        parms_active.put(Consts.USER_ID, loginDTO.getData().getId());
-        parms_active.put(Consts.TOKEN, loginDTO.getAccess_token());
+//        parms_active.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parms_active.put(Consts.TOKEN, loginDTO.getAccess_token());
+        //************************************************************static******************
+        parms_active.put(Consts.USER_ID, "1234");
+        parms_active.put(Consts.TOKEN, "111111111111");
+        //*******************************************************************
+
         parms_active.put(Consts.IS_ACTIVE, "1");
 
         if (getIntent().hasExtra(Consts.OTP)) {
@@ -122,7 +127,17 @@ public class Otp extends AppCompatActivity implements View.OnClickListener {
                 }
                 break;
             case R.id.btnVerify:
-                approve();
+               // approve();
+
+                //**********************************
+                Intent in = new Intent(mContext, Dashboard.class);
+                startActivity(in);
+                finish();
+                overridePendingTransition(R.anim.anim_slide_in_left,
+                        R.anim.anim_slide_out_left);
+
+
+                //**************************************
                 break;
         }
     }

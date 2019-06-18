@@ -8,545 +8,169 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.github.lzyzsd</group-id>
+        <name>circleprogress</name>
+        <version>1.1.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.crashlytics.sdk.android</group-id>
+        <name>crashlytics</name>
+        <version>2.10.1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>de.hdodenhof</group-id>
+        <name>circleimageview</name>
+        <version>3.0.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-auth</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.cocosw</group-id>
+        <name>bottomsheet</name>
+        <version>1.3.1</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.ToxicBakery.viewpager.transforms</group-id>
+        <name>view-pager-transforms</name>
+        <version>2.0.24</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.code.gson</group-id>
+        <name>gson</name>
+        <version>2.8.5</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-messaging</name>
+        <version>18.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-core</name>
+        <version>16.0.9</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jsoup</group-id>
+        <name>jsoup</name>
+        <version>1.12.1</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>cardview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>glide</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-v4</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta1</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-database</name>
+        <version>17.0.0</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-vision</name>
+        <version>17.0.2</version>
+        <repository>Google,Google Repository</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.razorpay</group-id>
+        <name>checkout</name>
+        <version>1.5.5</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>recyclerview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google,Android Repository</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1560849146415</last-search-timestamp>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c00c6a-4e2b-4ec1-9c50-ad217533ee79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_lzyzsd_circleprogress_1_2_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_11_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_11_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_11_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_11_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_11_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_8_0_aar.xml" afterDir="false" />
+    <list default="true" id="93c00c6a-4e2b-4ec1-9c50-ad217533ee79" name="Default" comment="by raghav ji">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ToxicBakery_viewpager_transforms_view_pager_transforms_1_2_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ToxicBakery_viewpager_transforms_view_pager_transforms_1_2_32_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amitshekhar_android_android_networking_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_amitshekhar_android_android_networking_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_cocosw_bottomsheet_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_cocosw_bottomsheet_1_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_answers_1_4_6_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_2_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_beta_1_2_10_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_2_9_8_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_crashlytics_sdk_android_crashlytics_core_2_6_7_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_aryarohit07_glide_facedetection_transformation_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_aryarohit07_glide_facedetection_transformation_0_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_badoualy_stepper_indicator_1_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_badoualy_stepper_indicator_1_0_7_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hotchemi_permissionsdispatcher_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hotchemi_permissionsdispatcher_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_lzyzsd_circleprogress_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_license_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_license_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_11_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_license_11_8_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_license_11_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_isseiaoki_simplecropview_1_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_isseiaoki_simplecropview_1_1_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_razorpay_checkout_1_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_razorpay_checkout_1_4_9_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_4_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_fabric_sdk_android_fabric_1_4_7_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrimony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Matrimony.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/inspire/abhkrasp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/inspire/abhkrasp/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Ubuntu-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Ubuntu-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Ubuntu-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/Ubuntu-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/contact_us/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/contact_us/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/samyotech.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/samyotech.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/AppIntro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/ChatListDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/ChatListDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/CommanDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/CommanDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/Consersation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/Consersation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/Friend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/GetCommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/GetCommentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/ImageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/ImageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/LanguageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/LanguageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/ListFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/ListFriend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/LoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/LoginDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/MatchesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/MatchesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/NewsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/NewsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/PackagesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/PackagesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/ProfileForDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/ProfileForDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/SubscriptionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/SubscriptionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/SubscriptionHistoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/SubscriptionHistoryDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Models/UserFire.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/UserFire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/MyFirebaseInstanceIDService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/MyFirebaseMessagingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/Splash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/SysApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/ChangePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/ChangePass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/ChatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/ContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/ContactUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/LanguageSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/LanguageSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/WebViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/WebViewActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/dashboard/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/dashboard/RateUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/RateUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/editprofile/AboutFamilyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/editprofile/AboutMeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/editprofile/BasicDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/editprofile/CriticalFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/editprofile/ImportantDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/editprofile/LifeStyleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/imageselection/ImageshowActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/imageselection/ImageshowActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/imageselection/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/imageselection/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/loginsignup/ForgotPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/ForgotPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/loginsignup/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/loginsignup/Otp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/loginsignup/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/myprofile/BioData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/myprofile/DeleteImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/DeleteImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/myprofile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/myprofile/ProfilePicSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/ProfilePicSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/profile_other/ImageSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/profile_other/ImageSlider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/profile_other/ProfileOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/profile_other/ProfileOther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/search/FullProfileSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/FullProfileSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/search/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/SearchResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/search/SearchResultMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/SearchResultMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/subscription/MemberShipActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/activity/subscription/SubscriptionHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterDeleteImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterDeleteImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterImageSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterImageSlider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterJustJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterJustJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterLanguage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterMatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterMatches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterProfileFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterProfileFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterProfilePicSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterProfilePicSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterReceiveInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterReceiveInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterSearchFront.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterSearchFront.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterSearchMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterSentInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterSentInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterShortlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterShortlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AdapterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/AppIntroPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AppIntroPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/GridImageshowAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/GridImageshowAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/ImagesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/ImagesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/PackageslistAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/PackageslistAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/adapter/SubscriptionHisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/SubscriptionHisAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/database/DataBaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/database/FriendDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/FriendDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/database/TestAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/TestAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/AboutFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/Chats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/Divider_Profile_for.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/EventsFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/HomeFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/InterestFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/InviteFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/JustJoinFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/MatchesFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/ReceviedInterest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/SearchFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/SendInterest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/SettingsFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/ShortlistedFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/VisitorsFrag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/registration/ImportantDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/registration/LoginDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/LoginDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/registration/PersonalDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/registration/ProfileFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/ProfileFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/registration/SocialDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/https/HttpsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/https/HttpsRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/interfaces/Consts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/interfaces/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/interfaces/OnSpinerItemClick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/interfaces/SmsListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/jsonparser/JSONParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/MultiImageSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/MultiImageSelectorActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/MultiImageSelectorFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/adapters/FolderAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/adapters/ImageGridAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/listeners/FolderOnItemClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/listeners/ImageOnItemClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/models/Folder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/models/Image.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/utils/FileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/utils/ScreenUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/utils/TimeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/views/SquareFrameLayout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/multipleimagepicker/views/SquaredImageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/network/NetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/network/NetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/service/FriendChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/service/FriendChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/service/ServiceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/service/ServiceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/sharedprefrence/SharedPrefrence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/CustomTypeFaceSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/CustomTypeFaceSpan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/EndlessRecyclerOnScrollListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/EndlessRecyclerOnScrollListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/FixedScrollingViewBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/FixedScrollingViewBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/ProjectUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/ScreenshotUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/ScreenshotUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/SmsReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/SmsReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/SpinnerDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/SpinnerDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/StaticConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/StaticConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/utils/VerhoeffAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/VerhoeffAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/CustomButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/CustomButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/CustomEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/CustomEditText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/CustomTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/CustomTextView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/CustomTextViewBold.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/CustomTextViewBold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/ExtendedEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/ExtendedEditText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/FontCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/FontCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/FontUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/FontUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/ImageCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/ImageCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/InputFieldView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/InputFieldView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/InputOpenFieldView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/InputOpenFieldView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/MainFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/MainFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/ProfilePageProfilePhotoImageView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/ProgressDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/ProgressDialogFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/SquareImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/SquareImageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/view/TouchImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/TouchImageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_in_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_in_left.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_in_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_in_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_out_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_out_left.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_out_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fadein.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/fadein.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fadeout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/fadeout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/stay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/stay.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_career.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_career.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_education.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_education.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_family.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_family.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_kundli.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_kundli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_life_style.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_life_style.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_pin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_pin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_shortlist.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_shortlist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_shortlist_done.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_shortlist_done.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/menu_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/menu_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_career.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_career.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_education.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_education.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_family.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_family.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_kundli.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_kundli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_life_style.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_life_style.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_pin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_pin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_shortlist.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_shortlist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_shortlist_done.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_shortlist_done.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/menu_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/menu_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/btn_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/btn_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/btn_unselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/btn_unselected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/card_camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/card_camera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/cards_cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/cards_cancel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/default_check.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/default_check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/default_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/default_error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/drawe_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/drawe_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/gallery_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/gallery_card.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/hotels.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/hotels.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_add_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_add_img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_add_more.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_add_more.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_rate_hand.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_rate_hand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro_icon_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro_icon_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro_icon_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro_icon_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro_icon_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/intro_icon_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_career.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_career.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_education.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_education.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_family.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_family.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_kundli.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_kundli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_life_style.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_life_style.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_pin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_pin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_shortlist.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_shortlist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_shortlist_done.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_shortlist_done.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/menu_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/menu_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_call.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_call.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_career.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_career.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_education.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_education.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_family.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_family.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_kundli.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_kundli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_life_style.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_life_style.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_pin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_pin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_shortlist.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_shortlist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_shortlist_done.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_shortlist_done.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_whatsapp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/menu_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/menu_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/app_radio_button_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/app_radio_button_selector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back_rounded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back_rounded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back_rounded_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back_rounded_color.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back_white_line.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back_white_line.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_red.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_red.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_pressed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_pressed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_selector_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_selector_app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_selector_red.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_selector_red.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle_red.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_red.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/color_cursor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/color_cursor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/divider_profile_for.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider_profile_for.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drawable_isd_plus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable_isd_plus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drawer_item_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawer_item_bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_back_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_back_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gender_selecte.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gender_selecte.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gender_unselecte.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gender_unselecte.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gradiant_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gradiant_black.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_album_light.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_album_light.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_brother.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_brother.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_brother_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_brother_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call_white.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_change_pass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_change_pass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_contact_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_contact_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_daughter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_daughter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_daughter_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_daughter_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_done_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_done_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_invite_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_invite_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_left_arrow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_left_arrow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_leftt_arrow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_leftt_arrow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_marry_me.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_marry_me.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_photo_library_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_photo_library_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_privacy_policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_privacy_policy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rating.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_reletive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_reletive.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_reletive_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_reletive_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rotate_left_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rotate_left_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rotate_right_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rotate_right_black_24dp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_black.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_self.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_self.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_self_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_self_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sister.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sister.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sister_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sister_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_son.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_son.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_son_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_son_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_terms_conditions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_terms_conditions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/left_bubble_drawable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/left_bubble_drawable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nonselecteditem_dot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nonselecteditem_dot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/right_bubble_drawable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/right_bubble_drawable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selecteditem_dot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selecteditem_dot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_brother.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_brother.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_daughter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_daughter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_family.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_family.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_self.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_self.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_sister.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_sister.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_son.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_profile_son.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/self.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/self.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shape_package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/actionbar_header_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/actionbar_header_nav.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_family.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_family.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_app_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_app_intro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_basic_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_basic_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bio_data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bio_data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_pass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_pass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_critical_fields.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_critical_fields.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_pass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_pass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_full_profile_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_full_profile_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_imageshow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_imageshow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_important_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_important_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_language_selection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_life_style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_life_style.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_member_ship.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_member_ship.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_pic_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_pic_selection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rate_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rate_us.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_subscription_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_subscription_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_delete_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_delete_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_image_slider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_image_slider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_just_join.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_just_join.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_language_holder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_language_holder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_matches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_matches.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_news.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_profile_for.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_profile_for.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_receive_interest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_receive_interest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_search_front.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_search_front.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_sent_interest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_sent_interest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_shortlisted.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_shortlisted.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_subscription_his.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_subscription_his.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adaptergridimage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adaptergridimage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/appintropager_adapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/appintropager_adapter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dailog_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dailog_call.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dailog_image_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dailog_image_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dailog_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dailog_share.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_check.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_check.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_contact.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_radio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_important_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_important_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_invite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_invite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_just_join.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_just_join.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_matches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_matches.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_multi_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_multi_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_for.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_for.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recevied_interest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_send_interest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shortlisted.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shortlisted.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_social_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_social_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_visitors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_visitors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_recycle_view_images.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recycle_view_images.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/items_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_camera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_camera.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_folder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_folder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/popup_folder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/popup_folder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_view_checkbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_view_checkbox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_view_radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_view_radio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_cards.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_cards.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-420dpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-420dpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-xxxhdpi/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-xxxhdpi/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/filepaths.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/filepaths.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/inspire/abhkrasp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/inspire/abhkrasp/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/crashlytics/sdk/android/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/library/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/library/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -600,19 +224,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/LanguageSelection.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="295" column="43" selection-start-line="295" selection-start-column="43" selection-end-line="295" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Splash.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="374">
+              <caret line="565" column="29" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+              <folding>
+                <element signature="e#5555#11540#0" expanded="true" />
+                <element signature="e#11539#11540#0" expanded="true" />
+                <element signature="e#10586#10616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -628,13 +276,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navItemIndex</find>
-      <find>replace</find>
-      <find>getSupportActionBar</find>
-      <find>listFriend</find>
-      <find>txtName</find>
-      <find>mapMark</find>
-      <find>ChatActivity</find>
       <find>ACTION_START_CHAT</find>
       <find>listFriendID</find>
       <find>dataListFriend</find>
@@ -658,6 +299,13 @@
       <find>getListFriendUId</find>
       <find>indicator</find>
       <find>hindi</find>
+      <find>SM Matrimony</find>
+      <find>btnSearch</find>
+      <find>com.samyotech.smmatrimony</find>
+      <find>getGender</find>
+      <find>loginDTO</find>
+      <find>btn_next</find>
+      <find>register()</find>
     </findStrings>
     <replaceStrings>
       <replace>Chats</replace>
@@ -670,6 +318,7 @@
       <replace>android:background=&quot;@drawable/backgroundbg&quot;</replace>
       <replace>SM Matrimony</replace>
       <replace>com.samyotech.smmatrimony</replace>
+      <replace>Matrimony</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony</dir>
@@ -689,29 +338,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/Chats.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/SearchResultMain.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_app.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/actionbar_header_nav.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile_pic_selection.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rate_us.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search_result.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_subscription_history.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_basic_details.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bio_data.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_change_pass.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_critical_fields.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_default.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_pass.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_important_details.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_life_style.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_member_ship.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_otp.xml" />
@@ -720,14 +346,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_normal_red.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/backgroundbg.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/drawer_item_bg.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/edittext_back_round.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_family.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/database/FriendDB.java" />
@@ -740,6 +362,33 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/fragment/registration/ImportantDetails.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/AppIntro.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Splash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" />
+        <option value="$PROJECT_DIR$/app/google-services.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/MatchesFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/JustJoinFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/SearchFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/ShortlistedFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/VisitorsFrag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/SendInterest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/ReceviedInterest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" />
       </list>
     </option>
   </component>
@@ -774,6 +423,28 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -834,7 +505,10 @@
     <property name="device.picker.selection" value="Nexus_5_API_25" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GroceryAryan/Aryan15jun/Aryan_Groceryy/app/src/main/java/com/aryanonline/Fragment/Home_fragment.java" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.1.3" />
   </component>
   <component name="RecentsManager">
@@ -1017,6 +691,14 @@
       <option name="presentableId" value="Default" />
       <updated>1545716526139</updated>
     </task>
+    <task id="LOCAL-00001" summary="by raghav ji">
+      <created>1560849122759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560849122759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1034,7 +716,7 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5703704" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5695581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39814815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1091,6 +773,10 @@
       <window_info anchor="right" id="Fabric" order="9" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Device File Explorer" order="10" side_tool="true" weight="0.32954547" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="by raghav ji" />
+    <option name="LAST_COMMIT_MESSAGE" value="by raghav ji" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1209,297 +895,372 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rc_item_message_user.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rc_item_message_friend.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rc_item_friend.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/popup_folder.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_folder.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_camera.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/e7302537f3931df80c99ee4d814c046e/jars/classes.jar!/com/google/android/gms/internal/zzeia.class" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/e7302537f3931df80c99ee4d814c046e/jars/classes.jar!/com/google/firebase/database/zzp.class" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/e7302537f3931df80c99ee4d814c046e/jars/classes.jar!/com/google/android/gms/internal/zzegf.class" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/Chats.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AppIntroPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="105" column="49" selection-start-line="105" selection-start-column="49" selection-end-line="105" selection-end-column="49" />
+        <state relative-caret-position="228">
+          <caret line="85" column="87" lean-forward="true" selection-start-line="85" selection-start-column="87" selection-end-line="85" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_chats.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Splash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-27/android/database/sqlite/SQLiteDatabase.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/FriendDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/ChangePass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/ChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/multipleimagepicker/adapters/ImageGridAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="197" column="6" selection-start-line="197" selection-start-column="6" selection-end-line="197" selection-end-column="6" />
-          <folding>
-            <element signature="e#3303#3304#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_image.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../GroceryAryan/Aryan15jun/Aryan_Groceryy/app/src/main/java/com/aryanonline/Fragment/Home_fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7756">
-          <caret line="621" column="43" selection-start-line="621" selection-start-column="43" selection-end-line="621" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/interfaces/Consts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/CustomTextViewBold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/back_rounded_color.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_crown.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/ForgotPass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_important_details.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/SpinnerDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/view/CustomTextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="250">
+          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_intro.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="215">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="35" />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Android/sdk/platforms/android-27/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6450">
-          <caret line="784" column="16" selection-start-line="784" selection-start-column="16" selection-end-line="784" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/ImportantDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#2452#2500#0" expanded="true" />
-            <element signature="e#2540#2580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/anim_slide_out_left.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/anim_slide_in_left.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="84" lean-forward="true" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3984" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/AppIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="91" column="42" lean-forward="true" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+        <state relative-caret-position="388">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/inspire/abhkrasp/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#3432#3685#0" expanded="true" />
-            <element signature="e#3684#3685#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/fadeout.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_for.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/LanguageSelection.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_family.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="5610">
+          <caret line="330" column="32" selection-start-line="330" selection-start-column="32" selection-end-line="330" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/CommanDTO.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/PersonalDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="168" column="38" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="39" column="63" lean-forward="true" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="176">
+          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/ChatListDTO.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_pass.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/ForgotPass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Splash.java">
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="194">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="200" column="12" lean-forward="true" selection-start-line="200" selection-start-column="12" selection-end-line="200" selection-end-column="12" />
+          <folding>
+            <element signature="e#2041#2059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/LoginDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
+          <folding>
+            <element signature="e#4736#5647#0" expanded="true" />
+            <element signature="e#5646#5647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_matches.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_member_ship.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/actionbar_header_nav.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/MatchesFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
+          <folding>
+            <element signature="e#3324#3370#0" expanded="true" />
+            <element signature="e#3483#3999#0" expanded="true" />
+            <element signature="e#3998#3999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/SearchFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="68" column="77" selection-start-line="68" selection-start-column="77" selection-end-line="68" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/ShortlistedFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="139" column="38" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/JustJoinFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/VisitorsFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="134" column="7" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/ReceviedInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="126" column="77" selection-start-line="126" selection-start-column="77" selection-end-line="126" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/SendInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/HomeFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="164" column="42" selection-start-line="164" selection-start-column="42" selection-end-line="164" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="115" column="109" selection-start-line="115" selection-start-column="109" selection-end-line="115" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="74" column="77" selection-start-line="74" selection-start-column="77" selection-end-line="74" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="60" column="77" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2620">
+          <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="59" column="77" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="295" column="43" selection-start-line="295" selection-start-column="43" selection-end-line="295" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="78" column="77" selection-start-line="78" selection-start-column="77" selection-end-line="78" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_social_details.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/SocialDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="39" column="54" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="565" column="29" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+          <folding>
+            <element signature="e#5555#11540#0" expanded="true" />
+            <element signature="e#11539#11540#0" expanded="true" />
+            <element signature="e#10586#10616#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

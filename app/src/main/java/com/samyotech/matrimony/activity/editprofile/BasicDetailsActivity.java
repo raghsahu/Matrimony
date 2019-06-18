@@ -64,8 +64,14 @@ public class BasicDetailsActivity extends AppCompatActivity implements View.OnCl
         lang =  languageDetails.getString(Consts.SELECTED_LANGUAGE,"");
         userDTO = prefrence.getUserResponse(Consts.USER_DTO);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
-        parms.put(Consts.USER_ID, loginDTO.getData().getId());
-        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
+//        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
+        //************************************************************static******************
+        parms.put(Consts.USER_ID, "1234");
+        parms.put(Consts.TOKEN, "111111111111");
+        //*******************************************************************
+
+
         mDbHelper = new TestAdapter(mContext);
         mDbHelper.createDatabase();
         mDbHelper.open();

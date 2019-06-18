@@ -54,7 +54,7 @@ public class BioData extends AppCompatActivity implements View.OnClickListener {
             userDTO = (UserDTO) getIntent().getSerializableExtra(Consts.USER_DTO);
             tag_profile = getIntent().getIntExtra(Consts.TAG_PROFILE, 0);
         }
-        setUiAction();
+       // setUiAction();
     }
 
     public void setUiAction() {
@@ -101,6 +101,7 @@ public class BioData extends AppCompatActivity implements View.OnClickListener {
         tvWhatsupNo = findViewById(R.id.tvWhatsupNo);
         tvFatherNumber = findViewById(R.id.tvFatherNumber);
 
+        //*****************************************imp**************************************
         Glide.with(mContext).
                 load(Consts.IMAGE_URL + userDTO.getAvatar_medium())
                 .placeholder(R.drawable.default_error)
@@ -112,48 +113,49 @@ public class BioData extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onStart() {
         super.onStart();
-        if (userDTO.getGender().equalsIgnoreCase("M")) {
-            tvName.setText(getResources().getString(R.string.bio_name_boy)+" " + userDTO.getName());
-            tvOccupation.setText(getResources().getString(R.string.bio_occu_boy)+" " + userDTO.getOccupation());
-
-        } else {
-            tvName.setText(getResources().getString(R.string.bio_name_girl)+" " + userDTO.getName());
-            tvOccupation.setText(getResources().getString(R.string.bio_occu_girl)+" " + userDTO.getOccupation());
-
-
-        }
-        tvMaritalStatus.setText(getResources().getString(R.string.bio_maritial_status)+" " + userDTO.getMarital_status());
-        tvBloodGroup.setText(getResources().getString(R.string.bio_blood_group)+" " + userDTO.getBlood_group());
-
-        tvBirthDate.setText(getResources().getString(R.string.bio_birth_date)+" " + userDTO.getDob());
-        tvBirthTime.setText(getResources().getString(R.string.bio_birth_time)+" " + userDTO.getBirth_time());
-        tvBirthPlace.setText(getResources().getString(R.string.bio_birth_place)+" " + userDTO.getBirth_place());
-        tvManglik.setText(getResources().getString(R.string.bio_manglik)+" " + userDTO.getManglik());
-        tvGotra.setText(getResources().getString(R.string.bio_gotra)+" " + userDTO.getGotra());
-        tvGotraNanihal.setText(getResources().getString(R.string.bio_gotra_ninihal)+" " + userDTO.getGotra_nanihal());
-        tvColor.setText(getResources().getString(R.string.bio_color)+" " + userDTO.getComplexion());
-        tvHeight.setText(getResources().getString(R.string.bio_height)+" " + userDTO.getHeight());
-        tvEducation.setText(getResources().getString(R.string.bio_education)+" " + userDTO.getQualification());
-        tvIncome.setText(getResources().getString(R.string.bio_income)+" " + userDTO.getIncome());
-        tvWorkPlace.setText(getResources().getString(R.string.bio_work_place)+" " + userDTO.getWork_place());
-        tvDadaJi.setText(getResources().getString(R.string.bio_dada_ji)+" " + userDTO.getGrand_father_name());
-        tvFatherName.setText(getResources().getString(R.string.bio_father_name)+" " + userDTO.getFather_name());
-        tvMotherName.setText(getResources().getString(R.string.bio_mother_name)+" " + userDTO.getMother_name());
-        tvNanaJi.setText(getResources().getString(R.string.bio_nana_ji)+" " + userDTO.getMaternal_grand_father_name_address());
-        tvFatherOccupation.setText(getResources().getString(R.string.bio_father_occu)+" " + userDTO.getFather_occupation());
-        tvAddress.setText(getResources().getString(R.string.bio_address)+" " + userDTO.getPermanent_address());
-        tvPincode.setText(getResources().getString(R.string.bio_pincode)+" " + userDTO.getFamily_pin());
-        tvEmail.setText(getResources().getString(R.string.bio_email)+" " + userDTO.getEmail());
-        tvWhatsupNo.setText(getResources().getString(R.string.bio_whatsup_no)+" " + userDTO.getWhatsapp_no());
-        tvFatherNumber.setText(getResources().getString(R.string.bio_father_no)+" " + userDTO.getMobile2());
-
-        if (userDTO.getBrother().equalsIgnoreCase("None")) {
-            tvBroSis.setText(getResources().getString(R.string.bio_bro_sis)+" " + userDTO.getSister() + " " + getResources().getString(R.string.sister));
-        } else if (userDTO.getSister().equalsIgnoreCase("None")) {
-            tvBroSis.setText(getResources().getString(R.string.bio_bro_sis)+" " + userDTO.getBrother() + " " + getResources().getString(R.string.brother));
-        } else {
-            tvBroSis.setText(getResources().getString(R.string.bio_bro_sis)+" " + userDTO.getBrother() + " " + getResources().getString(R.string.brother) + "-" + userDTO.getSister() + " " + getResources().getString(R.string.sister));
-        }
+        //****************************************imp********************************************************
+//        if (userDTO.getGender().equalsIgnoreCase("M")) {
+//            tvName.setText(getResources().getString(R.string.bio_name_boy)+" " + userDTO.getName());
+//            tvOccupation.setText(getResources().getString(R.string.bio_occu_boy)+" " + userDTO.getOccupation());
+//
+//        } else {
+//            tvName.setText(getResources().getString(R.string.bio_name_girl)+" " + userDTO.getName());
+//            tvOccupation.setText(getResources().getString(R.string.bio_occu_girl)+" " + userDTO.getOccupation());
+//
+//
+//        }
+//        tvMaritalStatus.setText(getResources().getString(R.string.bio_maritial_status)+" " + userDTO.getMarital_status());
+//        tvBloodGroup.setText(getResources().getString(R.string.bio_blood_group)+" " + userDTO.getBlood_group());
+//
+//        tvBirthDate.setText(getResources().getString(R.string.bio_birth_date)+" " + userDTO.getDob());
+//        tvBirthTime.setText(getResources().getString(R.string.bio_birth_time)+" " + userDTO.getBirth_time());
+//        tvBirthPlace.setText(getResources().getString(R.string.bio_birth_place)+" " + userDTO.getBirth_place());
+//        tvManglik.setText(getResources().getString(R.string.bio_manglik)+" " + userDTO.getManglik());
+//        tvGotra.setText(getResources().getString(R.string.bio_gotra)+" " + userDTO.getGotra());
+//        tvGotraNanihal.setText(getResources().getString(R.string.bio_gotra_ninihal)+" " + userDTO.getGotra_nanihal());
+//        tvColor.setText(getResources().getString(R.string.bio_color)+" " + userDTO.getComplexion());
+//        tvHeight.setText(getResources().getString(R.string.bio_height)+" " + userDTO.getHeight());
+//        tvEducation.setText(getResources().getString(R.string.bio_education)+" " + userDTO.getQualification());
+//        tvIncome.setText(getResources().getString(R.string.bio_income)+" " + userDTO.getIncome());
+//        tvWorkPlace.setText(getResources().getString(R.string.bio_work_place)+" " + userDTO.getWork_place());
+//        tvDadaJi.setText(getResources().getString(R.string.bio_dada_ji)+" " + userDTO.getGrand_father_name());
+//        tvFatherName.setText(getResources().getString(R.string.bio_father_name)+" " + userDTO.getFather_name());
+//        tvMotherName.setText(getResources().getString(R.string.bio_mother_name)+" " + userDTO.getMother_name());
+//        tvNanaJi.setText(getResources().getString(R.string.bio_nana_ji)+" " + userDTO.getMaternal_grand_father_name_address());
+//        tvFatherOccupation.setText(getResources().getString(R.string.bio_father_occu)+" " + userDTO.getFather_occupation());
+//        tvAddress.setText(getResources().getString(R.string.bio_address)+" " + userDTO.getPermanent_address());
+//        tvPincode.setText(getResources().getString(R.string.bio_pincode)+" " + userDTO.getFamily_pin());
+//        tvEmail.setText(getResources().getString(R.string.bio_email)+" " + userDTO.getEmail());
+//        tvWhatsupNo.setText(getResources().getString(R.string.bio_whatsup_no)+" " + userDTO.getWhatsapp_no());
+//        tvFatherNumber.setText(getResources().getString(R.string.bio_father_no)+" " + userDTO.getMobile2());
+//
+//        if (userDTO.getBrother().equalsIgnoreCase("None")) {
+//            tvBroSis.setText(getResources().getString(R.string.bio_bro_sis)+" " + userDTO.getSister() + " " + getResources().getString(R.string.sister));
+//        } else if (userDTO.getSister().equalsIgnoreCase("None")) {
+//            tvBroSis.setText(getResources().getString(R.string.bio_bro_sis)+" " + userDTO.getBrother() + " " + getResources().getString(R.string.brother));
+//        } else {
+//            tvBroSis.setText(getResources().getString(R.string.bio_bro_sis)+" " + userDTO.getBrother() + " " + getResources().getString(R.string.brother) + "-" + userDTO.getSister() + " " + getResources().getString(R.string.sister));
+//        }
     }
 
     @Override

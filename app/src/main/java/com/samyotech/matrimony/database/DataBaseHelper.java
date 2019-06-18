@@ -16,7 +16,7 @@ import java.io.OutputStream;
 class DataBaseHelper extends SQLiteOpenHelper {
     private static String TAG = "DataBaseHelper"; // Tag just for the LogCat window
     //destination path (location) of our database on device
-    private static String DB_PATH = "/data/data/com.samyotech.smmatrimony/databases/";
+    private static String DB_PATH = "/data/data/com.samyotech.matrimony/databases/";
     private static String DB_NAME = "samyotech.db";// Database name
     private SQLiteDatabase mDataBase;
     private final Context mContext;

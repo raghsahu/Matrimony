@@ -55,14 +55,19 @@ public class MemberShipActivity extends AppCompatActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         ProjectUtils.Fullscreen(this);
         setContentView(R.layout.activity_member_ship);
+
         ProjectUtils.statusbarBackgroundTrans(this, R.drawable.headergradient);
         mContext = MemberShipActivity.this;
         prefrence = SharedPrefrence.getInstance(mContext);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
-        parms.put(Consts.USER_ID, loginDTO.getData().getId());
-        parmsSubs.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parmsSubs.put(Consts.USER_ID, loginDTO.getData().getId());
 
-        init();
+        //************************************************************static******************
+        parms.put(Consts.USER_ID, "1234");
+        //*******************************************************************
+
+      //  init();*****************imp********************************
     }
 
     public void init() {

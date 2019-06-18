@@ -159,7 +159,12 @@ public class SubscriptionHistory extends AppCompatActivity implements View.OnCli
 
     public HashMap<String, String> getparm() {
         HashMap<String, String> parms = new HashMap<>();
-        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+
+        //************************************************************static******************
+        parms.put(Consts.USER_ID, "1234");
+        //*******************************************************************
+
         return parms;
     }
 
