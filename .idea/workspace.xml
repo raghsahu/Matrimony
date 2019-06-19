@@ -148,28 +148,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutMeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/CriticalFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/ImportantDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/BioData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/myprofile/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/MemberShipActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/subscription/SubscriptionHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,47 +202,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="295" column="43" selection-start-line="295" selection-start-column="43" selection-end-line="295" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="565" column="29" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+            <state relative-caret-position="307">
+              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
               <folding>
-                <element signature="e#5555#11540#0" expanded="true" />
-                <element signature="e#11539#11540#0" expanded="true" />
-                <element signature="e#10586#10616#0" expanded="true" />
+                <element signature="e#4998#5909#0" expanded="true" />
+                <element signature="e#5908#5909#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider selected="true" editor-type-id="text-editor" />
           <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="77" column="37" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="37" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -276,11 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ACTION_START_CHAT</find>
-      <find>listFriendID</find>
-      <find>dataListFriend</find>
-      <find>FriendDB</find>
-      <find>joinDTOList</find>
       <find>justJoinFrag</find>
       <find>ALL_PROFILES_API</find>
       <find>avata</find>
@@ -303,9 +255,14 @@
       <find>btnSearch</find>
       <find>com.samyotech.smmatrimony</find>
       <find>getGender</find>
-      <find>loginDTO</find>
       <find>btn_next</find>
       <find>register()</find>
+      <find>loginDTO</find>
+      <find>etState</find>
+      <find>state</find>
+      <find>distr</find>
+      <find>etHeight</find>
+      <find>etstate</find>
     </findStrings>
     <replaceStrings>
       <replace>Chats</replace>
@@ -363,8 +320,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/smmatrimony/AppIntro.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Splash.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java" />
@@ -389,6 +344,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/AboutFamilyActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Otp.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java" />
       </list>
     </option>
   </component>
@@ -406,52 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -484,6 +395,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Matrimony" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="matrimony" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="loginsignup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -698,14 +648,20 @@
       <option name="project" value="LOCAL" />
       <updated>1560849122759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="by raghav ji">
+      <created>1560859419845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560859419845</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="522" y="58" width="321" height="611" id="Project" order="0" sideWeight="0.49261993" visible="true" weight="0.24281392" />
+      <window_info active="true" content_ui="combo" x="522" y="58" width="321" height="611" id="Project" order="0" sideWeight="0.49261993" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="2" sideWeight="0.50738007" side_tool="true" weight="0.30833334" />
       <window_info id="Captures" order="3" side_tool="true" weight="0.25" />
@@ -734,7 +690,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Preview" order="7" weight="0.2927383" />
+      <window_info anchor="right" id="Preview" order="7" visible="true" weight="0.2927383" />
       <window_info anchor="right" id="Assistant" order="8" weight="0.32954547" />
       <window_info anchor="right" id="Fabric" order="9" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Device File Explorer" order="10" side_tool="true" weight="0.32954547" />
@@ -895,198 +851,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AppIntroPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="85" column="87" lean-forward="true" selection-start-line="85" selection-start-column="87" selection-end-line="85" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_intro.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/AppIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/inspire/abhkrasp/ExampleInstrumentedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile_for.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_family.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="330" column="32" selection-start-line="330" selection-start-column="32" selection-end-line="330" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/PersonalDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="168" column="38" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_pass.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/ForgotPass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/google-services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="200" column="12" lean-forward="true" selection-start-line="200" selection-start-column="12" selection-end-line="200" selection-end-column="12" />
-          <folding>
-            <element signature="e#2041#2059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/LoginDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="139" column="28" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
-          <folding>
-            <element signature="e#4736#5647#0" expanded="true" />
-            <element signature="e#5646#5647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_matches.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_member_ship.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/actionbar_header_nav.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/MatchesFrag.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1111,13 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/SearchFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="68" column="77" selection-start-line="68" selection-start-column="77" selection-end-line="68" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1198,24 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2620">
-          <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/LifeStyleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="59" column="77" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="295" column="43" selection-start-line="295" selection-start-column="43" selection-end-line="295" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1227,8 +997,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_social_details.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/SocialDetails.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1244,25 +1014,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/dashboard/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="295" column="43" selection-start-line="295" selection-start-column="43" selection-end-line="295" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/interfaces/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-hi/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9511">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/sdk/platforms/android-27/android.jar!/android/content/res/Resources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="195" column="26" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+          <folding>
+            <element signature="e#6398#6399#0" expanded="true" />
+            <element signature="e#6449#6450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/AppIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/LanguageSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_basic_details.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/editprofile/BasicDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#11245#11292#0" expanded="true" />
+            <element signature="e#11332#11372#0" expanded="true" />
+            <element signature="e#11435#11811#0" expanded="true" />
+            <element signature="e#11810#11811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/adapter/AdapterLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="133" column="44" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2572">
+          <caret line="557" column="12" selection-start-line="557" selection-start-column="12" selection-end-line="557" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/SearchFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="134" column="35" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+          <folding>
+            <element signature="e#5525#5960#0" expanded="true" />
+            <element signature="e#5959#5960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/search/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="77" column="37" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="37" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java">
+    <entry file="jar://D:/Program Files/Android/sdk/platforms/android-27/android.jar!/android/database/sqlite/SQLiteDatabase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="565" column="29" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/DataBaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/database/TestAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/interfaces/Consts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_layout_radio.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/Models/CommanDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/SysApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/fragment/registration/PersonalDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
           <folding>
-            <element signature="e#5555#11540#0" expanded="true" />
-            <element signature="e#11539#11540#0" expanded="true" />
-            <element signature="e#10586#10616#0" expanded="true" />
+            <element signature="e#3757#3805#0" expanded="true" />
+            <element signature="e#3845#3885#0" expanded="true" />
+            <element signature="e#4334#4381#0" expanded="true" />
+            <element signature="e#4421#4461#0" expanded="true" />
+            <element signature="e#4524#4955#0" expanded="true" />
+            <element signature="e#4954#4955#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_details.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/utils/SpinnerDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/samyotech/matrimony/activity/loginsignup/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding>
+            <element signature="e#4998#5909#0" expanded="true" />
+            <element signature="e#5908#5909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
   <component name="masterDetails">
