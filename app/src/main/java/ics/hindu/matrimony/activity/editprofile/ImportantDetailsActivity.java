@@ -14,8 +14,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.UserDTO;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.UserDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.other.SysApplication;
 import ics.hindu.matrimony.https.HttpsRequest;

@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import ics.hindu.matrimony.Models.SubscriptionHistoryDto;
+import ics.hindu.matrimony.models.SubscriptionHistoryDto;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.utils.ProjectUtils;
 import ics.hindu.matrimony.view.CustomTextView;

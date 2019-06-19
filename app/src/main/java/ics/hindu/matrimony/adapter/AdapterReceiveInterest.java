@@ -22,8 +22,8 @@ import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.UserDTO;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.UserDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.profile_other.ProfileOther;
 import ics.hindu.matrimony.fragment.ReceviedInterest;

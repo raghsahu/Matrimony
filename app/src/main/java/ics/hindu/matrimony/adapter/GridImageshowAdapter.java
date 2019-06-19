@@ -13,7 +13,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import ics.hindu.matrimony.Models.ImageDTO;
+import ics.hindu.matrimony.models.ImageDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.myprofile.DeleteImage;
 import ics.hindu.matrimony.interfaces.Consts;

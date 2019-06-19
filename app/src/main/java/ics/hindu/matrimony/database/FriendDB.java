@@ -7,8 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
-import ics.hindu.matrimony.Models.Friend;
-import ics.hindu.matrimony.Models.ListFriend;
+import ics.hindu.matrimony.models.Friend;
+import ics.hindu.matrimony.models.ListFriend;
 
 public final class FriendDB {
     private static FriendDBHelper mDbHelper = null;

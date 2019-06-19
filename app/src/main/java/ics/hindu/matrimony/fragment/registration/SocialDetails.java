@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TimePicker;
 
-import ics.hindu.matrimony.Models.CommanDTO;
+import ics.hindu.matrimony.models.CommanDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.loginsignup.Registration;
 import ics.hindu.matrimony.database.TestAdapter;

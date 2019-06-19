@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import ics.hindu.matrimony.Models.CommanDTO;
+import ics.hindu.matrimony.models.CommanDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.other.SysApplication;
 import ics.hindu.matrimony.database.TestAdapter;

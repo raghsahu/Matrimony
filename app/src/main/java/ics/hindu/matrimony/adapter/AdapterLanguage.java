@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 
 import ics.hindu.matrimony.other.AppIntro;
-import ics.hindu.matrimony.Models.LanguageDTO;
-import ics.hindu.matrimony.Models.LoginDTO;
+import ics.hindu.matrimony.models.LanguageDTO;
+import ics.hindu.matrimony.models.LoginDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.LanguageSelection;
 import ics.hindu.matrimony.activity.dashboard.Dashboard;

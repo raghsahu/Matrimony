@@ -10,9 +10,9 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.google.gson.Gson;
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.MatchesDTO;
-import ics.hindu.matrimony.Models.UserDTO;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.MatchesDTO;
+import ics.hindu.matrimony.models.UserDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.adapter.AdapterSearchFront;
 import ics.hindu.matrimony.https.HttpsRequest;

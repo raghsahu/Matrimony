@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import ics.hindu.matrimony.Models.ProfileForDTO;
+import ics.hindu.matrimony.models.ProfileForDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.adapter.AdapterProfileFor;
 import ics.hindu.matrimony.fragment.Divider_Profile_for;

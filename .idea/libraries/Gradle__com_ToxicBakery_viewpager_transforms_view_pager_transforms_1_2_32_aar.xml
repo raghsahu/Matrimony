@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/5006bc767fda7ecd719ad48eadb818f7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/5006bc767fda7ecd719ad48eadb818f7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/4d16ef909fba19d703b4bfd8a07dac1c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/4d16ef909fba19d703b4bfd8a07dac1c/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

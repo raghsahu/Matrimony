@@ -13,8 +13,8 @@ import android.widget.LinearLayout;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.UserDTO;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.UserDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.dashboard.Dashboard;
 import ics.hindu.matrimony.adapter.AdapterShortlist;

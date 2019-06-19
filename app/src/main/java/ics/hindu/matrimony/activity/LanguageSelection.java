@@ -10,7 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import ics.hindu.matrimony.other.AppIntro;
-import ics.hindu.matrimony.Models.LanguageDTO;
+import ics.hindu.matrimony.models.LanguageDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.dashboard.Dashboard;
 import ics.hindu.matrimony.adapter.AdapterLanguage;

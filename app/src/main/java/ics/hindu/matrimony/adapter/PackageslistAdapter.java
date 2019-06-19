@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 
-import ics.hindu.matrimony.Models.PackagesDTO;
+import ics.hindu.matrimony.models.PackagesDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.subscription.MemberShipActivity;
 import ics.hindu.matrimony.sharedprefrence.SharedPrefrence;

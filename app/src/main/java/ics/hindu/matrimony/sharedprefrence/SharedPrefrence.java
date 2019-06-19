@@ -6,10 +6,10 @@ import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.SubscriptionDto;
-import ics.hindu.matrimony.Models.UserDTO;
-import ics.hindu.matrimony.Models.UserFire;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.SubscriptionDto;
+import ics.hindu.matrimony.models.UserDTO;
+import ics.hindu.matrimony.models.UserFire;
 import ics.hindu.matrimony.utils.StaticConfig;
 
 import java.lang.reflect.Type;

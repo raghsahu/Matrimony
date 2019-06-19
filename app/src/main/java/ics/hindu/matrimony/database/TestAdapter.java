@@ -8,7 +8,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import ics.hindu.matrimony.Models.CommanDTO;
+import ics.hindu.matrimony.models.CommanDTO;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.signature.StringSignature;
-import ics.hindu.matrimony.Models.ImageDTO;
+import ics.hindu.matrimony.models.ImageDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.activity.profile_other.ImageSlider;
 import ics.hindu.matrimony.interfaces.Consts;

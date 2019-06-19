@@ -10,9 +10,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import ics.hindu.matrimony.Models.ImageDTO;
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.UserDTO;
+import ics.hindu.matrimony.models.ImageDTO;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.UserDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.adapter.AdapterProfilePicSelection;
 import ics.hindu.matrimony.https.HttpsRequest;

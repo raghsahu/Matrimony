@@ -12,8 +12,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import ics.hindu.matrimony.Models.Friend;
-import ics.hindu.matrimony.Models.ListFriend;
+import ics.hindu.matrimony.models.Friend;
+import ics.hindu.matrimony.models.ListFriend;
 import ics.hindu.matrimony.sharedprefrence.SharedPrefrence;
 import ics.hindu.matrimony.utils.StaticConfig;
 

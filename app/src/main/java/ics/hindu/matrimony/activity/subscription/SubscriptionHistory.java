@@ -14,8 +14,8 @@ import android.widget.RelativeLayout;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import ics.hindu.matrimony.Models.LoginDTO;
-import ics.hindu.matrimony.Models.SubscriptionHistoryDto;
+import ics.hindu.matrimony.models.LoginDTO;
+import ics.hindu.matrimony.models.SubscriptionHistoryDto;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.adapter.SubscriptionHisAdapter;
 import ics.hindu.matrimony.https.HttpsRequest;

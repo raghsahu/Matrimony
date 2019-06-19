@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import ics.hindu.matrimony.Models.ProfileForDTO;
+import ics.hindu.matrimony.models.ProfileForDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.fragment.registration.ProfileFor;
 import ics.hindu.matrimony.view.CustomTextViewBold;

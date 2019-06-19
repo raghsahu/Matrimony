@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import ics.hindu.matrimony.Models.CommanDTO;
-import ics.hindu.matrimony.Models.LoginDTO;
+import ics.hindu.matrimony.models.CommanDTO;
+import ics.hindu.matrimony.models.LoginDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.other.SysApplication;
 import ics.hindu.matrimony.activity.dashboard.Dashboard;

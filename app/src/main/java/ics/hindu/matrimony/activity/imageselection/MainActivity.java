@@ -16,7 +16,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import ics.hindu.matrimony.Models.LoginDTO;
+import ics.hindu.matrimony.models.LoginDTO;
 import ics.hindu.matrimony.R;
 import ics.hindu.matrimony.adapter.ImagesAdapter;
 import ics.hindu.matrimony.https.HttpsRequest;
