@@ -73,7 +73,7 @@
             android:value="face" />
 
         <activity
-            android:name="com.samyotech.matrimony.Splash"
+            android:name="com.samyotech.matrimony.activity.loginsignup.Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -82,7 +82,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.samyotech.matrimony.AppIntro"
+            android:name="com.samyotech.matrimony.other.AppIntro"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.samyotech.matrimony.activity.loginsignup.Login"
@@ -208,7 +208,7 @@
 
 
         <!-- [START firebase_service] -->
-        <service android:name="com.samyotech.matrimony.MyFirebaseMessagingService">
+        <service android:name="com.samyotech.matrimony.other.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -217,7 +217,7 @@
 
 
         <!-- [START firebase_iid_service] -->
-        <service android:name="com.samyotech.matrimony.MyFirebaseInstanceIDService">
+        <service android:name="com.samyotech.matrimony.other.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>

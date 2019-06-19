@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-import com.samyotech.matrimony.AppIntro;
+import com.samyotech.matrimony.other.AppIntro;
 import com.samyotech.matrimony.Models.LanguageDTO;
 import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.R;

@@ -33,7 +33,7 @@ import com.google.gson.Gson;
 import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.Models.UserFire;
 import com.samyotech.matrimony.R;
-import com.samyotech.matrimony.SysApplication;
+import com.samyotech.matrimony.other.SysApplication;
 import com.samyotech.matrimony.fragment.registration.ImportantDetails;
 import com.samyotech.matrimony.fragment.registration.LoginDetails;
 import com.samyotech.matrimony.fragment.registration.PersonalDetails;

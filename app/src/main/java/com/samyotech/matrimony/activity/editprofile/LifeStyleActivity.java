@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import com.samyotech.matrimony.Models.LoginDTO;
 import com.samyotech.matrimony.Models.UserDTO;
 import com.samyotech.matrimony.R;
-import com.samyotech.matrimony.SysApplication;
+import com.samyotech.matrimony.other.SysApplication;
 import com.samyotech.matrimony.https.HttpsRequest;
 import com.samyotech.matrimony.interfaces.Consts;
 import com.samyotech.matrimony.interfaces.Helper;

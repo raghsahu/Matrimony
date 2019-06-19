@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 import com.samyotech.matrimony.Models.CommanDTO;
 import com.samyotech.matrimony.R;
-import com.samyotech.matrimony.SysApplication;
+import com.samyotech.matrimony.other.SysApplication;
 import com.samyotech.matrimony.database.TestAdapter;
 import com.samyotech.matrimony.interfaces.Consts;
 import com.samyotech.matrimony.interfaces.OnSpinerItemClick;

@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.samyotech.matrimony.AppIntro;
+import com.samyotech.matrimony.other.AppIntro;
 import com.samyotech.matrimony.R;
 import com.samyotech.matrimony.activity.loginsignup.Login;
 import com.samyotech.matrimony.view.CustomTextView;

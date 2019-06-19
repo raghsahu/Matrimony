@@ -9,7 +9,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.samyotech.matrimony.AppIntro;
+import com.samyotech.matrimony.other.AppIntro;
 import com.samyotech.matrimony.Models.LanguageDTO;
 import com.samyotech.matrimony.R;
 import com.samyotech.matrimony.activity.dashboard.Dashboard;
