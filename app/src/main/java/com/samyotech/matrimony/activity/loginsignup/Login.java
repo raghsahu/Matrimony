@@ -62,7 +62,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         RRsncbar = findViewById(R.id.RRsncbar);
         etPassword = findViewById(R.id.etPassword);
         etNumber = findViewById(R.id.etNumber);
-        etNumber.setPrefix("+91 ");
+       // etNumber.setPrefix("+91 ");
         btnLogin = findViewById(R.id.btnLogin);
         btnSearch = findViewById(R.id.btnSearch);
         btnLogin.setOnClickListener(this);

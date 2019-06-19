@@ -47,7 +47,7 @@
                 android:id="@+id/label_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/login_margin_txt_top_25"
+                android:layout_marginTop="@dimen/login_margin_txt_top_15"
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="@string/enter_your_number_and_password_below_to_get_access"
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/login_margin_txt_top_10">
+                android:layout_marginTop="@dimen/login_margin_txt_top_5">
 
                 <ImageView
                     android:id="@+id/number_image"
@@ -74,12 +74,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:digits="0123456789"
                     android:hint="Mobile or Email"
                     android:imeOptions="actionGo|actionSearch|actionDone|actionPrevious"
-                    android:inputType="number|numberSigned|numberDecimal|numberPassword|phone|textEmailAddress|text"
-                    android:maxLength="10"
-                    android:singleLine="true"
+                    android:inputType="text"
+                    android:singleLine="false"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white_alpha"
                     android:textCursorDrawable="@drawable/color_cursor" />
@@ -119,7 +117,7 @@
                 android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/login_margin_txt_top_15"
+                android:layout_marginTop="@dimen/login_margin_txt_top_10"
                 android:background="@drawable/button_selector_red"
                 android:gravity="center"
                 android:text="@string/login"
@@ -147,12 +145,20 @@
                 android:textColor="@color/white_alpha"
                 android:textSize="@dimen/abc_text_size_menu_material" />
 
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/signup_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                 />
+
             <com.samyotech.matrimony.view.CustomButton
                 android:id="@+id/btnSearch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
-                android:layout_marginBottom="@dimen/login_margin_txt_top_5"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/button_selector_red"
                 android:gravity="center"
                 android:text="@string/nav_search"

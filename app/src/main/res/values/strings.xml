@@ -76,6 +76,7 @@
     <string name="nav_about_us">About Us</string>
     <string name="nav_chat">Chats</string>
     <string name="nav_settings">Settings</string>
+    <string name="nav_share_app">Share App</string>
 
     <!-- Toolbar titles when navigation menu item is selected -->
 
@@ -292,7 +293,7 @@
     <string name="hobbies">Hobbies</string>
     <string name="interests">Interests</string>
     <string name="meet_your_dream_partner">Meet Your Dream Partner?</string>
-    <string name="enter_your_number_and_password_below_to_get_access">Enter your number and password below to get access</string>
+    <string name="enter_your_number_and_password_below_to_get_access">Enter your email or number and password below to get access</string>
     <string name="password1">password</string>
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password ?</string>

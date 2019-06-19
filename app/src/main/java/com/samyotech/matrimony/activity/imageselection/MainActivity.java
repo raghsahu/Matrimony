@@ -74,8 +74,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         prefrence = SharedPrefrence.getInstance(mContext);
         loginDTO = prefrence.getLoginResponse(Consts.LOGIN_DTO);
 
-        parms.put(Consts.USER_ID, loginDTO.getData().getId());
-        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
+//        parms.put(Consts.USER_ID, loginDTO.getData().getId());
+//        parms.put(Consts.TOKEN, loginDTO.getAccess_token());
+        //************************************************************static******************
+                parms.put(Consts.USER_ID, "12345");
+        parms.put(Consts.TOKEN, "111111111111111111");
+        //************************************************************static******************
+
         parmsHeader.put("Accept", "application/json");
 
         floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);

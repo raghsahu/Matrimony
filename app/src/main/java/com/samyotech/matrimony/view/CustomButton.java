@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.widget.Button;
 
 /**
- * Created by samyotech on 27/2/17.
+ * Created by Raghav ji on 27/2/17.
  */
 
 public class CustomButton extends Button {

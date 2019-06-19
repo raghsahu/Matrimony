@@ -72,9 +72,10 @@
     <string name="nav_visitor">प्रोफ़ाइल विज़िटर्स</string>
     <string name="nav_interest">इंटरेस्ट</string>
     <string name="nav_events">समाचार</string>
-    <string name="nav_chat">Chats</string>
+    <string name="nav_chat">चैट</string>
     <string name="nav_about_us">हमारे बारे में</string>
     <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_share_app">ऐप शेयर करें</string>
 
     <!-- Toolbar titles when navigation menu item is selected -->
 
@@ -290,7 +291,7 @@
     <string name="hobbies">शौक</string>
     <string name="interests">रूचियाँ</string>
     <string name="meet_your_dream_partner">अपने सपने साथी से मिलें?</string>
-    <string name="enter_your_number_and_password_below_to_get_access">अपनी प्रोफ़ाइल तक पहुंचने के लिए नीचे अपना नंबर और पासवर्ड दर्ज करें</string>
+    <string name="enter_your_number_and_password_below_to_get_access">अपनी प्रोफ़ाइल तक पहुंचने के लिए नीचे अपना ईमेल या नंबर और पासवर्ड दर्ज करें</string>
     <string name="password1">पासवर्ड</string>
     <string name="login">लॉग इन</string>
     <string name="forgot_password">फॉरगॉट पासवर्ड ?</string>
