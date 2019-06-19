@@ -30,7 +30,7 @@
                 android:layout_height="?actionBarSize"
                 android:background="#80969696">
 
-                <com.samyotech.matrimony.view.CustomTextView
+                <ics.hindu.matrimony.view.CustomTextView
                     android:id="@+id/tvjoinedstatus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_marginLeft="10dp">
 
-                    <com.samyotech.matrimony.view.CustomTextViewBold
+                    <ics.hindu.matrimony.view.CustomTextViewBold
                         android:id="@+id/tvName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                         android:textColor="@color/white"
                         android:textSize="18sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <ics.hindu.matrimony.view.CustomTextView
                         android:id="@+id/tvProfession"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                         android:layout_below="@+id/tvProfession"
                         android:orientation="horizontal">
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <ics.hindu.matrimony.view.CustomTextView
                             android:id="@+id/tvYearandheight"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                             android:text=""
                             android:textColor="@color/off_white" />
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <ics.hindu.matrimony.view.CustomTextView
                             android:id="@+id/tvEducation"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                         android:layout_below="@+id/LL1"
                         android:orientation="horizontal">
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <ics.hindu.matrimony.view.CustomTextView
                             android:id="@+id/tvGotra"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                             android:text=""
                             android:textColor="@color/off_white" />
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <ics.hindu.matrimony.view.CustomTextView
                             android:id="@+id/tvIncome"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
                         android:layout_below="@+id/LL2"
                         android:orientation="horizontal">
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <ics.hindu.matrimony.view.CustomTextView
                             android:id="@+id/tvCity"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
                             android:text=""
                             android:textColor="@color/off_white" />
 
-                        <com.samyotech.matrimony.view.CustomTextView
+                        <ics.hindu.matrimony.view.CustomTextView
                             android:id="@+id/tvmarrigestatus"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_shortlist" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <ics.hindu.matrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/shortlist"
@@ -205,7 +205,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_send_interest" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <ics.hindu.matrimony.view.CustomTextView
                         android:id="@+id/tvInterest"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -228,7 +228,7 @@
                         android:src="@drawable/ic_call"
                         android:textSize="12sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <ics.hindu.matrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/contact"
@@ -248,7 +248,7 @@
                         android:src="@drawable/ic_chat"
                         android:textSize="12sp" />
 
-                    <com.samyotech.matrimony.view.CustomTextView
+                    <ics.hindu.matrimony.view.CustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/chat"

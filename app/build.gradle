@@ -14,7 +14,7 @@ apply plugin: 'io.fabric'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.samyotech.matrimony"
+        applicationId "ics.hindu.matrimony"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
@@ -27,15 +27,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    signingConfigs {
-
-        release {
-            storeFile file("../app/Matrimony.jks")
-            storePassword "android"
-            keyAlias "Matrimony"
-            keyPassword "android"
-        }
-    }
+//    signingConfigs {
+//
+//        release {
+//            storeFile file("../app/Matrimony.jks")
+//            storePassword "android"
+//            keyAlias "Matrimony"
+//            keyPassword "android"
+//        }
+//    }
 
     lintOptions {
         abortOnError false

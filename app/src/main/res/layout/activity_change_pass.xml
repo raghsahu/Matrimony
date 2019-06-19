@@ -30,7 +30,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <ics.hindu.matrimony.view.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,45 +48,45 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <ics.hindu.matrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/old_password" />
 
-        <com.samyotech.matrimony.view.CustomEditText
+        <ics.hindu.matrimony.view.CustomEditText
             android:id="@+id/etOldPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:inputType="textPassword" />
 
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <ics.hindu.matrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="@string/new_password" />
 
-        <com.samyotech.matrimony.view.CustomEditText
+        <ics.hindu.matrimony.view.CustomEditText
             android:id="@+id/etNewPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:inputType="textPassword" />
 
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <ics.hindu.matrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="@string/confirm_password" />
 
-        <com.samyotech.matrimony.view.CustomEditText
+        <ics.hindu.matrimony.view.CustomEditText
             android:id="@+id/etConfirmNewPassword"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:inputType="textPassword" />
 
 
-        <com.samyotech.matrimony.view.CustomButton
+        <ics.hindu.matrimony.view.CustomButton
             android:id="@+id/UpdateBtn"
             android:layout_width="match_parent"
             android:layout_height="50dp"

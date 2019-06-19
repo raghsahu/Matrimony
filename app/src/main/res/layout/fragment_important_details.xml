@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.samyotech.matrimony.fragment.registration.ImportantDetails">
+    tools:context="ics.hindu.matrimony.ics.hindu.matrimony.fragment.registration.ImportantDetails">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:paddingLeft="@dimen/login_margin_txt_top_10"
         android:paddingRight="@dimen/login_margin_txt_top_10">
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <ics.hindu.matrimony.view.CustomTextViewBold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -22,22 +22,22 @@
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
 
-        <com.samyotech.matrimony.view.InputOpenFieldView
+        <ics.hindu.matrimony.view.InputOpenFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_5"
             android:visibility="visible">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <ics.hindu.matrimony.view.CustomEditText
                 android:id="@+id/etEducation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/higest_education"
                 android:imeOptions="actionNext"
                 android:singleLine="true" />
-        </com.samyotech.matrimony.view.InputOpenFieldView>
+        </ics.hindu.matrimony.view.InputOpenFieldView>
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <ics.hindu.matrimony.view.CustomTextViewBold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -45,7 +45,7 @@
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <ics.hindu.matrimony.view.CustomTextViewBold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -85,69 +85,69 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <com.samyotech.matrimony.view.InputOpenFieldView
+            <ics.hindu.matrimony.view.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:visibility="visible">
 
-                <com.samyotech.matrimony.view.CustomEditText
+                <ics.hindu.matrimony.view.CustomEditText
                     android:id="@+id/etWorkArea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/work_area"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
-            </com.samyotech.matrimony.view.InputOpenFieldView>
+            </ics.hindu.matrimony.view.InputOpenFieldView>
 
-            <com.samyotech.matrimony.view.InputFieldView
+            <ics.hindu.matrimony.view.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:visibility="visible">
 
-                <com.samyotech.matrimony.view.CustomEditText
+                <ics.hindu.matrimony.view.CustomEditText
                     android:id="@+id/etoccupations"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/occupation"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
-            </com.samyotech.matrimony.view.InputFieldView>
+            </ics.hindu.matrimony.view.InputFieldView>
 
-            <com.samyotech.matrimony.view.InputOpenFieldView
+            <ics.hindu.matrimony.view.InputOpenFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:visibility="visible">
 
-                <com.samyotech.matrimony.view.CustomEditText
+                <ics.hindu.matrimony.view.CustomEditText
                     android:id="@+id/etorganization"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/organization_name"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
-            </com.samyotech.matrimony.view.InputOpenFieldView>
+            </ics.hindu.matrimony.view.InputOpenFieldView>
 
-            <com.samyotech.matrimony.view.InputFieldView
+            <ics.hindu.matrimony.view.InputFieldView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/login_margin_txt_top_5"
                 android:visibility="visible">
 
-                <com.samyotech.matrimony.view.CustomEditText
+                <ics.hindu.matrimony.view.CustomEditText
                     android:id="@+id/etIncome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/income"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
-            </com.samyotech.matrimony.view.InputFieldView>
+            </ics.hindu.matrimony.view.InputFieldView>
         </LinearLayout>
 
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <ics.hindu.matrimony.view.CustomTextViewBold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_10"
@@ -155,28 +155,28 @@
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
 
-        <com.samyotech.matrimony.view.InputFieldView
+        <ics.hindu.matrimony.view.InputFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_5"
             android:visibility="visible">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <ics.hindu.matrimony.view.CustomEditText
                 android:id="@+id/etBlood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/blood"
                 android:imeOptions="actionNext"
                 android:singleLine="true" />
-        </com.samyotech.matrimony.view.InputFieldView>
+        </ics.hindu.matrimony.view.InputFieldView>
 
-        <com.samyotech.matrimony.view.InputOpenFieldView
+        <ics.hindu.matrimony.view.InputOpenFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_margin_txt_top_5"
             android:visibility="visible">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <ics.hindu.matrimony.view.CustomEditText
                 android:id="@+id/etAadhar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -184,7 +184,7 @@
                 android:imeOptions="actionDone"
                 android:inputType="number"
                 android:singleLine="true" />
-        </com.samyotech.matrimony.view.InputOpenFieldView>
+        </ics.hindu.matrimony.view.InputOpenFieldView>
 
 
     </LinearLayout>

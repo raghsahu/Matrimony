@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.samyotech.matrimony.activity.loginsignup.ForgotPass">
+    tools:context="ics.hindu.matrimony.ics.hindu.matrimony.activity.loginsignup.ForgotPass">
 
     <RelativeLayout
         android:id="@+id/action_bar_menus"
@@ -32,7 +32,7 @@
 
         </LinearLayout>
 
-        <com.samyotech.matrimony.view.CustomTextViewBold
+        <ics.hindu.matrimony.view.CustomTextViewBold
             android:id="@+id/tvHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,22 +50,22 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
-        <com.samyotech.matrimony.view.InputOpenFieldView
+        <ics.hindu.matrimony.view.InputOpenFieldView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="visible">
 
-            <com.samyotech.matrimony.view.CustomEditText
+            <ics.hindu.matrimony.view.CustomEditText
                 android:id="@+id/etMobile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/mobile_number"
                 android:imeOptions="actionDone"
                 android:singleLine="true" />
-        </com.samyotech.matrimony.view.InputOpenFieldView>
+        </ics.hindu.matrimony.view.InputOpenFieldView>
 
 
-        <com.samyotech.matrimony.view.CustomButton
+        <ics.hindu.matrimony.view.CustomButton
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

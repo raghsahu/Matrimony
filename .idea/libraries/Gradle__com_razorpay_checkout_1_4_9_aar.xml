@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.razorpay:checkout:1.4.9@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/checkout-1.4.9.aar/36fb545ec01c69cfb640d40cbf83f477/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/checkout-1.4.9.aar/36fb545ec01c69cfb640d40cbf83f477/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/checkout-1.4.9.aar/3ebfa7ed3c75e3cfcf431e8c5809013f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/checkout-1.4.9.aar/3ebfa7ed3c75e3cfcf431e8c5809013f/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

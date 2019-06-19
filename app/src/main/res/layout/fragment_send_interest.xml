@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.samyotech.matrimony.fragment.SearchFrag">
+    tools:context="ics.hindu.matrimony.ics.hindu.matrimony.fragment.SearchFrag">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvMatch"
@@ -33,7 +33,7 @@
             android:layout_centerInParent="true"
             android:src="@drawable/ic_error" />
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <ics.hindu.matrimony.view.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"

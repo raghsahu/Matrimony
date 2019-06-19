@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.samyotech.matrimony.activity.loginsignup.Login">
+    tools:context="ics.hindu.matrimony.ics.hindu.matrimony.activity.loginsignup.Login">
 
     <ImageView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/ic_marry_me" />
 
-            <com.samyotech.matrimony.view.CustomTextViewBold
+            <ics.hindu.matrimony.view.CustomTextViewBold
                 android:id="@+id/text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 android:textSize="@dimen/abc_text_size_medium_material"
                 android:visibility="gone" />
 
-            <com.samyotech.matrimony.view.CustomTextViewBold
+            <ics.hindu.matrimony.view.CustomTextViewBold
                 android:id="@+id/label_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                     android:layout_toLeftOf="@+id/etNumber"
                     android:src="@drawable/ic_call_white" />
 
-                <com.samyotech.matrimony.view.ExtendedEditText
+                <ics.hindu.matrimony.view.ExtendedEditText
                     android:id="@+id/etNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                     android:layout_toLeftOf="@+id/etPassword"
                     android:src="@drawable/ic_password" />
 
-                <com.samyotech.matrimony.view.CustomEditText
+                <ics.hindu.matrimony.view.CustomEditText
                     android:id="@+id/etPassword"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
                     android:textCursorDrawable="@drawable/color_cursor" />
             </RelativeLayout>
 
-            <com.samyotech.matrimony.view.CustomButton
+            <ics.hindu.matrimony.view.CustomButton
                 android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                 android:text="@string/login"
                 android:textColor="@color/white" />
 
-            <com.samyotech.matrimony.view.CustomTextView
+            <ics.hindu.matrimony.view.CustomTextView
                 android:id="@+id/tvForgotPass"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                 android:textColor="@color/white_alpha"
                 android:textSize="@dimen/abc_text_size_menu_material" />
 
-            <com.samyotech.matrimony.view.CustomTextView
+            <ics.hindu.matrimony.view.CustomTextView
                 android:id="@+id/tvCreateNewAC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                 android:layout_centerHorizontal="true"
                  />
 
-            <com.samyotech.matrimony.view.CustomButton
+            <ics.hindu.matrimony.view.CustomButton
                 android:id="@+id/btnSearch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

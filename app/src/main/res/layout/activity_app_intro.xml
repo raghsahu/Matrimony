@@ -33,7 +33,7 @@
         android:clickable="false"
         android:visibility="visible">
 
-        <com.samyotech.matrimony.view.CustomTextView
+        <ics.hindu.matrimony.view.CustomTextView
             android:id="@+id/tvSkip"
             android:layout_width="match_parent"
             android:layout_height="50dp"
