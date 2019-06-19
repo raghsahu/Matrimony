@@ -41,6 +41,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
+import com.samyotech.matrimony.BuildConfig;
 import com.samyotech.matrimony.Models.Friend;
 import com.samyotech.matrimony.Models.ListFriend;
 import com.samyotech.matrimony.Models.LoginDTO;
@@ -101,6 +102,7 @@ public class Dashboard extends AppCompatActivity {
     public static final String TAG_CHATS = "chats";
     public static final String TAG_ABOUT_US = "about_us";
     public static final String TAG_SETTINGS = "settings";
+    public static final String TAG_SHARE_APP = "shareApp";
 
     public static String CURRENT_TAG = TAG_MAIN;
 
@@ -319,8 +321,24 @@ public class Dashboard extends AppCompatActivity {
             case 8:
                 SettingsFrag settingsFrag = new SettingsFrag();
                 return settingsFrag;
+            case 9:
+                shareApp();
             default:
                 return new HomeFrag();
+        }
+    }
+
+    public void shareApp() {
+        try {
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "My application name");
+            String shareMessage= "\nLet me recommend you this application\n\n";
+            shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID +"\n\n";
+            shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
+            startActivity(Intent.createChooser(shareIntent, "choose one"));
+        } catch(Exception e) {
+            //e.toString();
         }
     }
 
@@ -370,6 +388,10 @@ public class Dashboard extends AppCompatActivity {
                     case R.id.nav_settings:
                         navItemIndex = 8;
                         CURRENT_TAG = TAG_SETTINGS;
+                        break;
+                    case R.id.nav_share_app:
+                        navItemIndex = 9;
+                        CURRENT_TAG = TAG_SHARE_APP;
                         break;
                     default:
                         navItemIndex = 0;
